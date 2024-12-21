@@ -20,6 +20,8 @@
 
 - react-router-dom : 페이지 전환
 
+- react-modal : 모달창 사용
+
 ---
 
 ## 기능
