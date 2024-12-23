@@ -26,11 +26,11 @@ const characterSlice = createSlice({
   },
 
   //선택된 캐릭터 초기화용
-  reducers: {
-    clearCharacterDetail: state => {
-      state.select = null;
-    },
-  },
+  // reducers: {
+  //   clearCharacterDetail: state => {
+  //     state.select = null;
+  //   },
+  // },
 
   //비동기 작업의 결과물들
   extraReducers: builder => {
@@ -55,6 +55,6 @@ const characterSlice = createSlice({
   },
 });
 
-export const {clearCharacterDetail} = characterSlice.actions;
+// export const {clearCharacterDetail} = characterSlice.actions;
 
 export default characterSlice.reducer;
