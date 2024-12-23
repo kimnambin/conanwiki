@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Jua&family=Yeon+Sung&display=swap');
+
+body {
+  font-family: 'Poetsen One', 'Jua', sans-serif;
+  text-decoration: none;
+  margin: 0;
+}
+
+@font-face {
+  .jua-regular {
+    font-family: 'Jua', serif;
+    src: url('../public//Jua-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+a {
+  text-decoration: none;
+}

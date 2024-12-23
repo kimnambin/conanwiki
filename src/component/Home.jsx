@@ -1,16 +1,58 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './home.css';
 
 export default function Home() {
   return (
-    <div>
-      홈입니다용
-      <Link to="/character">
-        <p>캐릭터 보러가기</p>
-      </Link>
-      <Link to="/movie">
-        <p>영화화 보러가기</p>
-      </Link>
+    <div className="container-fluid text-center bg-grey">
+      <div className="row text-center slideanim">
+        <div className="col-sm-4">
+          <Link to="/character">
+            <div className="card mb-4">
+              <img
+                src="../../public/conanCha_11zon.webp"
+                alt="캐릭터"
+                className="card-img-top"
+              />
+              <div className="card-body">
+                <h5 className="card-title">등장인물</h5>
+                <p className="card-text">명탐정 코난 등장인물 모음</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="col-sm-4">
+          <Link to="/movie">
+            <div className="card mb-4">
+              <img
+                src="../../public/conanMo_11zon.webp"
+                alt="극장판"
+                className="card-img-top"
+              />
+              <div className="card-body">
+                <h5 className="card-title">극장판</h5>
+                <p className="card-text">명탐정 코난 극장판 모음</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="col-sm-4">
+          <Link to="/epicode">
+            <div className="card mb-4">
+              <img
+                src="../../public/conanEpi_11zon.webp"
+                alt="에피소드"
+                className="card-img-top"
+              />
+              <div className="card-body">
+                <h5 className="card-title">에피소드</h5>
+                <p className="card-text">명탐정 코난 중요 에피소드 모음</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.Navbar {
+  background-color: #00a495 !important;
+}
+
+/* .NavbarTitle {
+  color: white !important;
+} */
+
+.Navbarintro {
+  color: white !important;
+  text-decoration: underline !important;
+  margin-right: 20px;
+}

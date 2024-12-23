@@ -7,10 +7,15 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Mo_list from './component/movie/Mo_list';
 import Mo_detail from './component/movie/Mo_detail';
 import Home from './component/Home';
+import App_navbar from './component/App_navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './mainStyle.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
+      <App_navbar />
+      {/* <App_header /> */}
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
