@@ -9,7 +9,7 @@ const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function Mo_list() {
   const dispatch = useDispatch();
-  const {list, error, loading} = useSelector(state => state.movie);
+  const {list, error, loading} = useSelector(state => state.movieKey);
 
   useEffect(() => {
     dispatch(fetchMovie());

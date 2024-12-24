@@ -10,18 +10,20 @@ import Home from './component/Home';
 import App_navbar from './component/App_navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './mainStyle.css';
+import Ep_list from './component/episode/ep_list';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
       <App_navbar />
-      {/* <App_header /> */}
+
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/character" element={<Ch_list />} />
           <Route path="/movie" element={<Mo_list />} />
           <Route path="/movie/:id" element={<Mo_detail />} />
+          <Route path="/episodes" element={<Ep_list />} />
         </Routes>
       </Router>
     </Provider>

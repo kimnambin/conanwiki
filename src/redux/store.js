@@ -1,12 +1,15 @@
 import {configureStore} from '@reduxjs/toolkit';
 import characterSlice from './slices/characterSlice';
 import movieSlice from './slices/movieSlice';
+import episodeSlice from './slices/episodeSlice';
+import modalSlice from './slices/modalSlice';
 
 const store = configureStore({
   reducer: {
-    character: characterSlice,
-    movie: movieSlice,
-    // episode: episode, // 나중에 구현 예정
+    characterKey: characterSlice,
+    movieKey: movieSlice,
+    episodeKey: episodeSlice,
+    modalKey: modalSlice,
   },
 });
 

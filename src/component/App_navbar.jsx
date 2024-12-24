@@ -27,7 +27,7 @@ export default function App_navbar() {
           <Navbar.Brand href="/" className={style.NavbarTitle}>
             <SiNamuwiki />
           </Navbar.Brand>
-          <Nav.Link href="" className={style.Navbarintro}>
+          <Nav.Link href="/" className={style.Navbarintro}>
             명탐정 코난을 소개하는 위키
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +35,7 @@ export default function App_navbar() {
             <Nav className="me-auto">
               <Nav.Link href="/character">캐릭터 소개</Nav.Link>
               <Nav.Link href="/movie">극장판 소개</Nav.Link>
-              <Nav.Link href="#episode">에피소드 소개</Nav.Link>
+              <Nav.Link href="/episodes">에피소드 소개</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

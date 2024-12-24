@@ -5,7 +5,7 @@ import Ch_detail from './Ch_detail';
 
 export default function Ch_list() {
   const dispatch = useDispatch();
-  const {list, loading, error} = useSelector(state => state.character);
+  const {list, loading, error} = useSelector(state => state.characterKey);
 
   const [openDetail, setOpenDetail] = useState(false);
   const [select, setSelect] = useState(null);
@@ -43,9 +43,9 @@ export default function Ch_list() {
             <h3
               // onClick={() => clickCharacher(item.name.english.anime)}
               onClick={() => open(item)}>
-              {item.name.english.anime}
+              {item.name.korean.name}
             </h3>
-            {/* <img */}
+            <img src={item.imgage} alt="" />
           </li>
         ))}
       </ul>

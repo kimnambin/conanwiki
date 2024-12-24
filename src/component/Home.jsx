@@ -38,7 +38,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="col-sm-4">
-          <Link to="/epicode">
+          <Link to="/episodes">
             <div className="card mb-4">
               <img
                 src="../../public/conanEpi_11zon.webp"
