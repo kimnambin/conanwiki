@@ -8,3 +8,8 @@ export const fetchCharacterDetail = async id => {
   const character = await res.json();
   return character.find(item => item.id === id);
 };
+
+export const fetchCouple = async () => {
+  const res = await fetch('../couple.json');
+  return res.json();
+};

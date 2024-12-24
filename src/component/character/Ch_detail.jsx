@@ -1,18 +1,26 @@
-import Modal from 'react-modal';
-
-// Modal.setAppElement('#root');
+import {Modal} from 'react-bootstrap';
 
 export default function Ch_detail({open, close, character}) {
   if (!open) return null;
 
   return (
-    <div>
-      <h2>{character.name.english.anime}</h2>
-      <p>Occupation: {character.occupation}</p>
-      <p>Age: {character.age}</p>
-      <p>First Appearance: {character.first_appearance.anime}</p>
-      <p>Aliases: {character.aliases}</p>
-      <button onClick={close}>Close</button>
-    </div>
+    <Modal show={open} onHide={close}>
+      <Modal.Header closeButton>
+        <Modal.Title>{character.name.korean.name}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img
+          src={character.imgage}
+          style={{
+            width: '100%',
+            objectFit: 'cover',
+          }}
+        />
+        <p>직업: {character.occupation}</p>
+        <p>나이: {character.age}</p>
+        <p>첫등장: {character.first_appearance.anime}</p>
+        <p>별명: {character.aliases}</p>
+      </Modal.Body>
+    </Modal>
   );
 }

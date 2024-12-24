@@ -9,7 +9,7 @@ import {useSelector} from 'react-redux';
 export default function Mo_detail() {
   const {id} = useParams(); // URL에서 영화 ID 가져오기
   const [moviedata, setMoviedata] = useState(null);
-  const {loading, error} = useSelector(state => state.movie);
+  const {loading, error} = useSelector(state => state.movieKey);
 
   useEffect(() => {
     const fetchmovie = async () => {

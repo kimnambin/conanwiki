@@ -1,7 +1,11 @@
 // 캐릭터 가져오기
 
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
-import {fetchCharacters, fetchCharacterDetail} from '../../api/characterApi';
+import {
+  fetchCharacters,
+  fetchCharacterDetail,
+  fetchCouple,
+} from '../../api/characterApi';
 
 export const character = createAsyncThunk('conan/characters', async () => {
   const res = await fetchCharacters();
@@ -16,10 +20,16 @@ export const characterDetail = createAsyncThunk(
   },
 );
 
+export const coupleGet = createAsyncThunk('conan/couple', async () => {
+  const res = await fetchCouple();
+  return res;
+});
+
 const characterSlice = createSlice({
   name: 'character',
   initialState: {
     list: [],
+    coupleList: [],
     select: null,
     loading: false,
     error: null,
@@ -51,6 +61,20 @@ const characterSlice = createSlice({
 
       .addCase(characterDetail.pending, (state, action) => {
         state.select = action.payload;
+      })
+
+      .addCase(coupleGet.pending, (state, action) => {
+        state.loading = true;
+      })
+
+      .addCase(coupleGet.fulfilled, (state, action) => {
+        state.loading = false;
+        state.coupleList = action.payload;
+      })
+
+      .addCase(coupleGet.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.error.message;
       });
   },
 });

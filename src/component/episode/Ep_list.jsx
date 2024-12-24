@@ -16,7 +16,7 @@ export default function Ep_list() {
 
   const clickEpi = id => {
     dispatch(openModal(id.series));
-    console.log('클릭한 시리즈:', id.series);
+    // console.log('클릭한 시리즈:', id.series);
   };
 
   const closeEpi = () => {
