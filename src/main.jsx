@@ -11,6 +11,7 @@ import App_navbar from './component/App_navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './mainStyle.css';
 import Ep_list from './component/episode/ep_list';
+import App_bottom from './component/App_bottom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,6 +27,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/episodes" element={<Ep_list />} />
         </Routes>
       </Router>
+
+      <App_bottom />
     </Provider>
   </StrictMode>,
 );

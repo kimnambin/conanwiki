@@ -81,9 +81,16 @@ export default function Ch_list() {
   );
 }
 
-/* 
-<Ch_couple />  구현다하고 나중에 하기
+{
+  /* <Dropdown drop="up">
+  <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+    드롭다운 메뉴
+  </Dropdown.Toggle>
 
-
-<Ch_detail open={openDetail} close={close} character={select} />
- */
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">액션 1</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">액션 2</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">액션 3</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>; */
+}

@@ -33,14 +33,8 @@ const characterSlice = createSlice({
     select: null,
     loading: false,
     error: null,
+    scroll: 0,
   },
-
-  //선택된 캐릭터 초기화용
-  // reducers: {
-  //   clearCharacterDetail: state => {
-  //     state.select = null;
-  //   },
-  // },
 
   //비동기 작업의 결과물들
   extraReducers: builder => {

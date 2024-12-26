@@ -22,6 +22,8 @@
 
 - react-ioncs : 리액트 아이콘 사용
 
+- styled-components : 스타일 적용
+
 ---
 
 ## 기능
