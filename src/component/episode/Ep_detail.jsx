@@ -1,13 +1,21 @@
-import React from 'react';
+import {Modal} from 'react-bootstrap';
 
-export default function Ep_detail({isOpen, selectedSeries, closeEpi}) {
+export default function Ep_detail({
+  isOpen,
+  selectedSeries,
+  closeEpi,
+  intro,
+  quarter,
+}) {
   if (!isOpen || !selectedSeries) return null;
 
   return (
-    <div className="modal" style={{display: isOpen ? 'block' : 'none'}}>
-      <div className="modal-content" style={{height: '200px'}}>
-        <h2>에피소드 시리즈 상세 정보</h2>
-        <button onClick={closeEpi}>닫기</button>{' '}
+    <Modal show={isOpen} onHide={closeEpi} centered>
+      <Modal.Header closeButton>
+        <Modal.Title>{intro}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h3 className="text-center">{quarter} 상세 정보</h3>
         <ul>
           {selectedSeries.map((v, idx) => (
             <li key={idx}>
@@ -15,7 +23,7 @@ export default function Ep_detail({isOpen, selectedSeries, closeEpi}) {
             </li>
           ))}
         </ul>
-      </div>
-    </div>
+      </Modal.Body>
+    </Modal>
   );
 }

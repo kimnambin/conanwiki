@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {coupleGet} from '../../redux/slices/characterSlice';
 import {Container, Row, Col, Table} from 'react-bootstrap';
+import App_loading from '../App/App_loading';
 
 export default function Ch_couple() {
   const dispatch = useDispatch();
@@ -13,11 +14,11 @@ export default function Ch_couple() {
     }
   }, [dispatch, coupleList]); //무한 루프가 되던 문제를 해결
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <App_loading />;
   if (error) return <p>에러...</p>;
 
   return (
-    <Container>
+    <Container id="coupleScroll">
       <h2>명탐정 코난 커플 모음🩷</h2>
       <Row>
         {coupleList.map((v, index) => (

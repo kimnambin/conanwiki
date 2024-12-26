@@ -19,3 +19,9 @@ body {
 a {
   text-decoration: none;
 }
+
+p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

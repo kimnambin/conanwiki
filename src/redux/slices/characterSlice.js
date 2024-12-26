@@ -33,7 +33,20 @@ const characterSlice = createSlice({
     select: null,
     loading: false,
     error: null,
-    scroll: 0,
+    searchList: [],
+    searchText: '',
+  },
+
+  reducers: {
+    setSearchTextText: (state, action) => {
+      state.searchText = action.payload;
+
+      state.searchList = state.list.filter(finditem =>
+        finditem.name.korean.name
+          .toLowerCase()
+          .includes(action.payload.toLowerCase()),
+      );
+    },
   },
 
   //비동기 작업의 결과물들
@@ -46,6 +59,7 @@ const characterSlice = createSlice({
       .addCase(character.fulfilled, (state, action) => {
         state.loading = false;
         state.list = action.payload;
+        state.searchList = action.payload;
       })
 
       .addCase(character.rejected, (state, action) => {
@@ -73,6 +87,6 @@ const characterSlice = createSlice({
   },
 });
 
-// export const {clearCharacterDetail} = characterSlice.actions;
+export const {setSearchTextText} = characterSlice.actions;
 
 export default characterSlice.reducer;

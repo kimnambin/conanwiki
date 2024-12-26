@@ -4,7 +4,7 @@ export default function Ch_detail({open, close, character}) {
   if (!open) return null;
 
   return (
-    <Modal show={open} onHide={close}>
+    <Modal show={open} onHide={close} centered>
       <Modal.Header closeButton>
         <Modal.Title>{character.name.korean.name}</Modal.Title>
       </Modal.Header>

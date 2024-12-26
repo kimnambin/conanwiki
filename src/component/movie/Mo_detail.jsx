@@ -2,14 +2,26 @@
 // const IMG_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 import React, {useEffect, useState} from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, useLocation} from 'react-router-dom';
 import {MovieDetail} from '../../api/movieApi';
 import {useSelector} from 'react-redux';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import App_loading from '../App/App_loading';
 
 export default function Mo_detail() {
   const {id} = useParams(); // URL에서 영화 ID 가져오기
   const [moviedata, setMoviedata] = useState(null);
   const {loading, error} = useSelector(state => state.movieKey);
+
+  const location = useLocation();
+  const {
+    overview,
+    release_date: releaseDate,
+    title,
+    vote_average,
+    popularity,
+  } = location.state || {}; // Link로 props로 받아오려면 'useLoaction'을 사용해야 함
 
   useEffect(() => {
     const fetchmovie = async () => {
@@ -23,7 +35,7 @@ export default function Mo_detail() {
   }, [id]);
 
   if (loading) {
-    return <div>로딩중...</div>;
+    return <App_loading />;
   }
 
   if (error) {
@@ -31,24 +43,56 @@ export default function Mo_detail() {
   }
 
   return (
-    <div>
-      <h2>영화 비디오</h2>
+    <Container className="text-center">
       {moviedata && moviedata.length > 0 ? (
-        moviedata.map(video => (
-          <div key={video.id}>
-            <h3>{video.name}</h3>
-            <iframe
-              width="560"
-              height="315"
-              src={`https://www.youtube.com/embed/${video.key}`}
-              title={video.name}
-              frameBorder="0"
-              allowFullScreen></iframe>
+        moviedata.map(data => (
+          <div key={data.id}>
+            <h3>{title}</h3>
+            <p>개봉일 : {releaseDate}</p>
+            <p>관객 평점 : {vote_average}</p>
+            <p>인기도 : {popularity}</p>
+            <Col xs={12}>
+              <iframe
+                width="80%"
+                height="360vh"
+                src={`https://www.youtube.com/embed/${data.key}`}
+                title={data.name}
+                frameBorder="0"
+                allowFullScreen
+                style={{maxWidth: '100%'}}
+              />
+            </Col>
+
+            <br />
+
+            <Col xs={12} className="text-left">
+              <p>{overview}</p>
+            </Col>
           </div>
         ))
       ) : (
-        <p>비디오가 없습니다.</p>
+        <App_loading />
       )}
-    </div>
+    </Container>
   );
 }
+
+// <div>
+//       <h2>영화 비디오</h2>
+//       {moviedata && moviedata.length > 0 ? (
+//         moviedata.map(video => (
+//           <div key={video.id}>
+//             <h3>{video.name}</h3>
+//             <iframe
+//               width="560"
+//               height="315"
+//               src={`https://www.youtube.com/embed/${video.key}`}
+//               title={video.name}
+//               frameBorder="0"
+//               allowFullScreen></iframe>
+//           </div>
+//         ))
+//       ) : (
+//         <p>비디오가 없습니다.</p>
+//       )}
+//     </div>

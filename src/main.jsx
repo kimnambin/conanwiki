@@ -7,11 +7,11 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Mo_list from './component/movie/Mo_list';
 import Mo_detail from './component/movie/Mo_detail';
 import Home from './component/Home';
-import App_navbar from './component/App_navbar';
+import App_navbar from './component/App/App_navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './mainStyle.css';
-import Ep_list from './component/episode/ep_list';
-import App_bottom from './component/App_bottom';
+import Ep_list from './component/episode/Ep_list';
+import App_bottom from './component/App/App_bottom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
