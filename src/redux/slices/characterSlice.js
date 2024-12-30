@@ -52,9 +52,7 @@ const characterSlice = createSlice({
       state.searchText = action.payload;
 
       state.searchList = state.list.filter(finditem =>
-        finditem.name.korean.name
-          .toLowerCase()
-          .includes(action.payload.toLowerCase()),
+        finditem.name.korean.name.includes(action.payload),
       );
     },
   },

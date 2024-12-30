@@ -4,7 +4,7 @@ import {IoMdArrowDropupCircle} from 'react-icons/io';
 
 const NavButton = styled.button`
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
   padding: 0;
@@ -17,6 +17,7 @@ const NavButton = styled.button`
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  z-index: 2000;
 `;
 
 const Picon = styled.p`

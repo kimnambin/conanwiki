@@ -28,9 +28,7 @@ const MovieSlice = createSlice({
     setMovieSearch: (state, action) => {
       state.searchMovie = action.payload;
       state.filterList = action.payload
-        ? state.list.filter(item =>
-            item.title.toLowerCase().includes(action.payload.toLowerCase()),
-          )
+        ? state.list.filter(item => item.title.includes(action.payload))
         : [];
     },
   },

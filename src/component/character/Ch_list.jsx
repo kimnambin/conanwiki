@@ -22,8 +22,8 @@ export default function Ch_list() {
   }, [dispatch]);
 
   const open = id => {
-    console.log('클릭됨', id);
-    console.log('모달창여부', openDetail);
+    // console.log('클릭됨', id);
+    // console.log('모달창여부', openDetail);
     setSelect(id);
     setOpenDetail(true);
   };

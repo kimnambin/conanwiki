@@ -5,20 +5,42 @@ import {useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {setMovieSearch} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
+import {setSearchTextText} from '../../redux/slices/characterSlice';
+import Ch_detail from '../character/Ch_detail';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 export default function App_search() {
   const [search, setSearch] = useState('');
   const dispatch = useDispatch();
   const {filterList} = useSelector(state => state.movieKey);
+  const {searchList} = useSelector(state => state.characterKey);
 
   const handleSearch = () => {
     dispatch(setMovieSearch(search));
+    dispatch(setSearchTextText(search));
   };
 
-  const searchShow = filterList.filter(movie =>
-    movie.title.toLowerCase().includes(search.toLowerCase()),
+  const searchShow = filterList.filter(movie => movie.title.includes(search));
+
+  const searchCharacter = searchList.filter(find =>
+    find.name.korean.name.includes(search),
   );
+
+  const [openDetail, setOpenDetail] = useState(false);
+  const [select, setSelect] = useState(null);
+
+  const open = id => {
+    // console.log('클릭됨', id);
+    // console.log('모달창여부', openDetail);
+    setSelect(id);
+    setOpenDetail(true);
+  };
+
+  const close = () => {
+    setSelect(null);
+    setOpenDetail(false);
+  };
+
   return (
     <Container>
       <Row className="p-5 rounded text-center">
@@ -42,24 +64,69 @@ export default function App_search() {
           </InputGroup>
 
           <div>
-            {search && searchShow.length > 0 ? (
-              <Row>
-                {searchShow.map(movie => (
-                  <Col key={movie.id} xs={6} sm={4} md={4} lg={3} xl={3}>
-                    <Link
-                      to={`/movie/${movie.id}`}
-                      state={{
-                        overview: movie.overview,
-                        release_date: movie.release_date,
-                        title: movie.title,
-                        vote_average: movie.vote_average,
-                        popularity: movie.popularity,
-                      }}>
-                      <Card style={{width: '100%'}} id={movie.id}>
-                        <div style={{overflow: 'hidden'}}>
+            {/* 영화 검색 결과 */}
+            {search && searchShow.length > 0 && (
+              <div>
+                <h3>영화 검색 결과</h3>
+                <Row>
+                  {searchShow.map(movie => (
+                    <Col key={movie.id} xs={6} sm={4} md={4} lg={3}>
+                      <Link
+                        to={`/movie/${movie.id}`}
+                        state={{
+                          overview: movie.overview,
+                          release_date: movie.release_date,
+                          title: movie.title,
+                          vote_average: movie.vote_average,
+                          popularity: movie.popularity,
+                        }}>
+                        <Card style={{width: '100%'}} id={movie.id}>
+                          <div style={{overflow: 'hidden'}}>
+                            <Card.Img
+                              src={`${IMAGE_BASE_URL}${movie.poster_path}`}
+                              alt={movie.title}
+                              style={{
+                                height: '130%',
+                                width: '100%',
+                                objectFit: 'cover',
+                              }}
+                            />
+                          </div>
+                          <Card.Body>
+                            <Card.Text>
+                              {movie.title.length > 10
+                                ? movie.title.slice(0, 10) + '...'
+                                : movie.title}
+                            </Card.Text>
+                          </Card.Body>
+                        </Card>
+                      </Link>
+                    </Col>
+                  ))}
+                </Row>
+              </div>
+            )}
+
+            {/* 캐릭터 검색 결과 */}
+            <Ch_detail open={openDetail} close={close} character={select} />
+            {search && searchCharacter.length > 0 && (
+              <div>
+                <h3>캐릭터 검색 결과</h3>
+                <Row>
+                  {searchCharacter.map(item => (
+                    <Col
+                      key={item.name.english.anime}
+                      xs={6}
+                      sm={4}
+                      md={4}
+                      lg={3}
+                      xl={3}>
+                      <Card style={{width: '100%'}} onClick={() => open(item)}>
+                        <div style={{height: '120px', overflow: 'hidden'}}>
                           <Card.Img
-                            src={`${IMAGE_BASE_URL}${movie.poster_path}`}
-                            alt={movie.title}
+                            variant="mid"
+                            src={item.imgage}
+                            alt=""
                             style={{
                               height: '130%',
                               width: '100%',
@@ -69,19 +136,22 @@ export default function App_search() {
                         </div>
                         <Card.Body>
                           <Card.Text>
-                            {movie.title.length > 10
-                              ? movie.title.slice(0, 10) + '...'
-                              : movie.title}
+                            {item.name.korean.name.length > 10
+                              ? item.name.korean.name.slice(0, 10) + '...'
+                              : item.name.korean.name}
                           </Card.Text>
                         </Card.Body>
                       </Card>
-                    </Link>
-                  </Col>
-                ))}
-              </Row>
-            ) : search ? (
-              <p>검색 결과가 없습니다.</p>
-            ) : null}
+                    </Col>
+                  ))}
+                </Row>
+              </div>
+            )}
+
+            {/* 검색 결과가 없을 경우 */}
+            {search &&
+              searchShow.length === 0 &&
+              searchCharacter.length === 0 && <p>검색 결과가 없습니다.</p>}
           </div>
         </Col>
       </Row>

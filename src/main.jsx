@@ -18,9 +18,10 @@ import './mainStyle.css';
 import Ep_list from './component/episode/Ep_list';
 import App_bottom from './component/App/App_bottom';
 import App_search from './component/App/App_search';
+import App_footer from './component/App/App_footer';
 
 const App = () => {
-  const location = useLocation(); // useLocation 훅을 사용
+  const location = useLocation();
   const showSearch =
     location.pathname === '/' ||
     location.pathname === '/character' ||
@@ -29,7 +30,7 @@ const App = () => {
   return (
     <>
       <App_navbar />
-      {showSearch && <App_search />} {/* 조건부 렌더링 */}
+      {showSearch && <App_search />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/character" element={<Ch_list />} />
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/episodes" element={<Ep_list />} />
       </Routes>
       <App_bottom />
+      <App_footer />
     </>
   );
 };
@@ -46,7 +48,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
       <Router>
-        <App /> {/* App 컴포넌트를 감싸서 렌더링 */}
+        <App />
       </Router>
     </Provider>
   </StrictMode>,
