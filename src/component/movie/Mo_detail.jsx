@@ -44,6 +44,8 @@ export default function Mo_detail() {
 
   return (
     <Container className="text-center">
+      <br />
+      <br />
       {moviedata && moviedata.length > 0 ? (
         moviedata.map(data => (
           <div key={data.id}>

@@ -13,3 +13,8 @@ export const fetchCouple = async () => {
   const res = await fetch('../couple.json');
   return res.json();
 };
+
+export const fetchPersonEpisode = async () => {
+  const res = await fetch('../personEpisodes.json');
+  return res.json();
+};

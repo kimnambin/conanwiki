@@ -25,3 +25,13 @@ p {
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
+.custom-bg {
+  background-color: #00a495;
+  color: white;
+  padding: 10px;
+}
+
+.no-underline {
+  text-decoration: none;
+}

@@ -20,13 +20,20 @@ const MovieSlice = createSlice({
     list: [],
     loading: false,
     error: null,
+    filterList: [],
+    searchMovie: '',
   },
 
-  // reducers: {
-  //   cleanMovie: state => {
-  //     state.select = null;
-  //   },
-  // },
+  reducers: {
+    setMovieSearch: (state, action) => {
+      state.searchMovie = action.payload;
+      state.filterList = action.payload
+        ? state.list.filter(item =>
+            item.title.toLowerCase().includes(action.payload.toLowerCase()),
+          )
+        : [];
+    },
+  },
 
   extraReducers: builder => {
     builder
@@ -37,6 +44,7 @@ const MovieSlice = createSlice({
       .addCase(fetchMovie.fulfilled, (state, action) => {
         state.loading = false;
         state.list = action.payload;
+        state.filterList = action.payload;
       })
 
       .addCase(fetchMovie.rejected, (state, action) => {
@@ -58,6 +66,6 @@ const MovieSlice = createSlice({
   },
 });
 
-// export const {cleanMovie} = MovieSlice.actions;
+export const {setMovieSearch} = MovieSlice.actions;
 
 export default MovieSlice.reducer;

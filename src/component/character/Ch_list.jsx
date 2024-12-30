@@ -55,9 +55,15 @@ export default function Ch_list() {
 
   return (
     <Container className="text-center">
-      <h2>명탐정 코난 등장인물</h2>
+      <div className="row align-items-center justify-content-center">
+        <div className="col-auto">
+          <h2>명탐정 코난 등장인물</h2>
+        </div>
+        <div className="col-auto">
+          <Ch_nav scrollTop={characherScroll} scrollBottom={coupleScroll} />
+        </div>
+      </div>
       <p>https://github.com/lethargilistic/dcapi을 참고했어요</p>
-      <Ch_nav scrollTop={characherScroll} scrollBottom={coupleScroll} />
       <br />
       <Ch_detail open={openDetail} close={close} character={select} />
       <Row className="g-3" id="characherScroll">
