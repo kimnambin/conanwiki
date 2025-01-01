@@ -2,7 +2,7 @@
   {
     "quarter": "1분기 (1기~4기 12화)",
     "intro": "1️⃣코난 세계관 소개, 주요 등장인물",
-    "img": "../img/ep01.webp",
+    "img": "/conanwiki/img/ep01.webp",
     "series": [
       {
         "season": "1기 1화",
@@ -104,7 +104,7 @@
 
       {
         "season": "3기 30~35화",
-        "title": "★목숨을 건 부활 (동굴의 탐정단/부상당한 명탐정/제 3의 선택/흑의의 기사/돌아온 도일이.../약속의 장소)"
+        "title": "★목숨을 건 부활 (동굴의 탐정단/부상당한 명탐정/제 3의 선택/흑의의 기사/돌아온 도일이./conanwiki/약속의 장소)"
       },
 
       {
@@ -116,7 +116,7 @@
   {
     "quarter": "2분기 (4기 13화~7기 22화)",
     "intro": "2️⃣FBI vs 검은조직",
-    "img": "../img/ep02.webp",
+    "img": "/conanwiki/img/ep02.webp",
     "series": [
       {
         "season": "4기 13~14화",
@@ -245,7 +245,7 @@
   {
     "quarter": "3분기 (7기 25화~9기 8화)",
     "intro": "3️⃣FBI vs 검은조직 II",
-    "img": "../img/ep03.webp",
+    "img": "/conanwiki/img/ep03.webp",
     "series": [
       {
         "season": "7기 25~29화",
@@ -290,7 +290,7 @@
   {
     "quarter": "4분기 (9기 9화~14기 31화)",
     "intro": "4️⃣'이상윤 죽음의 의문' + 버본의 정체",
-    "img": "../img/ep04.webp",
+    "img": "/conanwiki/img/ep04.webp",
     "series": [
       {
         "season": "9기 9화",
@@ -444,7 +444,7 @@
   {
     "quarter": "5분기 (15기 ~)",
     "intro": "5️⃣럼의 정체 + 아카이 가문",
-    "img": "../img/ep05.webp",
+    "img": "/conanwiki/img/ep05.webp",
     "series": [
       {
         "season": "14기 31~32화",
@@ -624,7 +624,7 @@
   {
     "quarter": "6분기 (더빙판 반영 x)",
     "intro": "6️⃣검은 조직의 내막과 보스의 정체",
-    "img": "../img/ep06.webp",
+    "img": "/conanwiki/img/ep06.webp",
     "series": [
       {
         "season": "",

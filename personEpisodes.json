@@ -1,7 +1,7 @@
 [
   {
     "quarter": "괴도 키드 등장 에피소드",
-    "img": "../kids02.webp",
+    "img": "/conanwiki/kids02.webp",
     "title1": "괴도 키드 애니",
     "kidcases": [
       {
@@ -142,7 +142,7 @@
   },
   {
     "quarter": "남도일 등장 에피소드",
-    "img": "../namdoil.webp",
+    "img": "/conanwiki/namdoil.webp",
     "title1": "남도일 애니",
     "cases": [
       {
