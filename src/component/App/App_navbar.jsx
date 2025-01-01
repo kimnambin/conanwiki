@@ -10,22 +10,22 @@ export default function App_navbar() {
     <>
       <Navbar expand="lg" className={style.Navbar}>
         <Container>
-          <Navbar.Brand href="/" className={style.NavbarTitle}>
+          <Navbar.Brand as={Link} to="/" className={style.NavbarTitle}>
             <SiNamuwiki />
           </Navbar.Brand>
-          <Nav.Link href="/" className={style.Navbarintro}>
+          <Nav.Link as={Link} to="/" className={style.Navbarintro}>
             명탐정 코난을 소개하는 위키
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="navtext" href="/conanwiki/character">
+              <Nav.Link as={Link} to="/conanwiki/character" className="navtext">
                 캐릭터 소개
               </Nav.Link>
-              <Nav.Link className="navtext" href="/conanwiki/movie">
+              <Nav.Link as={Link} to="/conanwiki/movie" className="navtext">
                 극장판 소개
               </Nav.Link>
-              <Nav.Link className="navtext" href="/conanwiki/episodes">
+              <Nav.Link as={Link} to="/conanwiki/episodes" className="navtext">
                 에피소드 소개
               </Nav.Link>
             </Nav>
