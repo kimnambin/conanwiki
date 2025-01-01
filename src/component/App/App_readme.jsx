@@ -72,6 +72,9 @@ export default function App_readme({openReadme, openRead, closeRead}) {
                 블로거 "멍멍식"님
               </a>
             </p>
+            <p>
+              <a href="https://www.themoviedb.org/?language=ko">TBDB</a>
+            </p>
           </fieldset>
         </div>
       </Modal.Body>

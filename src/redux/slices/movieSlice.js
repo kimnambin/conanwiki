@@ -17,18 +17,18 @@ export const fetchMovieDetail = createAsyncThunk(
 const MovieSlice = createSlice({
   name: 'movie',
   initialState: {
-    list: [],
+    movieList: [],
     loading: false,
     error: null,
-    filterList: [],
+    filtermovieList: [],
     searchMovie: '',
   },
 
   reducers: {
     setMovieSearch: (state, action) => {
       state.searchMovie = action.payload;
-      state.filterList = action.payload
-        ? state.list.filter(item => item.title.includes(action.payload))
+      state.filtermovieList = action.payload
+        ? state.movieList.filter(item => item.title.includes(action.payload))
         : [];
     },
   },
@@ -41,8 +41,8 @@ const MovieSlice = createSlice({
 
       .addCase(fetchMovie.fulfilled, (state, action) => {
         state.loading = false;
-        state.list = action.payload;
-        state.filterList = action.payload;
+        state.movieList = action.payload;
+        state.filtermovieList = action.payload;
       })
 
       .addCase(fetchMovie.rejected, (state, action) => {

@@ -14,9 +14,9 @@ import App_loading from '../App/App_loading';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
-export default function Mo_list() {
+export default function Mo_movieList() {
   const dispatch = useDispatch();
-  const {list, error, loading} = useSelector(state => state.movieKey);
+  const {movieList, error, loading} = useSelector(state => state.movieKey);
 
   const [sortMovie, setSortMovie] = useState('release_date');
 
@@ -37,7 +37,7 @@ export default function Mo_list() {
     }
   };
 
-  const sortShow = [...list].sort((a, b) => {
+  const sortShow = [...movieList].sort((a, b) => {
     if (sortMovie === 'release_date') {
       return new Date(a.release_date) - new Date(b.release_date);
     } else if (sortMovie === 'vote_average') {
@@ -50,7 +50,7 @@ export default function Mo_list() {
 
   useEffect(() => {
     dispatch(fetchMovie());
-    // console.log(list);
+    // console.log(movieList);
   }, [dispatch]);
 
   if (loading) return <App_loading />;

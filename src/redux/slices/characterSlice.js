@@ -48,7 +48,7 @@ const characterSlice = createSlice({
   },
 
   reducers: {
-    setSearchTextText: (state, action) => {
+    setSearchText: (state, action) => {
       state.searchText = action.payload;
 
       state.searchList = state.list.filter(finditem =>
@@ -115,6 +115,6 @@ const characterSlice = createSlice({
   },
 });
 
-export const {setSearchTextText} = characterSlice.actions;
+export const {setSearchText} = characterSlice.actions;
 
 export default characterSlice.reducer;

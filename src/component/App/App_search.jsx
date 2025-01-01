@@ -5,22 +5,25 @@ import {useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {setMovieSearch} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
-import {setSearchTextText} from '../../redux/slices/characterSlice';
+import {setSearchText} from '../../redux/slices/characterSlice';
 import Ch_detail from '../character/Ch_detail';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
+
 export default function App_search() {
   const [search, setSearch] = useState('');
   const dispatch = useDispatch();
-  const {filterList} = useSelector(state => state.movieKey);
+  const {filtermovieList} = useSelector(state => state.movieKey);
   const {searchList} = useSelector(state => state.characterKey);
 
   const handleSearch = () => {
     dispatch(setMovieSearch(search));
-    dispatch(setSearchTextText(search));
+    dispatch(setSearchText(search));
   };
 
-  const searchShow = filterList.filter(movie => movie.title.includes(search));
+  const searchShow = filtermovieList.filter(movie =>
+    movie.title.includes(search),
+  );
 
   const searchCharacter = searchList.filter(find =>
     find.name.korean.name.includes(search),
