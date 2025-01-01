@@ -22,10 +22,12 @@ import App_footer from './component/App/App_footer';
 
 const App = () => {
   const location = useLocation();
+
   const showSearch =
     location.pathname === '/' ||
-    location.pathname === '/character' ||
-    location.pathname === '/movie';
+    location.pathname === '/conanwiki/' ||
+    location.pathname === '/conanwiki/character' ||
+    location.pathname === '/conanwiki/movie';
 
   return (
     <>
@@ -33,10 +35,11 @@ const App = () => {
       {showSearch && <App_search />}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/character" element={<Ch_list />} />
-        <Route path="/movie" element={<Mo_list />} />
-        <Route path="/movie/:id" element={<Mo_detail />} />
-        <Route path="/episodes" element={<Ep_list />} />
+        <Route path="/conanwiki" element={<Home />} />
+        <Route path="/conanwiki/character" element={<Ch_list />} />
+        <Route path="/conanwiki/movie" element={<Mo_list />} />
+        <Route path="/conanwiki/movie/:id" element={<Mo_detail />} />
+        <Route path="/conanwiki/episodes" element={<Ep_list />} />
       </Routes>
       <App_bottom />
       <App_footer />

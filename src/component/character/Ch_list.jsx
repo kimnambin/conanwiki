@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {character, characterDetail} from '../../redux/slices/characterSlice';
+import {character} from '../../redux/slices/characterSlice';
 import Ch_detail from './Ch_detail';
 import Ch_couple from './Ch_couple';
 import Container from 'react-bootstrap/Container';

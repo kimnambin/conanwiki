@@ -16,6 +16,10 @@ body {
   }
 }
 
+.navtext {
+  color: white;
+}
+
 a {
   text-decoration: none;
 }

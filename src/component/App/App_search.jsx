@@ -75,7 +75,7 @@ export default function App_search() {
                   {searchShow.map(movie => (
                     <Col key={movie.id} xs={6} sm={4} md={4} lg={3}>
                       <Link
-                        to={`/movie/${movie.id}`}
+                        to={`/conanwiki/movie/${movie.id}`}
                         state={{
                           overview: movie.overview,
                           release_date: movie.release_date,

@@ -20,10 +20,10 @@ export default function Home() {
     <div className="container-fluid text-center bg-grey">
       <div className="row text-center slideanim">
         <div className="col-sm-4">
-          <Link to="/character">
+          <Link to="/conanwiki/character">
             <div className="card mb-4">
               <img
-                src="../../public/conanCha_11zon.webp"
+                src="/conanwiki/conancha.webp"
                 alt="캐릭터"
                 className="card-img-top"
               />
@@ -35,10 +35,10 @@ export default function Home() {
           </Link>
         </div>
         <div className="col-sm-4">
-          <Link to="/movie">
+          <Link to="/conanwiki/movie">
             <div className="card mb-4">
               <img
-                src="../../public/conanMo_11zon.webp"
+                src="/conanwiki/conanMo_11zon.webp"
                 alt="극장판"
                 className="card-img-top"
               />
@@ -50,10 +50,10 @@ export default function Home() {
           </Link>
         </div>
         <div className="col-sm-4">
-          <Link to="/episodes">
+          <Link to="/conanwiki/episodes">
             <div className="card mb-4">
               <img
-                src="../../public/conanEpi_11zon.webp"
+                src="/conanwiki/conanEpi_11zon.webp"
                 alt="에피소드"
                 className="card-img-top"
               />

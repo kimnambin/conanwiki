@@ -78,23 +78,3 @@ export default function Mo_detail() {
     </Container>
   );
 }
-
-// <div>
-//       <h2>영화 비디오</h2>
-//       {moviedata && moviedata.length > 0 ? (
-//         moviedata.map(video => (
-//           <div key={video.id}>
-//             <h3>{video.name}</h3>
-//             <iframe
-//               width="560"
-//               height="315"
-//               src={`https://www.youtube.com/embed/${video.key}`}
-//               title={video.name}
-//               frameBorder="0"
-//               allowFullScreen></iframe>
-//           </div>
-//         ))
-//       ) : (
-//         <p>비디오가 없습니다.</p>
-//       )}
-//     </div>

@@ -79,7 +79,7 @@ export default function Mo_movieList() {
         {sortShow.map((movie, index) => (
           <Col key={index} xs={6} sm={4} md={4} lg={3} xl={3}>
             <Link
-              to={`/movie/${movie.id}`}
+              to={`/conanwiki/movie/${movie.id}`}
               state={{
                 overview: movie.overview,
                 release_date: movie.release_date,
@@ -87,14 +87,14 @@ export default function Mo_movieList() {
                 vote_average: movie.vote_average,
                 popularity: movie.popularity,
               }}>
-              <Card style={{width: '100%'}} id={index}>
+              <Card style={{width: '100%', height: '90%'}} id={index}>
                 <div style={{overflow: 'hidden'}}>
                   <Card.Img
                     variant="mid"
                     src={`${IMAGE_BASE_URL}${movie.poster_path}`}
                     alt=""
                     style={{
-                      height: '130%',
+                      height: '120%',
                       width: '100%',
                       objectFit: 'cover',
                     }}
