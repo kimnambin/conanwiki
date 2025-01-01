@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/conanWiki/',
   build: {
-    outDir: 'build',
+    outDir: 'dist',
   },
 });
