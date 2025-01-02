@@ -44,9 +44,9 @@ export default function Ch_list() {
     const coupleEle = document.getElementById('coupleScroll');
     if (coupleEle) {
       coupleEle.scrollIntoView({behavior: 'smooth'});
-      console.log('클릭 됨');
+      // console.log('클릭 됨');
     } else {
-      console.log('coupleScroll 요소를 찾을 수 없습니다.');
+      // console.log('coupleScroll 요소를 찾을 수 없습니다.');
     }
   };
 

@@ -103,7 +103,7 @@ export default function Mo_movieList() {
                 <Card.Body>
                   <Card.Text>
                     {movie.title.length > 10
-                      ? `<${index + 1}기>` + movie.title.slice(7, 17) + '...'
+                      ? movie.title.slice(7, 17) + '...'
                       : movie.title(7)}
                   </Card.Text>
                 </Card.Body>

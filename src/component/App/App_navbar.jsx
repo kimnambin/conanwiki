@@ -10,10 +10,13 @@ export default function App_navbar() {
     <>
       <Navbar expand="lg" className={style.Navbar}>
         <Container>
-          <Navbar.Brand as={Link} to="/" className={style.NavbarTitle}>
+          <Navbar.Brand
+            as={Link}
+            to="/conanwiki/"
+            className={style.NavbarTitle}>
             <SiNamuwiki />
           </Navbar.Brand>
-          <Nav.Link as={Link} to="/" className={style.Navbarintro}>
+          <Nav.Link as={Link} to="/conanwiki/" className={style.Navbarintro}>
             명탐정 코난을 소개하는 위키
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
