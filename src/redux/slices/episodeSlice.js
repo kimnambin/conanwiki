@@ -1,5 +1,5 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
-import {epicodefetch} from '../../api/episodeApi';
+import {epicodefetch} from '../../api/episodeApi.ts';
 
 export const episodesApiGet = createAsyncThunk('conan/episodes', async () => {
   const res = await epicodefetch();
