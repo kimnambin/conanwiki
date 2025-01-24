@@ -1,5 +1,12 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
-import {epicodefetch} from '../../api/episodeApi.ts';
+import {epicodefetch} from '../../api/episodeApi';
+import {EpisodeState} from '../../types/api';
+
+const initialState: EpisodeState = {
+  list: [],
+  error: null,
+  loading: false,
+};
 
 export const episodesApiGet = createAsyncThunk('conan/episodes', async () => {
   const res = await epicodefetch();
@@ -8,12 +15,8 @@ export const episodesApiGet = createAsyncThunk('conan/episodes', async () => {
 
 const episodeSlice = createSlice({
   name: 'episodes',
-  initialState: {
-    list: [],
-    error: null,
-    loading: false,
-  },
-
+  initialState,
+  reducers: {},
   extraReducers: builder => {
     builder
       .addCase(episodesApiGet.pending, state => {
@@ -26,7 +29,7 @@ const episodeSlice = createSlice({
       })
       .addCase(episodesApiGet.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error.message || null;
       });
   },
 });

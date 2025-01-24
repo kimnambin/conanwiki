@@ -9,22 +9,26 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Ch_nav from './Ch_nav';
 import App_loading from '../App/App_loading';
+import {ArrayType, CharacherType, CharacterState} from '../../types/api';
+import {StoreDispatch} from '../../redux/store';
 
 export default function Ch_list() {
-  const dispatch = useDispatch();
-  const {list, loading, error} = useSelector(state => state.characterKey);
+  const dispatch = useDispatch<StoreDispatch>();
+  const {list, loading, error}: CharacterState = useSelector(
+    (state: ArrayType) => state.characterKey,
+  );
 
   const [openDetail, setOpenDetail] = useState(false);
-  const [select, setSelect] = useState(null);
+  const [select, setSelect] = useState<CharacherType | null>(null);
 
   useEffect(() => {
     dispatch(character());
   }, [dispatch]);
 
-  const open = id => {
+  const open = (arg: CharacherType) => {
     // console.log('클릭됨', id);
     // console.log('모달창여부', openDetail);
-    setSelect(id);
+    setSelect(arg);
     setOpenDetail(true);
   };
 
@@ -81,7 +85,7 @@ export default function Ch_list() {
                 <div style={{height: '120px', overflow: 'hidden'}}>
                   <Card.Img
                     variant="mid"
-                    src={item.imgage}
+                    src={item.img}
                     alt=""
                     style={{
                       height: '130%',
@@ -102,7 +106,7 @@ export default function Ch_list() {
           ))}
       </Row>
       <br /> <br />
-      <Ch_couple id="coupleScroll" />
+      <Ch_couple />
     </Container>
   );
 }

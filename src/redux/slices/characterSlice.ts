@@ -1,4 +1,5 @@
 // 캐릭터 가져오기
+import {CharacterState, ApiType} from '../../types/api';
 
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import {
@@ -8,12 +9,26 @@ import {
   fetchPersonEpisode,
 } from '../../api/characterApi';
 
-export const character = createAsyncThunk('conan/characters', async () => {
-  const res = await fetchCharacters();
-  return res;
-});
+const initialState: CharacterState = {
+  list: [],
+  coupleList: [],
+  episodeList: [],
+  select: null,
+  loading: false,
+  error: null,
+  searchList: [],
+  searchText: '',
+};
 
-export const characterDetail = createAsyncThunk(
+export const character = createAsyncThunk<ApiType[]>(
+  'conan/characters',
+  async () => {
+    const res = await fetchCharacters();
+    return res;
+  },
+);
+
+export const characterDetail = createAsyncThunk<ApiType | undefined, number>(
   'conan/characterDetail',
   async id => {
     const res = await fetchCharacterDetail(id);
@@ -21,10 +36,13 @@ export const characterDetail = createAsyncThunk(
   },
 );
 
-export const coupleGet = createAsyncThunk('conan/couple', async () => {
-  const res = await fetchCouple();
-  return res;
-});
+export const coupleGet = createAsyncThunk<ApiType[], void>(
+  'conan/couple',
+  async () => {
+    const res = await fetchCouple();
+    return res;
+  },
+);
 
 export const personEpisodeGet = createAsyncThunk(
   'conan/personEpisode',
@@ -36,16 +54,7 @@ export const personEpisodeGet = createAsyncThunk(
 
 const characterSlice = createSlice({
   name: 'character',
-  initialState: {
-    list: [],
-    coupleList: [],
-    episodeList: [],
-    select: null,
-    loading: false,
-    error: null,
-    searchList: [],
-    searchText: '',
-  },
+  initialState,
 
   reducers: {
     setSearchText: (state, action) => {
@@ -74,12 +83,12 @@ const characterSlice = createSlice({
 
       .addCase(character.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error.message || null;
       })
 
       //캐릭터 디테일일===============
       .addCase(characterDetail.pending, (state, action) => {
-        state.select = action.payload;
+        state.select = action.payload || null;
       })
 
       //커플===============
@@ -95,7 +104,7 @@ const characterSlice = createSlice({
 
       .addCase(coupleGet.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error.message || null;
       })
 
       //캐릭터 에피소드===============
@@ -110,7 +119,7 @@ const characterSlice = createSlice({
 
       .addCase(personEpisodeGet.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error.message || null;
       });
   },
 });

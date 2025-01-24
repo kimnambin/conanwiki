@@ -1,6 +1,4 @@
-//
-
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {fetchMovie} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
@@ -86,6 +84,7 @@ export default function Mo_movieList() {
                 title: movie.title,
                 vote_average: movie.vote_average,
                 popularity: movie.popularity,
+                image: movie.poster_path,
               }}>
               <Card style={{width: '100%', height: '90%'}} id={index}>
                 <div style={{overflow: 'hidden'}}>

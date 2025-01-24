@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {Col} from 'react-bootstrap';
 import {useDispatch, useSelector} from 'react-redux';
 import {episodesApiGet} from '../../redux/slices/episodeSlice';
 import {personEpisodeGet} from '../../redux/slices/characterSlice';
@@ -7,32 +7,40 @@ import {openModal, closeModal} from '../../redux/slices/modalSlice';
 import Ep_detail from './Ep_detail';
 import App_loading from '../App/App_loading';
 import Ep_characher from './Ep_characher';
+import {EpisodeState, ArrayType, EpisodeTypes} from '../../types/api';
+import {EpiTypes} from '../../types/component';
+import {StoreDispatch} from '../../redux/store';
 
 export default function Ep_list() {
-  const dispatch = useDispatch();
-  const {list, loading, error} = useSelector(state => state.episodeKey);
-  const {isOpen, selectedSeries} = useSelector(state => state.modalKey);
-  const {episodeList} = useSelector(state => state.characterKey);
-  const [intro, setIntro] = useState(null);
-  const [quarter, setQuarter] = useState(null);
-  const [click, setClick] = useState(null);
-  const [title1, setTitle1] = useState(null);
-  const [title2, setTitle2] = useState(null);
-  const [isModal, setIsModal] = useState(null); //어떤 모달창인가 확인용
+  const dispatch = useDispatch<StoreDispatch>();
+  const {list, loading, error}: EpisodeState = useSelector(
+    (state: ArrayType) => state.episodeKey,
+  );
+
+  const {isOpen, selectedSeries} = useSelector(
+    (state: ArrayType) => state.modalKey,
+  );
+  const {episodeList} = useSelector((state: ArrayType) => state.characterKey);
+  const [intro, setIntro] = useState<string | null>(null);
+  const [quarter, setQuarter] = useState<string | null>(null);
+  const [click, setClick] = useState<string | null>(null);
+  const [title1, setTitle1] = useState<string | null>(null);
+  const [title2, setTitle2] = useState<string | null>(null);
+  const [isModal, setIsModal] = useState<string | null>(null); // 어떤 모달창인가 확인용
 
   useEffect(() => {
     dispatch(episodesApiGet());
     dispatch(personEpisodeGet());
   }, [dispatch]);
 
-  const clickEpi = id => {
+  const clickEpi = (id: EpisodeTypes) => {
     setIsModal('episode');
     dispatch(openModal(id.series));
     setIntro(id.intro);
     setQuarter(id.quarter);
   };
 
-  const clickCharacher = select => {
+  const clickCharacher = (select: EpiTypes) => {
     setIsModal('character');
     dispatch(
       openModal({
@@ -50,7 +58,7 @@ export default function Ep_list() {
   };
 
   const closeEpi = () => {
-    dispatch(closeModal());
+    dispatch(closeModal(null));
     setIsModal(null);
   };
 
@@ -111,14 +119,14 @@ export default function Ep_list() {
       <div className="row text-center border">
         <h3 className="custom-bg">중요 에피소드 모음</h3>
         {[...list].map((v, idx) => (
-          <div
-            className="col-md-4 mb-4"
+          <Col
+            className="mb-4"
             key={idx}
-            xs={6}
-            sm={4}
+            xs={12}
+            sm={6}
             md={4}
-            lg={3}
-            xl={3}
+            lg={4}
+            xl={4}
             id="episodes">
             <div className="card" onClick={() => clickEpi(v)}>
               <img src={v.img} alt="에피소드" className="card-img-top" />
@@ -127,7 +135,7 @@ export default function Ep_list() {
                 <p className="card-text">{v.quarter}</p>
               </div>
             </div>
-          </div>
+          </Col>
         ))}
       </div>
       <br />

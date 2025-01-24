@@ -7,15 +7,16 @@ import {setMovieSearch} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
 import {setSearchText} from '../../redux/slices/characterSlice';
 import Ch_detail from '../character/Ch_detail';
-import {SearchType} from '../../types/component';
+import {CharacherType, ArrayType} from '../../types/api';
+import {StoreDispatch} from '../../redux/store';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function App_search() {
   const [search, setSearch] = useState('');
-  const dispatch = useDispatch();
-  const {filtermovieList} = useSelector(state => state.movieKey);
-  const {searchList} = useSelector(state => state.characterKey);
+  const dispatch = useDispatch<StoreDispatch>();
+  const {filtermovieList} = useSelector((state: ArrayType) => state.movieKey);
+  const {searchList} = useSelector((state: ArrayType) => state.characterKey);
 
   const handleSearch = () => {
     dispatch(setMovieSearch(search));
@@ -32,9 +33,9 @@ export default function App_search() {
   );
 
   const [openDetail, setOpenDetail] = useState(false);
-  const [select, setSelect] = useState(null);
+  const [select, setSelect] = useState<CharacherType | null>(null);
 
-  const open = id => {
+  const open = (id: CharacherType) => {
     // console.log('클릭됨', id);
     // console.log('모달창여부', openDetail);
     setSelect(id);
@@ -85,7 +86,7 @@ export default function App_search() {
                           vote_average: movie.vote_average,
                           popularity: movie.popularity,
                         }}>
-                        <Card style={{width: '100%'}} id={movie.id}>
+                        <Card style={{width: '100%'}} id={movie.id.toString()}>
                           <div style={{overflow: 'hidden'}}>
                             <Card.Img
                               src={`${IMAGE_BASE_URL}${movie.poster_path}`}
@@ -130,7 +131,7 @@ export default function App_search() {
                         <div style={{height: '120px', overflow: 'hidden'}}>
                           <Card.Img
                             variant="mid"
-                            src={item.imgage}
+                            src={item.img}
                             alt=""
                             style={{
                               height: '130%',

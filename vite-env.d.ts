@@ -6,3 +6,9 @@ export interface EnvKey {
 export interface EnvMeta {
   readonly env: EnvKey;
 }
+
+declare global {
+  interface ImportMeta {
+    readonly env: EnvKey;
+  }
+}

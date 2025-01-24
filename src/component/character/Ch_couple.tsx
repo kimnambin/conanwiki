@@ -1,12 +1,16 @@
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {coupleGet} from '../../redux/slices/characterSlice';
 import {Container, Row, Col, Table} from 'react-bootstrap';
 import App_loading from '../App/App_loading';
+import {CharacterState, ApiType} from '../../types/api';
+import {StoreDispatch} from '../../redux/store';
 
 export default function Ch_couple() {
-  const dispatch = useDispatch();
-  const {coupleList, loading, error} = useSelector(state => state.characterKey);
+  const dispatch = useDispatch<StoreDispatch>();
+  const {coupleList, loading, error}: CharacterState = useSelector(
+    (state: ApiType) => state.characterKey,
+  );
 
   useEffect(() => {
     if (!coupleList.length) {

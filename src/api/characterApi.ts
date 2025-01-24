@@ -1,4 +1,5 @@
 import {ApiType} from '../types/api';
+import {EpiTypes} from '../types/component';
 
 export const fetchCharacters = async (): Promise<ApiType[]> => {
   const res = await fetch('/conanwiki/person.json');
@@ -18,7 +19,7 @@ export const fetchCouple = async (): Promise<ApiType[]> => {
   return res.json();
 };
 
-export const fetchPersonEpisode = async (): Promise<ApiType[]> => {
+export const fetchPersonEpisode = async (): Promise<EpiTypes[]> => {
   const res = await fetch('/conanwiki/personEpisodes.json');
   return res.json();
 };

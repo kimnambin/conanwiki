@@ -1,13 +1,16 @@
 // const VIDEO_BASE_URL = 'https://www.youtube.com/embed/';
 // const IMG_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useParams, useLocation} from 'react-router-dom';
 import {MovieDetail} from '../../api/movieApi';
 import {useSelector} from 'react-redux';
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
+import {Col, Row} from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
 import App_loading from '../App/App_loading';
+
+const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function Mo_detail() {
   const {id} = useParams(); // URL에서 영화 ID 가져오기
@@ -21,6 +24,7 @@ export default function Mo_detail() {
     title,
     vote_average,
     popularity,
+    image,
   } = location.state || {}; // Link로 props로 받아오려면 'useLoaction'을 사용해야 함
 
   useEffect(() => {
@@ -46,34 +50,40 @@ export default function Mo_detail() {
     <Container className="text-center">
       <br />
       <br />
+
+      <h3>{title}</h3>
+      <p>개봉일 : {releaseDate}</p>
+      <p>관객 평점 : {vote_average}</p>
+      <p>인기도 : {popularity}</p>
+      <Col xs={12} className="text-left">
+        <p>{overview}</p>
+      </Col>
+
       {moviedata && moviedata.length > 0 ? (
-        moviedata.map(data => (
-          <div key={data.id}>
-            <h3>{title}</h3>
-            <p>개봉일 : {releaseDate}</p>
-            <p>관객 평점 : {vote_average}</p>
-            <p>인기도 : {popularity}</p>
-            <Col xs={12}>
-              <iframe
-                width="80%"
-                height="360vh"
-                src={`https://www.youtube.com/embed/${data.key}`}
-                title={data.name}
-                frameBorder="0"
-                allowFullScreen
-                style={{maxWidth: '100%'}}
-              />
-            </Col>
-
-            <br />
-
-            <Col xs={12} className="text-left">
-              <p>{overview}</p>
-            </Col>
-          </div>
+        moviedata.map((data, index) => (
+          <Col xs={12} key={index}>
+            <iframe
+              width="80%"
+              height="360"
+              src={`https://www.youtube.com/embed/${data.key}`}
+              title={data.name}
+              frameBorder="0"
+              allowFullScreen
+              // style={{maxWidth: '100%'}}
+            />
+          </Col>
         ))
       ) : (
-        <App_loading />
+        <Card.Img
+          variant="mid"
+          src={`${IMAGE_BASE_URL}${image}`}
+          alt=""
+          style={{
+            maxHeight: '800px',
+            width: '30%',
+            objectFit: 'cover',
+          }}
+        />
       )}
     </Container>
   );

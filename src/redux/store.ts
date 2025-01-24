@@ -12,5 +12,6 @@ const store = configureStore({
     modalKey: modalSlice,
   },
 });
+export type StoreDispatch = typeof store.dispatch;
 
 export default store;

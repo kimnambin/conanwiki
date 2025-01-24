@@ -1,5 +1,15 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import {Movie, MovieDetail} from '../../api/movieApi';
+import {MovieState, MovieType} from '../../types/api';
+
+const initialState: MovieState = {
+  movieList: [],
+  loading: false,
+  error: null,
+  filtermovieList: [],
+  searchMovie: '',
+  select: null,
+};
 
 export const fetchMovie = createAsyncThunk('conan/movie', async () => {
   const res = await Movie();
@@ -8,7 +18,7 @@ export const fetchMovie = createAsyncThunk('conan/movie', async () => {
 
 export const fetchMovieDetail = createAsyncThunk(
   'conan/moviedetail',
-  async id => {
+  async (id: number) => {
     const res = await MovieDetail(id);
     return res;
   },
@@ -16,13 +26,7 @@ export const fetchMovieDetail = createAsyncThunk(
 
 const MovieSlice = createSlice({
   name: 'movie',
-  initialState: {
-    movieList: [],
-    loading: false,
-    error: null,
-    filtermovieList: [],
-    searchMovie: '',
-  },
+  initialState,
 
   reducers: {
     setMovieSearch: (state, action) => {
@@ -47,7 +51,7 @@ const MovieSlice = createSlice({
 
       .addCase(fetchMovie.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error.message || null;
       })
 
       .addCase(fetchMovieDetail.pending, state => {
@@ -55,11 +59,11 @@ const MovieSlice = createSlice({
       })
       .addCase(fetchMovieDetail.fulfilled, (state, action) => {
         state.loading = false;
-        state.select = action.payload;
+        state.select = action.payload || null;
       })
       .addCase(fetchMovieDetail.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message;
+        state.error = action.error.message || null;
       });
   },
 });

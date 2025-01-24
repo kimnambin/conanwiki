@@ -28,7 +28,7 @@ export default function App_readme({
           <hr />
           <h3>사용 기술</h3>
           <p>ReactJS</p>
-          <p>JavaScript</p>
+          <p>TypeScript</p>
           <p>Redux</p>
           <p>Redux Toolkit</p>
           <hr />

@@ -1,8 +1,8 @@
-import {ApiType} from '../types/api';
+import {MovieType} from '../types/api';
 
 const API_KEY = import.meta.env.VITE_APP_TMDB_API_KEY;
 
-export const Movie = async () => {
+export const Movie = async (): Promise<MovieType[]> => {
   const option = {
     method: 'GET',
     headers: {
@@ -20,11 +20,12 @@ export const Movie = async () => {
   }
 
   const data = await res.json();
+  // console.log('API_KEY:', API_KEY);
   // console.log(data.parts);
   return data.parts;
 };
 
-export const MovieDetail = async (id: ApiType) => {
+export const MovieDetail = async (id: number): Promise<MovieType[]> => {
   const option = {
     method: 'GET',
     headers: {
@@ -42,5 +43,7 @@ export const MovieDetail = async (id: ApiType) => {
     throw new Error('에러');
   }
 
-  return res.json();
+  const data = await res.json();
+  // console.log(data);
+  return data;
 };
