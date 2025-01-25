@@ -80,8 +80,9 @@ export default function Ch_list() {
               sm={4}
               md={4}
               lg={3}
-              xl={3}>
-              <Card style={{width: '100%'}} onClick={() => open(item)}>
+              xl={3}
+              className="d-flex justify-content-center align-items-center">
+              <Card style={{width: '80%'}} onClick={() => open(item)}>
                 <div style={{height: '120px', overflow: 'hidden'}}>
                   <Card.Img
                     variant="mid"
@@ -105,7 +106,7 @@ export default function Ch_list() {
             </Col>
           ))}
       </Row>
-      <br /> <br />
+
       <Ch_couple />
     </Container>
   );

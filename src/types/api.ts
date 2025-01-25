@@ -89,6 +89,8 @@ export type MovieType = {
   vote_average: number;
   popularity: number;
   poster_path: string;
+  name: string;
+  key: number;
 };
 
 export type MovieState = {
@@ -100,6 +102,10 @@ export type MovieState = {
   select: MovieType[] | ApiType[] | null;
 };
 
+export interface MovieResult {
+  results: MovieState[];
+}
+
 export type ModalState = {
   isOpen: boolean;
   selectedSeries: EpisodeTypes[] | null;
@@ -108,9 +114,10 @@ export type ModalState = {
 // ========================================================
 
 export interface ArrayType {
-  movieKey: {
-    filtermovieList: MovieType[];
-  };
+  // movieKey: {
+  //   filtermovieList: MovieType[];
+  // };
+  movieKey: MovieState;
   characterKey: CharacterState;
   episodeKey: EpisodeState;
   modalKey: ModalState;

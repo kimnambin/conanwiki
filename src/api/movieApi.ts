@@ -25,7 +25,9 @@ export const Movie = async (): Promise<MovieType[]> => {
   return data.parts;
 };
 
-export const MovieDetail = async (id: number): Promise<MovieType[]> => {
+export const MovieDetail = async (
+  id: number,
+): Promise<{results: MovieType[]}> => {
   const option = {
     method: 'GET',
     headers: {
@@ -44,6 +46,6 @@ export const MovieDetail = async (id: number): Promise<MovieType[]> => {
   }
 
   const data = await res.json();
-  // console.log(data);
-  return data;
+
+  return data as {results: MovieType[]};
 };

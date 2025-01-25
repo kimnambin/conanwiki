@@ -5,17 +5,17 @@ import {useEffect, useState} from 'react';
 import {useParams, useLocation} from 'react-router-dom';
 import {MovieDetail} from '../../api/movieApi';
 import {useSelector} from 'react-redux';
-import Container from 'react-bootstrap/Container';
-import {Col, Row} from 'react-bootstrap';
+import {Col, Container} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import App_loading from '../App/App_loading';
+import {ArrayType, MovieType} from '../../types/api';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function Mo_detail() {
   const {id} = useParams(); // URL에서 영화 ID 가져오기
-  const [moviedata, setMoviedata] = useState(null);
-  const {loading, error} = useSelector(state => state.movieKey);
+  const [moviedata, setMoviedata] = useState<MovieType[] | null>(null);
+  const {loading, error} = useSelector((state: ArrayType) => state.movieKey);
 
   const location = useLocation();
   const {
@@ -30,13 +30,21 @@ export default function Mo_detail() {
   useEffect(() => {
     const fetchmovie = async () => {
       try {
-        const data = await MovieDetail(id);
-        setMoviedata(data.results);
-      } catch {}
+        if (id) {
+          const data = await MovieDetail(Number(id));
+          setMoviedata(data.results);
+        }
+      } catch (error) {
+        console.error(error);
+      }
     };
 
     fetchmovie();
   }, [id]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (loading) {
     return <App_loading />;
@@ -85,6 +93,8 @@ export default function Mo_detail() {
           }}
         />
       )}
+      <br />
+      <br />
     </Container>
   );
 }

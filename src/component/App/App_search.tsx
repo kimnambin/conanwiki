@@ -1,6 +1,12 @@
-import {Container, Row, Col, Button, Form} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import InputGroup from 'react-bootstrap/InputGroup';
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  Form,
+  InputGroup,
+  Card,
+} from 'react-bootstrap';
 import {useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {setMovieSearch} from '../../redux/slices/movieSlice';
@@ -57,7 +63,7 @@ export default function App_search() {
           <InputGroup className="mb-3">
             <Form.Control
               type="text"
-              placeholder="궁금한 걸 검색해보세요"
+              placeholder="등장인물이나 극장판을 검색해 보세요"
               value={search}
               onChange={e => {
                 setSearch(e.target.value);

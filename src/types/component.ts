@@ -2,7 +2,7 @@ import {CharacherType, EpisodeTypes, ApiType} from './api';
 
 export type ReadmeType = {
   openReadme: boolean;
-  openRead: boolean;
+  openRead: () => void;
   closeRead: () => void;
 };
 

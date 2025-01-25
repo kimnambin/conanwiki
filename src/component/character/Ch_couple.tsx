@@ -22,7 +22,7 @@ export default function Ch_couple() {
   if (error) return <p>에러...</p>;
 
   return (
-    <Container id="coupleScroll">
+    <Container id="coupleScroll" style={{marginTop: '10%'}}>
       <h2>명탐정 코난 커플 모음🩷</h2>
       <Row>
         {coupleList.map((v, index) => (

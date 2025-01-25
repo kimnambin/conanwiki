@@ -2,27 +2,26 @@ import {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {fetchMovie} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Container, Row, Col, Card, Nav, NavDropdown} from 'react-bootstrap';
 import App_loading from '../App/App_loading';
+import {StoreDispatch} from '../../redux/store';
+import {ArrayType} from '../../types/api';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function Mo_movieList() {
-  const dispatch = useDispatch();
-  const {movieList, error, loading} = useSelector(state => state.movieKey);
+  const dispatch = useDispatch<StoreDispatch>();
+  const {movieList, error, loading} = useSelector(
+    (state: ArrayType) => state.movieKey,
+  );
 
   const [sortMovie, setSortMovie] = useState('release_date');
 
-  const sortChange = id => {
+  const sortChange = (id: string) => {
     setSortMovie(id);
   };
 
-  const selectSort = id => {
+  const selectSort = (id: string) => {
     switch (id) {
       case 'release_date':
         return '개봉순';
@@ -37,7 +36,9 @@ export default function Mo_movieList() {
 
   const sortShow = [...movieList].sort((a, b) => {
     if (sortMovie === 'release_date') {
-      return new Date(a.release_date) - new Date(b.release_date);
+      return (
+        new Date(a.release_date).getTime() - new Date(b.release_date).getTime()
+      );
     } else if (sortMovie === 'vote_average') {
       return b.vote_average - a.vote_average;
     } else if (sortMovie === 'popularity') {
@@ -58,7 +59,10 @@ export default function Mo_movieList() {
     <Container className="text-center">
       <h2>명탐정 코난 극장판 모음</h2>
       <br />
-      <Nav className="d-flex justify-content-center" align="center">
+      <Nav
+        className="d-flex justify-content-center"
+        // align="center"
+      >
         <NavDropdown title={selectSort(sortMovie)} menuVariant="light">
           <NavDropdown.Item onClick={() => sortChange('release_date')}>
             개봉순
@@ -86,7 +90,10 @@ export default function Mo_movieList() {
                 popularity: movie.popularity,
                 image: movie.poster_path,
               }}>
-              <Card style={{width: '100%', height: '90%'}} id={index}>
+              <Card
+                style={{width: '100%', height: '90%'}}
+                // id={index}
+              >
                 <div style={{overflow: 'hidden'}}>
                   <Card.Img
                     variant="mid"
@@ -103,7 +110,7 @@ export default function Mo_movieList() {
                   <Card.Text>
                     {movie.title.length > 10
                       ? movie.title.slice(7, 17) + '...'
-                      : movie.title(7)}
+                      : movie.title.slice(7)}
                   </Card.Text>
                 </Card.Body>
               </Card>
