@@ -1,0 +1,36 @@
+.Navbar {
+  background-color: #00a495 !important;
+}
+
+.Navbarintro {
+  color: white !important;
+  text-decoration: underline !important;
+  margin-right: 20px;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.readmeModal {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.credits {
+  position: absolute;
+  bottom: -100%;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
