@@ -2,8 +2,8 @@ import {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {coupleGet} from '../../redux/slices/characterSlice';
 import {Container, Row, Col, Table} from 'react-bootstrap';
-import App_loading from '../App/App_loading';
-import {CharacterState, ApiType} from '../../types/api';
+import App_loading from '../app/App_loading';
+import {CharacterState, ApiType} from '../../types/api.model';
 import {StoreDispatch} from '../../redux/store';
 
 export default function Ch_couple() {
@@ -16,7 +16,7 @@ export default function Ch_couple() {
     if (!coupleList.length) {
       dispatch(coupleGet());
     }
-  }, [dispatch, coupleList]); //무한 루프가 되던 문제를 해결
+  }, [dispatch, coupleList]);
 
   if (loading) return <App_loading />;
   if (error) return <p>에러...</p>;

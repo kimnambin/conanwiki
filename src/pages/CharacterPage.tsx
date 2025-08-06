@@ -1,18 +1,19 @@
 import {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {character} from '../../redux/slices/characterSlice';
-import Ch_detail from './Ch_detail';
-import Ch_couple from './Ch_couple';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Ch_nav from './Ch_nav';
-import App_loading from '../App/App_loading';
-import {ArrayType, CharacherType, CharacterState} from '../../types/api';
-import {StoreDispatch} from '../../redux/store';
+import {StoreDispatch} from '../redux/store';
+import {ArrayType, CharacherType, CharacterState} from '../types/api.model';
+import {character} from '../redux/slices/characterSlice';
+import App_loading from '../component/app/App_loading';
+import Ch_nav from '../component/character/Ch_nav';
+import Ch_detail from '../component/character/Ch_detail';
+import Ch_couple from '../component/character/Ch_couple';
 
-export default function Ch_list() {
+export default function CharacterPage() {
   const dispatch = useDispatch<StoreDispatch>();
   const {list, loading, error}: CharacterState = useSelector(
     (state: ArrayType) => state.characterKey,
@@ -20,14 +21,13 @@ export default function Ch_list() {
 
   const [openDetail, setOpenDetail] = useState(false);
   const [select, setSelect] = useState<CharacherType | null>(null);
+  const isMobile = window.innerWidth;
 
   useEffect(() => {
     dispatch(character());
   }, [dispatch]);
 
   const open = (arg: CharacherType) => {
-    // console.log('클릭됨', id);
-    // console.log('모달창여부', openDetail);
     setSelect(arg);
     setOpenDetail(true);
   };
@@ -48,9 +48,6 @@ export default function Ch_list() {
     const coupleEle = document.getElementById('coupleScroll');
     if (coupleEle) {
       coupleEle.scrollIntoView({behavior: 'smooth'});
-      // console.log('클릭 됨');
-    } else {
-      // console.log('coupleScroll 요소를 찾을 수 없습니다.');
     }
   };
 
@@ -97,7 +94,11 @@ export default function Ch_list() {
                 </div>
                 <Card.Body>
                   <Card.Text>
-                    {item.name.korean.name.length > 10
+                    {isMobile > 768
+                      ? item.name.korean.name.length > 6
+                        ? item.name.korean.name.slice(0, 6) + '...'
+                        : item.name.korean.name
+                      : item.name.korean.name.length > 10
                       ? item.name.korean.name.slice(0, 10) + '...'
                       : item.name.korean.name}
                   </Card.Text>

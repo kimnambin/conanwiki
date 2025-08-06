@@ -44,15 +44,15 @@ p {
   text-align: center;
   margin-bottom: 40px;
   position: absolute;
-  bottom: -100%; /* 화면 아래로 시작 */
-  animation: scroll 10s linear infinite; /* 애니메이션 설정 */
+  bottom: -100%;
+  animation: scroll 10s linear infinite;
 }
 
 @keyframes scroll {
   0% {
-    bottom: -100%; /* 시작 위치 */
+    bottom: -100%;
   }
   100% {
-    bottom: 100%; /* 끝 위치 */
+    bottom: 100%;
   }
 }

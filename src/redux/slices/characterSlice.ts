@@ -1,5 +1,5 @@
 // 캐릭터 가져오기
-import {CharacterState, ApiType} from '../../types/api';
+import {CharacterState, ApiType} from '../../types/api.model';
 
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import {

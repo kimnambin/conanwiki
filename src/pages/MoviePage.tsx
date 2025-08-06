@@ -1,15 +1,15 @@
 import {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {fetchMovie} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
 import {Container, Row, Col, Card, Nav, NavDropdown} from 'react-bootstrap';
-import App_loading from '../App/App_loading';
-import {StoreDispatch} from '../../redux/store';
-import {ArrayType} from '../../types/api';
+import {StoreDispatch} from '../redux/store';
+import {ArrayType} from '../types/api.model';
+import {fetchMovie} from '../redux/slices/movieSlice';
+import App_loading from '../component/app/App_loading';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
-export default function Mo_movieList() {
+export default function MoviePage() {
   const dispatch = useDispatch<StoreDispatch>();
   const {movieList, error, loading} = useSelector(
     (state: ArrayType) => state.movieKey,
@@ -49,7 +49,6 @@ export default function Mo_movieList() {
 
   useEffect(() => {
     dispatch(fetchMovie());
-    // console.log(movieList);
   }, [dispatch]);
 
   if (loading) return <App_loading />;
@@ -59,10 +58,7 @@ export default function Mo_movieList() {
     <Container className="text-center">
       <h2>명탐정 코난 극장판 모음</h2>
       <br />
-      <Nav
-        className="d-flex justify-content-center"
-        // align="center"
-      >
+      <Nav className="d-flex justify-content-center">
         <NavDropdown title={selectSort(sortMovie)} menuVariant="light">
           <NavDropdown.Item onClick={() => sortChange('release_date')}>
             개봉순

@@ -1,5 +1,5 @@
 import {Modal} from 'react-bootstrap';
-import {ModalType} from '../../types/component';
+import {ModalType} from '../../types/component.model';
 
 export default function Ch_detail({open, close, character}: ModalType) {
   if (!open) return null;

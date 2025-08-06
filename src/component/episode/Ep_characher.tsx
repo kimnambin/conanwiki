@@ -1,5 +1,20 @@
 import {Modal} from 'react-bootstrap';
 
+type EpCharacterProps = {
+  isOpen: boolean;
+  selectedSeries: {
+    kidcases?: {title: string; TVA?: string}[];
+    kidmovies?: {season?: string; title: string}[];
+    cases?: {title: string; TVA?: string}[];
+    movies?: {season?: string; title: string}[];
+    [key: string]: any;
+  } | null;
+  closeEpi: () => void;
+  click: string;
+  title1: string;
+  title2: string;
+};
+
 export default function Ep_characher({
   isOpen,
   selectedSeries,
@@ -7,7 +22,7 @@ export default function Ep_characher({
   click,
   title1,
   title2,
-}) {
+}: EpCharacterProps) {
   const {
     kidcases = [],
     kidmovies = [],

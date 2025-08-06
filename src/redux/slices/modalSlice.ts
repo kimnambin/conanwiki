@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit';
-import {ModalState} from '../../types/api';
+import {ModalState} from '../../types/api.model';
 
 const initialState: ModalState = {
   isOpen: false,

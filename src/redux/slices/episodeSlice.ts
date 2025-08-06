@@ -1,6 +1,6 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import {epicodefetch} from '../../api/episodeApi';
-import {EpisodeState} from '../../types/api';
+import {EpisodeState} from '../../types/api.model';
 
 const initialState: EpisodeState = {
   list: [],

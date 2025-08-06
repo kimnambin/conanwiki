@@ -1,4 +1,4 @@
-import {ScrollType} from '../../types/component';
+import {ScrollType} from '../../types/component.model';
 import {Dropdown} from 'react-bootstrap';
 
 export default function Ch_nav({scrollTop, scrollBottom}: ScrollType) {

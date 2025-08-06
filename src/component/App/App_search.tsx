@@ -13,7 +13,7 @@ import {setMovieSearch} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
 import {setSearchText} from '../../redux/slices/characterSlice';
 import Ch_detail from '../character/Ch_detail';
-import {CharacherType, ArrayType} from '../../types/api';
+import {CharacherType, ArrayType} from '../../types/api.model';
 import {StoreDispatch} from '../../redux/store';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
@@ -42,10 +42,9 @@ export default function App_search() {
   const [select, setSelect] = useState<CharacherType | null>(null);
 
   const open = (id: CharacherType) => {
-    // console.log('클릭됨', id);
-    // console.log('모달창여부', openDetail);
     setSelect(id);
     setOpenDetail(true);
+    setSearch('');
   };
 
   const close = () => {
@@ -76,7 +75,7 @@ export default function App_search() {
           </InputGroup>
 
           <div>
-            {/* 영화 검색 결과 */}
+            {/* ========= 영화 검색 결과 =============*/}
             {search && searchShow.length > 0 && (
               <div>
                 <h3>영화 검색 결과</h3>
@@ -119,7 +118,7 @@ export default function App_search() {
               </div>
             )}
 
-            {/* 캐릭터 검색 결과 */}
+            {/*========= 캐릭터 검색 결과 =========*/}
             <Ch_detail open={openDetail} close={close} character={select} />
             {search && searchCharacter.length > 0 && (
               <div>
@@ -160,7 +159,7 @@ export default function App_search() {
               </div>
             )}
 
-            {/* 검색 결과가 없을 경우 */}
+            {/*========= 검색 결과가 없을 경우 =========*/}
             {search &&
               searchShow.length === 0 &&
               searchCharacter.length === 0 && <p>검색 결과가 없습니다.</p>}

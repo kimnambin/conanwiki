@@ -6,6 +6,11 @@ import style from './App.module.css';
 import {Link} from 'react-router-dom';
 
 export default function App_navbar() {
+  const navItems = [
+    {title: '캐릭터 소개', link: '/conanwiki/characters'},
+    {title: '극장판 소개', link: '/conanwiki/movies'},
+    {title: '에피소드 소개', link: '/conanwiki/episodes'},
+  ];
   return (
     <>
       <Navbar expand="lg" className={style.Navbar}>
@@ -22,15 +27,15 @@ export default function App_navbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/conanwiki/character" className="navtext">
-                캐릭터 소개
-              </Nav.Link>
-              <Nav.Link as={Link} to="/conanwiki/movie" className="navtext">
-                극장판 소개
-              </Nav.Link>
-              <Nav.Link as={Link} to="/conanwiki/episodes" className="navtext">
-                에피소드 소개
-              </Nav.Link>
+              {navItems.map((item, index) => (
+                <Nav.Link
+                  as={Link}
+                  to={item.link}
+                  className="navtext"
+                  key={index}>
+                  {item.title}
+                </Nav.Link>
+              ))}
             </Nav>
           </Navbar.Collapse>
         </Container>

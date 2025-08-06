@@ -1,6 +1,6 @@
 import {Modal} from 'react-bootstrap';
 import style from './App.module.css';
-import {ReadmeType} from '../../types/component';
+import {ReadmeType} from '../../types/component.model';
 
 export default function App_readme({
   openReadme,

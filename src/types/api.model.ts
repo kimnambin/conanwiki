@@ -1,4 +1,4 @@
-import {EpiTypes} from './component';
+import {EpiTypes} from './component.model';
 
 export interface ApiType {
   id: number;

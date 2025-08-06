@@ -1,4 +1,4 @@
-import {CharacherType, EpisodeTypes, ApiType} from './api';
+import {CharacherType, EpisodeTypes, ApiType} from './api.model';
 
 export type ReadmeType = {
   openReadme: boolean;
@@ -40,7 +40,7 @@ export interface EpiSeries {
 }
 export interface EpiMovies {
   title: string;
-  type: string;
+  type?: string;
   season: string;
 }
 

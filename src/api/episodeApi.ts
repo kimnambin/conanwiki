@@ -1,8 +1,8 @@
-import {EpisodeTypes} from '../types/api';
+import {EpisodeTypes} from '../types/api.model';
+import axios from 'axios';
 
 export const epicodefetch = async (): Promise<EpisodeTypes[]> => {
-  const res = await fetch('/conanwiki/episodes.json');
+  const res = await axios.get<EpisodeTypes[]>('/conanwiki/episodes.json');
 
-  const data = await res.json();
-  return data;
+  return res.data;
 };

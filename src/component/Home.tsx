@@ -4,16 +4,12 @@ import {useDispatch, useSelector} from 'react-redux';
 import {character} from '../redux/slices/characterSlice';
 import {fetchMovie} from '../redux/slices/movieSlice';
 import {useEffect} from 'react';
-import {ArrayType} from '../types/api';
+import {ArrayType} from '../types/api.model';
 import {StoreDispatch} from '../redux/store';
 import {Container, Row, Col, Card} from 'react-bootstrap';
 
 export default function Home() {
   const dispatch = useDispatch<StoreDispatch>();
-  const {list, loading, error} = useSelector(
-    (state: ArrayType) => state.characterKey,
-  );
-  const {movieList} = useSelector((state: ArrayType) => state.movieKey);
 
   useEffect(() => {
     dispatch(character());
@@ -24,7 +20,7 @@ export default function Home() {
     <Container fluid className="text-center bg-light">
       <Row className="slideanim">
         <Col md={4} className="mb-4">
-          <Link to="/conanwiki/character" className="text-decoration-none">
+          <Link to="/conanwiki/characters" className="text-decoration-none">
             <Card>
               <Card.Img
                 variant="top"
@@ -39,7 +35,7 @@ export default function Home() {
           </Link>
         </Col>
         <Col md={4} className="mb-4">
-          <Link to="/conanwiki/movie" className="text-decoration-none">
+          <Link to="/conanwiki/movies" className="text-decoration-none">
             <Card>
               <Card.Img
                 variant="top"

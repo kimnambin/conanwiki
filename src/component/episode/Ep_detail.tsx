@@ -1,4 +1,13 @@
 import {Modal} from 'react-bootstrap';
+import {EpiMovies} from '../../types/component.model';
+
+interface EpDetailProps {
+  isOpen: boolean;
+  selectedSeries: EpiMovies[] | null;
+  closeEpi: () => void;
+  intro?: string;
+  quarter?: string;
+}
 
 export default function Ep_detail({
   isOpen,
@@ -6,7 +15,7 @@ export default function Ep_detail({
   closeEpi,
   intro,
   quarter,
-}) {
+}: EpDetailProps) {
   if (!isOpen || !selectedSeries) return null;
 
   return (

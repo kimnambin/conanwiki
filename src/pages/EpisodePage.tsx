@@ -1,17 +1,17 @@
 import {Col} from 'react-bootstrap';
 import {useDispatch, useSelector} from 'react-redux';
-import {episodesApiGet} from '../../redux/slices/episodeSlice';
-import {personEpisodeGet} from '../../redux/slices/characterSlice';
 import {useEffect, useState} from 'react';
-import {openModal, closeModal} from '../../redux/slices/modalSlice';
-import Ep_detail from './Ep_detail';
-import App_loading from '../App/App_loading';
-import Ep_characher from './Ep_characher';
-import {EpisodeState, ArrayType, EpisodeTypes} from '../../types/api';
-import {EpiTypes} from '../../types/component';
-import {StoreDispatch} from '../../redux/store';
+import {StoreDispatch} from '../redux/store';
+import {ArrayType, EpisodeState, EpisodeTypes} from '../types/api.model';
+import {episodesApiGet} from '../redux/slices/episodeSlice';
+import {personEpisodeGet} from '../redux/slices/characterSlice';
+import {closeModal, openModal} from '../redux/slices/modalSlice';
+import {EpiTypes} from '../types/component.model';
+import App_loading from '../component/app/App_loading';
+import Ep_characher from '../component/episode/Ep_characher';
+import Ep_detail from '../component/episode/Ep_detail';
 
-export default function Ep_list() {
+export default function EpisodePage() {
   const dispatch = useDispatch<StoreDispatch>();
   const {list, loading, error}: EpisodeState = useSelector(
     (state: ArrayType) => state.episodeKey,
@@ -26,7 +26,7 @@ export default function Ep_list() {
   const [click, setClick] = useState<string | null>(null);
   const [title1, setTitle1] = useState<string | null>(null);
   const [title2, setTitle2] = useState<string | null>(null);
-  const [isModal, setIsModal] = useState<string | null>(null); // 어떤 모달창인가 확인용
+  const [isModal, setIsModal] = useState<string | null>(null);
 
   useEffect(() => {
     dispatch(episodesApiGet());
@@ -53,8 +53,6 @@ export default function Ep_list() {
     setClick(select.quarter);
     setTitle1(select.title1);
     setTitle2(select.title2);
-
-    // console.log(select);
   };
 
   const closeEpi = () => {
@@ -102,18 +100,26 @@ export default function Ep_list() {
 
       <Ep_detail
         isOpen={isOpen && isModal === 'episode'}
-        selectedSeries={selectedSeries}
+        selectedSeries={
+          selectedSeries
+            ? selectedSeries.map((ep: any) => ({
+                ...ep,
+                title: ep.title ?? '',
+                season: ep.season ?? '',
+              }))
+            : null
+        }
         closeEpi={closeEpi}
-        intro={intro}
-        quarter={quarter}
+        intro={intro ? intro : ''}
+        quarter={quarter ? quarter : ''}
       />
       <Ep_characher
         isOpen={isOpen && isModal === 'character'}
         selectedSeries={selectedSeries}
         closeEpi={closeEpi}
-        click={click}
-        title1={title1}
-        title2={title2}
+        click={click ?? ''}
+        title1={title1 ?? ''}
+        title2={title2 ?? ''}
       />
       <br />
       <div className="row text-center border">
