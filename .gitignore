@@ -27,3 +27,5 @@ build
 .env
 
 public
+*storybook.log
+storybook-static
