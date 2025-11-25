@@ -1,4 +1,6 @@
 import type {Preview} from '@storybook/react-vite';
+import {Provider} from 'react-redux';
+import store from '../src/redux/store';
 
 const preview: Preview = {
   parameters: {

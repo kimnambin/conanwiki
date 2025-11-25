@@ -1,7 +1,7 @@
 import type {Meta, StoryObj} from '@storybook/react';
 import App_navbar from './App_navbar';
 import {Provider} from 'react-redux';
-import {store} from '../../redux/store';
+import store from '../../redux/store';
 import {MemoryRouter} from 'react-router-dom';
 
 const meta: Meta<typeof App_navbar> = {
