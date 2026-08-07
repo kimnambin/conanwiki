@@ -13,16 +13,16 @@ import {setMovieSearch} from '../../redux/slices/movieSlice';
 import {Link} from 'react-router-dom';
 import {setSearchText} from '../../redux/slices/characterSlice';
 import Ch_detail from '../character/Ch_detail';
-import {CharacherType, ArrayType} from '../../types/api.model';
-import {StoreDispatch} from '../../redux/store';
+import {CharacherType} from '../../types/api.model';
+import {StoreDispatch, RootState} from '../../redux/store';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function App_search() {
   const [search, setSearch] = useState('');
   const dispatch = useDispatch<StoreDispatch>();
-  const {filtermovieList} = useSelector((state: ArrayType) => state.movieKey);
-  const {searchList} = useSelector((state: ArrayType) => state.characterKey);
+  const {filtermovieList} = useSelector((state: RootState) => state.movieKey);
+  const {searchList} = useSelector((state: RootState) => state.characterKey);
 
   const handleSearch = () => {
     dispatch(setMovieSearch(search));
@@ -83,7 +83,7 @@ export default function App_search() {
                   {searchShow.map(movie => (
                     <Col key={movie.id} xs={6} sm={4} md={4} lg={3}>
                       <Link
-                        to={`/conanwiki/movie/${movie.id}`}
+                        to={`/conanwiki/movies/${movie.id}`}
                         state={{
                           overview: movie.overview,
                           release_date: movie.release_date,

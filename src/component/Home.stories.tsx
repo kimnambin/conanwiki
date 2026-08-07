@@ -1,4 +1,4 @@
-import type {Meta, StoryObj} from '@storybook/react';
+import type {Meta, StoryObj} from '@storybook/react-vite';
 import Home from './Home';
 import {MemoryRouter} from 'react-router-dom';
 import {Provider} from 'react-redux';

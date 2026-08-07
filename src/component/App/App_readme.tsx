@@ -4,10 +4,9 @@ import {ReadmeType} from '../../types/component.model';
 
 export default function App_readme({
   openReadme,
-  openRead,
   closeRead,
-}: ReadmeType) {
-  if (!openRead) return null;
+}: Omit<ReadmeType, 'openRead'>) {
+  if (!openReadme) return null;
 
   return (
     <Modal
@@ -74,7 +73,7 @@ export default function App_readme({
             </p>
             <p>
               <a href="https://m.blog.naver.com/116sun116/221952894209">
-                블로거 "멍멍식"님
+                블로거 &quot;멍멍식&quot;님
               </a>
             </p>
             <p>

@@ -1,6 +1,6 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import {Movie, MovieDetail} from '../../api/movieApi';
-import {MovieState, MovieType} from '../../types/api.model';
+import {MovieState} from '../../types/api.model';
 
 const initialState: MovieState = {
   movieList: [],
@@ -39,7 +39,7 @@ const MovieSlice = createSlice({
 
   extraReducers: builder => {
     builder
-      .addCase(fetchMovie.pending, (state, action) => {
+      .addCase(fetchMovie.pending, state => {
         state.loading = true;
       })
 

@@ -1,5 +1,4 @@
 import {Container, Navbar} from 'react-bootstrap';
-import style from './App.module.css';
 import {useState} from 'react';
 import App_readme from './App_readme';
 
@@ -18,11 +17,7 @@ export default function App_footer() {
     <Navbar
       className="navbar navbar-expand-lg navbar-light  sticky-top"
       style={{backgroundColor: '#00a495'}}>
-      <App_readme
-        openReadme={openReadme}
-        openRead={openRead}
-        closeRead={closeRead}
-      />
+      <App_readme openReadme={openReadme} closeRead={closeRead} />
       <Container className="row align-items-center justify-content-center">
         <div className="col-auto">
           <p className="text-center m-0">

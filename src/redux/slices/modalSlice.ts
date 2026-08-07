@@ -16,7 +16,7 @@ const modalSlice = createSlice({
       state.selectedSeries = action.payload;
     },
 
-    closeModal: (state, action) => {
+    closeModal: state => {
       state.isOpen = false;
       state.selectedSeries = null;
     },

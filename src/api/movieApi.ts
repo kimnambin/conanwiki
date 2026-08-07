@@ -11,25 +11,17 @@ const axiosInstance = axios.create({
 });
 
 export const Movie = async (): Promise<MovieType[]> => {
-  try {
-    const {data} = await axiosInstance.get(
-      'https://api.themoviedb.org/3/collection/39199?page=1&language=ko-kr',
-    );
-    return data.parts;
-  } catch (error) {
-    throw new Error('에러');
-  }
+  const {data} = await axiosInstance.get(
+    'https://api.themoviedb.org/3/collection/39199?page=1&language=ko-kr',
+  );
+  return data.parts;
 };
 
 export const MovieDetail = async (
   id: number,
 ): Promise<{results: MovieType[]}> => {
-  try {
-    const {data} = await axiosInstance.get(
-      `https://api.themoviedb.org/3/movie/${id}/videos?language=ko-kr`,
-    );
-    return data as {results: MovieType[]};
-  } catch (error) {
-    throw new Error('에러');
-  }
+  const {data} = await axiosInstance.get(
+    `https://api.themoviedb.org/3/movie/${id}/videos?language=ko-kr`,
+  );
+  return data as {results: MovieType[]};
 };

@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import {StoreDispatch} from '../redux/store';
-import {ArrayType, CharacherType, CharacterState} from '../types/api.model';
+import {StoreDispatch, RootState} from '../redux/store';
+import {CharacherType, CharacterState} from '../types/api.model';
 import {character} from '../redux/slices/characterSlice';
 import App_loading from '../component/app/App_loading';
 import Ch_nav from '../component/character/Ch_nav';
@@ -16,16 +16,22 @@ import Ch_couple from '../component/character/Ch_couple';
 export default function CharacterPage() {
   const dispatch = useDispatch<StoreDispatch>();
   const {list, loading, error}: CharacterState = useSelector(
-    (state: ArrayType) => state.characterKey,
+    (state: RootState) => state.characterKey,
   );
 
   const [openDetail, setOpenDetail] = useState(false);
   const [select, setSelect] = useState<CharacherType | null>(null);
-  const isMobile = window.innerWidth;
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     dispatch(character());
   }, [dispatch]);
+
+  useEffect(() => {
+    const onResize = () => setViewportWidth(window.innerWidth);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
 
   const open = (arg: CharacherType) => {
     setSelect(arg);
@@ -94,12 +100,12 @@ export default function CharacterPage() {
                 </div>
                 <Card.Body>
                   <Card.Text>
-                    {isMobile > 768
-                      ? item.name.korean.name.length > 6
-                        ? item.name.korean.name.slice(0, 6) + '...'
+                    {viewportWidth > 768
+                      ? item.name.korean.name.length > 10
+                        ? item.name.korean.name.slice(0, 10) + '...'
                         : item.name.korean.name
-                      : item.name.korean.name.length > 10
-                      ? item.name.korean.name.slice(0, 10) + '...'
+                      : item.name.korean.name.length > 6
+                      ? item.name.korean.name.slice(0, 6) + '...'
                       : item.name.korean.name}
                   </Card.Text>
                 </Card.Body>

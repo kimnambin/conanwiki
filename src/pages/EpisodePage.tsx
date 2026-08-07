@@ -1,12 +1,12 @@
 import {Col} from 'react-bootstrap';
 import {useDispatch, useSelector} from 'react-redux';
 import {useEffect, useState} from 'react';
-import {StoreDispatch} from '../redux/store';
-import {ArrayType, EpisodeState, EpisodeTypes} from '../types/api.model';
+import {StoreDispatch, RootState} from '../redux/store';
+import {EpisodeState, EpisodeTypes, SeriesType} from '../types/api.model';
 import {episodesApiGet} from '../redux/slices/episodeSlice';
 import {personEpisodeGet} from '../redux/slices/characterSlice';
 import {closeModal, openModal} from '../redux/slices/modalSlice';
-import {EpiTypes} from '../types/component.model';
+import {EpiTypes, EpiCharacterModalPayload} from '../types/component.model';
 import App_loading from '../component/app/App_loading';
 import Ep_characher from '../component/episode/Ep_characher';
 import Ep_detail from '../component/episode/Ep_detail';
@@ -14,13 +14,13 @@ import Ep_detail from '../component/episode/Ep_detail';
 export default function EpisodePage() {
   const dispatch = useDispatch<StoreDispatch>();
   const {list, loading, error}: EpisodeState = useSelector(
-    (state: ArrayType) => state.episodeKey,
+    (state: RootState) => state.episodeKey,
   );
 
   const {isOpen, selectedSeries} = useSelector(
-    (state: ArrayType) => state.modalKey,
+    (state: RootState) => state.modalKey,
   );
-  const {episodeList} = useSelector((state: ArrayType) => state.characterKey);
+  const {episodeList} = useSelector((state: RootState) => state.characterKey);
   const [intro, setIntro] = useState<string | null>(null);
   const [quarter, setQuarter] = useState<string | null>(null);
   const [click, setClick] = useState<string | null>(null);
@@ -56,7 +56,7 @@ export default function EpisodePage() {
   };
 
   const closeEpi = () => {
-    dispatch(closeModal(null));
+    dispatch(closeModal());
     setIsModal(null);
   };
 
@@ -82,7 +82,7 @@ export default function EpisodePage() {
       <br />
       <br />
       <h2 className="text-center">에피소드 모음(더빙)</h2>
-      <p className="text-center">블로거 "멍멍식"님의 포스팅을 참고했어요</p>
+      <p className="text-center">블로거 &quot;멍멍식&quot;님의 포스팅을 참고했어요</p>
       <div className="row text-center">
         <div className="col">
           <button
@@ -101,8 +101,8 @@ export default function EpisodePage() {
       <Ep_detail
         isOpen={isOpen && isModal === 'episode'}
         selectedSeries={
-          selectedSeries
-            ? selectedSeries.map((ep: any) => ({
+          Array.isArray(selectedSeries)
+            ? (selectedSeries as SeriesType[]).map(ep => ({
                 ...ep,
                 title: ep.title ?? '',
                 season: ep.season ?? '',
@@ -115,7 +115,11 @@ export default function EpisodePage() {
       />
       <Ep_characher
         isOpen={isOpen && isModal === 'character'}
-        selectedSeries={selectedSeries}
+        selectedSeries={
+          selectedSeries && !Array.isArray(selectedSeries)
+            ? (selectedSeries as EpiCharacterModalPayload)
+            : null
+        }
         closeEpi={closeEpi}
         click={click ?? ''}
         title1={title1 ?? ''}
@@ -124,10 +128,10 @@ export default function EpisodePage() {
       <br />
       <div className="row text-center border">
         <h3 className="custom-bg">중요 에피소드 모음</h3>
-        {[...list].map((v, idx) => (
+        {[...list].map(v => (
           <Col
             className="mb-4"
-            key={idx}
+            key={v.quarter}
             xs={12}
             sm={6}
             md={4}
@@ -148,8 +152,8 @@ export default function EpisodePage() {
       {/* 캐릭터 에피소드 */}
       <div className="row text-center" id="charaterepisodes">
         <h3 className="custom-bg">캐릭터 에피소드 모음</h3>
-        {[...episodeList].map((v, idx) => (
-          <div className="col-md-4 mb-4" key={idx}>
+        {[...episodeList].map(v => (
+          <div className="col-md-4 mb-4" key={v.quarter}>
             <div className="card" onClick={() => clickCharacher(v)}>
               <img src={v.img} alt="에피소드" className="card-img-top" />
               <div className="card-body">

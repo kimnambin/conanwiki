@@ -3,13 +3,13 @@ import {useDispatch, useSelector} from 'react-redux';
 import {coupleGet} from '../../redux/slices/characterSlice';
 import {Container, Row, Col, Table} from 'react-bootstrap';
 import App_loading from '../app/App_loading';
-import {CharacterState, ApiType} from '../../types/api.model';
-import {StoreDispatch} from '../../redux/store';
+import {CharacterState} from '../../types/api.model';
+import {StoreDispatch, RootState} from '../../redux/store';
 
 export default function Ch_couple() {
   const dispatch = useDispatch<StoreDispatch>();
   const {coupleList, loading, error}: CharacterState = useSelector(
-    (state: ApiType) => state.characterKey,
+    (state: RootState) => state.characterKey,
   );
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function Ch_couple() {
     <Container id="coupleScroll" style={{marginTop: '10%'}}>
       <h2>명탐정 코난 커플 모음🩷</h2>
       <Row>
-        {coupleList.map((v, index) => (
+        {coupleList.map(v => (
           <Col md={6} key={v.man} className="mb-4">
             <Table striped bordered hover size="sm">
               <tbody>

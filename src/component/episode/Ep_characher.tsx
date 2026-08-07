@@ -1,14 +1,9 @@
 import {Modal} from 'react-bootstrap';
+import {EpiCharacterModalPayload} from '../../types/component.model';
 
 type EpCharacterProps = {
   isOpen: boolean;
-  selectedSeries: {
-    kidcases?: {title: string; TVA?: string}[];
-    kidmovies?: {season?: string; title: string}[];
-    cases?: {title: string; TVA?: string}[];
-    movies?: {season?: string; title: string}[];
-    [key: string]: any;
-  } | null;
+  selectedSeries: EpiCharacterModalPayload | null;
   closeEpi: () => void;
   click: string;
   title1: string;
@@ -23,74 +18,39 @@ export default function Ep_characher({
   title1,
   title2,
 }: EpCharacterProps) {
-  const {
-    kidcases = [],
-    kidmovies = [],
-    cases = [],
-    movies = [],
-  } = selectedSeries || {};
-
   if (!isOpen || !selectedSeries) return null;
+
+  const {kidcases, kidmovies, cases, movies} = selectedSeries;
+  const seriesList = kidcases.length > 0 ? kidcases : cases;
+  const movieList = kidmovies.length > 0 ? kidmovies : movies;
 
   return (
     <Modal show={isOpen} onHide={closeEpi} centered>
       <Modal.Header closeButton>
         <Modal.Title>{click}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>
-        {kidcases.length > 0 ? (
-          <>
-            <h2>{title1}</h2>
-            <ul>
-              {kidcases.map((v, idx) => (
-                <li key={idx}>
-                  <strong>{v.title}</strong> {v.TVA}
-                </li>
-              ))}
-            </ul>
-          </>
-        ) : (
-          <>
-            <h2>{title1}</h2>
-            <ul>
-              {cases.map((v, idx) => (
-                <li key={idx}>
-                  <strong>{v.title}</strong> {v.TVA}
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+      <Modal.Body style={{maxHeight: '70vh', overflowY: 'auto'}}>
+        <h2>{title1}</h2>
+        <ul>
+          {seriesList.map((v, idx) => (
+            <li key={idx}>
+              <strong>{v.title}</strong> {v.TVA}
+            </li>
+          ))}
+        </ul>
 
         <hr />
 
-        {kidmovies.length > 0 ? (
-          <>
-            <h2>{title2}</h2>
-            <ul>
-              {kidmovies.map((v, idx) => (
-                <li key={idx}>
-                  <strong>
-                    {v.season} {v.title}
-                  </strong>
-                </li>
-              ))}
-            </ul>
-          </>
-        ) : (
-          <>
-            <h2>{title2}</h2>
-            <ul>
-              {movies.map((v, idx) => (
-                <li key={idx}>
-                  <strong>
-                    {v.season} {v.title}
-                  </strong>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+        <h2>{title2}</h2>
+        <ul>
+          {movieList.map((v, idx) => (
+            <li key={idx}>
+              <strong>
+                {v.season} {v.title}
+              </strong>
+            </li>
+          ))}
+        </ul>
       </Modal.Body>
     </Modal>
   );

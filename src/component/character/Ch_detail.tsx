@@ -1,6 +1,14 @@
 import {Modal} from 'react-bootstrap';
 import {ModalType} from '../../types/component.model';
 
+const UNKNOWN_MARKERS = ['??', ''];
+
+const displayField = (value: unknown): string => {
+  if (value === null || value === undefined) return '정보 없음';
+  const text = String(value);
+  return UNKNOWN_MARKERS.includes(text) ? '정보 없음' : text;
+};
+
 export default function Ch_detail({open, close, character}: ModalType) {
   if (!open) return null;
 
@@ -31,10 +39,10 @@ export default function Ch_detail({open, close, character}: ModalType) {
             objectFit: 'cover',
           }}
         />
-        <p>직업: {character.occupation}</p>
-        <p>나이: {character.age}</p>
-        <p>첫 등장: {character.first_appearance.anime}</p>
-        <p>별명: {character.aliases}</p>
+        <p>직업: {displayField(character.occupation)}</p>
+        <p>나이: {displayField(character.age)}</p>
+        <p>첫 등장: {displayField(character.first_appearance.anime)}</p>
+        <p>별명: {displayField(character.aliases)}</p>
       </Modal.Body>
     </Modal>
   );

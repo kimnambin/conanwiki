@@ -1,4 +1,4 @@
-import {CharacherType, EpisodeTypes, ApiType} from './api.model';
+import {CharacherType, EpisodeTypes} from './api.model';
 
 export type ReadmeType = {
   openReadme: boolean;
@@ -54,3 +54,9 @@ export interface EpiTypes {
   cases: EpiSeries[];
   movies: EpiMovies[];
 }
+
+// 에피소드 모달(Ep_characher)에 전달되는 캐릭터 에피소드 데이터 모양
+export type EpiCharacterModalPayload = Pick<
+  EpiTypes,
+  'kidcases' | 'kidmovies' | 'cases' | 'movies'
+>;

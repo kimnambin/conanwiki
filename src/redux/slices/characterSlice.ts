@@ -71,7 +71,7 @@ const characterSlice = createSlice({
     builder
 
       //캐릭터===============
-      .addCase(character.pending, (state, action) => {
+      .addCase(character.pending, state => {
         state.loading = true;
       })
 
@@ -86,14 +86,14 @@ const characterSlice = createSlice({
         state.error = action.error.message || null;
       })
 
-      //캐릭터 디테일일===============
-      .addCase(characterDetail.pending, (state, action) => {
-        state.select = action.payload || null;
+      //캐릭터 디테일===============
+      .addCase(characterDetail.fulfilled, (state, action) => {
+        state.select = action.payload ? [action.payload] : null;
       })
 
       //커플===============
 
-      .addCase(coupleGet.pending, (state, action) => {
+      .addCase(coupleGet.pending, state => {
         state.loading = true;
       })
 
@@ -108,7 +108,7 @@ const characterSlice = createSlice({
       })
 
       //캐릭터 에피소드===============
-      .addCase(personEpisodeGet.pending, (state, action) => {
+      .addCase(personEpisodeGet.pending, state => {
         state.loading = true;
       })
 

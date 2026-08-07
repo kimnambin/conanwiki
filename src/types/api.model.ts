@@ -15,13 +15,11 @@ export interface ApiType {
   img: string;
 
   occupation: string;
-  age: number;
+  age: number | string;
   first_appearance: {
     anime: string;
   };
-  aliases: string[];
-
-  characterKey: CharacterState;
+  aliases: string;
 
   man: string;
   man_url: string;
@@ -44,11 +42,11 @@ export interface CharacherType {
   img: string;
 
   occupation: string;
-  age: number;
+  age: number | string;
   first_appearance: {
     anime: string;
   };
-  aliases: string[];
+  aliases: string;
 }
 
 export interface SeriesType {
@@ -106,19 +104,10 @@ export interface MovieResult {
   results: MovieState[];
 }
 
+// 모달은 에피소드(SeriesType[])와 캐릭터(kidcases/kidmovies/cases/movies 객체)
+// 두 가지 서로 다른 데이터 모양을 함께 담기 때문에 unknown으로 두고,
+// 각 소비처에서 실제 모양에 맞게 좁혀서 사용한다.
 export type ModalState = {
   isOpen: boolean;
-  selectedSeries: EpisodeTypes[] | null;
+  selectedSeries: unknown;
 };
-
-// ========================================================
-
-export interface ArrayType {
-  // movieKey: {
-  //   filtermovieList: MovieType[];
-  // };
-  movieKey: MovieState;
-  characterKey: CharacterState;
-  episodeKey: EpisodeState;
-  modalKey: ModalState;
-}

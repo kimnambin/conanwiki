@@ -2,8 +2,7 @@ import {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {Container, Row, Col, Card, Nav, NavDropdown} from 'react-bootstrap';
-import {StoreDispatch} from '../redux/store';
-import {ArrayType} from '../types/api.model';
+import {StoreDispatch, RootState} from '../redux/store';
 import {fetchMovie} from '../redux/slices/movieSlice';
 import App_loading from '../component/app/App_loading';
 
@@ -12,7 +11,7 @@ const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 export default function MoviePage() {
   const dispatch = useDispatch<StoreDispatch>();
   const {movieList, error, loading} = useSelector(
-    (state: ArrayType) => state.movieKey,
+    (state: RootState) => state.movieKey,
   );
 
   const [sortMovie, setSortMovie] = useState('release_date');
@@ -74,10 +73,10 @@ export default function MoviePage() {
       <br />
       <br />
       <Row className="g-3">
-        {sortShow.map((movie, index) => (
-          <Col key={index} xs={6} sm={4} md={4} lg={3} xl={3}>
+        {sortShow.map(movie => (
+          <Col key={movie.id} xs={6} sm={4} md={4} lg={3} xl={3}>
             <Link
-              to={`/conanwiki/movie/${movie.id}`}
+              to={`/conanwiki/movies/${movie.id}`}
               state={{
                 overview: movie.overview,
                 release_date: movie.release_date,

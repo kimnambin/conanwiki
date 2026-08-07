@@ -23,7 +23,7 @@ export default function Ep_detail({
       <Modal.Header closeButton>
         <Modal.Title>{intro}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body style={{maxHeight: '70vh', overflowY: 'auto'}}>
         <h3 className="text-center">{quarter} 상세 정보</h3>
         <ul>
           {selectedSeries.map((v, idx) => (
