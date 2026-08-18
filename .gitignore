@@ -38,3 +38,5 @@ docs
 !README.md
 
 .claude/
+.vercel
+.env*
