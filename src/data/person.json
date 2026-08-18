@@ -1,0 +1,2611 @@
+[
+  {
+    "age": 53,
+    "aliases": "아가사 교수 <br> 아가사 박사",
+    "date_of_birth": "미상",
+    "drama_actor": "Ryosei Tayama",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": 5,
+    "name": {
+      "english": {"anime": "Hershel Agasa", "manga": "Hershel Agasa"},
+      "japanese": {"kanji": "阿笠 博士", "romanized": "Hiroshi Agasa"},
+      "korean": {"name": "브라운 (아가사 히로시)"}
+    },
+    "img": "/conanwiki/img/Hiroshi Agasa_36_11zon.webp",
+    "occupation": "공학자 <br /> 발명가",
+    "affiliation": ["소년탐정단"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["에도가와 코난 (보호자)", "하이바라 아이 (동료)"],
+      "동료": ["소년탐정단"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Kenichi Ogata<br>Kazunari Tanaka (어린 시절)",
+        "korean": "황원 (2000~2021)<br>유해무 (2014~현재)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EA%B0%80%EC%82%AC%20%ED%9E%88%EB%A1%9C%EC%8B%9C"
+  },
+  {
+    "age": 19,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 10",
+      "manga": "만화 에피소드 10"
+    },
+    "gender": "남성",
+    "keyhole": 69,
+    "name": {
+      "english": {"anime": "Harrison Acres", "manga": "Harrison Acres"},
+      "japanese": {"kanji": "赤木 英雄", "romanized": "Hideo Akagi"},
+      "korean": {"name": "강호철 (아카기 히데오)"}
+    },
+    "img": "/conanwiki/img/Hideo Akagi_34_11zon.webp",
+    "occupation": "축구선수",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["요네하라 마나부 (동료)"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Koji Tsujitani", "korean": "박희대"}]
+  },
+  {
+    "age": 31,
+    "aliases": "라이<br>모로보시 다이<br>오키야 스바루",
+    "date_of_birth": "12월 2일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 230",
+      "manga": "만화 에피소드 230"
+    },
+    "gender": "남성",
+    "keyhole": 37,
+    "name": {
+      "english": {"anime": "Shuichi Akai", "manga": "Shuichi Akai"},
+      "japanese": {"kanji": "赤井 秀一", "romanized": "Shuichi Akai"},
+      "korean": {"name": "이상윤 (아카이 슈이치)"}
+    },
+    "img": "/conanwiki/img/Shuichi Akai_98_11zon.webp",
+    "occupation": "FBI 요원",
+    "affiliation": ["FBI"],
+    "status": "생존",
+    "relationships": {
+      "가족": [
+        "하네다 슈키치 (남동생)",
+        "세라 마스미 (여동생)",
+        "세라 마사미 (어머니)"
+      ],
+      "연인": ["미야노 아케미 (전 연인, 사망)"],
+      "친구": ["앙드레 캐멀 (동료)"],
+      "동료": ["FBI", "제임스 블랙 (상관)"],
+      "적": ["검은 조직", "진"]
+    },
+    "voice": [{"japanese": "Shuichi Ikeda", "korean": "이주창"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EC%B9%B4%EC%9D%B4%20%EC%8A%88%EC%9D%B4%EC%B9%98"
+  },
+  {
+    "age": 25,
+    "aliases": "아라이",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 170",
+      "manga": "만화 에피소드 170"
+    },
+    "gender": "남성",
+    "keyhole": 24,
+    "name": {
+      "english": {"anime": "Tomoaki Araide", "manga": "Tomoaki Araide"},
+      "japanese": {"kanji": "新出 智明", "romanized": "Tomoaki Araide"},
+      "korean": {"name": "황시준 (아라이데 토모아키)"}
+    },
+    "img": "/conanwiki/img/Tomoaki Araide_5_11zon.webp",
+    "occupation": "테이탄 고등학교 농구 코치 <br /> 의사",
+    "affiliation": ["테이탄 고등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["테이탄 고등학교"],
+      "적": []
+    },
+    "voice": [{"japanese": "Hideyuki Hori", "korean": "김기흥"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%20%ED%86%A0%EB%AA%A8%EC%95%84%ED%82%A4"
+  },
+  {
+    "age": "??",
+    "aliases": "아밀린 (アミリーン)",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "코난 스페셜: 26권",
+      "manga": "코난 스페셜: 26권"
+    },
+    "gender": "여성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Arrack", "manga": "Arrack"},
+      "japanese": {"kanji": "アラック", "romanized": "Arrack"},
+      "korean": {"name": "아라크 (아라크)"}
+    },
+    "img": "/conanwiki/img/Arrack_4_11zon.webp",
+    "occupation": "가수 (활동명 아밀린) <br /> 검은 조직 멤버",
+    "affiliation": ["검은 조직"],
+    "status": "사망",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직"],
+      "적": []
+    },
+    "voice": [{"japanese": "??", "korean": "??"}]
+  },
+  {
+    "age": 28,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {"anime": "고도의 교차로", "manga": "고도의 교차로"},
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Fumimaro Ayanokoji", "manga": "Fumimaro Ayanokoji"},
+      "japanese": {"kanji": "綾小路 文麿", "romanized": "Fumimaro Ayanokoji"},
+      "korean": {"name": "노호지 (아야노코지 후미마로)"}
+    },
+    "img": "/conanwiki/img/Fumimaro Ayanokoji_20_11zon.webp",
+    "occupation": "경찰관",
+    "affiliation": ["교토부 경찰본부"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["에도가와 코난 (협력)"],
+      "동료": ["교토부 경찰본부"],
+      "적": []
+    },
+    "voice": [{"japanese": "Ryotaro Okiayu", "korean": "최승훈"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EC%95%BC%EB%85%B8%EC%BD%94%EC%A7%80%20%ED%9B%84%EB%AF%B8%EB%A7%88%EB%A1%9C"
+  },
+  {
+    "age": "50대 중반",
+    "aliases": "쿨한 남자",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 258",
+      "manga": "만화 에피소드 258"
+    },
+    "gender": "남성",
+    "keyhole": 57,
+    "name": {
+      "english": {"anime": "James Black", "manga": "James Black"},
+      "japanese": {"kanji": "ジェイムズ・ブラック", "romanized": "James Black"},
+      "korean": {"name": "제임스 블랙"}
+    },
+    "img": "/conanwiki/img/James Black_42_11zon.webp",
+    "occupation": "FBI 국장",
+    "affiliation": ["FBI"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [
+        "아카이 슈이치 (부하)",
+        "앙드레 캐멀 (부하)",
+        "혼도 히데미 (부하)"
+      ],
+      "적": ["검은 조직"]
+    },
+    "voice": [
+      {
+        "japanese": "Iemasa Kayumi (1933-2014)<br /> Takaya Hashi",
+        "korean": "권혁수"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%A0%9C%EC%9E%84%EC%8A%A4%20%EB%B8%94%EB%9E%99"
+  },
+  {
+    "age": "??",
+    "aliases": "카라스마 렌야",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "검은 조직과의 재회 (언급)",
+      "manga": "검은 조직과의 재회 (언급)"
+    },
+    "gender": "미상",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "That Person", "manga": "That Person"},
+      "japanese": {"kanji": "あの方", "romanized": "Ano kata"},
+      "korean": {"name": "범인 (아노 카타)"}
+    },
+    "img": "/conanwiki/img/Ano kata_2_11zon.webp",
+    "occupation": "검은 조직 보스",
+    "affiliation": ["검은 조직"],
+    "status": "미상",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직 전원 (부하)"],
+      "적": ["에도가와 코난", "아카이 슈이치"]
+    },
+    "voice": [{"japanese": "아직 없음", "korean": "??"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%B3%B4%EC%8A%A4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 파일 433<br> 애니: 에피소드 345",
+      "manga": "만화 파일 433<br> 애니: 에피소드 345"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Calvados", "manga": "Calvados"},
+      "japanese": {"kanji": "カルバドス", "romanized": "Calvados"},
+      "korean": {"name": "칼바도스"}
+    },
+    "img": "/conanwiki/img/Calvados_10_11zon.webp",
+    "occupation": "검은 조직 암살부 간부",
+    "affiliation": ["검은 조직"],
+    "status": "사망",
+    "relationships": {
+      "가족": [],
+      "연인": ["베르무트 (짝사랑, 미등장)"],
+      "친구": [],
+      "동료": ["검은 조직"],
+      "적": ["FBI"]
+    },
+    "voice": [{"japanese": "없음 (무음 캐릭터)", "korean": "박성태"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%B9%BC%EB%B0%94%EB%8F%84%EC%8A%A4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 27,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 497",
+      "manga": "만화 에피소드 497"
+    },
+    "gender": "남성",
+    "keyhole": 58,
+    "name": {
+      "english": {"anime": "Andre Camel", "manga": "Andre Camel"},
+      "japanese": {"kanji": "アンドレ・キャメル", "romanized": "Andre Camel"},
+      "korean": {"name": "안드레 캐멀"}
+    },
+    "img": "/conanwiki/img/Andre Camel_1_11zon.webp",
+    "occupation": "FBI 요원",
+    "affiliation": ["FBI"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["아카이 슈이치 (동료)"],
+      "동료": ["FBI", "제임스 블랙 (상관)"],
+      "적": ["검은 조직"]
+    },
+    "voice": [
+      {
+        "japanese": "Kiyoyuki Yanada (2008-2022)<br>Kenji Nomura (2022-)",
+        "korean": "안장혁"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%88%EB%93%9C%EB%A0%88%20%EC%BA%90%EB%A9%80"
+  },
+  {
+    "age": "50-51",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 파일 410 <br />애니: 에피소드 421",
+      "manga": "만화 파일 410 <br />애니: 에피소드 421"
+    },
+    "gender": "여성",
+    "keyhole": 40,
+    "name": {
+      "english": {
+        "anime": "Fusae Campbell Kinoshita",
+        "manga": "Fusae Campbell Kinoshita"
+      },
+      "japanese": {
+        "kanji": "フサエ・キャンベル・木之下",
+        "romanized": "Fusae Campbell"
+      },
+      "korean": {"name": "세라 캠벨 (후사에 캠벨)"}
+    },
+    "img": "/conanwiki/img/Fusae Campbell_21_11zon.webp",
+    "occupation": "패션 디자이너 <br /> 후사에 브랜드 대표",
+    "affiliation": ["후사에 브랜드"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["코가 쇼에이 (첫사랑, 사망, 미등장)"],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Eiko Masuyama<br>Chieko Honda (아역)", "korean": "정혜원"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%9B%84%EC%82%AC%EC%97%90%20%EC%BA%A0%EB%B2%A8"
+  },
+  {
+    "age": 49,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 76",
+      "manga": "만화 에피소드 76"
+    },
+    "gender": "남성",
+    "keyhole": 70,
+    "name": {
+      "english": {"anime": "Bernie Biggers", "manga": "Bernie Biggers"},
+      "japanese": {"kanji": "茶木 神太郎", "romanized": "Shintaro Chaki"},
+      "korean": {"name": "차기태 (챠키 신타로)"}
+    },
+    "img": "/conanwiki/img/Shintaro Chaki_96_11zon.webp",
+    "occupation": "경시",
+    "affiliation": ["경시청 수사2과"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["경시청 수사2과"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Nobuo Tanaka",
+        "korean": "김관진 (KBS)<br>송준석 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%B1%A0%ED%82%A4%20%EC%8B%A0%ED%83%80%EB%A1%9C"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 425",
+      "manga": "만화 에피소드 425"
+    },
+    "gender": "여성",
+    "keyhole": 67,
+    "name": {
+      "english": {"anime": "Chianti", "manga": "Chianti"},
+      "japanese": {"kanji": "キャンティ", "romanized": "Chianti"},
+      "korean": {"name": "키안티"}
+    },
+    "img": "/conanwiki/img/Chianti_11_11zon.webp",
+    "occupation": "검은 조직 암살부 간부",
+    "affiliation": ["검은 조직"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["코른 (동료)"],
+      "동료": ["검은 조직"],
+      "적": ["FBI", "에도가와 코난"]
+    },
+    "voice": [{"japanese": "Kikuko Inoue", "korean": "김현심"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%82%A4%EC%95%88%ED%8B%B0(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 24,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 138",
+      "manga": "만화 에피소드 138"
+    },
+    "gender": "남성",
+    "keyhole": 33,
+    "name": {
+      "english": {"anime": "Detective Chiba", "manga": "Detective Chiba"},
+      "japanese": {"kanji": "千葉 和伸", "romanized": "Kazunobu Chiba"},
+      "korean": {"name": "이명수 (치바 카즈노부)"}
+    },
+    "img": "/conanwiki/img/Kazunobu Chiba_55_11zon.webp",
+    "occupation": "형사",
+    "affiliation": ["경시청 수사1과"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["코바야시 스미코 (연인)"],
+      "친구": [],
+      "동료": ["경시청 수사1과"],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Isshin Chiba", "korean": "시영준 (2~4기)<br>김영찬 (5기~)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%B9%98%EB%B0%94%20%EC%B9%B4%EC%A6%88%EB%85%B8%EB%B6%80(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 28,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 파일 804<br />애니: 에피소드 681",
+      "manga": "만화 파일 804<br />애니: 에피소드 681"
+    },
+    "gender": "남성",
+    "keyhole": 77,
+    "name": {
+      "english": {"anime": "Wataru Date", "manga": "Wataru Date"},
+      "japanese": {"kanji": "伊達 航", "romanized": "Wataru Date"},
+      "korean": {"name": "태형선 (다테 와타루)"}
+    },
+    "img": "/conanwiki/img/Wataru Date_8_11zon.webp",
+    "occupation": "형사",
+    "affiliation": ["경시청 수사1과"],
+    "status": "사망 (순직)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["마츠다 진페이 (동료, 사망)", "하기와라 켄지 (동료, 사망)"],
+      "동료": ["경시청 수사1과"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Keiji Fujiwara (681-683 에피소드)<br>Hiroki Touchi (AR 프로젝트 이후)",
+        "korean": "김정훈"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%8B%A4%ED%85%8C%20%EC%99%80%ED%83%80%EB%A3%A8"
+  },
+  {
+    "age": 7,
+    "aliases": "은탄환<br>키드 킬러<br>꼬마 탐정<br>새우",
+    "date_of_birth": "5월 4일",
+    "drama_actor": "Nao Fujisaki<br />Minami Takayama (목소리)",
+    "first_appearance": {
+      "anime": "만화 에피소드 10",
+      "manga": "만화 에피소드 10"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Conan Edogawa", "manga": "Conan Edogawa"},
+      "japanese": {"kanji": "江戸川 コナン", "romanized": "Conan Edogawa"},
+      "korean": {"name": "코난 (에도가와 코난)"}
+    },
+    "img": "/conanwiki/img/Conan Edogawa_13_11zon.webp",
+    "occupation": "테이탄 초등학교 학생 <br /> 탐정",
+    "affiliation": ["소년탐정단", "모리 탐정 사무소", "테이탄 초등학교"],
+    "status": "생존 (쿠도 신이치가 약물로 어린이화)",
+    "relationships": {
+      "가족": ["쿠도 유사쿠 (아버지)", "쿠도 유키코 (어머니)"],
+      "연인": ["모리 란 (연인, 미등장)"],
+      "친구": ["핫토리 헤이지", "하이바라 아이", "아가사 히로시 (보호자)"],
+      "동료": ["소년탐정단", "모리 탐정 사무소"],
+      "적": ["검은 조직"]
+    },
+    "voice": [
+      {
+        "japanese": "Minami Takayama",
+        "korean": "최덕희 (KBS, 2000)<br>김선혜 (투니버스/극장판/애니맥스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%97%90%EB%8F%84%EA%B0%80%EC%99%80%20%EC%BD%94%EB%82%9C"
+  },
+  {
+    "age": 23,
+    "aliases": "달빛 웨이트리스 (블로그 닉네임)",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 152",
+      "manga": "만화 에피소드 152"
+    },
+    "gender": "여성",
+    "keyhole": 43,
+    "name": {
+      "english": {"anime": "Azusa Enomoto", "manga": "Azusa Enomoto"},
+      "japanese": {"kanji": "榎本 梓", "romanized": "Azusa Enomoto"},
+      "korean": {"name": "오연주 (에노모토 아즈사)"}
+    },
+    "img": "/conanwiki/img/Azusa Enomoto_8_11zon.webp",
+    "occupation": "카페 포와로 직원",
+    "affiliation": ["카페 포와로"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["아무로 토오루 (동료)", "카페 포와로"],
+      "적": []
+    },
+    "voice": [{"japanese": "Mikiko Enomoto", "korean": "이소은"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%97%90%EB%85%B8%EB%AA%A8%ED%86%A0%20%EC%95%84%EC%A6%88%EC%82%AC"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 358",
+      "manga": "만화 에피소드 358"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Manabu Fujimaki", "manga": "Manabu Fujimaki"},
+      "japanese": {"kanji": "藤巻 学", "romanized": "Manabu Fujimaki"},
+      "korean": {"name": "후지마키 마나부"}
+    },
+    "img": "/conanwiki/img/Manabu Fujimaki_66_11zon.webp",
+    "occupation": "경부",
+    "affiliation": ["경시청 수사1과"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["경시청 수사1과"],
+      "적": []
+    },
+    "voice": [{"japanese": "Ginga Banjo", "korean": "??"}]
+  },
+  {
+    "age": 29,
+    "aliases": "버번<br />아무로 토오루<br />제로",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 667",
+      "manga": "만화 에피소드 667"
+    },
+    "gender": "남성",
+    "keyhole": 76,
+    "name": {
+      "english": {"anime": "Rei Furuya", "manga": "Rei Furuya"},
+      "japanese": {"kanji": "降谷 零", "romanized": "Rei Furuya"},
+      "korean": {"name": "안기준 (아무로 토오루)  강준영 (후루야 레이)"}
+    },
+    "img": "/conanwiki/img/Rei Furuya_81_11zon.webp",
+    "occupation": "탐정 <br /> 카페 포와로 직원 <br /> 경찰청 경비국 경비기획과 요원",
+    "affiliation": ["공안부", "카페 포와로", "검은 조직 (위장, 버번)"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["에노모토 아즈사 (동료)"],
+      "동료": ["공안부", "카페 포와로"],
+      "적": ["아카이 슈이치 (복잡한 관계)", "검은 조직 (위장 잠입 중)"]
+    },
+    "voice": [
+      {"japanese": "Tohru Furuya", "korean": "박성태<br>김가령 (유년기)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EB%AC%B4%EB%A1%9C%20%ED%86%A0%EC%98%A4%EB%A3%A8"
+  },
+  {
+    "age": "17세 (외형: 6세)",
+    "aliases": "혼다<br>진",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "코난 스페셜: 26권",
+      "manga": "코난 스페셜: 26권"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Generic", "manga": "Generic"},
+      "japanese": {"kanji": "ジュネリック", "romanized": "Generic"},
+      "korean": {"name": "쥬네릭"}
+    },
+    "img": "/conanwiki/img/Generic_22_11zon.webp",
+    "occupation": "전 검은 조직 제약부 과학자 <br /> 테이탄 초등학교 학생",
+    "affiliation": ["테이탄 초등학교", "검은 조직 (전 소속)"],
+    "status": "미상",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "??", "korean": "??"}]
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "Kuranosuke Sasaki",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Melkior", "manga": "Melkior"},
+      "japanese": {"kanji": "ジン", "romanized": "Gin"},
+      "korean": {"name": "진"}
+    },
+    "img": "/conanwiki/img/Gin_25_11zon.webp",
+    "occupation": "검은 조직 멤버",
+    "affiliation": ["검은 조직"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["보드카 (동료, 미등장)"],
+      "동료": ["검은 조직"],
+      "적": ["에도가와 코난", "아카이 슈이치", "FBI"]
+    },
+    "voice": [{"japanese": "Yukitoshi Hori", "korean": "서윤선"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%A7%84(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 22,
+    "aliases": "잔디의 여왕",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 616",
+      "manga": "만화 에피소드 616"
+    },
+    "gender": "여성",
+    "keyhole": 71,
+    "name": {
+      "english": {"anime": "Minerva Glass", "manga": "Minerva Glass"},
+      "japanese": {"kanji": "ミネルバ・グラス", "romanized": "Minerva Glass"},
+      "korean": {"name": "미네르바 글래스"}
+    },
+    "img": "/conanwiki/img/Minerva Glass_70_11zon.webp",
+    "occupation": "영국 프로 테니스 선수",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "??", "korean": "김율"}]
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 <br />애니:",
+      "manga": "만화 <br />애니:"
+    },
+    "gender": "미상",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Gomera", "manga": "Gomera"},
+      "japanese": {"kanji": "ゴメラ", "romanized": "Gomera"},
+      "korean": {"name": "고메라"}
+    },
+    "img": "/conanwiki/img/Gomera_29_11zon.webp",
+    "occupation": "??",
+    "affiliation": [],
+    "status": "극중 픽션",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "??", "korean": "??"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EA%B3%A0%EB%A9%94%EB%9D%BC"
+  },
+  {
+    "age": 18,
+    "aliases": "미야노 시호 (본명)<br />셰리",
+    "date_of_birth": "미상",
+    "drama_actor": "Kyoka Shibata (Ai Haibara)<br>Yu Kashii (Shiho Miyano)",
+    "first_appearance": {
+      "anime": "만화 에피소드 21",
+      "manga": "만화 에피소드 21"
+    },
+    "gender": "여성",
+    "keyhole": 18,
+    "name": {
+      "english": {
+        "anime": "Vi Graythorn <small>(movies)</small><br>Anita Hailey <small>(mangas and game)</small>",
+        "manga": "Vi Graythorn <small>(movies)</small><br>Anita Hailey <small>(mangas and game)</small>"
+      },
+      "japanese": {"kanji": "灰原 哀", "romanized": "Ai Haibara"},
+      "korean": {"name": "홍장미 (하이바라 아이)"}
+    },
+    "img": "/conanwiki/img/Ai Haibara_16_11zon.webp",
+    "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+    "affiliation": ["소년탐정단", "테이탄 초등학교"],
+    "status": "생존 (미야노 시호가 약물로 어린이화)",
+    "relationships": {
+      "가족": [
+        "미야노 아케미 (언니, 사망)",
+        "미야노 아츠시 (아버지, 사망)",
+        "미야노 에레나 (어머니, 사망)"
+      ],
+      "연인": [],
+      "친구": ["에도가와 코난 (동료)", "아가사 히로시 (보호자)"],
+      "동료": ["소년탐정단"],
+      "적": ["검은 조직"]
+    },
+    "voice": [{"japanese": "Megumi Hayashibara", "korean": "우정신"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EC%9D%B4%EB%B0%94%EB%9D%BC%20%EC%95%84%EC%9D%B4"
+  },
+  {
+    "age": 17,
+    "aliases": "??",
+    "date_of_birth": "8월 29일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "매직 카이토 챕터 15<br>만화 파일 299<br />애니: 에피소드 219",
+      "manga": "매직 카이토 챕터 15<br>만화 파일 299<br />애니: 에피소드 219"
+    },
+    "gender": "남성",
+    "keyhole": 30,
+    "name": {
+      "english": {"anime": "Saguru Hakuba", "manga": "Saguru Hakuba"},
+      "japanese": {"kanji": "白馬 探", "romanized": "Saguru Hakuba"},
+      "korean": {"name": "백준수 (하쿠바 사구루)"}
+    },
+    "img": "/conanwiki/img/Saguru Hakuba_87_11zon.webp",
+    "occupation": "에코다 고등학교 학생 <br /> 탐정",
+    "affiliation": ["에코다 고등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["에코다 고등학교"],
+      "적": ["괴도 키드 / 쿠로바 카이토 (라이벌)"]
+    },
+    "voice": [
+      {
+        "japanese": "Akira Ishida<br />Mamoru Miyano (Magic Kaito 1412)",
+        "korean": "정재헌"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EC%BF%A0%EB%B0%94%20%EC%82%AC%EA%B5%AC%EB%A3%A8"
+  },
+  {
+    "age": 28,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 파일 948 (첫 정면 등장)",
+      "manga": "만화 파일 948 (첫 정면 등장)"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Koji Haneda", "manga": "Koji Haneda"},
+      "japanese": {"kanji": "羽田 浩司", "romanized": "Kohji Haneda"},
+      "korean": {"name": "우호진 (하네다 코지)"}
+    },
+    "img": "/conanwiki/img/Kohji Haneda_59_11zon.webp",
+    "occupation": "장기 기사 (4관왕)",
+    "affiliation": [],
+    "status": "사망 (럼에게 살해)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": ["럼 (살해자)"]
+    },
+    "voice": [{"japanese": "Hiroki Yasumoto", "korean": "권성혁"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EB%84%A4%EB%8B%A4%20%EC%BD%94%EC%A7%80"
+  },
+  {
+    "age": 28,
+    "aliases": "다이코 명인 (예명)<br />세라 슈키치<br />아카이 슈키치 (본명)",
+    "date_of_birth": "11월 12일 추정",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 731",
+      "manga": "만화 에피소드 731"
+    },
+    "gender": "남성",
+    "keyhole": 80,
+    "name": {
+      "english": {"anime": "Shukichi Haneda", "manga": "Shukichi Haneda"},
+      "japanese": {
+        "kanji": "{{nihongo|羽田 秀𠮷}}",
+        "romanized": "Shukichi Haneda"
+      },
+      "korean": {"name": "우상길 (하네다 슈키치)"}
+    },
+    "img": "/conanwiki/img/Shukichi Haneda_99_11zon.webp",
+    "occupation": "장기 기사 (6관왕)",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": [
+        "아카이 슈이치 (형)",
+        "세라 마스미 (여동생)",
+        "세라 마사미 (어머니)"
+      ],
+      "연인": ["야마토 하루카 (연인, 미등장)"],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Toshiyuki Morikawa", "korean": "장민혁"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EB%84%A4%EB%8B%A4%20%EC%8A%88%ED%82%A4%EC%B9%98"
+  },
+  {
+    "age": 32,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {"anime": "애니: 극장판 5", "manga": "애니: 극장판 5"},
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Zachary Hara", "manga": "Zachary Hara"},
+      "japanese": {"kanji": "原 佳明", "romanized": "Yoshiaki Hara"},
+      "korean": {"name": "하준영 (하라 요시아키)"}
+    },
+    "img": "/conanwiki/img/Yoshiaki Hara_11_11zon.webp",
+    "occupation": "도키와 그룹 전무이사 <br /> 프로그래머 <br /> 검은 조직 멤버 (소프트웨어 부문)",
+    "affiliation": ["검은 조직", "도키와 그룹"],
+    "status": "사망",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직"],
+      "적": []
+    },
+    "voice": [{"japanese": "Koichi Hashimoto", "korean": "김기흥"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EB%9D%BC%20%EC%9A%94%EC%8B%9C%EC%95%84%ED%82%A4"
+  },
+  {
+    "age": 17,
+    "aliases": "서쪽의 대탐정",
+    "date_of_birth": "8월 7일",
+    "drama_actor": "Tori Matsuzaka",
+    "first_appearance": {
+      "anime": "만화 에피소드 48",
+      "manga": "만화 에피소드 48"
+    },
+    "gender": "남성",
+    "keyhole": 10,
+    "name": {
+      "english": {"anime": "Harley Hartwell", "manga": "Harley Hartwell"},
+      "japanese": {"kanji": "服部 平次", "romanized": "Heiji Hattori"},
+      "korean": {"name": "하인성 (핫토리 헤이지)"}
+    },
+    "img": "/conanwiki/img/Heiji Hattori_31_11zon.webp",
+    "occupation": "고등학생 <br /> 탐정",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": ["핫토리 헤이조 (아버지)", "핫토리 시즈카 (어머니)"],
+      "연인": ["토야마 카즈하 (연인, 미등장)"],
+      "친구": ["에도가와 코난 / 쿠도 신이치"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Ryo Horikawa<br>Kumiko Higa (어린 시절)",
+        "korean": "김승준 (KBS)<br>구자형 (KBS)<br>최재호 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%AB%ED%86%A0%EB%A6%AC%20%ED%97%A4%EC%9D%B4%EC%A7%80"
+  },
+  {
+    "age": "??",
+    "aliases": "귀신 헤이조",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 48",
+      "manga": "만화 에피소드 48"
+    },
+    "gender": "남성",
+    "keyhole": 15,
+    "name": {
+      "english": {"anime": "Martin Hartwell", "manga": "Martin Hartwell"},
+      "japanese": {"kanji": "服部 平蔵", "romanized": "Heizo Hattori"},
+      "korean": {"name": "하평무 (핫토리 헤이조)"}
+    },
+    "img": "/conanwiki/img/Heizo Hattori_32_11zon.webp",
+    "occupation": "오사카부 경찰본부 경시정",
+    "affiliation": ["오사카부 경찰본부"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["핫토리 헤이지 (아들)", "핫토리 시즈카 (배우자)"],
+      "연인": [],
+      "친구": [],
+      "동료": ["오사카부 경찰본부"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Takehiro Koyama<br>Kazuhiro Yamaji (극장판 21)",
+        "korean": "전인배 (KBS)<br>이인성 (투니버스/애니맥스)<br>이상범 (투니버스 재더빙)<br>김기철 (투니버스 2기 재더빙)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%AB%ED%86%A0%EB%A6%AC%20%ED%97%A4%EC%9D%B4%EC%A1%B0"
+  },
+  {
+    "age": 42,
+    "aliases": "이케나미 시즈카 (결혼 전 성)",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 220",
+      "manga": "만화 에피소드 220"
+    },
+    "gender": "여성",
+    "keyhole": 28,
+    "name": {
+      "english": {"anime": "Shizuka Hartwell", "manga": "Shizuka Hartwell"},
+      "japanese": {"kanji": "服部 静華", "romanized": "Shizuka Hattori"},
+      "korean": {"name": "윤정화 (핫토리 시즈카)"}
+    },
+    "img": "/conanwiki/img/Shizuka Hattori_97_11zon.webp",
+    "occupation": "주부 <br /> 전 카루타 챔피언",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": ["핫토리 헤이지 (아들)", "핫토리 헤이조 (배우자)"],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Masako Katsuki", "korean": "윤소라"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%AB%ED%86%A0%EB%A6%AC%20%EC%8B%9C%EC%A6%88%EC%B9%B4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 19,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "애니 에피소드 279",
+      "manga": "애니 에피소드 279"
+    },
+    "gender": "남성",
+    "keyhole": 84,
+    "name": {
+      "english": {"anime": "Ryusuke Higo", "manga": "Ryusuke Higo"},
+      "japanese": {"kanji": "比護 隆佑", "romanized": "Ryusuke Higo"},
+      "korean": {"name": "고주영 (히고 류스케)"}
+    },
+    "img": "/conanwiki/img/Ryusuke Higo_86_11zon.webp",
+    "occupation": "빅 오사카 센터 포워드 <br /> 프로 축구선수",
+    "affiliation": ["빅 오사카"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["빅 오사카"],
+      "적": []
+    },
+    "voice": [{"japanese": "Takahiro Sakurai", "korean": "최승훈"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%9E%88%EA%B3%A0%20%EB%A5%98%EC%8A%A4%EC%BC%80"
+  },
+  {
+    "age": 17,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 429",
+      "manga": "만화 에피소드 429"
+    },
+    "gender": "남성",
+    "keyhole": 49,
+    "name": {
+      "english": {"anime": "Eisuke Hondou", "manga": "Eisuke Hondou"},
+      "japanese": {"kanji": "本堂 瑛祐", "romanized": "Eisuke Hondou"},
+      "korean": {"name": "문재수 (혼도 에이스케)"}
+    },
+    "img": "/conanwiki/img/Eisuke Hondou_15_11zon.webp",
+    "occupation": "테이탄 고등학교 학생",
+    "affiliation": ["테이탄 고등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["혼도 히데미 (누나)", "혼도 에타로 (아버지, CIA 국장, 미등장)"],
+      "연인": [],
+      "친구": ["에도가와 코난"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Junko Noda", "korean": "김영선"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%98%BC%EB%8F%84%20%EC%97%90%EC%9D%B4%EC%8A%A4%EC%BC%80"
+  },
+  {
+    "age": 27,
+    "aliases": "기르<br>미즈나시 레나",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 425",
+      "manga": "만화 에피소드 425"
+    },
+    "gender": "여성",
+    "keyhole": 48,
+    "name": {
+      "english": {"anime": "Hidemi Hondou", "manga": "Hidemi Hondou"},
+      "japanese": {"kanji": "本堂 瑛海", "romanized": "Hidemi Hondou"},
+      "korean": {"name": "문재인 (혼도 히데미)"}
+    },
+    "img": "/conanwiki/img/Hidemi Hondou_33_11zon.webp",
+    "occupation": "CIA 요원",
+    "affiliation": ["CIA", "검은 조직 (위장, 기르)"],
+    "status": "생존",
+    "relationships": {
+      "가족": [
+        "혼도 에이스케 (남동생)",
+        "혼도 에타로 (아버지, CIA 국장, 미등장)"
+      ],
+      "연인": [],
+      "친구": [],
+      "동료": ["CIA", "제임스 블랙 (상관)"],
+      "적": ["검은 조직 (위장 잠입 중)"]
+    },
+    "voice": [{"japanese": "Kotono Mitsuishi", "korean": "안영미"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%98%BC%EB%8F%84%20%ED%9E%88%EB%8D%B0%EB%AF%B8"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "애니: 극장판 13",
+      "manga": "애니: 극장판 13"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Irish", "manga": "Irish"},
+      "japanese": {"kanji": "アイリッシュ", "romanized": "Irish"},
+      "korean": {"name": "아이리시"}
+    },
+    "img": "/conanwiki/img/Irish_41_11zon.webp",
+    "occupation": "검은 조직 정보부 간부",
+    "affiliation": ["검은 조직"],
+    "status": "사망",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직"],
+      "적": ["에도가와 코난"]
+    },
+    "voice": [{"japanese": "Yuji Mikimoto", "korean": "송준석"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%A6%AC%EC%8B%9C(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": "??",
+    "aliases": "켈빈 (비디오 더빙)<br>한갈매 (화성씨네마 더빙)<br>구멍 씨 (챔프 더빙)",
+    "date_of_birth": "??",
+    "drama_actor": "Go Ayano (2014)",
+    "first_appearance": {
+      "anime": "루팡 3세 VS 명탐정 코난",
+      "manga": "루팡 3세 VS 명탐정 코난"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {
+        "anime": "Goemon Ishikawa XIII",
+        "manga": "Goemon Ishikawa XIII"
+      },
+      "japanese": {
+        "kanji": "十三代目石川五ェ門",
+        "romanized": "Goemon Ishikawa"
+      },
+      "korean": {"name": "검객 (이시카와 고에몽)"}
+    },
+    "img": "/conanwiki/img/Goemon Ishikawa_28_11zon.webp",
+    "occupation": "검술가<br />도둑",
+    "affiliation": ["루팡 일당"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["루팡 3세 (동료)", "지겐 다이스케 (동료)"],
+      "동료": ["루팡 일당"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Gorō Naya (1969) <br> Makio Inoue (1977-2010) <br> Daisuke Namikawa (2011-현재)",
+        "korean": "김수중"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%9D%B4%EC%8B%9C%EC%B9%B4%EC%99%80%20%EA%B3%A0%EC%97%90%EB%AA%BD(%EB%A3%A8%ED%8C%A1%203%EC%84%B8)"
+  },
+  {
+    "age": 45,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 307",
+      "manga": "만화 에피소드 307"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Suguru Itakura", "manga": "Suguru Itakura"},
+      "japanese": {"kanji": "板倉 卓", "romanized": "Suguru Itakura"},
+      "korean": {"name": "김종걸 (이타쿠라 스구루)"}
+    },
+    "img": "/conanwiki/img/Suguru Itakura_22_11zon.webp",
+    "occupation": "프로그래머 (이타쿠라 소프트웨어)",
+    "affiliation": ["이타쿠라 소프트웨어"],
+    "status": "사망 (기르에게 살해)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직 (과거)"],
+      "적": []
+    },
+    "voice": [{"japanese": "Ryuzaburo Ohtomo", "korean": "설영범"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%9D%B4%ED%83%80%EC%BF%A0%EB%9D%BC%20%EC%8A%A4%EA%B5%AC%EB%A3%A8"
+  },
+  {
+    "age": "??",
+    "aliases": "지겐 다이스케 (대원 더빙)<br>민강철 (화성 더빙)<br>털보 (MBC 더빙)",
+    "date_of_birth": "??",
+    "drama_actor": "Tetsuji Tamayama",
+    "first_appearance": {
+      "anime": "루팡 3세 VS 명탐정 코난",
+      "manga": "루팡 3세 VS 명탐정 코난"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Daisuke Jigen", "manga": "Daisuke Jigen"},
+      "japanese": {"kanji": "次元 大介", "romanized": "Daisuke Jigen"},
+      "korean": {"name": "알마로스 (지겐 다이스케)"}
+    },
+    "img": "/conanwiki/img/Daisuke Jigen_14_11zon.webp",
+    "occupation": "도둑 <br /> 총잡이",
+    "affiliation": ["루팡 일당"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["루팡 3세 (동료)", "이시카와 고에몽 (동료)"],
+      "동료": ["루팡 일당"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Kiyoshi Kobayashi<br />Akio Otsuka (PART 6~)",
+        "korean": "강구한"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%A7%80%EA%B2%90%20%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%BC%80"
+  },
+  {
+    "age": 61,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {"anime": "에피소드 1", "manga": "에피소드 1"},
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Konosuke Jii", "manga": "Konosuke Jii"},
+      "japanese": {"kanji": "寺井 黄之助", "romanized": "Konosuke Jii"},
+      "korean": {"name": "지인호 (지이 코노스케)"}
+    },
+    "img": "/conanwiki/img/Konosuke Jii_61_11zon.webp",
+    "occupation": "쿠로바 가문 집사 <br /> 블루 패럿 오너 <br /> 전 야마모토 코야타의 하인",
+    "affiliation": ["쿠로바 가문", "블루 패럿"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["쿠로바 카이토 (주인)", "쿠로바 토이치 (전 주인, 사망)"],
+      "동료": ["쿠로바 가문"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Kaneta Kimotsuki<br />Michio Hazama (Magic Kaito 1412)<br />Akio Suyama (어린 시절)",
+        "korean": "손종환<br>손수호 (해바라기의 불꽃, 어린 시절)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%A7%80%EC%9D%B4%20%EC%BD%94%EB%85%B8%EC%8A%A4%EC%BC%80"
+  },
+  {
+    "age": 16,
+    "aliases": "괴도 키드 <br> 팬텀 시프 키드 1412<br>카이토 1412",
+    "date_of_birth": "6월 21일",
+    "drama_actor": "??",
+    "first_appearance": {"anime": "에피소드 76", "manga": "에피소드 76"},
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Kaito Kuroba", "manga": "Kaito Kuroba"},
+      "japanese": {"kanji": "黒羽 快斗", "romanized": "Kaito Kuroba"},
+      "korean": {"name": "고희도 (쿠로바 카이토)"}
+    },
+    "img": "/conanwiki/img/Kaito Kuroba_49_11zon.webp",
+    "occupation": "에코다 고등학교 학생 <br> 마술사 <br> (비밀리에) 괴도",
+    "affiliation": ["에코다 고등학교", "괴도 키드"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["쿠로바 토이치 (아버지, 사망)", "쿠로바 치카게 (어머니)"],
+      "연인": ["나카모리 아오코 (짝사랑, 미등장)"],
+      "친구": ["지이 코노스케 (집사)"],
+      "동료": [],
+      "적": ["하쿠바 사구루 (라이벌)", "매직 카이토 보스"]
+    },
+    "voice": [{"japanese": "Kappei Yamaguchi", "korean": "신용우"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%B0%94%20%EC%B9%B4%EC%9D%B4%ED%86%A0"
+  },
+  {
+    "age": "??",
+    "aliases": "카이토 1412<br />팬텀 시프 키드 1412",
+    "date_of_birth": "6월 21일 (쿠로바 카이토)<br />미상 (쿠로바 토이치)<br/>미상 (지이 코노스케)",
+    "drama_actor": "??",
+    "first_appearance": {"anime": "에피소드 76", "manga": "에피소드 76"},
+    "gender": "남성",
+    "keyhole": 16,
+    "name": {
+      "english": {"anime": "Phantom Thief Kid", "manga": "Phantom Thief Kid"},
+      "japanese": {"kanji": "怪盗キッド", "romanized": "Kaitou Kid"},
+      "korean": {"name": "괴도키드"}
+    },
+    "img": "/conanwiki/img/Kaitou Kid_50_11zon.webp",
+    "occupation": "학생 <br /> 괴도",
+    "affiliation": ["괴도 키드"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["쿠로바 토이치 (아버지, 사망)", "쿠로바 치카게 (어머니)"],
+      "연인": ["나카모리 아오코 (짝사랑, 미등장)"],
+      "친구": ["지이 코노스케 (집사)"],
+      "동료": [],
+      "적": ["하쿠바 사구루 (라이벌)", "에도가와 코난 (라이벌)"]
+    },
+    "voice": [{"japanese": "Kappei Yamaguchi", "korean": "신용우"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EA%B4%B4%EB%8F%84%20%ED%82%A4%EB%93%9C"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 005",
+      "manga": "만화 에피소드 005"
+    },
+    "gender": "미상",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Masked Yaiba", "manga": "Masked Yaiba"},
+      "japanese": {"kanji": "仮面ヤイバー", "romanized": "Kamen Yaiba"},
+      "korean": {"name": "가면 사나이 (가면 야이바)"}
+    },
+    "img": "/conanwiki/img/Kamen Yaiba_51_11zon.webp",
+    "occupation": "??",
+    "affiliation": [],
+    "status": "극중 픽션",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Wataru Takagi", "korean": "??"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EA%B0%80%EB%A9%B4%20%EC%95%BC%EC%9D%B4%EB%B0%94"
+  },
+  {
+    "age": 38,
+    "aliases": "모리 에리 (본명)<br />법정의 여왕",
+    "date_of_birth": "10월 10일",
+    "drama_actor": "Nene Otsuka",
+    "first_appearance": {
+      "anime": "만화 에피소드 32",
+      "manga": "만화 에피소드 32"
+    },
+    "gender": "여성",
+    "keyhole": 11,
+    "name": {
+      "english": {
+        "anime": "Eva Kadan (anime)<br />Eva Kaden (manga)",
+        "manga": "Eva Kadan (anime)<br />Eva Kaden (manga)"
+      },
+      "japanese": {"kanji": "妃 英理", "romanized": "Eri Kisaki"},
+      "korean": {"name": "노애리 (키사키 에리)"}
+    },
+    "img": "/conanwiki/img/Eri Kisaki_17_11zon.webp",
+    "occupation": "키사키 법률 사무소 <br /> 변호사",
+    "affiliation": ["키사키 법률 사무소"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["모리 란 (딸, 미등장)", "모리 코고로 (별거 중 남편, 미등장)"],
+      "연인": [],
+      "친구": ["쿠도 유키코 (친구)"],
+      "동료": ["키사키 법률 사무소"],
+      "적": []
+    },
+    "voice": [{"japanese": "Gara Takashima", "korean": "한채언"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%82%A4%EC%82%AC%ED%82%A4%20%EC%97%90%EB%A6%AC"
+  },
+  {
+    "age": 26,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 112",
+      "manga": "만화 에피소드 112"
+    },
+    "gender": "여성",
+    "keyhole": 50,
+    "name": {
+      "english": {"anime": "Liz Faulkner", "manga": "Liz Faulkner"},
+      "japanese": {"kanji": "小林 澄子", "romanized": "Sumiko Kobayashi"},
+      "korean": {"name": "김은주 (코바야시 스미코)"}
+    },
+    "img": "/conanwiki/img/Sumiko Kobayashi_23_11zon.webp",
+    "occupation": "테이탄 초등학교 교사",
+    "affiliation": ["테이탄 초등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["치바 카즈노부 (연인)"],
+      "친구": [],
+      "동료": ["소년탐정단 (담당)", "테이탄 초등학교"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Yuko Kobayashi (에피소드 112)<br>Yuko Kato",
+        "korean": "정유미 (2004~)<br>김새해 (어린 시절)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EB%B0%94%EC%95%BC%EC%8B%9C%20%EC%8A%A4%EB%AF%B8%EC%BD%94"
+  },
+  {
+    "age": 17,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "매직 카이토 챕터 6<br />애니: OVA 1",
+      "manga": "매직 카이토 챕터 6<br />애니: OVA 1"
+    },
+    "gender": "여성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Akako Koizumi", "manga": "Akako Koizumi"},
+      "japanese": {"kanji": "小泉 紅子", "romanized": "Akako Koizumi"},
+      "korean": {"name": "잔홍은 (코이즈미 아카코)"}
+    },
+    "img": "/conanwiki/img/Akako Koizumi_17_11zon.webp",
+    "occupation": "에코다 고등학교 학생 <br /> 마녀",
+    "affiliation": ["에코다 고등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["쿠로바 카이토 (짝사랑)"],
+      "친구": [],
+      "동료": ["에코다 고등학교"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Megumi Hayashibara (에피소드 219, OVA)<br />Eri Kitamura (Magic Kaito 1412~)",
+        "korean": "김현심"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EC%9D%B4%EC%A6%88%EB%AF%B8%20%EC%95%84%EC%B9%B4%EC%BD%94"
+  },
+  {
+    "age": 32,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 챕터 658<br />애니: 에피소드 551",
+      "manga": "만화 챕터 658<br />애니: 에피소드 551"
+    },
+    "gender": "남성",
+    "keyhole": 63,
+    "name": {
+      "english": {"anime": "Genji Kojima", "manga": "Genji Kojima"},
+      "japanese": {"kanji": "小嶋 元次", "romanized": "Genji Kojima"},
+      "korean": {"name": "고원규 (코지마 겐지)"}
+    },
+    "img": "/conanwiki/img/Genji Kojima_23_11zon.webp",
+    "occupation": "바 사장",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": ["코지마 겐타 (아들)"],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Akio Nojima", "korean": "시영준"}]
+  },
+  {
+    "age": 6,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": 9,
+    "name": {
+      "english": {
+        "anime": "George Kaminski <small>(Anime and Manga)</small>",
+        "manga": "George Kaminski <small>(Anime and Manga)</small>"
+      },
+      "japanese": {"kanji": "小嶋 元太", "romanized": "Genta Kojima"},
+      "korean": {"name": "고뭉치 (코지마 겐타)"}
+    },
+    "img": "/conanwiki/img/Genta Kojima_24_11zon.webp",
+    "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+    "affiliation": ["소년탐정단", "테이탄 초등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["코지마 겐지 (아버지)"],
+      "연인": [],
+      "친구": [],
+      "동료": ["소년탐정단"],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Wataru Takagi", "korean": "한인숙<br>김도희 (2023~)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EC%A7%80%EB%A7%88%20%EA%B2%90%ED%83%80"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 425",
+      "manga": "만화 에피소드 425"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Korn", "manga": "Korn"},
+      "japanese": {"kanji": "コルン", "romanized": "Korn"},
+      "korean": {"name": "코른"}
+    },
+    "img": "/conanwiki/img/Korn_62_11zon.webp",
+    "occupation": "검은 조직 멤버",
+    "affiliation": ["검은 조직"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["키안티 (동료)"],
+      "동료": ["검은 조직"],
+      "적": []
+    },
+    "voice": [{"japanese": "Hiroyuki Kinoshita", "korean": "최재호"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EB%A5%B8(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 479",
+      "manga": "만화 에피소드 479"
+    },
+    "gender": "여성",
+    "keyhole": 54,
+    "name": {
+      "english": {"anime": "Natsuki Koshimizu", "manga": "Natsuki Koshimizu"},
+      "japanese": {"kanji": "越水 七槻", "romanized": "Natsuki Koshimizu"},
+      "korean": {"name": "조연우 (코시미즈 나츠키)"}
+    },
+    "img": "/conanwiki/img/Natsuki Koshimizu_75_11zon.webp",
+    "occupation": "??",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Risa Hayamizu", "korean": "??"}]
+  },
+  {
+    "age": 17,
+    "aliases": "에도가와 코난<br>헤이세이의 셜록 홈즈",
+    "date_of_birth": "5월 4일",
+    "drama_actor": "Shun Oguri (1차)<br>Junpei Mizobata (2차)",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": 1,
+    "name": {
+      "english": {"anime": "Jimmy Kudo", "manga": "Jimmy Kudo"},
+      "japanese": {"kanji": "工藤 新一", "romanized": "Shinichi Kudo"},
+      "korean": {"name": "남도일 (쿠도 신이치)"}
+    },
+    "img": "/conanwiki/img/Shinichi Kudo_95_11zon.webp",
+    "occupation": "테이탄 고등학교 학생 <br /> 탐정",
+    "affiliation": ["테이탄 고등학교"],
+    "status": "생존 (현재 에도가와 코난으로 변신 중)",
+    "relationships": {
+      "가족": ["쿠도 유사쿠 (아버지)", "쿠도 유키코 (어머니)"],
+      "연인": ["모리 란 (연인, 미등장)"],
+      "친구": ["핫토리 헤이지", "하이바라 아이"],
+      "동료": ["소년탐정단", "모리 탐정 사무소"],
+      "적": ["검은 조직"]
+    },
+    "voice": [
+      {
+        "japanese": "Kappei Yamaguchi<br>Minami Takayama (어린 시절)",
+        "korean": "강수진"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%8F%84%20%EC%8B%A0%EC%9D%B4%EC%B9%98"
+  },
+  {
+    "age": 38,
+    "aliases": "후지미네 유키코 (결혼 전 성)<br>에도가와 후미요 (퍼니메이션 더빙)<br>아케치 후미요<br>나이트 배로네스 (별명)",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 43",
+      "manga": "만화 에피소드 43"
+    },
+    "gender": "여성",
+    "keyhole": 14,
+    "name": {
+      "english": {"anime": "Vivian Kudo", "manga": "Vivian Kudo"},
+      "japanese": {"kanji": "工藤 有希子", "romanized": "Yukiko Kudo"},
+      "korean": {"name": "이하연 (쿠도 유키코)"}
+    },
+    "img": "/conanwiki/img/Yukiko Kudo_13_11zon.webp",
+    "occupation": "은퇴한 배우",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": ["쿠도 신이치 (아들)", "쿠도 유사쿠 (남편)"],
+      "연인": [],
+      "친구": ["키사키 에리 (친구)"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Sumi Shimamoto",
+        "korean": "여민정<br>송연희 (KBS)<br>김영은 (시즌 7)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%8F%84%20%EC%9C%A0%ED%82%A4%EC%BD%94"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 43",
+      "manga": "만화 에피소드 43"
+    },
+    "gender": "남성",
+    "keyhole": 22,
+    "name": {
+      "english": {"anime": "Booker Kudo", "manga": "Booker Kudo"},
+      "japanese": {"kanji": "工藤 優作", "romanized": "Yusaku Kudo"},
+      "korean": {"name": "남건 (쿠도 유사쿠)"}
+    },
+    "img": "/conanwiki/img/Yusaku Kudo_15_11zon.webp",
+    "occupation": "소설가 <br /> 탐정",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": ["쿠도 신이치 (아들)", "쿠도 유키코 (배우자)"],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Hideyuki Tanaka", "korean": "정승욱<br>전인배 (KBS)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%8F%84%20%EC%9C%A0%EC%82%AC%EC%BF%A0"
+  },
+  {
+    "age": 33,
+    "aliases": "검찰 여우 (별명)",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "애니: 에피소드 264",
+      "manga": "애니: 에피소드 264"
+    },
+    "gender": "여성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Reiko Kujo", "manga": "Reiko Kujo"},
+      "japanese": {"kanji": "九条 玲子", "romanized": "Reiko Kujo"},
+      "korean": {"name": "서영주 (쿠죠 레이코)"}
+    },
+    "img": "/conanwiki/img/Reiko Kujo_82_11zon.webp",
+    "occupation": "도쿄 지방 검찰청 검사",
+    "affiliation": ["도쿄 지방 검찰청"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["도쿄 지방 검찰청"],
+      "적": []
+    },
+    "voice": [{"japanese": "Rica Matsumoto", "korean": "이지영"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EC%A3%A0%20%EB%A0%88%EC%9D%B4%EC%BD%94"
+  },
+  {
+    "age": "??",
+    "aliases": "팬텀 레이디",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "애니: 에피소드 627<br />매직 카이토 챕터 1<br />매직 카이토: 괴도 키드",
+      "manga": "애니: 에피소드 627<br />매직 카이토 챕터 1<br />매직 카이토: 괴도 키드"
+    },
+    "gender": "여성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Chikage Kuroba", "manga": "Chikage Kuroba"},
+      "japanese": {"kanji": "黒羽 千影", "romanized": "Chikage Kuroba"},
+      "korean": {"name": "차신혜 (쿠로바 치카게)"}
+    },
+    "img": "/conanwiki/img/Chikage Kuroba_12_11zon.webp",
+    "occupation": "전직 괴도",
+    "affiliation": ["루팡 일당"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["쿠로바 카이토 (아들)", "쿠로바 토이치 (故 남편)"],
+      "연인": [],
+      "친구": [],
+      "동료": ["루팡 일당"],
+      "적": []
+    },
+    "voice": [{"japanese": "Michie Tomizawa", "korean": "박경혜"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%B0%94%20%EC%B9%98%EC%B9%B4%EA%B2%8C"
+  },
+  {
+    "age": 38,
+    "aliases": "괴도 키드 <br> 팬텀 시프 키드 1412<br>카이토 1412",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "매직 카이토 챕터 1<br> 애니: 에피소드 219",
+      "manga": "매직 카이토 챕터 1<br> 애니: 에피소드 219"
+    },
+    "gender": "남성",
+    "keyhole": 55,
+    "name": {
+      "english": {"anime": "Toichi Kuroba", "manga": "Toichi Kuroba"},
+      "japanese": {"kanji": "黒羽 盗一", "romanized": "Toichi Kuroba"},
+      "korean": {"name": "고기영 (쿠로바 토이치)"}
+    },
+    "img": "/conanwiki/img/Toichi Kuroba_4_11zon.webp",
+    "occupation": "마술사 <br /> 괴도",
+    "affiliation": ["괴도 키드 (초대)"],
+    "status": "사망 (살해됨)",
+    "relationships": {
+      "가족": ["쿠로바 카이토 (아들)", "쿠로바 치카게 (배우자)"],
+      "연인": [],
+      "친구": ["지이 코노스케 (집사)"],
+      "동료": [],
+      "적": ["매직 카이토 보스 (살해자 추정)"]
+    },
+    "voice": [{"japanese": "Shuichi Ikeda", "korean": "민응식"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%B0%94%20%ED%86%A0%EC%9D%B4%EC%B9%98"
+  },
+  {
+    "age": 50,
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 810",
+      "manga": "만화 에피소드 810"
+    },
+    "gender": "남성",
+    "keyhole": 86,
+    "name": {
+      "english": {"anime": "Hyoue Kuroda", "manga": "Hyoue Kuroda"},
+      "japanese": {"kanji": "黒田 兵衛", "romanized": "Hyoue Kuroda"},
+      "korean": {"name": "현병위 (쿠로다 효우에)"}
+    },
+    "img": "/conanwiki/img/Hyoue Kuroda_86_11zon.webp",
+    "occupation": "경시정",
+    "affiliation": ["경시청"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["경시청"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Yukimasa Kishino",
+        "korean": "한복현<br>한상덕 (시즌 15-22)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%8B%A4%20%ED%9A%A8%EC%9A%B0%EC%97%90"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "??",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 파일 595 <br> 애니: 에피소드 496",
+      "manga": "만화 파일 595 <br> 애니: 에피소드 496"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Rikumichi Kusuda", "manga": "Rikumichi Kusuda"},
+      "japanese": {"kanji": "楠田 陸道", "romanized": "Rikumichi Kusuda"},
+      "korean": {"name": "구민식 (쿠스다 리쿠미치)"}
+    },
+    "img": "/conanwiki/img/Rikumichi Kusuda_83_11zon.webp",
+    "occupation": "검은 조직 멤버",
+    "affiliation": ["검은 조직"],
+    "status": "사망 (옥중 자살)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직"],
+      "적": []
+    },
+    "voice": [{"japanese": "Mitsuo Iwata", "korean": "??"}]
+  },
+  {
+    "age": 18,
+    "aliases": "세계 최강의 보안 시스템<br>400전 무패 공수도 챔피언",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 153",
+      "manga": "만화 에피소드 153"
+    },
+    "gender": "남성",
+    "keyhole": 25,
+    "name": {
+      "english": {"anime": "Makoto Kyogoku", "manga": "Makoto Kyogoku"},
+      "japanese": {"kanji": "京極 真", "romanized": "Makoto Kyogoku"},
+      "korean": {"name": "오경구 (쿄고쿠 마코토)"}
+    },
+    "img": "/conanwiki/img/Makoto Kyogoku_65_11zon.webp",
+    "occupation": "학생<br />공수도부 주장<br />공수도 챔피언",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["스즈키 소노코 (연인, 미등장)"],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Nobuyuki Hiyama", "korean": "이주창"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%BF%84%EA%B3%A0%EC%BF%A0%20%EB%A7%88%EC%BD%94%ED%86%A0"
+  },
+  {
+    "age": "??",
+    "aliases": "루팡<br>세기의 대도둑",
+    "date_of_birth": "??",
+    "drama_actor": "Yuki Meguro<br>Shun Oguri",
+    "first_appearance": {"anime": "TV 스페셜 3", "manga": "TV 스페셜 3"},
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Arsène Lupin III", "manga": "Arsène Lupin III"},
+      "japanese": {
+        "kanji": "Lupin III (''Rupan Sansei'')",
+        "romanized": "Arsène Lupin III"
+      },
+      "korean": {"name": "루팡 3세"}
+    },
+    "img": "/conanwiki/img/Arsène Lupin III_5.webp",
+    "occupation": "괴도",
+    "affiliation": ["루팡 일당"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["후지코 미네 (연인, 미등장)"],
+      "친구": ["지겐 다이스케 (동료)", "이시카와 고에몽 (동료)"],
+      "동료": ["루팡 일당"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Kanichi Kurita",
+        "korean": "김현욱<br>강수진 (투니버스)<br>김장 (극장판)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%A3%A8%ED%8C%A1(%EB%A3%A8%ED%8C%A1%203%EC%84%B8)"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "스페셜 5 (그림자)",
+      "manga": "스페셜 5 (그림자)"
+    },
+    "gender": "미상",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Magic Kaito Boss", "manga": "Magic Kaito Boss"},
+      "japanese": {"kanji": "??", "romanized": "??"},
+      "korean": {"name": "??"}
+    },
+    "img": "/conanwiki/img/Magic Kaito Boss_68_11zon.webp",
+    "occupation": "적대 조직 수장 (매직 카이토)",
+    "affiliation": ["적대 조직 (매직 카이토)"],
+    "status": "미상",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["적대 조직 (매직 카이토)"],
+      "적": ["쿠로바 카이토 / 괴도 키드"]
+    },
+    "voice": [{"japanese": "??", "korean": "??"}]
+  },
+  {
+    "age": 38,
+    "aliases": "면도왕 코고로<br>잠자는 코고로",
+    "date_of_birth": "8월 7일",
+    "drama_actor": "Hiroshi Abe",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": 2,
+    "name": {
+      "english": {"anime": "Richard Moore", "manga": "Richard Moore"},
+      "japanese": {"kanji": "毛利 小五郎", "romanized": "Kogoro Mouri"},
+      "korean": {"name": "유명한 (모리 코고로)"}
+    },
+    "img": "/conanwiki/img/Kogoro Mouri.webp",
+    "occupation": "탐정 (모리 탐정 사무소 소장) <br /> 전 경시청 형사",
+    "affiliation": ["모리 탐정 사무소"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["모리 란 (딸)", "키사키 에리 (별거 중 아내)"],
+      "연인": [],
+      "친구": [],
+      "동료": ["에도가와 코난"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Akira Kamiya",
+        "korean": "박순찬 (KBS)<br>손종환 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%AA%A8%EB%A6%AC%20%EC%BD%94%EA%B3%A0%EB%A1%9C"
+  },
+  {
+    "age": 17,
+    "aliases": "??",
+    "date_of_birth": "11월 3일",
+    "drama_actor": "Rinko Kikuchi",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "여성",
+    "keyhole": 3,
+    "name": {
+      "english": {"anime": "Rachel Moore", "manga": "Rachel Moore"},
+      "japanese": {"kanji": "毛利 蘭", "romanized": "Ran Mouri"},
+      "korean": {"name": "유미란 (모리 란)"}
+    },
+    "img": "/conanwiki/img/Ran Mouri.webp",
+    "occupation": "테이탄 고등학교 학생 <br /> 공수도부",
+    "affiliation": ["테이탄 고등학교", "모리 탐정 사무소"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["모리 코고로 (아버지)", "키사키 에리 (어머니)"],
+      "연인": ["쿠도 신이치 (연인)"],
+      "친구": ["스즈키 소노코"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Wakana Yamazaki",
+        "korean": "한채언 (초기)<br>김정애 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%AA%A8%EB%A6%AC%20%EB%9E%80"
+  },
+  {
+    "age": 6,
+    "aliases": "??",
+    "date_of_birth": "8월 6일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "여성",
+    "keyhole": 8,
+    "name": {
+      "english": {"anime": "Amy Yeager", "manga": "Amy Yeager"},
+      "japanese": {"kanji": "吉田 歩美", "romanized": "Ayumi Yoshida"},
+      "korean": {"name": "한아름 (요시다 아유미)"}
+    },
+    "img": "/conanwiki/img/Ayumi Yoshida.webp",
+    "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+    "affiliation": ["소년탐정단", "테이탄 초등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["에도가와 코난 (짝사랑)"],
+      "친구": [],
+      "동료": ["소년탐정단"],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Yukiko Iwai", "korean": "박영희<br>이지현 (2023~)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%9A%94%EC%8B%9C%EB%8B%A4%20%EC%95%84%EC%9C%A0%EB%AF%B8"
+  },
+  {
+    "age": 7,
+    "aliases": "??",
+    "date_of_birth": "4월 8일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": 7,
+    "name": {
+      "english": {"anime": "Mitch Tsuburaya", "manga": "Mitch Tsuburaya"},
+      "japanese": {"kanji": "円谷 光彦", "romanized": "Mitsuhiko Tsuburaya"},
+      "korean": {"name": "박세모 (츠부라야 미츠히코)"}
+    },
+    "img": "/conanwiki/img/Mitsuhiko Tsuburaya.webp",
+    "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+    "affiliation": ["소년탐정단", "테이탄 초등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["요시다 아유미 (짝사랑)", "하이바라 아이 (짝사랑)"],
+      "친구": [],
+      "동료": ["소년탐정단"],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Ikue Ohtani", "korean": "이미자<br>강시현 (2023~)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%B8%A0%EB%B6%80%EB%9D%BC%EC%95%BC%20%EB%AF%B8%EC%B8%A0%ED%9E%88%EC%BD%94"
+  },
+  {
+    "age": 17,
+    "aliases": "??",
+    "date_of_birth": "8월 15일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 3",
+      "manga": "만화 에피소드 3"
+    },
+    "gender": "여성",
+    "keyhole": 4,
+    "name": {
+      "english": {"anime": "Serena Sebastian", "manga": "Serena Sebastian"},
+      "japanese": {"kanji": "鈴木 園子", "romanized": "Sonoko Suzuki"},
+      "korean": {"name": "정보라 (스즈키 소노코)"}
+    },
+    "img": "/conanwiki/img/Sonoko Suzuki.webp",
+    "occupation": "테이탄 고등학교 학생",
+    "affiliation": ["테이탄 고등학교", "스즈키 그룹"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["스즈키 지로키치 (삼촌)", "스즈키 아유코 (어머니)"],
+      "연인": ["쿄고쿠 마코토 (연인)"],
+      "친구": ["모리 란 (단짝)"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Naoko Matsui",
+        "korean": "배정미 (KBS)<br>엄현정 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%8A%A4%EC%A6%88%ED%82%A4%20%EC%86%8C%EB%85%B8%EC%BD%94"
+  },
+  {
+    "age": 16,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 702",
+      "manga": "만화 에피소드 702"
+    },
+    "gender": "여성",
+    "keyhole": 83,
+    "name": {
+      "english": {"anime": "Masumi Sera", "manga": "Masumi Sera"},
+      "japanese": {"kanji": "世良 真純", "romanized": "Masumi Sera"},
+      "korean": {"name": "양세라 (세라 마스미)"}
+    },
+    "img": "/conanwiki/img/Masumi Sera.webp",
+    "occupation": "테이탄 고등학교 학생 <br /> 탐정",
+    "affiliation": ["테이탄 고등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": [
+        "아카이 슈이치 (형)",
+        "하네다 슈키치 (오빠)",
+        "세라 마사미 (어머니)"
+      ],
+      "연인": [],
+      "친구": ["에도가와 코난 (협력)"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Fumiko Orikasa", "korean": "윤아림"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%84%B8%EB%9D%BC%20%EB%A7%88%EC%8A%A4%EB%AF%B8"
+  },
+  {
+    "age": 48,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "Yutaka Matsushige",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": 6,
+    "name": {
+      "english": {"anime": "Joseph Meguire", "manga": "Joseph Meguire"},
+      "japanese": {"kanji": "目暮 十三", "romanized": "Juzo Megure"},
+      "korean": {"name": "골롬보 (메구레 쥬조)"}
+    },
+    "img": "/conanwiki/img/Juzo Megure.webp",
+    "occupation": "경시청 수사1과 경부",
+    "affiliation": ["경시청 수사1과"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["메구레 미도리 (아내)"],
+      "연인": [],
+      "친구": [],
+      "동료": [
+        "사토 미와코 (부하)",
+        "타카기 와타루 (부하)",
+        "치바 카즈노부 (부하)",
+        "시라토리 닌자부로 (부하)"
+      ],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Chafurin", "korean": "권혁수 (KBS)<br>이인성 (투니버스)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%A9%94%EA%B5%AC%EB%A0%88%20%EC%A3%BC%EC%A1%B0"
+  },
+  {
+    "age": 29,
+    "aliases": "??",
+    "date_of_birth": "5월 14일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 37",
+      "manga": "만화 에피소드 37"
+    },
+    "gender": "여성",
+    "keyhole": 13,
+    "name": {
+      "english": {"anime": "Yumi Santos", "manga": "Yumi Santos"},
+      "japanese": {"kanji": "佐藤 美和子", "romanized": "Miwako Sato"},
+      "korean": {"name": "오지인 (사토 미와코)"}
+    },
+    "img": "/conanwiki/img/Miwako Sato.webp",
+    "occupation": "경시청 수사1과 경부보",
+    "affiliation": ["경시청 수사1과"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["사토 마사요시 (아버지, 순직)"],
+      "연인": ["타카기 와타루 (연인)"],
+      "친구": ["미야모토 유미 (친구)"],
+      "동료": ["경시청 수사1과", "메구레 쥬조 (상관)"],
+      "적": []
+    },
+    "voice": [
+      {"japanese": "Atsuko Yuya", "korean": "문선희 (KBS)<br>문남숙 (투니버스)"}
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%82%AC%ED%86%A0%20%EB%AF%B8%EC%99%80%EC%BD%94"
+  },
+  {
+    "age": 27,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 37",
+      "manga": "만화 에피소드 37"
+    },
+    "gender": "남성",
+    "keyhole": 17,
+    "name": {
+      "english": {"anime": "Wayne Takagi", "manga": "Wayne Takagi"},
+      "japanese": {"kanji": "高木 渉", "romanized": "Wataru Takagi"},
+      "korean": {"name": "신형선 (타카기 와타루)"}
+    },
+    "img": "/conanwiki/img/Wataru Takagi.webp",
+    "occupation": "경시청 수사1과 순사부장",
+    "affiliation": ["경시청 수사1과"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["사토 미와코 (연인)"],
+      "친구": [],
+      "동료": ["경시청 수사1과", "메구레 쥬조 (상관)"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Wataru Takagi",
+        "korean": "시영준 (KBS)<br>윤동기 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%83%80%EC%B9%B4%EA%B8%B0%20%EC%99%80%ED%83%80%EB%A3%A8(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 31,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 65",
+      "manga": "만화 에피소드 65"
+    },
+    "gender": "남성",
+    "keyhole": 20,
+    "name": {
+      "english": {"anime": "Dennis Burg", "manga": "Dennis Burg"},
+      "japanese": {"kanji": "白鳥 任三郎", "romanized": "Ninzaburo Shiratori"},
+      "korean": {"name": "백동훈 (시라토리 닌자부로)"}
+    },
+    "img": "/conanwiki/img/Ninzaburo Shiratori.webp",
+    "occupation": "경시청 수사1과 경부",
+    "affiliation": ["경시청 수사1과"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": ["코바야시 스미코 (연인)"],
+      "친구": [],
+      "동료": ["경시청 수사1과", "메구레 쥬조 (상관)"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Kaneto Shiozawa (초기)<br>Hideyuki Umezu",
+        "korean": "이종구 (KBS)<br>이호산 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%8B%9C%EB%9D%BC%ED%86%A0%EB%A6%AC%20%EB%8B%8C%EC%9E%90%EB%B6%80%EB%A1%9C"
+  },
+  {
+    "age": 17,
+    "aliases": "??",
+    "date_of_birth": "10월 9일",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 48",
+      "manga": "만화 에피소드 48"
+    },
+    "gender": "여성",
+    "keyhole": 12,
+    "name": {
+      "english": {"anime": "Kazuha Toyama", "manga": "Kazuha Toyama"},
+      "japanese": {"kanji": "遠山 和葉", "romanized": "Kazuha Toyama"},
+      "korean": {"name": "서가영 (토야마 카즈하)"}
+    },
+    "img": "/conanwiki/img/Kazuha Toyama.webp",
+    "occupation": "고등학생 <br /> 합기도부",
+    "affiliation": [],
+    "status": "생존",
+    "relationships": {
+      "가족": ["토야마 긴시로 (아버지)", "토야마 사쿠라 (어머니)"],
+      "연인": ["핫토리 헤이지 (연인)"],
+      "친구": ["모리 란 (친구)"],
+      "동료": [],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Yuko Miyamura",
+        "korean": "이미자 (KBS)<br>정유미 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%86%A0%EC%95%BC%EB%A7%88%20%EC%B9%B4%EC%A6%88%ED%95%98"
+  },
+  {
+    "age": 45,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 76",
+      "manga": "만화 에피소드 76"
+    },
+    "gender": "남성",
+    "keyhole": 26,
+    "name": {
+      "english": {"anime": "Gingko Nakamori", "manga": "Gingko Nakamori"},
+      "japanese": {"kanji": "中森 銀三", "romanized": "Ginzo Nakamori"},
+      "korean": {"name": "임은삼 (나카모리 긴조)"}
+    },
+    "img": "/conanwiki/img/Ginzo Nakamori.webp",
+    "occupation": "경시청 수사2과 경부 <br /> 괴도 키드 전담 수사관",
+    "affiliation": ["경시청 수사2과"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["나카모리 아오코 (딸)"],
+      "연인": [],
+      "친구": [],
+      "동료": ["경시청 수사2과"],
+      "적": ["괴도 키드 (숙적)"]
+    },
+    "voice": [
+      {
+        "japanese": "Unsho Ishizuka (2017 사망)<br>Masashi Ebara",
+        "korean": "이봉준 (KBS)<br>이원찬 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%82%98%EC%B9%B4%EB%AA%A8%EB%A6%AC%20%EA%B8%B4%EC%A1%B0"
+  },
+  {
+    "age": 16,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {"anime": "에피소드 76", "manga": "에피소드 76"},
+    "gender": "여성",
+    "keyhole": 29,
+    "name": {
+      "english": {"anime": "Aoko Nakamori", "manga": "Aoko Nakamori"},
+      "japanese": {"kanji": "中森 青子", "romanized": "Aoko Nakamori"},
+      "korean": {"name": "임청아 (나카모리 아오코)"}
+    },
+    "img": "/conanwiki/img/Aoko Nakamori.webp",
+    "occupation": "에코다 고등학교 학생",
+    "affiliation": ["에코다 고등학교"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["나카모리 긴조 (아버지)"],
+      "연인": ["쿠로바 카이토 (짝사랑)"],
+      "친구": [],
+      "동료": [],
+      "적": ["괴도 키드 (정체 모름)"]
+    },
+    "voice": [
+      {
+        "japanese": "Minami Takayama",
+        "korean": "여민정 (KBS)<br>이소은 (투니버스)"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%82%98%EC%B9%B4%EB%AA%A8%EB%A6%AC%20%EC%95%84%EC%98%A4%EC%BD%94"
+  },
+  {
+    "age": 30,
+    "aliases": "조디 스털링<br>Jodie Starling",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 230",
+      "manga": "만화 에피소드 230"
+    },
+    "gender": "여성",
+    "keyhole": 44,
+    "name": {
+      "english": {"anime": "Jodie Starling", "manga": "Jodie Starling"},
+      "japanese": {
+        "kanji": "ジョディ・スターリング",
+        "romanized": "Jodie Saintemillion"
+      },
+      "korean": {"name": "조디 스털링 (조디 센티밀리온)"}
+    },
+    "img": "/conanwiki/img/Jodie Starling.webp",
+    "occupation": "FBI 요원 <br /> 테이탄 고등학교 영어 교사 (위장)",
+    "affiliation": ["FBI"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["아카이 슈이치 (동료)", "앙드레 캐멀 (동료)"],
+      "동료": ["FBI", "제임스 블랙 (상관)"],
+      "적": ["검은 조직"]
+    },
+    "voice": [{"japanese": "Naoko Yanagita", "korean": "배정미"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%A1%B0%EB%94%94%20%EC%84%BC%ED%8B%B0%EB%B0%80%EB%A6%AC%EC%98%A8"
+  },
+  {
+    "age": "외견 30대 (실제 50대 이상)",
+    "aliases": "크리스 빈야드<br>샤론 빈야드<br>아리아드네 오린<br>베르무트",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 231",
+      "manga": "만화 에피소드 231"
+    },
+    "gender": "여성",
+    "keyhole": 35,
+    "name": {
+      "english": {"anime": "Chris Vineyard", "manga": "Chris Vineyard"},
+      "japanese": {"kanji": "ベルモット", "romanized": "Vermouth"},
+      "korean": {"name": "베르무트"}
+    },
+    "img": "/conanwiki/img/Vermouth.webp",
+    "occupation": "검은 조직 간부 <br /> 배우",
+    "affiliation": ["검은 조직"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [
+        "쿠도 유키코 (옛 친구)",
+        "쿠도 신이치 / 에도가와 코난 (복잡한 관계)"
+      ],
+      "동료": ["검은 조직"],
+      "적": ["FBI", "CIA"]
+    },
+    "voice": [{"japanese": "Mami Koyama", "korean": "배정미"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%B2%A0%EB%A5%B4%EB%AC%B4%ED%8A%B8(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  },
+  {
+    "age": 30,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 383",
+      "manga": "만화 에피소드 383"
+    },
+    "gender": "남성",
+    "keyhole": 78,
+    "name": {
+      "english": {"anime": "Jinpei Matsuda", "manga": "Jinpei Matsuda"},
+      "japanese": {"kanji": "松田 陣平", "romanized": "Jinpei Matsuda"},
+      "korean": {"name": "송보윤 (마츠다 진페이)"}
+    },
+    "img": "/conanwiki/img/Jinpei Matsuda.webp",
+    "occupation": "전 경시청 수사1과 순사부장 (순직)",
+    "affiliation": ["경시청 수사1과 (전)"],
+    "status": "사망 (순직)",
+    "relationships": {
+      "가족": [],
+      "연인": ["사토 미와코 (일방적 짝사랑)"],
+      "친구": ["다테 와타루 (동료)", "하기와라 켄지 (동료)"],
+      "동료": ["경시청 수사1과"],
+      "적": []
+    },
+    "voice": [{"japanese": "Kenji Nomura", "korean": "권성혁"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%A7%88%EC%B8%A0%EB%8B%A4%20%EC%A7%84%ED%8E%98%EC%9D%B4"
+  },
+  {
+    "age": 29,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 383",
+      "manga": "만화 에피소드 383"
+    },
+    "gender": "남성",
+    "keyhole": 79,
+    "name": {
+      "english": {"anime": "Kenji Hagiwara", "manga": "Kenji Hagiwara"},
+      "japanese": {"kanji": "萩原 研二", "romanized": "Kenji Hagiwara"},
+      "korean": {"name": "하기완 (하기와라 켄지)"}
+    },
+    "img": "/conanwiki/img/Kenji Hagiwara.webp",
+    "occupation": "전 경시청 수사1과 순사부장 (순직)",
+    "affiliation": ["경시청 수사1과 (전)"],
+    "status": "사망 (순직)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["다테 와타루 (동료)", "마츠다 진페이 (동료)"],
+      "동료": ["경시청 수사1과"],
+      "적": []
+    },
+    "voice": [{"japanese": "Hiroshi Naka", "korean": "안장혁"}],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EA%B8%B0%EC%99%80%EB%9D%BC%20%EC%BC%84%EC%A7%80"
+  },
+  {
+    "age": 24,
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 208",
+      "manga": "만화 에피소드 208"
+    },
+    "gender": "여성",
+    "keyhole": 32,
+    "name": {
+      "english": {"anime": "Yumi Miyamoto", "manga": "Yumi Miyamoto"},
+      "japanese": {"kanji": "宮本 由美", "romanized": "Yumi Miyamoto"},
+      "korean": {"name": "김유미 (미야모토 유미)"}
+    },
+    "img": "/conanwiki/img/Yumi Miyamoto.webp",
+    "occupation": "경시청 교통부 경부보",
+    "affiliation": ["경시청 교통부"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": ["사토 미와코 (친구)"],
+      "동료": ["경시청 교통부"],
+      "적": []
+    },
+    "voice": [{"japanese": "Mariko Koda", "korean": "이영란"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EB%AA%A8%ED%86%A0%20%EC%9C%A0%EB%AF%B8"
+  },
+  {
+    "age": 27,
+    "aliases": "위스카 아람",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 894",
+      "manga": "만화 에피소드 894"
+    },
+    "gender": "여성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Rumi Wakasa", "manga": "Rumi Wakasa"},
+      "japanese": {"kanji": "若狭 留美", "romanized": "Rumi Wakasa"},
+      "korean": {"name": "위스카 아람 (와카사 루미)"}
+    },
+    "img": "/conanwiki/img/Rumi Wakasa.webp",
+    "occupation": "테이탄 초등학교 교사",
+    "affiliation": ["테이탄 초등학교"],
+    "status": "생존 (럼 의심 인물)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["소년탐정단 (담당)", "테이탄 초등학교"],
+      "적": []
+    },
+    "voice": [{"japanese": "Maaya Sakamoto", "korean": "김현지"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%99%80%EC%B9%B4%EC%82%AC%20%EB%A3%A8%EB%AF%B8"
+  },
+  {
+    "age": 48,
+    "aliases": "김상우",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 898",
+      "manga": "만화 에피소드 898"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Kanenori Wakita", "manga": "Kanenori Wakita"},
+      "japanese": {"kanji": "脇田 兼則", "romanized": "Kanenori Wakita"},
+      "korean": {"name": "김상우 (와키타 카네노리)"}
+    },
+    "img": "/conanwiki/img/Kanenori Wakita.webp",
+    "occupation": "스시 가게 주인 (오다지마 스시)",
+    "affiliation": ["오다지마 스시"],
+    "status": "생존 (럼 의심 인물)",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": [],
+      "적": []
+    },
+    "voice": [{"japanese": "Toshiyuki Morikawa", "korean": "김기흥"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EC%99%80%ED%82%A4%ED%83%80%20%EC%B9%B4%EB%84%A4%EB%85%B8%EB%A6%AC"
+  },
+  {
+    "age": "??",
+    "aliases": "??",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 1",
+      "manga": "만화 에피소드 1"
+    },
+    "gender": "남성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Vodka", "manga": "Vodka"},
+      "japanese": {"kanji": "ウォッカ", "romanized": "Vodka"},
+      "korean": {"name": "보드카"}
+    },
+    "img": "/conanwiki/img/Vodka.webp",
+    "occupation": "검은 조직 멤버",
+    "affiliation": ["검은 조직"],
+    "status": "생존",
+    "relationships": {
+      "가족": [],
+      "연인": [],
+      "친구": [],
+      "동료": ["검은 조직", "진 (파트너)"],
+      "적": ["에도가와 코난", "FBI"]
+    },
+    "voice": [{"japanese": "Fumihiko Tachiki", "korean": "이호산"}],
+    "namuwikiUrl": "https://namu.wiki/w/%EB%B3%B4%EB%93%9C%EC%B9%B4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+  }
+]

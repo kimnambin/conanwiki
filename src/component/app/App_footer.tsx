@@ -1,3 +1,5 @@
+'use client';
+
 import {Container, Navbar} from 'react-bootstrap';
 import {useState} from 'react';
 import App_readme from './App_readme';

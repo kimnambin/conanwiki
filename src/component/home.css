@@ -1,8 +1,119 @@
-.card {
-  transition: transform 0.3s, box-shadow 0.3s;
+.home-features {
+  padding: 0 20px 64px;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+.home-features__title {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.home-features__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.home-feature-card {
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  text-decoration: none;
+  background: radial-gradient(
+    circle at 50% 10%,
+    var(--bg-from) 0%,
+    var(--bg-to) 80%
+  );
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.home-feature-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  border: 2px solid var(--accent);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 3;
+  transition: opacity 0.25s ease, box-shadow 0.25s ease;
+}
+
+.home-feature-card:hover,
+.home-feature-card:focus-visible {
+  transform: translateY(-8px);
+  box-shadow: 0 0 0 1px var(--accent), 0 0 30px 8px var(--accent-soft),
+    0 20px 30px rgba(0, 0, 0, 0.45);
+}
+
+.home-feature-card:hover::before {
+  opacity: 1;
+}
+
+.home-feature-card__img {
+  position: absolute;
+  inset: 0;
+}
+
+.home-feature-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.9);
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.home-feature-card:hover .home-feature-card__img img {
+  transform: scale(1.08);
+  filter: saturate(1.1) brightness(1.05);
+}
+
+.home-feature-card__shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.92) 0%,
+    rgba(0, 0, 0, 0.25) 50%,
+    rgba(0, 0, 0, 0.05) 75%
+  );
+  z-index: 1;
+}
+
+.home-feature-card__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  z-index: 2;
+  color: #fff;
+  text-align: left;
+}
+
+.home-feature-card__title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.home-feature-card__desc {
+  font-size: 0.85rem;
+  color: #d8d8de;
+  margin-bottom: 12px;
+}
+
+.home-feature-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent);
 }

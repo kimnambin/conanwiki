@@ -1,0 +1,70 @@
+.gem-hint {
+  cursor: pointer;
+}
+
+.gem-hint:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.gem-hint__bubble {
+  position: absolute;
+  min-width: 150px;
+  max-width: 210px;
+  background: rgba(12, 12, 16, 0.97);
+  border: 1px solid var(--accent, #8a8f98);
+  border-radius: 10px;
+  padding: 8px 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55),
+    0 0 12px var(--accent-soft, rgba(138, 143, 152, 0.4));
+  z-index: 10;
+  cursor: default;
+  animation: gem-hint-pop 0.12s ease;
+}
+
+@keyframes gem-hint-pop {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.gem-hint__bubble-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--accent, #fff);
+  margin-bottom: 2px;
+}
+
+.gem-hint__bubble-desc {
+  font-size: 0.72rem;
+  color: #e8e8ec;
+  line-height: 1.45;
+}
+
+/* 말풍선이 뱃지의 위/아래, 왼쪽/오른쪽 중 어디에 뜰지 위치 조합 */
+
+.gem-hint--drop .gem-hint__bubble {
+  top: calc(100% + 8px);
+}
+
+.gem-hint--pop .gem-hint__bubble {
+  bottom: calc(100% + 8px);
+}
+
+.gem-hint--left .gem-hint__bubble {
+  left: 0;
+}
+
+.gem-hint--right .gem-hint__bubble {
+  right: 0;
+}
+
+.gem-hint--center .gem-hint__bubble {
+  left: 50%;
+  transform: translateX(-50%);
+}

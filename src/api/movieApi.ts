@@ -1,27 +1,36 @@
-import axios from 'axios';
+import 'server-only';
 import {MovieType} from '../types/api.model';
 
-const API_KEY = import.meta.env.VITE_APP_TMDB_API_KEY;
+const TMDB_BASE = 'https://api.themoviedb.org/3';
 
-const axiosInstance = axios.create({
-  headers: {
+function tmdbHeaders() {
+  return {
     accept: 'application/json',
-    Authorization: `Bearer ${API_KEY}`,
-  },
-});
+    Authorization: `Bearer ${process.env.TMDB_API_KEY}`,
+  };
+}
 
-export const Movie = async (): Promise<MovieType[]> => {
-  const {data} = await axiosInstance.get(
-    'https://api.themoviedb.org/3/collection/39199?page=1&language=ko-kr',
+export const fetchMovies = async (): Promise<MovieType[]> => {
+  const res = await fetch(
+    `${TMDB_BASE}/collection/39199?page=1&language=ko-kr`,
+    {
+      headers: tmdbHeaders(),
+      next: {revalidate: 3600},
+    },
   );
+  const data = await res.json();
   return data.parts;
 };
 
-export const MovieDetail = async (
+export const fetchMovieDetail = async (
   id: number,
-): Promise<{results: MovieType[]}> => {
-  const {data} = await axiosInstance.get(
-    `https://api.themoviedb.org/3/movie/${id}/videos?language=ko-kr`,
+): Promise<{results: {key: string; name: string}[]}> => {
+  const res = await fetch(
+    `${TMDB_BASE}/movie/${id}/videos?language=ko-kr`,
+    {
+      headers: tmdbHeaders(),
+      next: {revalidate: 3600},
+    },
   );
-  return data as {results: MovieType[]};
+  return res.json();
 };

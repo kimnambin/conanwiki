@@ -1,3 +1,5 @@
+'use client';
+
 import {Modal} from 'react-bootstrap';
 import style from './App.module.css';
 import {ReadmeType} from '../../types/component.model';
@@ -26,15 +28,12 @@ export default function App_readme({
           </h4>
           <hr />
           <h3>사용 기술</h3>
+          <p>Next.js (App Router)</p>
           <p>ReactJS</p>
           <p>TypeScript</p>
-          <p>Redux</p>
-          <p>Redux Toolkit</p>
           <hr />
           <h3>설치 패키지</h3>
-          <p>@reduxjs/toolkit</p>
-          <p>react-redux</p>
-          <p>react-router-dom</p>
+          <p>next</p>
           <p>react-bootstrap</p>
           <p>react-icons</p>
           <p>styled-components</p>

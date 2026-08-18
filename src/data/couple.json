@@ -1,0 +1,540 @@
+[
+  {
+    "man": "남도일 (쿠도 신이치)",
+    "man_url": "/conanwiki/img/Shinichi Kudo_95_11zon.webp",
+    "man_job": "고등학생 탐정 / 에도가와 코난으로 변신 중",
+    "women": "유미란 (모리 란)",
+    "women_url": "/conanwiki/img/Ran Mouri_80_11zon.webp",
+    "women_job": "고등학생 / 공수도 선수",
+    "couple_nickname": "신란",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "어릴 때부터 함께 자란 소꿉친구이자 연인. 신이치가 APTX-4869로 인해 코난으로 변신한 후에도 란을 향한 마음은 변하지 않으며, 란 역시 신이치를 기다리고 있다. 명탐정 코난의 메인 커플.",
+    "episodes": [
+      {
+        "title": "벚꽃반의 추억",
+        "source": "원작 87권 / TVA 853~854화",
+        "description": "유치원생 시절 첫 만남 — 신이치가 란에게 한눈에 반한 에피소드."
+      },
+      {
+        "title": "쿠도 신이치 소년의 모험",
+        "source": "원작 55권 / TVA 472~473화",
+        "description": "초등학생 시절 두 사람의 이야기."
+      },
+      {
+        "title": "쿠도 신이치의 뉴욕 사건",
+        "source": "원작 34~35권 / TVA 286~288화",
+        "description": "란이 신이치를 진심으로 좋아하게 된 결정적 계기가 된 에피소드."
+      },
+      {
+        "title": "제트 코스터 살인 사건",
+        "source": "원작 1권 / TVA 1화",
+        "description": "놀이공원 데이트 중 신이치가 코난으로 변신하게 되는 사건 당일."
+      },
+      {
+        "title": "목숨을 건 부활",
+        "source": "원작 26권 / TVA 192~193화",
+        "description": "신이치가 란에게 고백하려 했으나 결국 실패하는 에피소드."
+      },
+      {
+        "title": "홈즈의 묵시록",
+        "source": "원작 71~72권 / TVA 621화",
+        "description": "런던에서 신이치가 란에게 직접 마음을 고백한 에피소드. 신란의 핵심 명장면."
+      },
+      {
+        "title": "진홍의 수학여행",
+        "source": "원작 94~95권 / TVA 927~928화",
+        "description": "두 사람이 공식적으로 사귀기로 결정한 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "7기",
+        "title": "미궁의 십자로",
+        "note": "신이치가 직접 등장하는 유일한 극장판"
+      },
+      {"number": "12기", "title": "전율의 악보", "note": "중학생 시절 배경"}
+    ]
+  },
+  {
+    "man": "하인성 (핫토리 헤이지)",
+    "man_url": "/conanwiki/img/Heiji Hattori_31_11zon.webp",
+    "man_job": "고등학생 탐정 / 서부의 명탐정",
+    "women": "서가영 (토야마 카즈하)",
+    "women_url": "/conanwiki/img/Kazuha Toyama_54_11zon.webp",
+    "women_job": "고등학생 / 합기도 유단자",
+    "couple_nickname": "헤카",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "오사카 출신의 소꿉친구 커플. 헤이지는 카즈하에게 마음이 있으면서도 솔직하게 표현하지 못하는 성격. 카즈하는 헤이지를 항상 걱정하며 든든하게 지지한다.",
+    "episodes": [
+      {
+        "title": "오사카 연쇄 살인 사건",
+        "source": "원작 19권 / TVA 185~188화",
+        "description": "헤이지와 카즈하가 처음 등장하는 에피소드."
+      },
+      {
+        "title": "결혼식 전날 밤의 밀실 사건",
+        "source": "원작 21~22권 / TVA 211~214화",
+        "description": "헤카 커플의 두 번째 주요 에피소드."
+      },
+      {
+        "title": "그리고 인어는 사라져 버렸다",
+        "source": "원작 28권 / TVA 224~226화",
+        "description": "팬들에게 유명한 명작 에피소드."
+      },
+      {
+        "title": "코난과 헤이지, 사랑의 암호",
+        "source": "원작 83권 / TVA 763~764화",
+        "description": "헤이지가 카즈하를 향한 자신의 마음을 자각하는 에피소드."
+      },
+      {
+        "title": "괴뢰의 악마의 저주",
+        "source": "원작 106권",
+        "description": "헤이지가 카즈하에게 첫 고백에 성공한 에피소드."
+      },
+      {
+        "title": "어딘가 서먹한 커플과 플라네타리움 사건",
+        "source": "원작 109권",
+        "description": "공식 교제 이후의 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "3기",
+        "title": "세기말의 마술사",
+        "note": "헤카 커플 극장판 첫 등장"
+      },
+      {"number": "7기", "title": "미궁의 십자로", "note": "주연으로 첫 등장"},
+      {"number": "21기", "title": "진홍의 연가", "note": "카즈하가 주연"},
+      {
+        "number": "27기",
+        "title": "100만 달러의 펜타그램",
+        "note": "역대 코난 극장판 일본 흥행 1위"
+      }
+    ]
+  },
+  {
+    "man": "오경구 (쿄고쿠 마코토)",
+    "man_url": "/conanwiki/img/Makoto Kyogoku_65_11zon.webp",
+    "man_job": "공수도 세계 챔피언",
+    "women": "정보라 (스즈키 소노코)",
+    "women_url": "/conanwiki/img/Sonoko Suzuki_20_11zon.webp",
+    "women_job": "고등학생 / 스즈키 재벌 딸",
+    "couple_nickname": "마코소노",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "공수도 세계 챔피언 마코토와 스즈키 재벌의 딸 소노코의 장거리 연애 커플. 마코토는 세계를 돌아다니며 원정 경기를 하기 때문에 만남이 뜸하지만, 둘의 사이는 굳건하다.",
+    "episodes": [
+      {
+        "title": "소노코의 위험한 여름 이야기",
+        "source": "TVA 153~154화",
+        "description": "마코소노 커플이 처음 등장하는 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "21기",
+        "title": "진홍의 연가",
+        "note": "마코토는 소노코의 회상으로만 출연 — 마코소노 극장판 첫 등장"
+      },
+      {
+        "number": "23기",
+        "title": "감청의 권",
+        "note": "두 캐릭터가 주역 커플로 활약하는 첫 주연 극장판"
+      },
+      {
+        "number": "28기",
+        "title": "척안의 잔상",
+        "note": "마코토가 소노코의 상상에서 출연"
+      }
+    ]
+  },
+  {
+    "man": "고희도 (쿠로바 카이토)",
+    "man_url": "/conanwiki/img/Kaito Kuroba_49_11zon.webp",
+    "man_job": "고등학생 / 괴도 키드 (2대)",
+    "women": "임청아 (나카모리 아오코)",
+    "women_url": "/conanwiki/img/Aoko Nakamori_3_11zon.webp",
+    "women_job": "고등학생 / 나카모리 경감의 딸",
+    "couple_nickname": "카이아오",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "괴도 키드의 정체인 쿠로바 카이토와, 키드를 쫓는 나카모리 경감의 딸 아오코의 아이러니한 커플. 아오코는 카이토가 키드인 줄 모르며, 둘은 소꿉친구이자 연인 사이다.",
+    "episodes": [
+      {
+        "title": "괴도 키드의 분주한 휴일",
+        "source": "매직 카이토 4화 / TVA 7화",
+        "description": "아오코가 카이토의 정체를 의심하는 에피소드."
+      },
+      {
+        "title": "그에게서 손을 떼",
+        "source": "매직 카이토 7화 / TVA 13화",
+        "description": "스키 대회에서 변장한 카이토가 아오코를 안고 내려오는 장면."
+      },
+      {
+        "title": "블루 버스데이",
+        "source": "매직 카이토 19화 / TVA 2화",
+        "description": "아오코의 생일 에피소드."
+      },
+      {
+        "title": "블랙 스타 (후편)",
+        "source": "매직 카이토 24화 / TVA 6화",
+        "description": "어린 시절 첫 만남 회상 장면이 포함된 에피소드."
+      },
+      {
+        "title": "선 헤일로",
+        "source": "매직 카이토 34~36화",
+        "description": "30년 만에 키드의 정체를 다시 의심하게 되는 전개."
+      }
+    ],
+    "movies": [
+      {
+        "number": "27기",
+        "title": "100만 달러의 펜타그램",
+        "note": "아오코의 극장판 첫 출연 — 아버지가 중상 입자 카이토가 조용히 지켜봄"
+      }
+    ]
+  },
+  {
+    "man": "신형선 (타카기 와타루)",
+    "man_url": "/conanwiki/img/Wataru Takagi_9_11zon.webp",
+    "man_job": "경시청 수사 1과 형사",
+    "women": "오지인 (사토 미와코)",
+    "women_url": "/conanwiki/img/Miwako Sato_73_11zon.webp",
+    "women_job": "경시청 수사 1과 형사",
+    "couple_nickname": "타카사",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "경시청 수사 1과의 동료 형사 커플. 타카기는 사토에게 호감을 가지고 있으며, 여러 위험한 사건을 함께 겪으며 관계가 발전했다. 팬들에게 많은 사랑을 받는 커플.",
+    "episodes": [
+      {
+        "title": "흔들리는 경시청 1200만 명의 인질",
+        "source": "TVA 본편",
+        "description": "타카사 커플의 주요 관계 발전 에피소드."
+      },
+      {
+        "title": "첫사랑의 상처 자국 ~ 오래된 상처 자국과 형사의 혼",
+        "source": "TVA 본편",
+        "description": "사토의 과거가 밝혀지며 타카기와의 감정이 발전하는 에피소드."
+      },
+      {
+        "title": "목숨을 건 연애 중계",
+        "source": "TVA 본편",
+        "description": "타카사 커플의 감정이 극적으로 드러나는 에피소드."
+      },
+      {
+        "title": "타카기와 다테와 수첩의 약속",
+        "source": "TVA 본편",
+        "description": "타카기와 동료 다테, 사토의 이야기가 얽히는 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "4기",
+        "title": "눈동자 속의 암살자",
+        "note": "타카사 커플 극장판 첫 등장"
+      },
+      {
+        "number": "25기",
+        "title": "할로윈의 신부",
+        "note": "타카사 커플 비중 있는 출연"
+      },
+      {
+        "number": "28기",
+        "title": "척안의 잔상",
+        "note": "타카사 커플 첫 주연 극장판"
+      }
+    ]
+  },
+  {
+    "man": "백동훈 (시라토리 닌자부로)",
+    "man_url": "/conanwiki/img/Ninzaburo Shiratori_77_11zon.webp",
+    "man_job": "경시청 수사 1과 경부",
+    "women": "김은주 (코바야시 스미코)",
+    "women_url": "/conanwiki/img/Sumiko Kobayashi_23_11zon.webp",
+    "women_job": "초등학교 교사",
+    "couple_nickname": "시라코바",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "경시청 경부 시라토리와 테이탄 초등학교 교사 코바야시의 커플. 시라토리가 어릴 때 첫사랑으로 찾던 여인이 바로 코바야시였다는 사실이 밝혀지며 이어진 운명적인 커플.",
+    "episodes": [
+      {
+        "title": "시라토리 경부, 벚꽃의 추억",
+        "source": "원작 66권",
+        "description": "시라토리와 코바야시의 어린 시절 첫 만남이 밝혀지는 에피소드. 서점에서의 만남과 벚꽃 스트랩 선물 장면이 핵심. 오해 해소 및 고백 장면이 포함."
+      }
+    ],
+    "movies": [
+      {
+        "number": "25기",
+        "title": "할로윈의 신부",
+        "note": "시라토리와 타카기의 우정을 다루는 장면 포함"
+      }
+    ]
+  },
+  {
+    "man": "우상길 (하네다 슈키치)",
+    "man_url": "/conanwiki/img/Shukichi_Haneda_99_11zon.webp",
+    "man_job": "프로 바둑 기사 / 아카이 패밀리 장남",
+    "women": "김유미 (미야모토 유미)",
+    "women_url": "/conanwiki/img/Yumi Miyamoto_14_11zon.webp",
+    "women_job": "경시청 교통부 경찰관",
+    "couple_nickname": "슈키유미",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "프로 바둑 기사 하네다 슈키치와 교통경찰 미야모토 유미의 커플. 슈키치는 아카이 슈이치의 이복남동생으로 아카이 패밀리의 일원이다. 유미는 사토 미와코의 친구.",
+    "episodes": [
+      {
+        "title": "베일에 싸인 등굣길",
+        "source": "원작 49권",
+        "description": "슈키치가 처음 언급되는 에피소드. 유미가 '대학 시절 잔인하게 찬 남자친구' 집 근처에 가야 한다며 언급."
+      },
+      {
+        "title": "현장의 이웃은 전 남친",
+        "source": "원작 80권",
+        "description": "슈키치가 정식으로 등장. 유미와 대학 시절 사귀던 사이임이 밝혀짐."
+      },
+      {
+        "title": "태합, 사랑하는 명인전",
+        "source": "TVA 본편",
+        "description": "비번 날 둘이 만남. 슈키치가 유미를 구출하고 키스 장면이 등장."
+      },
+      {
+        "title": "혼인 신고서의 비밀번호",
+        "source": "TVA 본편",
+        "description": "유미가 슈키치의 직업(바둑 기사)을 알게 되는 에피소드. 혼인신고서 수수께끼가 전개."
+      },
+      {
+        "title": "표적은 경시청 교통부",
+        "source": "TVA 본편",
+        "description": "여경 연쇄 살인 사건에서 유미가 경호되며 실질적 재결합이 시사되는 에피소드."
+      },
+      {
+        "title": "태합 명인의 장기판",
+        "source": "TVA 본편",
+        "description": "둘이 동거 중임이 밝혀지는 에피소드. 유미가 슈키치의 가족관계를 인식."
+      }
+    ],
+    "movies": [
+      {
+        "number": "24기",
+        "title": "비색의 탄환",
+        "note": "슈키유미 극장판 데뷔작. 유미가 (술에 취한 상태에서) 프로포즈를 받음"
+      }
+    ]
+  },
+  {
+    "man": "이명수 (치바 카즈노부)",
+    "man_url": "/conanwiki/img/Kazunobu Chiba_55_11zon.webp",
+    "man_job": "경시청 수사 1과 형사",
+    "women": "정나혜 (미이케 나에코)",
+    "women_url": "/conanwiki/img/Naeko Miike_74_11zon.webp",
+    "women_job": "경시청 교통부 경찰관",
+    "couple_nickname": "치바나에",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "경시청 형사 치바와 교통경찰 나에코의 소꿉친구 커플. 어릴 때 헤어졌다가 경찰에서 재회했다. 나에코는 사토 미와코, 미야모토 유미와 친구 사이.",
+    "episodes": [
+      {
+        "title": "첫사랑의 비디오 레터",
+        "source": "TVA 본편",
+        "description": "13년 전 헤어진 첫사랑 미이케 나에코와 비디오 편지를 통해 재회하는 에피소드."
+      },
+      {
+        "title": "첫사랑의 공동수사",
+        "source": "TVA 본편",
+        "description": "치바와 나에코가 함께 사건 수사에 참여하며 벌어지는 에피소드."
+      },
+      {
+        "title": "표적은 경시청 교통부",
+        "source": "TVA 본편",
+        "description": "여경 연쇄 살인 사건에서 나에코가 납치되고 치바가 구출하며 정체가 밝혀지는 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "24기",
+        "title": "비색의 탄환",
+        "note": "나에코의 극장판 데뷔 (단역)"
+      },
+      {
+        "number": "25기",
+        "title": "할로윈의 신부",
+        "note": "치바가 납치되었다 돌아오자 나에코가 눈물로 안기는 장면으로 비중 있게 등장"
+      }
+    ]
+  },
+  {
+    "man": "양만호 (야마토 칸스케)",
+    "man_url": "/conanwiki/img/Kansuke Yamato_52_11zon.webp",
+    "man_job": "나가노 현경 수사 1과 경부",
+    "women": "우하라 (우에하라 유이)",
+    "women_url": "/conanwiki/img/Yui Uehara_12_11zon.webp",
+    "women_job": "나가노 현경 수사 1과 경부보",
+    "couple_nickname": "야마우에",
+    "status": "미혼",
+    "relationship_type": "연인",
+    "description": "나가노 현경의 베테랑 형사 야마토 칸스케와 동료 경부보 우에하라 유이의 커플. 야마토는 한쪽 눈을 잃은 상처가 있으며, 두 사람은 초등학교 시절부터 알아온 6살 차이 죽마고우다.",
+    "episodes": [
+      {
+        "title": "풍림화산",
+        "source": "TVA 본편",
+        "description": "야마토와 유이의 첫 등장 에피소드. 유이가 토라다 가에 시집가며 용의자 중 한 명으로 등장."
+      },
+      {
+        "title": "현경의 검은 어둠",
+        "source": "TVA 본편",
+        "description": "유이가 '호적에 가위표가 있는 여자'라 자조하자 야마토가 '자기 얼굴에도 큰 가위표가 있다'고 답하며 얼굴을 붉히는 명장면."
+      }
+    ],
+    "movies": [
+      {
+        "number": "28기",
+        "title": "척안의 잔상",
+        "note": "두 사람의 감정선이 더욱 부각되는 극장판"
+      }
+    ]
+  },
+  {
+    "man": "코난 (에도가와 코난)",
+    "man_url": "/conanwiki/img/Conan Edogawa_13_11zon.webp",
+    "man_job": "초등학생 (실체는 고등학생 탐정 쿠도 신이치)",
+    "women": "홍장미 (하이바라 아이)",
+    "women_url": "/conanwiki/img/Ai Haibara_16_11zon.webp",
+    "women_job": "초등학생 (실체는 흑의 조직 과학자 미야노 시호)",
+    "couple_nickname": "코하",
+    "status": "미혼",
+    "relationship_type": "연인(비공식)",
+    "description": "APTX-4869로 어린이가 된 코난과, 같은 약의 개발자로 역시 어린이가 된 하이바라 아이(미야노 시호)의 비공식 커플링. 하이바라는 코난에게 호감을 가지고 있으나 코난의 마음은 란에게 있다.",
+    "episodes": [
+      {
+        "title": "검은 조직에서 온 여자와 대학교수 살인 사건",
+        "source": "TVA 본편",
+        "description": "코난과 하이바라의 첫 만남. 코난이 하이바라에게 마음을 여는 계기가 된 에피소드."
+      },
+      {
+        "title": "경기장 무차별 협박 사건",
+        "source": "TVA 본편",
+        "description": "하이바라가 코난에게 마음을 여는 에피소드."
+      },
+      {
+        "title": "본청 형사의 사랑 이야기 2",
+        "source": "TVA 본편",
+        "description": "학예회 연극에서 '널 사랑하게 된 거라고'라는 하이바라의 대사가 나오는 에피소드."
+      },
+      {
+        "title": "수수께끼의 승객",
+        "source": "TVA 본편",
+        "description": "폭탄이 실린 버스에서 자살하려던 하이바라를 코난이 구하는 에피소드."
+      },
+      {
+        "title": "미궁의 훌리건",
+        "source": "TVA 본편",
+        "description": "'지켜 줄 거지?'라는 하이바라의 명대사가 등장하는 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "11기",
+        "title": "감벽의 관",
+        "note": "'파트너'라는 호칭이 확립된 극장판"
+      },
+      {
+        "number": "26기",
+        "title": "흑철의 어영",
+        "note": "코하가 주연인 극장판. 수중 인공호흡 장면 수록"
+      }
+    ]
+  },
+  {
+    "man": "이상윤 (아키이 슈이치)",
+    "man_url": "/conanwiki/img/Shuichi Akai_98_11zon.webp",
+    "man_job": "FBI 요원 / 은신 중",
+    "women": "안재희 (미야노 아케미)",
+    "women_url": "/conanwiki/img/Akemi Miyano_18_11zon.webp",
+    "women_job": "흑의 조직 멤버 (사망)",
+    "couple_nickname": "아카아케",
+    "status": "미혼",
+    "relationship_type": "연인 (사별)",
+    "description": "FBI 요원 아카이 슈이치가 흑의 조직에 잠입하기 위해 접근한 미야노 아케미와 진심으로 사랑에 빠진 커플. 아케미는 조직에 의해 살해되었고, 아카이는 그 복수를 다짐한다. 아케미는 하이바라 아이(미야노 시호)의 언니.",
+    "episodes": [
+      {
+        "title": "적과 흑의 크래쉬",
+        "source": "원작 56~59권 / TVA 본편",
+        "description": "두 사람의 관계가 공개되는 핵심 에피소드. 슈이치의 흑의 조직 잠입 시절 아케미와의 연인 관계가 밝혀지며, 진의 명령에 의해 아케미가 슈이치 앞에서 처형당하는 비극적 에피소드."
+      }
+    ],
+    "movies": []
+  },
+  {
+    "man": "남건 (쿠도 유사쿠)",
+    "man_url": "/conanwiki/img/Yusaku Kudo_15_11zon.webp",
+    "man_job": "세계적인 추리소설 작가",
+    "women": "이하연 (쿠도 유키코)",
+    "women_url": "/conanwiki/img/Yukiko Kudo_13_11zon.webp",
+    "women_job": "전직 여배우",
+    "couple_nickname": "유사유키",
+    "status": "기혼",
+    "relationship_type": "부부",
+    "description": "코난(쿠도 신이치)의 부모. 세계적인 추리소설 작가 쿠도 유사쿠와 전직 인기 여배우 쿠도 유키코의 부부. 현재 미국 LA에 거주 중이며 신이치가 코난이 된 사정을 알고 있다.",
+    "episodes": [],
+    "movies": []
+  },
+  {
+    "man": "유명한 (모리 코고로)",
+    "man_url": "/conanwiki/img/Kogoro Mouri_58_11zon.webp",
+    "man_job": "사립탐정",
+    "women": "노애리 (키사키 에리)",
+    "women_url": "/conanwiki/img/Eri Kisaki_17_11zon.webp",
+    "women_job": "유명 변호사",
+    "couple_nickname": "코고에리",
+    "status": "기혼",
+    "relationship_type": "부부 (별거 중)",
+    "description": "탐정 모리 코고로와 유명 변호사 키사키 에리의 별거 중인 부부. 모리 란의 부모. 성격 차이로 별거 중이지만 서로에 대한 애정은 여전하다. 코고로가 먼저 화해하지 못하는 성격 탓에 별거가 길어지고 있다.",
+    "episodes": [
+      {
+        "title": "보이지 않는 용의자",
+        "source": "TVA 본편",
+        "description": "코고에리 커플의 관계 발전에 중요한 에피소드."
+      },
+      {
+        "title": "키사키 변호사 SOS",
+        "source": "TVA 본편",
+        "description": "에리가 위험에 처하며 코고로와의 감정이 드러나는 에피소드."
+      },
+      {
+        "title": "거금과 세 명의 거짓말쟁이",
+        "source": "TVA 본편",
+        "description": "코고에리 커플의 관계를 다루는 에피소드."
+      }
+    ],
+    "movies": [
+      {
+        "number": "2기",
+        "title": "14번째 표적",
+        "note": "에리의 극장판 첫 등장"
+      },
+      {
+        "number": "4기",
+        "title": "눈동자 속의 암살자",
+        "note": "코고에리 커플 비중 있는 출연"
+      },
+      {"number": "22기", "title": "제로의 집행인", "note": "코고에리 커플 등장"}
+    ]
+  },
+  {
+    "man": "이무형 (아카이 츠토무)",
+    "man_url": "/conanwiki/img/tomu.webp",
+    "man_job": "전 MI6 요원 (사망 / 실종)",
+    "women": "메리 (메리 세라)",
+    "women_url": "/conanwiki/img/merry sera.webp",
+    "women_job": "전 CIA 요원 / APTX-4869로 어린이가 됨",
+    "couple_nickname": "츠토메리",
+    "status": "기혼",
+    "relationship_type": "부부",
+    "description": "아카이 슈이치·하네다 슈키치·세라 마스미의 부모. 전 MI6 요원 아카이 츠토무와 전 CIA 요원 메리 세라의 부부. 메리는 APTX-4869를 마셔 어린아이의 모습이 되었으며, 남편 츠토무는 현재 행방불명 상태.",
+    "episodes": [],
+    "movies": []
+  }
+]

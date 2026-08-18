@@ -1,119 +1,92 @@
-import {useEffect, useState} from 'react';
-import {useParams, useLocation, Link} from 'react-router-dom';
-import {MovieDetail} from '../../api/movieApi';
-import {useSelector} from 'react-redux';
-import {Col, Container} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import App_loading from '../app/App_loading';
-import {MovieType} from '../../types/api.model';
-import {RootState} from '../../redux/store';
+import Link from 'next/link';
+import {MOVIE_THEME} from '../../utils/movieTheme';
+import './Mo_detail.css';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
-export default function Mo_detail() {
-  const {id} = useParams(); // URL에서 영화 ID 가져오기
-  const [moviedata, setMoviedata] = useState<MovieType[] | null>(null);
-  const {loading, error} = useSelector((state: RootState) => state.movieKey);
+interface MovieVideo {
+  key: string;
+  name: string;
+}
 
-  const location = useLocation();
-  const {
-    overview,
-    release_date: releaseDate,
-    title,
-    vote_average,
-    popularity,
-    image,
-  } = location.state || {}; // Link로 props로 받아오려면 'useLoaction'을 사용해야 함
+interface Mo_detailProps {
+  title: string;
+  releaseDate: string;
+  voteAverage: number;
+  popularity: number;
+  overview: string;
+  posterPath: string;
+  season?: number;
+  videos: MovieVideo[];
+}
 
-  useEffect(() => {
-    const fetchmovie = async () => {
-      try {
-        if (id) {
-          const data = await MovieDetail(Number(id));
-          setMoviedata(data.results);
-        }
-      } catch (error) {
-        console.error(error);
-      }
-    };
+// 극장판 상세 페이지. Server Component라 이 화면의 콘텐츠 전체가
+// 초기 HTML 응답에 그대로 포함된다 (SEO의 핵심).
+export default function Mo_detail({
+  title,
+  releaseDate,
+  voteAverage,
+  popularity,
+  overview,
+  posterPath,
+  season,
+  videos,
+}: Mo_detailProps) {
+  const formattedRating = voteAverage.toFixed(1);
+  const formattedPopularity = Math.round(popularity);
 
-    fetchmovie();
-  }, [id]);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  if (loading) {
-    return <App_loading />;
-  }
-
-  if (error) {
-    return <div>에러 발생: {error}</div>;
-  }
-
-  const formattedRating =
-    typeof vote_average === 'number' ? vote_average.toFixed(1) : vote_average;
-  const formattedPopularity =
-    typeof popularity === 'number' ? Math.round(popularity) : popularity;
+  const cardVars = {
+    '--accent': MOVIE_THEME.accent,
+    '--accent-soft': MOVIE_THEME.accentSoft,
+    '--bg-from': MOVIE_THEME.bgFrom,
+    '--bg-to': MOVIE_THEME.bgTo,
+  } as React.CSSProperties;
 
   return (
-    <Container className="text-center">
-      <br />
-      <div className="text-start">
-        <Link to="/conanwiki/movies">← 극장판 목록으로</Link>
-      </div>
-      <br />
+    <div className="mo-detail-page" style={cardVars}>
+      <Link href="/movies" className="mo-detail__back">
+        ← 극장판 목록으로
+      </Link>
 
-      <h3>{title}</h3>
-      <p>개봉일 : {releaseDate}</p>
-      <p>관객 평점 : {formattedRating}</p>
-      <p>인기도 : {formattedPopularity}</p>
-      <div style={{maxWidth: '700px', margin: '0 auto 24px'}} className="text-start">
-        <p>{overview}</p>
+      <div className="mo-detail__hero">
+        <div className="mo-detail__poster">
+          <img src={`${IMAGE_BASE_URL}${posterPath}`} alt={title} />
+        </div>
+        <div className="mo-detail__info">
+          <div className="mo-detail__title-row">
+            {season && <span className="mo-detail__season">{season}기</span>}
+            <h1 className="mo-detail__title">{title}</h1>
+          </div>
+          <div className="mo-detail__meta">
+            <span className="mo-detail__meta-item">📅 {releaseDate}</span>
+            <span className="mo-detail__meta-item">⭐ {formattedRating}</span>
+            <span className="mo-detail__meta-item">
+              🔥 인기도 {formattedPopularity}
+            </span>
+          </div>
+          <p className="mo-detail__overview">{overview}</p>
+        </div>
       </div>
 
-      {moviedata && moviedata.length > 0 ? (
-        moviedata.map(data => (
-          <Col xs={12} key={data.key} className="mb-4">
-            <div
-              style={{
-                position: 'relative',
-                width: '80%',
-                margin: '0 auto',
-                paddingBottom: '56.25%',
-                height: 0,
-              }}>
-              <iframe
-                src={`https://www.youtube.com/embed/${data.key}`}
-                title={data.name}
-                frameBorder="0"
-                allowFullScreen
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  width: '100%',
-                  height: '100%',
-                }}
-              />
-            </div>
-          </Col>
-        ))
-      ) : (
-        <Card.Img
-          variant="mid"
-          src={`${IMAGE_BASE_URL}${image}`}
-          alt=""
-          style={{
-            maxHeight: '800px',
-            width: '30%',
-            objectFit: 'cover',
-          }}
-        />
+      {videos.length > 0 && (
+        <div className="mo-detail__trailers">
+          <span className="mo-detail__section-title">🎬 예고편</span>
+          <div className="mo-detail__trailer-grid">
+            {videos.map(video => (
+              <div className="mo-detail__trailer" key={video.key}>
+                <div className="mo-detail__trailer-frame">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${video.key}`}
+                    title={video.name}
+                    allowFullScreen
+                  />
+                </div>
+                <div className="mo-detail__trailer-name">{video.name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       )}
-      <br />
-      <br />
-    </Container>
+    </div>
   );
 }

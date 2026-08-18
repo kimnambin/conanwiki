@@ -42,4 +42,12 @@ export default [{ignores: ['dist']}, {
       {allowConstantExport: true},
     ],
   },
+}, {
+  // Next.js App Router 규칙상 page.tsx/layout.tsx는 컴포넌트 옆에
+  // metadata/generateMetadata/generateStaticParams를 함께 export해야 해서
+  // 이 규칙(원래 Vite Fast Refresh 전용)이 여기선 적용되지 않는다.
+  files: ['src/app/**/*.{ts,tsx}'],
+  rules: {
+    'react-refresh/only-export-components': 'off',
+  },
 }, ...storybook.configs["flat/recommended"]];

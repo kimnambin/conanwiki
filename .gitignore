@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 build
+.next
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
@@ -25,7 +27,14 @@ build
 *.sw?
 
 .env
+.env*.local
 
-public
 *storybook.log
 storybook-static
+
+docs
+
+*.md
+!README.md
+
+.claude/
