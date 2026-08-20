@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import {Modal} from 'react-bootstrap';
 import {CoupleModalType} from '../../types/component.model';
 import {getCoupleType} from '../../utils/coupleType';
@@ -59,10 +60,15 @@ export default function Ch_coupleDetail({
 
         <div className="hs-card__portrait hs-card__portrait--split">
           <div className="hs-card__portrait-half">
-            <img src={couple.man_url} alt={couple.man} />
+            <Image src={couple.man_url} alt={couple.man} fill sizes="220px" />
           </div>
           <div className="hs-card__portrait-half">
-            <img src={couple.women_url} alt={couple.women} />
+            <Image
+              src={couple.women_url}
+              alt={couple.women}
+              fill
+              sizes="220px"
+            />
           </div>
           <div className="hs-card__portrait-divider" />
           <GemHint

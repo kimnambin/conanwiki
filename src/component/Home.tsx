@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import './home.css';
 
 interface HomeFeature {
@@ -67,7 +68,13 @@ export default function Home() {
               className="home-feature-card"
               style={cardVars}>
               <div className="home-feature-card__img">
-                <img src={f.img} alt={f.title} />
+                <Image
+                  src={f.img}
+                  alt={f.title}
+                  fill
+                  sizes="(max-width: 700px) 100vw, 33vw"
+                  priority={f.to === '/characters'}
+                />
               </div>
               <div className="home-feature-card__shade" />
               <div className="home-feature-card__body">

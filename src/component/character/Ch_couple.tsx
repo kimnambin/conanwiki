@@ -1,6 +1,7 @@
 'use client';
 
 import {useMemo, useState} from 'react';
+import Image from 'next/image';
 import {Container, Row, Col, Form, InputGroup} from 'react-bootstrap';
 import {CoupleType} from '../../types/api.model';
 import {getCoupleType} from '../../utils/coupleType';
@@ -87,10 +88,20 @@ export default function Ch_couple({coupleList}: Ch_coupleProps) {
                 onClick={() => open(v)}>
                 <div className="couple-card__portraits">
                   <div className="couple-card__portrait">
-                    <img src={v.man_url} alt={v.man} />
+                    <Image
+                      src={v.man_url}
+                      alt={v.man}
+                      fill
+                      sizes="(max-width: 576px) 25vw, (max-width: 992px) 16vw, 12vw"
+                    />
                   </div>
                   <div className="couple-card__portrait">
-                    <img src={v.women_url} alt={v.women} />
+                    <Image
+                      src={v.women_url}
+                      alt={v.women}
+                      fill
+                      sizes="(max-width: 576px) 25vw, (max-width: 992px) 16vw, 12vw"
+                    />
                   </div>
                 </div>
                 <div className="couple-card__divider" />

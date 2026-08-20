@@ -2,6 +2,7 @@
 
 import {Col} from 'react-bootstrap';
 import {useState} from 'react';
+import Image from 'next/image';
 import {EpisodeTypes, SeriesType} from '../../types/api.model';
 import {EpiTypes, EpiCharacterModalPayload} from '../../types/component.model';
 import Ep_characher from './Ep_characher';
@@ -142,7 +143,12 @@ export default function EpisodeBrowser({
                 📺{v.series.length}
               </span>
               <div className="episode-card__img">
-                <img src={v.img} alt="" />
+                <Image
+                  src={v.img}
+                  alt=""
+                  fill
+                  sizes="(max-width: 576px) 50vw, (max-width: 768px) 33vw, (max-width: 992px) 25vw, 16vw"
+                />
               </div>
               <div className="episode-card__shade" />
               <div className="episode-card__name-plate">

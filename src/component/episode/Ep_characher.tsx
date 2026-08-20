@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import {Modal} from 'react-bootstrap';
 import {
   EpiCharacterModalPayload,
@@ -103,7 +104,13 @@ export default function Ep_characher({
                   key={idx}>
                   {v.img && (
                     <div className="epc-card__item-thumb">
-                      <img src={v.img} alt="" onError={hideOnError} />
+                      <Image
+                        src={v.img}
+                        alt=""
+                        width={56}
+                        height={56}
+                        onError={hideOnError}
+                      />
                     </div>
                   )}
                   <div className="epc-card__item-main">
@@ -135,7 +142,13 @@ export default function Ep_characher({
                   key={idx}>
                   {v.img && (
                     <div className="epc-card__item-thumb">
-                      <img src={v.img} alt="" onError={hideOnError} />
+                      <Image
+                        src={v.img}
+                        alt=""
+                        width={56}
+                        height={56}
+                        onError={hideOnError}
+                      />
                     </div>
                   )}
                   <div className="epc-card__item-main">

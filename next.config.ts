@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   compiler: {
     styledComponents: true,
   },
+  images: {
+    remotePatterns: [{protocol: 'https', hostname: 'image.tmdb.org'}],
+  },
 };
 
 export default nextConfig;

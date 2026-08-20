@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import {MovieType} from '../../types/api.model';
 import {MOVIE_THEME} from '../../utils/movieTheme';
 
@@ -39,9 +40,11 @@ export default function MovieHeroCard({
           </span>
         )}
         <div className="hero-card__portrait">
-          <img
+          <Image
             src={`${IMAGE_BASE_URL}${movie.poster_path}`}
             alt={movie.title}
+            fill
+            sizes="(max-width: 576px) 50vw, (max-width: 992px) 33vw, 25vw"
           />
         </div>
         <div className="hero-card__shade" />
