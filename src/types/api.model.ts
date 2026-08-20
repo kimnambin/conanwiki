@@ -75,12 +75,41 @@ export interface EpisodeTypes {
 export type MovieType = {
   id: number;
   title: string;
+  original_title?: string;
   overview: string;
   release_date: string;
   vote_average: number;
+  vote_count?: number;
   popularity: number;
   poster_path: string;
+  backdrop_path?: string | null;
+  genre_ids?: number[];
   name: string;
   key: number;
 };
+
+export interface MovieCastMember {
+  id: number;
+  name: string;
+  character: string;
+  profile_path: string | null;
+}
+
+export interface MovieProvider {
+  provider_id: number;
+  provider_name: string;
+  logo_path: string;
+}
+
+export interface MovieDetailInfo {
+  runtime: number | null;
+  tagline: string;
+  genres: {id: number; name: string}[];
+  director: string | null;
+  cast: MovieCastMember[];
+  certification: string | null;
+  watchProviders: MovieProvider[];
+  watchLink: string | null;
+  videos: {key: string; name: string}[];
+}
 
