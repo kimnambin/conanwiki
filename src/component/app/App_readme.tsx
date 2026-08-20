@@ -15,7 +15,7 @@ export default function App_readme({
       show={openReadme}
       onHide={closeRead}
       centered
-      className={style.contanier}>
+      className={style.container}>
       <Modal.Header closeButton>
         <Modal.Title>README</Modal.Title>
       </Modal.Header>

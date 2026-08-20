@@ -26,11 +26,26 @@
   animation: scroll 10s linear infinite;
 }
 
+.credits:hover {
+  animation-play-state: paused;
+}
+
 @keyframes scroll {
   0% {
     bottom: -100%;
   }
   100% {
     bottom: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .readmeModal {
+    overflow-y: auto;
+  }
+
+  .credits {
+    position: static;
+    animation: none;
   }
 }

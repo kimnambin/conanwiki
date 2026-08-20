@@ -3,7 +3,7 @@
 import {Container} from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {SiNamuwiki} from 'react-icons/si';
+import {GiMagnifyingGlass} from 'react-icons/gi';
 import style from './App.module.css';
 import Link from 'next/link';
 
@@ -18,7 +18,7 @@ export default function App_navbar() {
       <Navbar expand="lg" className={style.Navbar}>
         <Container>
           <Navbar.Brand as={Link} href="/" className={style.NavbarTitle}>
-            <SiNamuwiki />
+            <GiMagnifyingGlass /> ConanWiki
           </Navbar.Brand>
           <Nav.Link as={Link} href="/" className={style.Navbarintro}>
             명탐정 코난을 소개하는 위키
