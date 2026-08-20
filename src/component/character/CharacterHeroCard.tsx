@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 import {CharacherType} from '../../types/api.model';
@@ -9,6 +10,16 @@ interface CharacterHeroCardProps {
   character: CharacherType;
   onClick: () => void;
 }
+
+const FALLBACK_IMG = '/conanwiki/fallback.webp';
+
+const fallbackOnError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+  const img = e.currentTarget;
+  if (img.src.endsWith(FALLBACK_IMG)) return;
+  img.onerror = null;
+  img.srcset = '';
+  img.src = FALLBACK_IMG;
+};
 
 // 캐릭터 페이지 그리드와 메인 검색 결과가 함께 쓰는 하스스톤 스타일 카드.
 export default function CharacterHeroCard({
@@ -37,7 +48,13 @@ export default function CharacterHeroCard({
         </Badge>
       )}
       <div className="hero-card__portrait">
-        <img src={character.img} alt="" />
+        <Image
+          src={character.img}
+          alt=""
+          fill
+          sizes="(max-width: 576px) 50vw, (max-width: 992px) 33vw, 25vw"
+          onError={fallbackOnError}
+        />
       </div>
       <div className="hero-card__shade" />
       <div className="hero-card__name-plate">

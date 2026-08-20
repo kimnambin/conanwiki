@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import {Modal} from 'react-bootstrap';
 import {ModalType} from '../../types/component.model';
 import {getCharacterType} from '../../utils/characterType';
@@ -12,6 +13,16 @@ const UNKNOWN_MARKERS = ['??', ''];
 const hasValue = (value: unknown): boolean => {
   if (value === null || value === undefined) return false;
   return !UNKNOWN_MARKERS.includes(String(value));
+};
+
+const FALLBACK_IMG = '/conanwiki/fallback.webp';
+
+const fallbackOnError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+  const img = e.currentTarget;
+  if (img.src.endsWith(FALLBACK_IMG)) return;
+  img.onerror = null;
+  img.srcset = '';
+  img.src = FALLBACK_IMG;
 };
 
 const InfoRow = ({label, value}: {label: string; value: unknown}) => {
@@ -79,7 +90,13 @@ export default function Ch_detail({open, close, character}: ModalType) {
         </button>
 
         <div className="hs-card__portrait">
-          <img src={character.img} alt={character.name.korean.name} />
+          <Image
+            src={character.img}
+            alt={character.name.korean.name}
+            fill
+            sizes="(max-width: 400px) 100vw, 380px"
+            onError={fallbackOnError}
+          />
           <div className="hs-card__portrait-shade" />
 
           {hasValue(character.age) && (
