@@ -89,22 +89,13 @@ export default function Ch_couple({coupleList}: Ch_coupleProps) {
                 <div className="couple-card__portraits">
                   <div className="couple-card__portrait">
                     <Image
-                      src={v.man_url}
-                      alt={v.man}
+                      src={v.couple_url || v.man_url}
+                      alt={`${v.man} & ${v.women}`}
                       fill
-                      sizes="(max-width: 576px) 25vw, (max-width: 992px) 16vw, 12vw"
-                    />
-                  </div>
-                  <div className="couple-card__portrait">
-                    <Image
-                      src={v.women_url}
-                      alt={v.women}
-                      fill
-                      sizes="(max-width: 576px) 25vw, (max-width: 992px) 16vw, 12vw"
+                      sizes="(max-width: 576px) 50vw, (max-width: 992px) 32vw, 24vw"
                     />
                   </div>
                 </div>
-                <div className="couple-card__divider" />
                 <span className="couple-card__heart">{type.icon}</span>
                 <div className="couple-card__shade" />
                 {v.status && (

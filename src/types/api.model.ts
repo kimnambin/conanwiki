@@ -50,6 +50,7 @@ export interface CoupleType {
   women: string;
   women_url: string;
   women_job?: string;
+  couple_url?: string;
   couple_nickname?: string;
   status?: string;
   relationship_type?: string;

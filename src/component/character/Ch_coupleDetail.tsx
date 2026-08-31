@@ -58,19 +58,13 @@ export default function Ch_coupleDetail({
           ✕
         </button>
 
-        <div className="hs-card__portrait hs-card__portrait--split">
-          <div className="hs-card__portrait-half">
-            <Image src={couple.man_url} alt={couple.man} fill sizes="220px" />
-          </div>
-          <div className="hs-card__portrait-half">
-            <Image
-              src={couple.women_url}
-              alt={couple.women}
-              fill
-              sizes="220px"
-            />
-          </div>
-          <div className="hs-card__portrait-divider" />
+        <div className="hs-card__portrait">
+          <Image
+            src={couple.couple_url || couple.man_url}
+            alt={`${couple.man} & ${couple.women}`}
+            fill
+            sizes="(max-width: 620px) 100vw, 580px"
+          />
           <GemHint
             className="hs-card__portrait-heart gem-hint--pop gem-hint--center"
             title={type.label}
