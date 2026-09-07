@@ -138,7 +138,13 @@ export default function CharacterBrowser({
               </InputGroup>
             </Col>
           </Row>
-          <Ch_detail open={openDetail} close={close} character={select} />
+          <Ch_detail
+            open={openDetail}
+            close={close}
+            character={select}
+            characters={characters}
+            onSelectCharacter={open}
+          />
           {filteredList.length === 0 && <p>검색 결과가 없습니다.</p>}
           <Row className="g-3">
             {filteredList.map(item => (

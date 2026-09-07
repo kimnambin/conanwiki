@@ -1,9 +1,10 @@
-import type {Metadata} from 'next';
+import type {Metadata, Viewport} from 'next';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../index.css';
 import App_navbar from '../component/app/App_navbar';
 import App_bottom from '../component/app/App_bottom';
 import App_footer from '../component/app/App_footer';
+import App_pwaInstall from '../component/app/App_pwaInstall';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://conanwiki.vercel.app'),
@@ -27,7 +28,17 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: '/conanwiki/conanIcon_11zon.webp',
+    apple: '/icons/apple-touch-icon.png',
   },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'ConanWiki',
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: '#00a495',
 };
 
 export default function RootLayout({
@@ -41,6 +52,7 @@ export default function RootLayout({
         <App_navbar />
         {children}
         <App_bottom />
+        <App_pwaInstall />
         <App_footer />
       </body>
     </html>

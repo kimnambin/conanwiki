@@ -1,3 +1,5 @@
+import {RelationshipMap} from './relationship.model';
+
 export interface CharacherType {
   name: {
     korean: {
@@ -29,6 +31,7 @@ export interface CharacherType {
   namuwikiUrl?: string;
   affiliation?: string[];
   status?: string;
+  relationships?: RelationshipMap;
 }
 
 export interface CoupleEpisode {

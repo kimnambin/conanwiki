@@ -10,6 +10,8 @@ export type ModalType = {
   open: boolean;
   close: () => void;
   character: CharacherType | null;
+  characters?: CharacherType[];
+  onSelectCharacter?: (character: CharacherType) => void;
 };
 
 export type CoupleModalType = {

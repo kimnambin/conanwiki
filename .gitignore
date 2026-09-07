@@ -31,6 +31,8 @@ build
 
 *storybook.log
 storybook-static
+coverage
+__screenshots__
 
 docs
 

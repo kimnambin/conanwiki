@@ -223,25 +223,25 @@
     "namuwikiUrl": "https://namu.wiki/w/%EC%A0%9C%EC%9E%84%EC%8A%A4%20%EB%B8%94%EB%9E%99"
   },
   {
-    "age": "??",
-    "aliases": "카라스마 렌야",
+    "age": "100세 이상 (추정)",
+    "aliases": "그 분 <br /> 보스",
     "date_of_birth": "미상",
     "drama_actor": "??",
     "first_appearance": {
-      "anime": "검은 조직과의 재회 (언급)",
-      "manga": "검은 조직과의 재회 (언급)"
+      "anime": "만화 에피소드 300",
+      "manga": "만화 에피소드 300"
     },
     "gender": "미상",
     "keyhole": "??",
     "name": {
-      "english": {"anime": "That Person", "manga": "That Person"},
-      "japanese": {"kanji": "あの方", "romanized": "Ano kata"},
-      "korean": {"name": "범인 (아노 카타)"}
+      "english": {"anime": "Renya Karasuma", "manga": "Renya Karasuma"},
+      "japanese": {"kanji": "烏丸 連耶", "romanized": "Renya Karasuma"},
+      "korean": {"name": "카라스마 렌야"}
     },
     "img": "/conanwiki/img/Ano kata_2_11zon.webp",
-    "occupation": "검은 조직 보스",
+    "occupation": "카라스마 그룹 초대 회장 (은퇴) <br /> 검은 조직 보스",
     "affiliation": ["검은 조직"],
-    "status": "미상",
+    "status": "미상 (반세기 전 사망설, 생존 여부 불명)",
     "relationships": {
       "가족": [],
       "연인": [],
@@ -250,7 +250,7 @@
       "적": ["에도가와 코난", "아카이 슈이치"]
     },
     "voice": [{"japanese": "아직 없음", "korean": "??"}],
-    "namuwikiUrl": "https://namu.wiki/w/%EB%B3%B4%EC%8A%A4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
+    "namuwikiUrl": "https://namu.wiki/w/%EC%B9%B4%EB%9D%BC%EC%8A%A4%EB%A7%88%20%EB%A0%8C%EC%95%BC"
   },
   {
     "age": "??",
@@ -2489,6 +2489,41 @@
     "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EA%B8%B0%EC%99%80%EB%9D%BC%20%EC%BC%84%EC%A7%80"
   },
   {
+    "age": 31,
+    "aliases": "바람의 여신",
+    "date_of_birth": "미상",
+    "drama_actor": "??",
+    "first_appearance": {
+      "anime": "만화 에피소드 1073",
+      "manga": "만화 에피소드 1073"
+    },
+    "gender": "여성",
+    "keyhole": "??",
+    "name": {
+      "english": {"anime": "Chihaya Hagiwara", "manga": "Chihaya Hagiwara"},
+      "japanese": {"kanji": "萩原 千速", "romanized": "Chihaya Hagiwara"},
+      "korean": {"name": "하기연 (하기와라 치하야)"}
+    },
+    "img": "/conanwiki/img/Chihaya Hagiwara.webp",
+    "occupation": "가나가와현 경찰본부 교통부 제3교통기동대 소대장 (경부보)",
+    "affiliation": ["가나가와현 경찰본부 교통부"],
+    "status": "생존",
+    "relationships": {
+      "가족": ["하기와라 켄지 (남동생, 사망)"],
+      "연인": ["마츠다 진페이 (첫사랑, 사망)"],
+      "친구": ["요코미조 쥬고 (동료)", "오오에 시노부 (동료)", "에도가와 코난 (협력자)"],
+      "동료": ["가나가와현 경찰본부 제3교통기동대"],
+      "적": []
+    },
+    "voice": [
+      {
+        "japanese": "Atsuko Tanaka (2023~2024)<br>Miyuki Sawashiro (2025~)",
+        "korean": "정유미"
+      }
+    ],
+    "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EA%B8%B0%EC%99%80%EB%9D%BC%20%EC%B9%98%ED%95%98%EC%95%BC"
+  },
+  {
     "age": 24,
     "aliases": "??",
     "date_of_birth": "미상",
@@ -2550,7 +2585,7 @@
   },
   {
     "age": 48,
-    "aliases": "김상우",
+    "aliases": "김상우 <br /> 럼 (RUM)",
     "date_of_birth": "미상",
     "drama_actor": "??",
     "first_appearance": {
@@ -2565,18 +2600,18 @@
       "korean": {"name": "김상우 (와키타 카네노리)"}
     },
     "img": "/conanwiki/img/Kanenori Wakita.webp",
-    "occupation": "스시 가게 주인 (오다지마 스시)",
-    "affiliation": ["오다지마 스시"],
-    "status": "생존 (럼 의심 인물)",
+    "occupation": "스시 가게 주인 (오다지마 스시, 위장) <br /> 검은 조직 No.2 (럼)",
+    "affiliation": ["검은 조직"],
+    "status": "생존",
     "relationships": {
       "가족": [],
       "연인": [],
       "친구": [],
-      "동료": [],
-      "적": []
+      "동료": ["카라스마 렌야 (상관)", "진 (부하)", "베르무트 (부하)"],
+      "적": ["아카이 슈이치", "하이바라 아이", "에도가와 코난"]
     },
     "voice": [{"japanese": "Toshiyuki Morikawa", "korean": "김기흥"}],
-    "namuwikiUrl": "https://namu.wiki/w/%EC%99%80%ED%82%A4%ED%83%80%20%EC%B9%B4%EB%84%A4%EB%85%B8%EB%A6%AC"
+    "namuwikiUrl": "https://namu.wiki/w/%EB%9F%BC(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)"
   },
   {
     "age": "??",

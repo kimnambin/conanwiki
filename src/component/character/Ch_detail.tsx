@@ -6,6 +6,7 @@ import {ModalType} from '../../types/component.model';
 import {getCharacterType} from '../../utils/characterType';
 import {renderBreaks} from '../../utils/renderBreaks';
 import GemHint from '../common/GemHint';
+import Ch_relationshipGraph from './Ch_relationshipGraph';
 import './Ch_detail.css';
 
 const UNKNOWN_MARKERS = ['??', ''];
@@ -35,7 +36,13 @@ const InfoRow = ({label, value}: {label: string; value: unknown}) => {
   );
 };
 
-export default function Ch_detail({open, close, character}: ModalType) {
+export default function Ch_detail({
+  open,
+  close,
+  character,
+  characters,
+  onSelectCharacter,
+}: ModalType) {
   if (!open) return null;
 
   if (!character) {
@@ -156,6 +163,14 @@ export default function Ch_detail({open, close, character}: ModalType) {
             </div>
           ) : (
             <p className="hs-card__empty">아직 확인된 상세 정보가 없어요.</p>
+          )}
+
+          {characters && onSelectCharacter && (
+            <Ch_relationshipGraph
+              character={character}
+              characters={characters}
+              onSelect={onSelectCharacter}
+            />
           )}
         </div>
 
