@@ -1,5 +1,5 @@
 import {describe, expect, it} from 'vitest';
-import {render, screen} from '@testing-library/react';
+import {render, screen, waitFor} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import GemHint from './GemHint';
 
@@ -23,10 +23,12 @@ describe('GemHint', () => {
     const badge = screen.getByRole('button', {name: '나이'});
 
     await user.hover(badge);
-    expect(screen.getByText('7세예요.')).toBeInTheDocument();
+    expect(await screen.findByText('7세예요.')).toBeInTheDocument();
 
     await user.unhover(badge);
-    expect(screen.queryByText('7세예요.')).not.toBeInTheDocument();
+    await waitFor(() =>
+      expect(screen.queryByText('7세예요.')).not.toBeInTheDocument(),
+    );
   });
 
   it('Enter/Space 키로 말풍선을 토글할 수 있다', async () => {
@@ -36,10 +38,12 @@ describe('GemHint', () => {
 
     badge.focus();
     await user.keyboard('{Enter}');
-    expect(screen.getByText('7세예요.')).toBeInTheDocument();
+    expect(await screen.findByText('7세예요.')).toBeInTheDocument();
 
     await user.keyboard('{Enter}');
-    expect(screen.queryByText('7세예요.')).not.toBeInTheDocument();
+    await waitFor(() =>
+      expect(screen.queryByText('7세예요.')).not.toBeInTheDocument(),
+    );
   });
 
   it('바깥을 클릭하면 말풍선이 닫힌다', async () => {
@@ -55,9 +59,11 @@ describe('GemHint', () => {
     const badge = screen.getByRole('button', {name: '나이'});
 
     await user.click(badge);
-    expect(screen.getByText('7세예요.')).toBeInTheDocument();
+    expect(await screen.findByText('7세예요.')).toBeInTheDocument();
 
     await user.click(screen.getByRole('button', {name: '바깥 버튼'}));
-    expect(screen.queryByText('7세예요.')).not.toBeInTheDocument();
+    await waitFor(() =>
+      expect(screen.queryByText('7세예요.')).not.toBeInTheDocument(),
+    );
   });
 });
