@@ -1,4 +1,4 @@
-import {CharacherType, CoupleType} from './api.model';
+import {CharacterType, CoupleType} from './api.model';
 
 export type ReadmeType = {
   openReadme: boolean;
@@ -9,9 +9,9 @@ export type ReadmeType = {
 export type ModalType = {
   open: boolean;
   close: () => void;
-  character: CharacherType | null;
-  characters?: CharacherType[];
-  onSelectCharacter?: (character: CharacherType) => void;
+  character: CharacterType | null;
+  characters?: CharacterType[];
+  onSelectCharacter?: (character: CharacterType) => void;
 };
 
 export type CoupleModalType = {
@@ -60,7 +60,7 @@ export interface EpiTypes {
   movies?: EpiMovies[];
 }
 
-// 에피소드 모달(Ep_characher)에 전달되는 캐릭터 에피소드 데이터 모양
+// 에피소드 모달(Ep_character)에 전달되는 캐릭터 에피소드 데이터 모양
 export type EpiCharacterModalPayload = Pick<
   EpiTypes,
   'kidcases' | 'kidmovies' | 'cases' | 'movies'

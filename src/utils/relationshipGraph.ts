@@ -1,4 +1,4 @@
-import {CharacherType} from '../types/api.model';
+import {CharacterType} from '../types/api.model';
 import {RelationshipCategoryKey} from '../types/relationship.model';
 
 export interface RelationshipCategoryMeta {
@@ -22,7 +22,7 @@ export interface RelationshipEntry {
   name: string;
   note: string | null;
   category: RelationshipCategoryKey;
-  matched: CharacherType | null;
+  matched: CharacterType | null;
 }
 
 const NAME_NOTE_RE = /^(.*?)\s*\(([^)]*)\)\s*$/;
@@ -48,9 +48,9 @@ function namesOverlap(a: string, b: string): boolean {
 // "쿠도 신이치 / 에도가와 코난"처럼 '/'로 병기된 경우도 각각 시도한다.
 export function findMatchingCharacter(
   relationName: string,
-  characters: CharacherType[],
-  self?: CharacherType,
-): CharacherType | null {
+  characters: CharacterType[],
+  self?: CharacterType,
+): CharacterType | null {
   const candidates = relationName
     .split('/')
     .map(part => part.trim())
@@ -71,8 +71,8 @@ export function findMatchingCharacter(
 // 캐릭터 한 명의 relationships 데이터를, 카테고리 순서를 유지한 채
 // 평평한 목록으로 펼치고 각 항목을 실제 캐릭터 레코드와 매칭한다.
 export function buildRelationshipEntries(
-  character: CharacherType,
-  characters: CharacherType[],
+  character: CharacterType,
+  characters: CharacterType[],
 ): RelationshipEntry[] {
   const relationships = character.relationships;
   if (!relationships) return [];

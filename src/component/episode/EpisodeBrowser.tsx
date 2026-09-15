@@ -5,7 +5,7 @@ import {useState} from 'react';
 import Image from 'next/image';
 import {EpisodeTypes, SeriesType} from '../../types/api.model';
 import {EpiTypes, EpiCharacterModalPayload} from '../../types/component.model';
-import Ep_characher from './Ep_characher';
+import Ep_character from './Ep_character';
 import Ep_detail from './Ep_detail';
 import ToggleSwitch from '../common/ToggleSwitch';
 import {
@@ -65,7 +65,7 @@ export default function EpisodeBrowser({
     setQuarter(id.quarter);
   };
 
-  const clickCharacher = (select: EpiTypes) => {
+  const clickCharacter = (select: EpiTypes) => {
     setModalKind('character');
     setSelectedCharacterEpi({
       kidcases: select.kidcases,
@@ -113,7 +113,7 @@ export default function EpisodeBrowser({
         quarter={quarter}
         lang={lang}
       />
-      <Ep_characher
+      <Ep_character
         isOpen={modalKind === 'character'}
         selectedSeries={selectedCharacterEpi}
         closeEpi={closeEpi}
@@ -184,7 +184,7 @@ export default function EpisodeBrowser({
               <div
                 className="episode-card"
                 style={characterThemeVars}
-                onClick={() => clickCharacher(v)}>
+                onClick={() => clickCharacter(v)}>
                 <span
                   className="episode-card__badge"
                   title="포함된 에피소드/극장판 수">

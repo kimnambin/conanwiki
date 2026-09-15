@@ -5,13 +5,14 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Ch_detail from '../character/Ch_detail';
 import CharacterHeroCard from '../character/CharacterHeroCard';
 import MovieHeroCard from '../movie/MovieHeroCard';
-import {CharacherType, MovieType} from '../../types/api.model';
+import {CharacterType, MovieType} from '../../types/api.model';
+import {useModal} from '../../hooks/useModal';
 import {getMovieSeasonMap} from '../../utils/movieOrder';
 import '../common/HeroCard.css';
 import './App_search.css';
 
 interface SearchBarProps {
-  characters: CharacherType[];
+  characters: CharacterType[];
   movies: MovieType[];
 }
 
@@ -19,30 +20,19 @@ interface SearchBarProps {
 // 미리 읽어 props로 내려주고, 검색 자체는 순수 클라이언트 상호작용이다.
 export default function SearchBar({characters, movies}: SearchBarProps) {
   const [search, setSearch] = useState('');
-  const [openDetail, setOpenDetail] = useState(false);
-  const [select, setSelect] = useState<CharacherType | null>(null);
+  const {isOpen: openDetail, selected: select, open, close} = useModal<CharacterType>();
 
   const seasonMap = useMemo(() => getMovieSeasonMap(movies), [movies]);
 
-  const trimmed = search.trim();
+  const trimmed = search.trim().toLowerCase();
 
   const searchShow = trimmed
-    ? movies.filter(movie => movie.title.includes(trimmed))
+    ? movies.filter(movie => movie.title.toLowerCase().includes(trimmed))
     : [];
 
   const searchCharacter = trimmed
-    ? characters.filter(item => item.name.korean.name.includes(trimmed))
+    ? characters.filter(item => item.name.korean.name.includes(search.trim()))
     : [];
-
-  const open = (item: CharacherType) => {
-    setSelect(item);
-    setOpenDetail(true);
-  };
-
-  const close = () => {
-    setSelect(null);
-    setOpenDetail(false);
-  };
 
   return (
     <>

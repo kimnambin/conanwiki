@@ -2,7 +2,7 @@ import type {Metadata} from 'next';
 import CharacterBrowser from '../../component/character/CharacterBrowser';
 import personData from '../../data/person.json';
 import coupleData from '../../data/couple.json';
-import {CharacherType, CoupleType} from '../../types/api.model';
+import {CharacterType, CoupleType} from '../../types/api.model';
 
 export const metadata: Metadata = {
   title: '등장인물',
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function CharactersPage() {
-  const characters = personData as unknown as CharacherType[];
+  const characters = personData as unknown as CharacterType[];
   const couples = coupleData as unknown as CoupleType[];
 
   return <CharacterBrowser characters={characters} couples={couples} />;

@@ -1,5 +1,5 @@
 import {describe, expect, it} from 'vitest';
-import {CharacherType} from '../types/api.model';
+import {CharacterType} from '../types/api.model';
 import {
   buildRelationshipEntries,
   findMatchingCharacter,
@@ -10,8 +10,8 @@ import {
 
 function makeCharacter(
   koreanName: string,
-  overrides: Partial<CharacherType> = {},
-): CharacherType {
+  overrides: Partial<CharacterType> = {},
+): CharacterType {
   return {
     name: {
       korean: {name: koreanName},

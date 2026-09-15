@@ -7,7 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import {CharacherType, CoupleType} from '../../types/api.model';
+import {CharacterType, CoupleType} from '../../types/api.model';
+import {useModal} from '../../hooks/useModal';
 import Ch_detail from './Ch_detail';
 import Ch_couple from './Ch_couple';
 import CharacterHeroCard from './CharacterHeroCard';
@@ -20,7 +21,7 @@ const ALL_AFFILIATIONS = '__all__';
 type ViewMode = 'character' | 'couple';
 
 interface CharacterBrowserProps {
-  characters: CharacherType[];
+  characters: CharacterType[];
   couples: CoupleType[];
 }
 
@@ -30,22 +31,11 @@ export default function CharacterBrowser({
   characters,
   couples,
 }: CharacterBrowserProps) {
-  const [openDetail, setOpenDetail] = useState(false);
-  const [select, setSelect] = useState<CharacherType | null>(null);
+  const {isOpen: openDetail, selected: select, open, close} = useModal<CharacterType>();
   const [keyword, setKeyword] = useState('');
   const [selectedAffiliation, setSelectedAffiliation] =
     useState(ALL_AFFILIATIONS);
   const [view, setView] = useState<ViewMode>('character');
-
-  const open = (arg: CharacherType) => {
-    setSelect(arg);
-    setOpenDetail(true);
-  };
-
-  const close = () => {
-    setSelect(null);
-    setOpenDetail(false);
-  };
 
   // 소속(affiliation) 원문 값을, 카드 배경/원형 뱃지에 쓰는 타입별로 묶어
   // 필터 드롭다운의 optgroup으로 사용한다.

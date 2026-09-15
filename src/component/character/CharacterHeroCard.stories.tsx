@@ -1,10 +1,10 @@
 import type {Meta, StoryObj} from '@storybook/react-vite';
 import {fn} from 'storybook/test';
-import {CharacherType} from '../../types/api.model';
+import {CharacterType} from '../../types/api.model';
 import CharacterHeroCard from './CharacterHeroCard';
 import '../common/HeroCard.css';
 
-const conan: CharacherType = {
+const conan: CharacterType = {
   name: {
     korean: {name: '코난 (에도가와 코난)'},
     english: {anime: 'Conan Edogawa'},

@@ -31,7 +31,7 @@ export default function App_navbar() {
                   as={Link}
                   href={item.link}
                   className="navtext"
-                  key={index}>
+                  key={item.link}>
                   {item.title}
                 </Nav.Link>
               ))}
