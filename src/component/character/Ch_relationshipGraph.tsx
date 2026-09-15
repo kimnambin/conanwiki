@@ -1,7 +1,7 @@
 'use client';
 
 import {useMemo} from 'react';
-import {CharacherType} from '../../types/api.model';
+import {CharacterType} from '../../types/api.model';
 import {
   buildRelationshipEntries,
   layoutRelationshipNodes,
@@ -10,9 +10,9 @@ import {
 } from '../../utils/relationshipGraph';
 
 interface Ch_relationshipGraphProps {
-  character: CharacherType;
-  characters: CharacherType[];
-  onSelect: (character: CharacherType) => void;
+  character: CharacterType;
+  characters: CharacterType[];
+  onSelect: (character: CharacterType) => void;
 }
 
 const CENTER_SIZE = 56;
@@ -25,7 +25,7 @@ function NodeAvatar({
 }: {
   node: RelationshipNode;
   size: number;
-  onSelect: (character: CharacherType) => void;
+  onSelect: (character: CharacterType) => void;
 }) {
   const clickable = Boolean(node.matched);
   const tooltip = node.note ? `${node.name} (${node.note})` : node.name;

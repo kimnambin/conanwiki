@@ -5,7 +5,7 @@ import {fetchMovies, fetchMovieDetail} from '../../../api/movieApi';
 import {getMovieSeasonMap} from '../../../utils/movieOrder';
 import {matchLocalCharacters} from '../../../utils/movieCast';
 import personData from '../../../data/person.json';
-import {CharacherType} from '../../../types/api.model';
+import {CharacterType} from '../../../types/api.model';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
@@ -56,7 +56,7 @@ export default async function MovieDetailPage({
 
   const seasonMap = getMovieSeasonMap(movies);
   const detail = await fetchMovieDetail(movie.id);
-  const characters = personData as unknown as CharacherType[];
+  const characters = personData as unknown as CharacterType[];
   const appearingCharacters = matchLocalCharacters(detail.cast, characters);
 
   const releaseOrdered = [...movies].sort(

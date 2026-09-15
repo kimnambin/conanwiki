@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {CharacherType, MovieProvider} from '../../types/api.model';
+import {CharacterType, MovieProvider} from '../../types/api.model';
 import {MOVIE_THEME} from '../../utils/movieTheme';
 import Mo_characters from './Mo_characters';
 import './Mo_detail.css';
@@ -40,7 +40,7 @@ interface Mo_detailProps {
   watchProviders: MovieProvider[];
   watchLink: string | null;
   videos: MovieVideo[];
-  appearingCharacters: CharacherType[];
+  appearingCharacters: CharacterType[];
   prevMovie: MovieNavInfo | null;
   nextMovie: MovieNavInfo | null;
 }

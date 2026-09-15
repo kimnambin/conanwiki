@@ -1,4 +1,4 @@
-import {CharacherType, MovieCastMember} from '../types/api.model';
+import {CharacterType, MovieCastMember} from '../types/api.model';
 
 const cleanCharacterName = (raw: string): string =>
   raw
@@ -12,9 +12,9 @@ const cleanCharacterName = (raw: string): string =>
 // 두 필드를 모두 후보로 비교해야 한다.
 export function matchLocalCharacters(
   cast: MovieCastMember[],
-  characters: CharacherType[],
-): CharacherType[] {
-  const matched: CharacherType[] = [];
+  characters: CharacterType[],
+): CharacterType[] {
+  const matched: CharacterType[] = [];
   const seen = new Set<string>();
 
   for (const member of cast) {

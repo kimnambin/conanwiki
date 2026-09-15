@@ -8,7 +8,7 @@ import {
   EpiSeries,
 } from '../../types/component.model';
 import {CHARACTER_EPISODE_THEME} from '../../utils/episodeTheme';
-import './Ep_characher.css';
+import './Ep_character.css';
 
 type EpCharacterProps = {
   isOpen: boolean;
@@ -61,7 +61,7 @@ const ItemMeta = ({
   </>
 );
 
-export default function Ep_characher({
+export default function Ep_character({
   isOpen,
   selectedSeries,
   closeEpi,

@@ -1,6 +1,6 @@
 import {RelationshipMap} from './relationship.model';
 
-export interface CharacherType {
+export interface CharacterType {
   name: {
     korean: {
       name: string;
