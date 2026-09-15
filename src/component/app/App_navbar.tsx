@@ -26,7 +26,7 @@ export default function App_navbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              {navItems.map((item, index) => (
+              {navItems.map(item => (
                 <Nav.Link
                   as={Link}
                   href={item.link}
