@@ -1,0 +1,47 @@
+{
+  "age": "42",
+  "aliases": "이케나미 시즈카 (결혼 전 성)",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 220",
+    "manga": "만화 에피소드 220"
+  },
+  "gender": "여성",
+  "keyhole": 28,
+  "name": {
+    "english": {
+      "anime": "Shizuka Hartwell",
+      "manga": "Shizuka Hartwell"
+    },
+    "japanese": {
+      "kanji": "服部 静華",
+      "romanized": "Shizuka Hattori"
+    },
+    "korean": {
+      "name": "윤정화 (핫토리 시즈카)"
+    }
+  },
+  "img": "/conanwiki/img/Shizuka Hattori_97_11zon.webp",
+  "occupation": "주부 <br /> 전 카루타 챔피언",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "핫토리 헤이지 (아들)",
+      "핫토리 헤이조 (배우자)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Masako Katsuki",
+      "korean": "윤소라"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%AB%ED%86%A0%EB%A6%AC%20%EC%8B%9C%EC%A6%88%EC%B9%B4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Shizuka Hartwell"
+}

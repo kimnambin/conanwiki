@@ -1,0 +1,56 @@
+{
+  "age": "31",
+  "aliases": "바람의 여신",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 1073",
+    "manga": "만화 에피소드 1073"
+  },
+  "gender": "여성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Chihaya Hagiwara",
+      "manga": "Chihaya Hagiwara"
+    },
+    "japanese": {
+      "kanji": "萩原 千速",
+      "romanized": "Chihaya Hagiwara"
+    },
+    "korean": {
+      "name": "하기연 (하기와라 치하야)"
+    }
+  },
+  "img": "/conanwiki/img/Chihaya Hagiwara.webp",
+  "occupation": "가나가와현 경찰본부 교통부 제3교통기동대 소대장 (경부보)",
+  "affiliation": [
+    "가나가와현 경찰본부 교통부"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "하기와라 켄지 (남동생, 사망)"
+    ],
+    "연인": [
+      "마츠다 진페이 (첫사랑, 사망)"
+    ],
+    "친구": [
+      "요코미조 쥬고 (동료)",
+      "오오에 시노부 (동료)",
+      "에도가와 코난 (협력자)"
+    ],
+    "동료": [
+      "가나가와현 경찰본부 제3교통기동대"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Atsuko Tanaka (2023~2024)<br>Miyuki Sawashiro (2025~)",
+      "korean": "정유미"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EA%B8%B0%EC%99%80%EB%9D%BC%20%EC%B9%98%ED%95%98%EC%95%BC",
+  "englishName": "Chihaya Hagiwara"
+}

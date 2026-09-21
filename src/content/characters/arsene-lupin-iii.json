@@ -1,0 +1,53 @@
+{
+  "age": "??",
+  "aliases": "루팡<br>세기의 대도둑",
+  "date_of_birth": "??",
+  "drama_actor": "Yuki Meguro<br>Shun Oguri",
+  "first_appearance": {
+    "anime": "TV 스페셜 3",
+    "manga": "TV 스페셜 3"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Arsène Lupin III",
+      "manga": "Arsène Lupin III"
+    },
+    "japanese": {
+      "kanji": "Lupin III (''Rupan Sansei'')",
+      "romanized": "Arsène Lupin III"
+    },
+    "korean": {
+      "name": "루팡 3세"
+    }
+  },
+  "img": "/conanwiki/img/Arsène Lupin III_5.webp",
+  "occupation": "괴도",
+  "affiliation": [
+    "루팡 일당"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "후지코 미네 (연인, 미등장)"
+    ],
+    "친구": [
+      "지겐 다이스케 (동료)",
+      "이시카와 고에몽 (동료)"
+    ],
+    "동료": [
+      "루팡 일당"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Kanichi Kurita",
+      "korean": "김현욱<br>강수진 (투니버스)<br>김장 (극장판)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%A3%A8%ED%8C%A1(%EB%A3%A8%ED%8C%A1%203%EC%84%B8)",
+  "englishName": "Arsène Lupin III"
+}

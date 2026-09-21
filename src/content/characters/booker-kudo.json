@@ -1,0 +1,47 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 43",
+    "manga": "만화 에피소드 43"
+  },
+  "gender": "남성",
+  "keyhole": 22,
+  "name": {
+    "english": {
+      "anime": "Booker Kudo",
+      "manga": "Booker Kudo"
+    },
+    "japanese": {
+      "kanji": "工藤 優作",
+      "romanized": "Yusaku Kudo"
+    },
+    "korean": {
+      "name": "남건 (쿠도 유사쿠)"
+    }
+  },
+  "img": "/conanwiki/img/Yusaku Kudo_15_11zon.webp",
+  "occupation": "소설가 <br /> 탐정",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "쿠도 신이치 (아들)",
+      "쿠도 유키코 (배우자)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Hideyuki Tanaka",
+      "korean": "정승욱<br>전인배 (KBS)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%8F%84%20%EC%9C%A0%EC%82%AC%EC%BF%A0",
+  "englishName": "Booker Kudo"
+}

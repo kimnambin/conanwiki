@@ -1,0 +1,53 @@
+{
+  "age": "48",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "Yutaka Matsushige",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": 6,
+  "name": {
+    "english": {
+      "anime": "Joseph Meguire",
+      "manga": "Joseph Meguire"
+    },
+    "japanese": {
+      "kanji": "目暮 十三",
+      "romanized": "Juzo Megure"
+    },
+    "korean": {
+      "name": "골롬보 (메구레 쥬조)"
+    }
+  },
+  "img": "/conanwiki/img/Juzo Megure_48_11zon.webp",
+  "occupation": "경시청 수사1과 경부",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "메구레 미도리 (아내)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "사토 미와코 (부하)",
+      "타카기 와타루 (부하)",
+      "치바 카즈노부 (부하)",
+      "시라토리 닌자부로 (부하)"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Chafurin",
+      "korean": "권혁수 (KBS)<br>이인성 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%A9%94%EA%B5%AC%EB%A0%88%20%EC%A3%BC%EC%A1%B0",
+  "englishName": "Joseph Meguire"
+}

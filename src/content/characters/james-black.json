@@ -1,0 +1,52 @@
+{
+  "age": "50대 중반",
+  "aliases": "쿨한 남자",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 258",
+    "manga": "만화 에피소드 258"
+  },
+  "gender": "남성",
+  "keyhole": 57,
+  "name": {
+    "english": {
+      "anime": "James Black",
+      "manga": "James Black"
+    },
+    "japanese": {
+      "kanji": "ジェイムズ・ブラック",
+      "romanized": "James Black"
+    },
+    "korean": {
+      "name": "제임스 블랙"
+    }
+  },
+  "img": "/conanwiki/img/James Black_42_11zon.webp",
+  "occupation": "FBI 국장",
+  "affiliation": [
+    "FBI"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "아카이 슈이치 (부하)",
+      "앙드레 캐멀 (부하)",
+      "혼도 히데미 (부하)"
+    ],
+    "적": [
+      "검은 조직"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Iemasa Kayumi (1933-2014)<br /> Takaya Hashi",
+      "korean": "권혁수"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%A0%9C%EC%9E%84%EC%8A%A4%20%EB%B8%94%EB%9E%99",
+  "englishName": "James Black"
+}

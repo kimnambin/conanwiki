@@ -1,0 +1,45 @@
+{
+  "age": "19",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 10",
+    "manga": "만화 에피소드 10"
+  },
+  "gender": "남성",
+  "keyhole": 69,
+  "name": {
+    "english": {
+      "anime": "Harrison Acres",
+      "manga": "Harrison Acres"
+    },
+    "japanese": {
+      "kanji": "赤木 英雄",
+      "romanized": "Hideo Akagi"
+    },
+    "korean": {
+      "name": "강호철 (아카기 히데오)"
+    }
+  },
+  "img": "/conanwiki/img/Hideo Akagi_34_11zon.webp",
+  "occupation": "축구선수",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "요네하라 마나부 (동료)"
+    ],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Koji Tsujitani",
+      "korean": "박희대"
+    }
+  ],
+  "englishName": "Harrison Acres"
+}

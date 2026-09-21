@@ -1,0 +1,48 @@
+{
+  "age": "49",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 76",
+    "manga": "만화 에피소드 76"
+  },
+  "gender": "남성",
+  "keyhole": 70,
+  "name": {
+    "english": {
+      "anime": "Bernie Biggers",
+      "manga": "Bernie Biggers"
+    },
+    "japanese": {
+      "kanji": "茶木 神太郎",
+      "romanized": "Shintaro Chaki"
+    },
+    "korean": {
+      "name": "차기태 (챠키 신타로)"
+    }
+  },
+  "img": "/conanwiki/img/Shintaro Chaki_96_11zon.webp",
+  "occupation": "경시",
+  "affiliation": [
+    "경시청 수사2과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "경시청 수사2과"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Nobuo Tanaka",
+      "korean": "김관진 (KBS)<br>송준석 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%B1%A0%ED%82%A4%20%EC%8B%A0%ED%83%80%EB%A1%9C",
+  "englishName": "Bernie Biggers"
+}

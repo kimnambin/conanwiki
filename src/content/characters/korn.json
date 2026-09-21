@@ -1,0 +1,50 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 425",
+    "manga": "만화 에피소드 425"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Korn",
+      "manga": "Korn"
+    },
+    "japanese": {
+      "kanji": "コルン",
+      "romanized": "Korn"
+    },
+    "korean": {
+      "name": "코른"
+    }
+  },
+  "img": "/conanwiki/img/Korn_62_11zon.webp",
+  "occupation": "검은 조직 멤버",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "키안티 (동료)"
+    ],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Hiroyuki Kinoshita",
+      "korean": "최재호"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EB%A5%B8(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Korn"
+}

@@ -1,0 +1,54 @@
+{
+  "age": "48",
+  "aliases": "김상우 <br /> 럼 (RUM)",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 898",
+    "manga": "만화 에피소드 898"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Kanenori Wakita",
+      "manga": "Kanenori Wakita"
+    },
+    "japanese": {
+      "kanji": "脇田 兼則",
+      "romanized": "Kanenori Wakita"
+    },
+    "korean": {
+      "name": "김상우 (와키타 카네노리)"
+    }
+  },
+  "img": "/conanwiki/img/Kanenori Wakita.webp",
+  "occupation": "스시 가게 주인 (오다지마 스시, 위장) <br /> 검은 조직 No.2 (럼)",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "카라스마 렌야 (상관)",
+      "진 (부하)",
+      "베르무트 (부하)"
+    ],
+    "적": [
+      "아카이 슈이치",
+      "하이바라 아이",
+      "에도가와 코난"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Toshiyuki Morikawa",
+      "korean": "김기흥"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%9F%BC(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Kanenori Wakita"
+}

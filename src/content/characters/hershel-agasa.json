@@ -1,0 +1,51 @@
+{
+  "age": "53",
+  "aliases": "아가사 교수 <br> 아가사 박사",
+  "date_of_birth": "미상",
+  "drama_actor": "Ryosei Tayama",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": 5,
+  "name": {
+    "english": {
+      "anime": "Hershel Agasa",
+      "manga": "Hershel Agasa"
+    },
+    "japanese": {
+      "kanji": "阿笠 博士",
+      "romanized": "Hiroshi Agasa"
+    },
+    "korean": {
+      "name": "브라운 (아가사 히로시)"
+    }
+  },
+  "img": "/conanwiki/img/Hiroshi Agasa_36_11zon.webp",
+  "occupation": "공학자 <br /> 발명가",
+  "affiliation": [
+    "소년탐정단"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "에도가와 코난 (보호자)",
+      "하이바라 아이 (동료)"
+    ],
+    "동료": [
+      "소년탐정단"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Kenichi Ogata<br>Kazunari Tanaka (어린 시절)",
+      "korean": "황원 (2000~2021)<br>유해무 (2014~현재)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EA%B0%80%EC%82%AC%20%ED%9E%88%EB%A1%9C%EC%8B%9C",
+  "englishName": "Hershel Agasa"
+}

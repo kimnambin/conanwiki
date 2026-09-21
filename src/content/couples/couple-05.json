@@ -1,0 +1,52 @@
+{
+  "man": "신형선 (타카기 와타루)",
+  "man_url": "/conanwiki/img/Wataru Takagi_9_11zon.webp",
+  "man_job": "경시청 수사 1과 형사",
+  "women": "오지인 (사토 미와코)",
+  "women_url": "/conanwiki/img/Miwako Sato_73_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_TakagiSato.webp",
+  "women_job": "경시청 수사 1과 형사",
+  "couple_nickname": "타카사",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "경시청 수사 1과의 동료 형사 커플. 타카기는 사토에게 호감을 가지고 있으며, 여러 위험한 사건을 함께 겪으며 관계가 발전했다. 팬들에게 많은 사랑을 받는 커플.",
+  "episodes": [
+    {
+      "title": "흔들리는 경시청 1200만 명의 인질",
+      "source": "TVA 본편",
+      "description": "타카사 커플의 주요 관계 발전 에피소드."
+    },
+    {
+      "title": "첫사랑의 상처 자국 ~ 오래된 상처 자국과 형사의 혼",
+      "source": "TVA 본편",
+      "description": "사토의 과거가 밝혀지며 타카기와의 감정이 발전하는 에피소드."
+    },
+    {
+      "title": "목숨을 건 연애 중계",
+      "source": "TVA 본편",
+      "description": "타카사 커플의 감정이 극적으로 드러나는 에피소드."
+    },
+    {
+      "title": "타카기와 다테와 수첩의 약속",
+      "source": "TVA 본편",
+      "description": "타카기와 동료 다테, 사토의 이야기가 얽히는 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "4기",
+      "title": "눈동자 속의 암살자",
+      "note": "타카사 커플 극장판 첫 등장"
+    },
+    {
+      "number": "25기",
+      "title": "할로윈의 신부",
+      "note": "타카사 커플 비중 있는 출연"
+    },
+    {
+      "number": "28기",
+      "title": "척안의 잔상",
+      "note": "타카사 커플 첫 주연 극장판"
+    }
+  ]
+}

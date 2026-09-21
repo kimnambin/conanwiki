@@ -1,0 +1,37 @@
+{
+  "man": "오경구 (쿄고쿠 마코토)",
+  "man_url": "/conanwiki/img/Makoto Kyogoku_65_11zon.webp",
+  "man_job": "공수도 세계 챔피언",
+  "women": "정보라 (스즈키 소노코)",
+  "women_url": "/conanwiki/img/Sonoko Suzuki_20_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_MakotoSonoko.webp",
+  "women_job": "고등학생 / 스즈키 재벌 딸",
+  "couple_nickname": "마코소노",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "공수도 세계 챔피언 마코토와 스즈키 재벌의 딸 소노코의 장거리 연애 커플. 마코토는 세계를 돌아다니며 원정 경기를 하기 때문에 만남이 뜸하지만, 둘의 사이는 굳건하다.",
+  "episodes": [
+    {
+      "title": "소노코의 위험한 여름 이야기",
+      "source": "TVA 153~154화",
+      "description": "마코소노 커플이 처음 등장하는 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "21기",
+      "title": "진홍의 연가",
+      "note": "마코토는 소노코의 회상으로만 출연 — 마코소노 극장판 첫 등장"
+    },
+    {
+      "number": "23기",
+      "title": "감청의 권",
+      "note": "두 캐릭터가 주역 커플로 활약하는 첫 주연 극장판"
+    },
+    {
+      "number": "28기",
+      "title": "척안의 잔상",
+      "note": "마코토가 소노코의 상상에서 출연"
+    }
+  ]
+}

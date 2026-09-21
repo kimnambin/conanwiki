@@ -1,0 +1,47 @@
+{
+  "man": "고희도 (쿠로바 카이토)",
+  "man_url": "/conanwiki/img/Kaito Kuroba_49_11zon.webp",
+  "man_job": "고등학생 / 괴도 키드 (2대)",
+  "women": "임청아 (나카모리 아오코)",
+  "women_url": "/conanwiki/img/Aoko Nakamori_3_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_KaitoAoko.webp",
+  "women_job": "고등학생 / 나카모리 경감의 딸",
+  "couple_nickname": "카이아오",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "괴도 키드의 정체인 쿠로바 카이토와, 키드를 쫓는 나카모리 경감의 딸 아오코의 아이러니한 커플. 아오코는 카이토가 키드인 줄 모르며, 둘은 소꿉친구이자 연인 사이다.",
+  "episodes": [
+    {
+      "title": "괴도 키드의 분주한 휴일",
+      "source": "매직 카이토 4화 / TVA 7화",
+      "description": "아오코가 카이토의 정체를 의심하는 에피소드."
+    },
+    {
+      "title": "그에게서 손을 떼",
+      "source": "매직 카이토 7화 / TVA 13화",
+      "description": "스키 대회에서 변장한 카이토가 아오코를 안고 내려오는 장면."
+    },
+    {
+      "title": "블루 버스데이",
+      "source": "매직 카이토 19화 / TVA 2화",
+      "description": "아오코의 생일 에피소드."
+    },
+    {
+      "title": "블랙 스타 (후편)",
+      "source": "매직 카이토 24화 / TVA 6화",
+      "description": "어린 시절 첫 만남 회상 장면이 포함된 에피소드."
+    },
+    {
+      "title": "선 헤일로",
+      "source": "매직 카이토 34~36화",
+      "description": "30년 만에 키드의 정체를 다시 의심하게 되는 전개."
+    }
+  ],
+  "movies": [
+    {
+      "number": "27기",
+      "title": "100만 달러의 펜타그램",
+      "note": "아오코의 극장판 첫 출연 — 아버지가 중상 입자 카이토가 조용히 지켜봄"
+    }
+  ]
+}

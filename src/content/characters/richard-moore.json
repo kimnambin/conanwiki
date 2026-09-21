@@ -1,0 +1,51 @@
+{
+  "age": "38",
+  "aliases": "면도왕 코고로<br>잠자는 코고로",
+  "date_of_birth": "8월 7일",
+  "drama_actor": "Hiroshi Abe",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": 2,
+  "name": {
+    "english": {
+      "anime": "Richard Moore",
+      "manga": "Richard Moore"
+    },
+    "japanese": {
+      "kanji": "毛利 小五郎",
+      "romanized": "Kogoro Mouri"
+    },
+    "korean": {
+      "name": "유명한 (모리 코고로)"
+    }
+  },
+  "img": "/conanwiki/img/Kogoro Mouri_58_11zon.webp",
+  "occupation": "탐정 (모리 탐정 사무소 소장) <br /> 전 경시청 형사",
+  "affiliation": [
+    "모리 탐정 사무소"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "모리 란 (딸)",
+      "키사키 에리 (별거 중 아내)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "에도가와 코난"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Akira Kamiya",
+      "korean": "박순찬 (KBS)<br>손종환 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%AA%A8%EB%A6%AC%20%EC%BD%94%EA%B3%A0%EB%A1%9C",
+  "englishName": "Richard Moore"
+}

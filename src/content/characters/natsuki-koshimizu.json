@@ -1,0 +1,43 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 479",
+    "manga": "만화 에피소드 479"
+  },
+  "gender": "여성",
+  "keyhole": 54,
+  "name": {
+    "english": {
+      "anime": "Natsuki Koshimizu",
+      "manga": "Natsuki Koshimizu"
+    },
+    "japanese": {
+      "kanji": "越水 七槻",
+      "romanized": "Natsuki Koshimizu"
+    },
+    "korean": {
+      "name": "조연우 (코시미즈 나츠키)"
+    }
+  },
+  "img": "/conanwiki/img/Natsuki Koshimizu_75_11zon.webp",
+  "occupation": "??",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Risa Hayamizu",
+      "korean": "??"
+    }
+  ],
+  "englishName": "Natsuki Koshimizu"
+}

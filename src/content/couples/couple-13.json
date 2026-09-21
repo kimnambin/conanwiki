@@ -1,0 +1,47 @@
+{
+  "man": "유명한 (모리 코고로)",
+  "man_url": "/conanwiki/img/Kogoro Mouri_58_11zon.webp",
+  "man_job": "사립탐정",
+  "women": "노애리 (키사키 에리)",
+  "women_url": "/conanwiki/img/Eri Kisaki_17_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_KogoroEri.webp",
+  "women_job": "유명 변호사",
+  "couple_nickname": "코고에리",
+  "status": "기혼",
+  "relationship_type": "부부 (별거 중)",
+  "description": "탐정 모리 코고로와 유명 변호사 키사키 에리의 별거 중인 부부. 모리 란의 부모. 성격 차이로 별거 중이지만 서로에 대한 애정은 여전하다. 코고로가 먼저 화해하지 못하는 성격 탓에 별거가 길어지고 있다.",
+  "episodes": [
+    {
+      "title": "보이지 않는 용의자",
+      "source": "TVA 본편",
+      "description": "코고에리 커플의 관계 발전에 중요한 에피소드."
+    },
+    {
+      "title": "키사키 변호사 SOS",
+      "source": "TVA 본편",
+      "description": "에리가 위험에 처하며 코고로와의 감정이 드러나는 에피소드."
+    },
+    {
+      "title": "거금과 세 명의 거짓말쟁이",
+      "source": "TVA 본편",
+      "description": "코고에리 커플의 관계를 다루는 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "2기",
+      "title": "14번째 표적",
+      "note": "에리의 극장판 첫 등장"
+    },
+    {
+      "number": "4기",
+      "title": "눈동자 속의 암살자",
+      "note": "코고에리 커플 비중 있는 출연"
+    },
+    {
+      "number": "22기",
+      "title": "제로의 집행인",
+      "note": "코고에리 커플 등장"
+    }
+  ]
+}

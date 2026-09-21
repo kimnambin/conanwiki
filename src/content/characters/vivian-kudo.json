@@ -1,0 +1,49 @@
+{
+  "age": "38",
+  "aliases": "후지미네 유키코 (결혼 전 성)<br>에도가와 후미요 (퍼니메이션 더빙)<br>아케치 후미요<br>나이트 배로네스 (별명)",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 43",
+    "manga": "만화 에피소드 43"
+  },
+  "gender": "여성",
+  "keyhole": 14,
+  "name": {
+    "english": {
+      "anime": "Vivian Kudo",
+      "manga": "Vivian Kudo"
+    },
+    "japanese": {
+      "kanji": "工藤 有希子",
+      "romanized": "Yukiko Kudo"
+    },
+    "korean": {
+      "name": "이하연 (쿠도 유키코)"
+    }
+  },
+  "img": "/conanwiki/img/Yukiko Kudo_13_11zon.webp",
+  "occupation": "은퇴한 배우",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "쿠도 신이치 (아들)",
+      "쿠도 유사쿠 (남편)"
+    ],
+    "연인": [],
+    "친구": [
+      "키사키 에리 (친구)"
+    ],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Sumi Shimamoto",
+      "korean": "여민정<br>송연희 (KBS)<br>김영은 (시즌 7)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%8F%84%20%EC%9C%A0%ED%82%A4%EC%BD%94",
+  "englishName": "Vivian Kudo"
+}

@@ -1,0 +1,51 @@
+{
+  "age": "??",
+  "aliases": "켈빈 (비디오 더빙)<br>한갈매 (화성씨네마 더빙)<br>구멍 씨 (챔프 더빙)",
+  "date_of_birth": "??",
+  "drama_actor": "Go Ayano (2014)",
+  "first_appearance": {
+    "anime": "루팡 3세 VS 명탐정 코난",
+    "manga": "루팡 3세 VS 명탐정 코난"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Goemon Ishikawa XIII",
+      "manga": "Goemon Ishikawa XIII"
+    },
+    "japanese": {
+      "kanji": "十三代目石川五ェ門",
+      "romanized": "Goemon Ishikawa"
+    },
+    "korean": {
+      "name": "검객 (이시카와 고에몽)"
+    }
+  },
+  "img": "/conanwiki/img/Goemon Ishikawa_28_11zon.webp",
+  "occupation": "검술가<br />도둑",
+  "affiliation": [
+    "루팡 일당"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "루팡 3세 (동료)",
+      "지겐 다이스케 (동료)"
+    ],
+    "동료": [
+      "루팡 일당"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Gorō Naya (1969) <br> Makio Inoue (1977-2010) <br> Daisuke Namikawa (2011-현재)",
+      "korean": "김수중"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%9D%B4%EC%8B%9C%EC%B9%B4%EC%99%80%20%EA%B3%A0%EC%97%90%EB%AA%BD(%EB%A3%A8%ED%8C%A1%203%EC%84%B8)",
+  "englishName": "Goemon Ishikawa XIII"
+}

@@ -1,0 +1,50 @@
+{
+  "age": "24",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 208",
+    "manga": "만화 에피소드 208"
+  },
+  "gender": "여성",
+  "keyhole": 32,
+  "name": {
+    "english": {
+      "anime": "Yumi Miyamoto",
+      "manga": "Yumi Miyamoto"
+    },
+    "japanese": {
+      "kanji": "宮本 由美",
+      "romanized": "Yumi Miyamoto"
+    },
+    "korean": {
+      "name": "김유미 (미야모토 유미)"
+    }
+  },
+  "img": "/conanwiki/img/Yumi Miyamoto_14_11zon.webp",
+  "occupation": "경시청 교통부 경부보",
+  "affiliation": [
+    "경시청 교통부"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "사토 미와코 (친구)"
+    ],
+    "동료": [
+      "경시청 교통부"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Mariko Koda",
+      "korean": "이영란"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%AF%B8%EC%95%BC%EB%AA%A8%ED%86%A0%20%EC%9C%A0%EB%AF%B8",
+  "englishName": "Yumi Miyamoto"
+}

@@ -1,0 +1,46 @@
+{
+  "age": "28",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 파일 948 (첫 정면 등장)",
+    "manga": "만화 파일 948 (첫 정면 등장)"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Koji Haneda",
+      "manga": "Koji Haneda"
+    },
+    "japanese": {
+      "kanji": "羽田 浩司",
+      "romanized": "Kohji Haneda"
+    },
+    "korean": {
+      "name": "우호진 (하네다 코지)"
+    }
+  },
+  "img": "/conanwiki/img/Kohji Haneda_59_11zon.webp",
+  "occupation": "장기 기사 (4관왕)",
+  "affiliation": [],
+  "status": "사망 (럼에게 살해)",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": [
+      "럼 (살해자)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Hiroki Yasumoto",
+      "korean": "권성혁"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EB%84%A4%EB%8B%A4%20%EC%BD%94%EC%A7%80",
+  "englishName": "Koji Haneda"
+}

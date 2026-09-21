@@ -1,0 +1,51 @@
+{
+  "age": "6",
+  "aliases": "??",
+  "date_of_birth": "8월 6일",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "여성",
+  "keyhole": 8,
+  "name": {
+    "english": {
+      "anime": "Amy Yeager",
+      "manga": "Amy Yeager"
+    },
+    "japanese": {
+      "kanji": "吉田 歩美",
+      "romanized": "Ayumi Yoshida"
+    },
+    "korean": {
+      "name": "한아름 (요시다 아유미)"
+    }
+  },
+  "img": "/conanwiki/img/Ayumi Yoshida_7_11zon.webp",
+  "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+  "affiliation": [
+    "소년탐정단",
+    "테이탄 초등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "에도가와 코난 (짝사랑)"
+    ],
+    "친구": [],
+    "동료": [
+      "소년탐정단"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Yukiko Iwai",
+      "korean": "박영희<br>이지현 (2023~)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%9A%94%EC%8B%9C%EB%8B%A4%20%EC%95%84%EC%9C%A0%EB%AF%B8",
+  "englishName": "Amy Yeager"
+}

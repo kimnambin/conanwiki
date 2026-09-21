@@ -1,0 +1,52 @@
+{
+  "age": "7",
+  "aliases": "??",
+  "date_of_birth": "4월 8일",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": 7,
+  "name": {
+    "english": {
+      "anime": "Mitch Tsuburaya",
+      "manga": "Mitch Tsuburaya"
+    },
+    "japanese": {
+      "kanji": "円谷 光彦",
+      "romanized": "Mitsuhiko Tsuburaya"
+    },
+    "korean": {
+      "name": "박세모 (츠부라야 미츠히코)"
+    }
+  },
+  "img": "/conanwiki/img/Mitsuhiko Tsuburaya_72_11zon.webp",
+  "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+  "affiliation": [
+    "소년탐정단",
+    "테이탄 초등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "요시다 아유미 (짝사랑)",
+      "하이바라 아이 (짝사랑)"
+    ],
+    "친구": [],
+    "동료": [
+      "소년탐정단"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Ikue Ohtani",
+      "korean": "이미자<br>강시현 (2023~)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%B8%A0%EB%B6%80%EB%9D%BC%EC%95%BC%20%EB%AF%B8%EC%B8%A0%ED%9E%88%EC%BD%94",
+  "englishName": "Mitch Tsuburaya"
+}

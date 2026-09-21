@@ -1,0 +1,50 @@
+{
+  "age": "28",
+  "aliases": "다이코 명인 (예명)<br />세라 슈키치<br />아카이 슈키치 (본명)",
+  "date_of_birth": "11월 12일 추정",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 731",
+    "manga": "만화 에피소드 731"
+  },
+  "gender": "남성",
+  "keyhole": 80,
+  "name": {
+    "english": {
+      "anime": "Shukichi Haneda",
+      "manga": "Shukichi Haneda"
+    },
+    "japanese": {
+      "kanji": "{{nihongo|羽田 秀𠮷}}",
+      "romanized": "Shukichi Haneda"
+    },
+    "korean": {
+      "name": "우상길 (하네다 슈키치)"
+    }
+  },
+  "img": "/conanwiki/img/Shukichi Haneda_99_11zon.webp",
+  "occupation": "장기 기사 (6관왕)",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "아카이 슈이치 (형)",
+      "세라 마스미 (여동생)",
+      "세라 마사미 (어머니)"
+    ],
+    "연인": [
+      "야마토 하루카 (연인, 미등장)"
+    ],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Toshiyuki Morikawa",
+      "korean": "장민혁"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EB%84%A4%EB%8B%A4%20%EC%8A%88%ED%82%A4%EC%B9%98",
+  "englishName": "Shukichi Haneda"
+}

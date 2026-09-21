@@ -1,0 +1,51 @@
+{
+  "age": "29",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 383",
+    "manga": "만화 에피소드 383"
+  },
+  "gender": "남성",
+  "keyhole": 79,
+  "name": {
+    "english": {
+      "anime": "Kenji Hagiwara",
+      "manga": "Kenji Hagiwara"
+    },
+    "japanese": {
+      "kanji": "萩原 研二",
+      "romanized": "Kenji Hagiwara"
+    },
+    "korean": {
+      "name": "하기완 (하기와라 켄지)"
+    }
+  },
+  "img": "/conanwiki/img/Kenji Hagiwara.webp",
+  "occupation": "전 경시청 수사1과 순사부장 (순직)",
+  "affiliation": [
+    "경시청 수사1과 (전)"
+  ],
+  "status": "사망 (순직)",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "다테 와타루 (동료)",
+      "마츠다 진페이 (동료)"
+    ],
+    "동료": [
+      "경시청 수사1과"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Hiroshi Naka",
+      "korean": "안장혁"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EA%B8%B0%EC%99%80%EB%9D%BC%20%EC%BC%84%EC%A7%80",
+  "englishName": "Kenji Hagiwara"
+}

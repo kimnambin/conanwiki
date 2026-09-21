@@ -1,0 +1,48 @@
+{
+  "age": "33",
+  "aliases": "검찰 여우 (별명)",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "애니: 에피소드 264",
+    "manga": "애니: 에피소드 264"
+  },
+  "gender": "여성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Reiko Kujo",
+      "manga": "Reiko Kujo"
+    },
+    "japanese": {
+      "kanji": "九条 玲子",
+      "romanized": "Reiko Kujo"
+    },
+    "korean": {
+      "name": "서영주 (쿠죠 레이코)"
+    }
+  },
+  "img": "/conanwiki/img/Reiko Kujo_82_11zon.webp",
+  "occupation": "도쿄 지방 검찰청 검사",
+  "affiliation": [
+    "도쿄 지방 검찰청"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "도쿄 지방 검찰청"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Rica Matsumoto",
+      "korean": "이지영"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EC%A3%A0%20%EB%A0%88%EC%9D%B4%EC%BD%94",
+  "englishName": "Reiko Kujo"
+}

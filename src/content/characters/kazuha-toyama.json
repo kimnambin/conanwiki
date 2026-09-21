@@ -1,0 +1,51 @@
+{
+  "age": "17",
+  "aliases": "??",
+  "date_of_birth": "10월 9일",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 48",
+    "manga": "만화 에피소드 48"
+  },
+  "gender": "여성",
+  "keyhole": 12,
+  "name": {
+    "english": {
+      "anime": "Kazuha Toyama",
+      "manga": "Kazuha Toyama"
+    },
+    "japanese": {
+      "kanji": "遠山 和葉",
+      "romanized": "Kazuha Toyama"
+    },
+    "korean": {
+      "name": "서가영 (토야마 카즈하)"
+    }
+  },
+  "img": "/conanwiki/img/Kazuha Toyama_54_11zon.webp",
+  "occupation": "고등학생 <br /> 합기도부",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "토야마 긴시로 (아버지)",
+      "토야마 사쿠라 (어머니)"
+    ],
+    "연인": [
+      "핫토리 헤이지 (연인)"
+    ],
+    "친구": [
+      "모리 란 (친구)"
+    ],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Yuko Miyamura",
+      "korean": "이미자 (KBS)<br>정유미 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%86%A0%EC%95%BC%EB%A7%88%20%EC%B9%B4%EC%A6%88%ED%95%98",
+  "englishName": "Kazuha Toyama"
+}

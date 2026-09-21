@@ -1,11 +1,12 @@
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
-import Mo_detail from '../../../component/movie/Mo_detail';
-import {fetchMovies, fetchMovieDetail} from '../../../api/movieApi';
-import {getMovieSeasonMap} from '../../../utils/movieOrder';
-import {matchLocalCharacters} from '../../../utils/movieCast';
-import personData from '../../../data/person.json';
-import {CharacterType} from '../../../types/api.model';
+import Mo_detail from '@/component/movie/Mo_detail';
+import {fetchMovies, fetchMovieDetail} from '@/api/movieApi';
+import {getMovieSeasonMap} from '@/utils/movieOrder';
+import {matchLocalCharacters} from '@/utils/movieCast';
+import {createReader} from '@keystatic/core/reader';
+import keystaticConfig from '../../../../../keystatic.config';
+import {CharacterType} from '@/types/api.model';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
@@ -54,9 +55,13 @@ export default async function MovieDetailPage({
     notFound();
   }
 
+  const reader = createReader(process.cwd(), keystaticConfig);
   const seasonMap = getMovieSeasonMap(movies);
-  const detail = await fetchMovieDetail(movie.id);
-  const characters = personData as unknown as CharacterType[];
+  const [detail, charEntries] = await Promise.all([
+    fetchMovieDetail(movie.id),
+    reader.collections.characters.all(),
+  ]);
+  const characters = charEntries.map(c => c.entry) as unknown as CharacterType[];
   const appearingCharacters = matchLocalCharacters(detail.cast, characters);
 
   const releaseOrdered = [...movies].sort(

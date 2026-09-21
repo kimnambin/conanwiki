@@ -1,10 +1,10 @@
 import type {Metadata} from 'next';
-import EpisodeBrowser from '../../component/episode/EpisodeBrowser';
-import episodesDubData from '../../data/episodes.json';
-import episodesSubData from '../../data/episodes-japan.json';
-import personEpisodesData from '../../data/personEpisodes.json';
-import {EpisodeTypes} from '../../types/api.model';
-import {EpiTypes} from '../../types/component.model';
+import EpisodeBrowser from '@/component/episode/EpisodeBrowser';
+import episodesDubData from '@/data/episodes.json';
+import episodesSubData from '@/data/episodes-japan.json';
+import personEpisodesData from '@/data/personEpisodes.json';
+import {EpisodeTypes} from '@/types/api.model';
+import {EpiTypes} from '@/types/component.model';
 
 export const metadata: Metadata = {
   title: '에피소드',

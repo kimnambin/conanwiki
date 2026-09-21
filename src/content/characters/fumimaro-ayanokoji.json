@@ -1,0 +1,50 @@
+{
+  "age": "28",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "고도의 교차로",
+    "manga": "고도의 교차로"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Fumimaro Ayanokoji",
+      "manga": "Fumimaro Ayanokoji"
+    },
+    "japanese": {
+      "kanji": "綾小路 文麿",
+      "romanized": "Fumimaro Ayanokoji"
+    },
+    "korean": {
+      "name": "노호지 (아야노코지 후미마로)"
+    }
+  },
+  "img": "/conanwiki/img/Fumimaro Ayanokoji_20_11zon.webp",
+  "occupation": "경찰관",
+  "affiliation": [
+    "교토부 경찰본부"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "에도가와 코난 (협력)"
+    ],
+    "동료": [
+      "교토부 경찰본부"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Ryotaro Okiayu",
+      "korean": "최승훈"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EC%95%BC%EB%85%B8%EC%BD%94%EC%A7%80%20%ED%9B%84%EB%AF%B8%EB%A7%88%EB%A1%9C",
+  "englishName": "Fumimaro Ayanokoji"
+}

@@ -1,0 +1,52 @@
+{
+  "age": "45",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 76",
+    "manga": "만화 에피소드 76"
+  },
+  "gender": "남성",
+  "keyhole": 26,
+  "name": {
+    "english": {
+      "anime": "Gingko Nakamori",
+      "manga": "Gingko Nakamori"
+    },
+    "japanese": {
+      "kanji": "中森 銀三",
+      "romanized": "Ginzo Nakamori"
+    },
+    "korean": {
+      "name": "임은삼 (나카모리 긴조)"
+    }
+  },
+  "img": "/conanwiki/img/Ginzo Nakamori_27_11zon.webp",
+  "occupation": "경시청 수사2과 경부 <br /> 괴도 키드 전담 수사관",
+  "affiliation": [
+    "경시청 수사2과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "나카모리 아오코 (딸)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "경시청 수사2과"
+    ],
+    "적": [
+      "괴도 키드 (숙적)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Unsho Ishizuka (2017 사망)<br>Masashi Ebara",
+      "korean": "이봉준 (KBS)<br>이원찬 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%82%98%EC%B9%B4%EB%AA%A8%EB%A6%AC%20%EA%B8%B4%EC%A1%B0",
+  "englishName": "Gingko Nakamori"
+}

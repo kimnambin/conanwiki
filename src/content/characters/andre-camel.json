@@ -1,0 +1,53 @@
+{
+  "age": "27",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 497",
+    "manga": "만화 에피소드 497"
+  },
+  "gender": "남성",
+  "keyhole": 58,
+  "name": {
+    "english": {
+      "anime": "Andre Camel",
+      "manga": "Andre Camel"
+    },
+    "japanese": {
+      "kanji": "アンドレ・キャメル",
+      "romanized": "Andre Camel"
+    },
+    "korean": {
+      "name": "안드레 캐멀"
+    }
+  },
+  "img": "/conanwiki/img/Andre Camel_1_11zon.webp",
+  "occupation": "FBI 요원",
+  "affiliation": [
+    "FBI"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "아카이 슈이치 (동료)"
+    ],
+    "동료": [
+      "FBI",
+      "제임스 블랙 (상관)"
+    ],
+    "적": [
+      "검은 조직"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Kiyoyuki Yanada (2008-2022)<br>Kenji Nomura (2022-)",
+      "korean": "안장혁"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%88%EB%93%9C%EB%A0%88%20%EC%BA%90%EB%A9%80",
+  "englishName": "Andre Camel"
+}

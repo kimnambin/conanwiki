@@ -1,0 +1,49 @@
+{
+  "age": "23",
+  "aliases": "달빛 웨이트리스 (블로그 닉네임)",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 152",
+    "manga": "만화 에피소드 152"
+  },
+  "gender": "여성",
+  "keyhole": 43,
+  "name": {
+    "english": {
+      "anime": "Azusa Enomoto",
+      "manga": "Azusa Enomoto"
+    },
+    "japanese": {
+      "kanji": "榎本 梓",
+      "romanized": "Azusa Enomoto"
+    },
+    "korean": {
+      "name": "오연주 (에노모토 아즈사)"
+    }
+  },
+  "img": "/conanwiki/img/Azusa Enomoto_8_11zon.webp",
+  "occupation": "카페 포와로 직원",
+  "affiliation": [
+    "카페 포와로"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "아무로 토오루 (동료)",
+      "카페 포와로"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Mikiko Enomoto",
+      "korean": "이소은"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%97%90%EB%85%B8%EB%AA%A8%ED%86%A0%20%EC%95%84%EC%A6%88%EC%82%AC",
+  "englishName": "Azusa Enomoto"
+}

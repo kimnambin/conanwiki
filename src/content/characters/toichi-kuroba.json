@@ -1,0 +1,53 @@
+{
+  "age": "38",
+  "aliases": "괴도 키드 <br> 팬텀 시프 키드 1412<br>카이토 1412",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "매직 카이토 챕터 1<br> 애니: 에피소드 219",
+    "manga": "매직 카이토 챕터 1<br> 애니: 에피소드 219"
+  },
+  "gender": "남성",
+  "keyhole": 55,
+  "name": {
+    "english": {
+      "anime": "Toichi Kuroba",
+      "manga": "Toichi Kuroba"
+    },
+    "japanese": {
+      "kanji": "黒羽 盗一",
+      "romanized": "Toichi Kuroba"
+    },
+    "korean": {
+      "name": "고기영 (쿠로바 토이치)"
+    }
+  },
+  "img": "/conanwiki/img/Toichi Kuroba_4_11zon.webp",
+  "occupation": "마술사 <br /> 괴도",
+  "affiliation": [
+    "괴도 키드 (초대)"
+  ],
+  "status": "사망 (살해됨)",
+  "relationships": {
+    "가족": [
+      "쿠로바 카이토 (아들)",
+      "쿠로바 치카게 (배우자)"
+    ],
+    "연인": [],
+    "친구": [
+      "지이 코노스케 (집사)"
+    ],
+    "동료": [],
+    "적": [
+      "매직 카이토 보스 (살해자 추정)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Shuichi Ikeda",
+      "korean": "민응식"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%B0%94%20%ED%86%A0%EC%9D%B4%EC%B9%98",
+  "englishName": "Toichi Kuroba"
+}

@@ -1,0 +1,54 @@
+{
+  "age": "17",
+  "aliases": "??",
+  "date_of_birth": "11월 3일",
+  "drama_actor": "Rinko Kikuchi",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "여성",
+  "keyhole": 3,
+  "name": {
+    "english": {
+      "anime": "Rachel Moore",
+      "manga": "Rachel Moore"
+    },
+    "japanese": {
+      "kanji": "毛利 蘭",
+      "romanized": "Ran Mouri"
+    },
+    "korean": {
+      "name": "유미란 (모리 란)"
+    }
+  },
+  "img": "/conanwiki/img/Ran Mouri_80_11zon.webp",
+  "occupation": "테이탄 고등학교 학생 <br /> 공수도부",
+  "affiliation": [
+    "테이탄 고등학교",
+    "모리 탐정 사무소"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "모리 코고로 (아버지)",
+      "키사키 에리 (어머니)"
+    ],
+    "연인": [
+      "쿠도 신이치 (연인)"
+    ],
+    "친구": [
+      "스즈키 소노코"
+    ],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Wakana Yamazaki",
+      "korean": "한채언 (초기)<br>김정애 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%AA%A8%EB%A6%AC%20%EB%9E%80",
+  "englishName": "Rachel Moore"
+}

@@ -1,0 +1,51 @@
+{
+  "age": "??",
+  "aliases": "팬텀 레이디",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "애니: 에피소드 627<br />매직 카이토 챕터 1<br />매직 카이토: 괴도 키드",
+    "manga": "애니: 에피소드 627<br />매직 카이토 챕터 1<br />매직 카이토: 괴도 키드"
+  },
+  "gender": "여성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Chikage Kuroba",
+      "manga": "Chikage Kuroba"
+    },
+    "japanese": {
+      "kanji": "黒羽 千影",
+      "romanized": "Chikage Kuroba"
+    },
+    "korean": {
+      "name": "차신혜 (쿠로바 치카게)"
+    }
+  },
+  "img": "/conanwiki/img/Chikage Kuroba_12_11zon.webp",
+  "occupation": "전직 괴도",
+  "affiliation": [
+    "루팡 일당"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "쿠로바 카이토 (아들)",
+      "쿠로바 토이치 (故 남편)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "루팡 일당"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Michie Tomizawa",
+      "korean": "박경혜"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%B0%94%20%EC%B9%98%EC%B9%B4%EA%B2%8C",
+  "englishName": "Chikage Kuroba"
+}

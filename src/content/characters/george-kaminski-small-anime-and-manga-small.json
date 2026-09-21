@@ -1,0 +1,51 @@
+{
+  "age": "6",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": 9,
+  "name": {
+    "english": {
+      "anime": "George Kaminski <small>(Anime and Manga)</small>",
+      "manga": "George Kaminski <small>(Anime and Manga)</small>"
+    },
+    "japanese": {
+      "kanji": "小嶋 元太",
+      "romanized": "Genta Kojima"
+    },
+    "korean": {
+      "name": "고뭉치 (코지마 겐타)"
+    }
+  },
+  "img": "/conanwiki/img/Genta Kojima_24_11zon.webp",
+  "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+  "affiliation": [
+    "소년탐정단",
+    "테이탄 초등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "코지마 겐지 (아버지)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "소년탐정단"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Wataru Takagi",
+      "korean": "한인숙<br>김도희 (2023~)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EC%A7%80%EB%A7%88%20%EA%B2%90%ED%83%80",
+  "englishName": "George Kaminski <small>(Anime and Manga)</small>"
+}

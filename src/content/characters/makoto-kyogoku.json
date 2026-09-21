@@ -1,0 +1,46 @@
+{
+  "age": "18",
+  "aliases": "세계 최강의 보안 시스템<br>400전 무패 공수도 챔피언",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 153",
+    "manga": "만화 에피소드 153"
+  },
+  "gender": "남성",
+  "keyhole": 25,
+  "name": {
+    "english": {
+      "anime": "Makoto Kyogoku",
+      "manga": "Makoto Kyogoku"
+    },
+    "japanese": {
+      "kanji": "京極 真",
+      "romanized": "Makoto Kyogoku"
+    },
+    "korean": {
+      "name": "오경구 (쿄고쿠 마코토)"
+    }
+  },
+  "img": "/conanwiki/img/Makoto Kyogoku_65_11zon.webp",
+  "occupation": "학생<br />공수도부 주장<br />공수도 챔피언",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "스즈키 소노코 (연인, 미등장)"
+    ],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Nobuyuki Hiyama",
+      "korean": "이주창"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%84%EA%B3%A0%EC%BF%A0%20%EB%A7%88%EC%BD%94%ED%86%A0",
+  "englishName": "Makoto Kyogoku"
+}

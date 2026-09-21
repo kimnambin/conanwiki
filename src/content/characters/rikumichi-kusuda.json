@@ -1,0 +1,47 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 파일 595 <br> 애니: 에피소드 496",
+    "manga": "만화 파일 595 <br> 애니: 에피소드 496"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Rikumichi Kusuda",
+      "manga": "Rikumichi Kusuda"
+    },
+    "japanese": {
+      "kanji": "楠田 陸道",
+      "romanized": "Rikumichi Kusuda"
+    },
+    "korean": {
+      "name": "구민식 (쿠스다 리쿠미치)"
+    }
+  },
+  "img": "/conanwiki/img/Rikumichi Kusuda_83_11zon.webp",
+  "occupation": "검은 조직 멤버",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "사망 (옥중 자살)",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Mitsuo Iwata",
+      "korean": "??"
+    }
+  ],
+  "englishName": "Rikumichi Kusuda"
+}

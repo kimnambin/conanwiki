@@ -1,0 +1,46 @@
+{
+  "age": "17세 (외형: 6세)",
+  "aliases": "혼다<br>진",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "코난 스페셜: 26권",
+    "manga": "코난 스페셜: 26권"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Generic",
+      "manga": "Generic"
+    },
+    "japanese": {
+      "kanji": "ジュネリック",
+      "romanized": "Generic"
+    },
+    "korean": {
+      "name": "쥬네릭"
+    }
+  },
+  "img": "/conanwiki/img/Generic_22_11zon.webp",
+  "occupation": "전 검은 조직 제약부 과학자 <br /> 테이탄 초등학교 학생",
+  "affiliation": [
+    "테이탄 초등학교",
+    "검은 조직 (전 소속)"
+  ],
+  "status": "미상",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "??",
+      "korean": "??"
+    }
+  ],
+  "englishName": "Generic"
+}

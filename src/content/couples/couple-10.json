@@ -1,0 +1,52 @@
+{
+  "man": "코난 (에도가와 코난)",
+  "man_url": "/conanwiki/img/Conan Edogawa_13_11zon.webp",
+  "man_job": "초등학생 (실체는 고등학생 탐정 쿠도 신이치)",
+  "women": "홍장미 (하이바라 아이)",
+  "women_url": "/conanwiki/img/Ai Haibara_16_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_ConanHaibara.webp",
+  "women_job": "초등학생 (실체는 흑의 조직 과학자 미야노 시호)",
+  "couple_nickname": "코하",
+  "status": "미혼",
+  "relationship_type": "연인(비공식)",
+  "description": "APTX-4869로 어린이가 된 코난과, 같은 약의 개발자로 역시 어린이가 된 하이바라 아이(미야노 시호)의 비공식 커플링. 하이바라는 코난에게 호감을 가지고 있으나 코난의 마음은 란에게 있다.",
+  "episodes": [
+    {
+      "title": "검은 조직에서 온 여자와 대학교수 살인 사건",
+      "source": "TVA 본편",
+      "description": "코난과 하이바라의 첫 만남. 코난이 하이바라에게 마음을 여는 계기가 된 에피소드."
+    },
+    {
+      "title": "경기장 무차별 협박 사건",
+      "source": "TVA 본편",
+      "description": "하이바라가 코난에게 마음을 여는 에피소드."
+    },
+    {
+      "title": "본청 형사의 사랑 이야기 2",
+      "source": "TVA 본편",
+      "description": "학예회 연극에서 '널 사랑하게 된 거라고'라는 하이바라의 대사가 나오는 에피소드."
+    },
+    {
+      "title": "수수께끼의 승객",
+      "source": "TVA 본편",
+      "description": "폭탄이 실린 버스에서 자살하려던 하이바라를 코난이 구하는 에피소드."
+    },
+    {
+      "title": "미궁의 훌리건",
+      "source": "TVA 본편",
+      "description": "'지켜 줄 거지?'라는 하이바라의 명대사가 등장하는 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "11기",
+      "title": "감벽의 관",
+      "note": "'파트너'라는 호칭이 확립된 극장판"
+    },
+    {
+      "number": "26기",
+      "title": "흑철의 어영",
+      "note": "코하가 주연인 극장판. 수중 인공호흡 장면 수록"
+    }
+  ]
+}

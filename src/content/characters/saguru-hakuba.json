@@ -1,0 +1,50 @@
+{
+  "age": "17",
+  "aliases": "??",
+  "date_of_birth": "8월 29일",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "매직 카이토 챕터 15<br>만화 파일 299<br />애니: 에피소드 219",
+    "manga": "매직 카이토 챕터 15<br>만화 파일 299<br />애니: 에피소드 219"
+  },
+  "gender": "남성",
+  "keyhole": 30,
+  "name": {
+    "english": {
+      "anime": "Saguru Hakuba",
+      "manga": "Saguru Hakuba"
+    },
+    "japanese": {
+      "kanji": "白馬 探",
+      "romanized": "Saguru Hakuba"
+    },
+    "korean": {
+      "name": "백준수 (하쿠바 사구루)"
+    }
+  },
+  "img": "/conanwiki/img/Saguru Hakuba_87_11zon.webp",
+  "occupation": "에코다 고등학교 학생 <br /> 탐정",
+  "affiliation": [
+    "에코다 고등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "에코다 고등학교"
+    ],
+    "적": [
+      "괴도 키드 / 쿠로바 카이토 (라이벌)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Akira Ishida<br />Mamoru Miyano (Magic Kaito 1412)",
+      "korean": "정재헌"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EC%BF%A0%EB%B0%94%20%EC%82%AC%EA%B5%AC%EB%A3%A8",
+  "englishName": "Saguru Hakuba"
+}

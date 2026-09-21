@@ -1,0 +1,58 @@
+{
+  "age": "18",
+  "aliases": "미야노 시호 (본명)<br />셰리",
+  "date_of_birth": "미상",
+  "drama_actor": "Kyoka Shibata (Ai Haibara)<br>Yu Kashii (Shiho Miyano)",
+  "first_appearance": {
+    "anime": "만화 에피소드 21",
+    "manga": "만화 에피소드 21"
+  },
+  "gender": "여성",
+  "keyhole": 18,
+  "name": {
+    "english": {
+      "anime": "Vi Graythorn <small>(movies)</small><br>Anita Hailey <small>(mangas and game)</small>",
+      "manga": "Vi Graythorn <small>(movies)</small><br>Anita Hailey <small>(mangas and game)</small>"
+    },
+    "japanese": {
+      "kanji": "灰原 哀",
+      "romanized": "Ai Haibara"
+    },
+    "korean": {
+      "name": "홍장미 (하이바라 아이)"
+    }
+  },
+  "img": "/conanwiki/img/Ai Haibara_16_11zon.webp",
+  "occupation": "테이탄 초등학교 학생 <br /> 소년탐정단 단원",
+  "affiliation": [
+    "소년탐정단",
+    "테이탄 초등학교"
+  ],
+  "status": "생존 (미야노 시호가 약물로 어린이화)",
+  "relationships": {
+    "가족": [
+      "미야노 아케미 (언니, 사망)",
+      "미야노 아츠시 (아버지, 사망)",
+      "미야노 에레나 (어머니, 사망)"
+    ],
+    "연인": [],
+    "친구": [
+      "에도가와 코난 (동료)",
+      "아가사 히로시 (보호자)"
+    ],
+    "동료": [
+      "소년탐정단"
+    ],
+    "적": [
+      "검은 조직"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Megumi Hayashibara",
+      "korean": "우정신"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EC%9D%B4%EB%B0%94%EB%9D%BC%20%EC%95%84%EC%9D%B4",
+  "englishName": "Vi Graythorn <small>(movies)</small><br>Anita Hailey <small>(mangas and game)</small>"
+}

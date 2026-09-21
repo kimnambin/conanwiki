@@ -1,0 +1,52 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 파일 433<br> 애니: 에피소드 345",
+    "manga": "만화 파일 433<br> 애니: 에피소드 345"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Calvados",
+      "manga": "Calvados"
+    },
+    "japanese": {
+      "kanji": "カルバドス",
+      "romanized": "Calvados"
+    },
+    "korean": {
+      "name": "칼바도스"
+    }
+  },
+  "img": "/conanwiki/img/Calvados_10_11zon.webp",
+  "occupation": "검은 조직 암살부 간부",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "사망",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "베르무트 (짝사랑, 미등장)"
+    ],
+    "친구": [],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": [
+      "FBI"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "없음 (무음 캐릭터)",
+      "korean": "박성태"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%B9%BC%EB%B0%94%EB%8F%84%EC%8A%A4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Calvados"
+}

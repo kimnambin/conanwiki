@@ -1,0 +1,54 @@
+{
+  "age": "외견 30대 (실제 50대 이상)",
+  "aliases": "크리스 빈야드<br>샤론 빈야드<br>아리아드네 오린<br>베르무트",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 231",
+    "manga": "만화 에피소드 231"
+  },
+  "gender": "여성",
+  "keyhole": 35,
+  "name": {
+    "english": {
+      "anime": "Chris Vineyard",
+      "manga": "Chris Vineyard"
+    },
+    "japanese": {
+      "kanji": "ベルモット",
+      "romanized": "Vermouth"
+    },
+    "korean": {
+      "name": "베르무트"
+    }
+  },
+  "img": "/conanwiki/img/Vermouth_6_11zon.webp",
+  "occupation": "검은 조직 간부 <br /> 배우",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "쿠도 유키코 (옛 친구)",
+      "쿠도 신이치 / 에도가와 코난 (복잡한 관계)"
+    ],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": [
+      "FBI",
+      "CIA"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Mami Koyama",
+      "korean": "배정미"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%B2%A0%EB%A5%B4%EB%AC%B4%ED%8A%B8(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Chris Vineyard"
+}
