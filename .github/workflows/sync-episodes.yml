@@ -1,9 +1,9 @@
 name: 에피소드 자동 동기화 (Jikan API)
 
+# 참고: src/data/episodes-raw.json은 아직 사이트 어디에서도 읽지 않는다.
+# 기존 episodes.json은 시즌/화수 기준으로 수작업 정리된 별도 구조라 자동 병합이
+# 간단하지 않아, 화면 연동은 후속 작업으로 남겨두었다. 그때까지는 수동 실행만 허용한다.
 on:
-  schedule:
-    # 매주 월요일 오전 9시 (KST = UTC+9 → UTC 00:00)
-    - cron: '0 0 * * 1'
   workflow_dispatch: # 수동 실행 허용
 
 jobs:

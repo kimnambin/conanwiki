@@ -1,8 +1,6 @@
 import type {Metadata} from 'next';
-import {createReader} from '@keystatic/core/reader';
 import CharacterBrowser from '@/component/character/CharacterBrowser';
-import keystaticConfig from '../../../../keystatic.config';
-import {CharacterType, CoupleType} from '@/types/api.model';
+import {fetchCharacters, fetchCouples} from '@/api/keystaticApi';
 
 export const metadata: Metadata = {
   title: '등장인물',
@@ -11,14 +9,10 @@ export const metadata: Metadata = {
 };
 
 export default async function CharactersPage() {
-  const reader = createReader(process.cwd(), keystaticConfig);
-  const [charEntries, coupleEntries] = await Promise.all([
-    reader.collections.characters.all(),
-    reader.collections.couples.all(),
+  const [characters, couples] = await Promise.all([
+    fetchCharacters(),
+    fetchCouples(),
   ]);
-
-  const characters = charEntries.map(c => c.entry) as unknown as CharacterType[];
-  const couples = coupleEntries.map(c => c.entry) as unknown as CoupleType[];
 
   return <CharacterBrowser characters={characters} couples={couples} />;
 }

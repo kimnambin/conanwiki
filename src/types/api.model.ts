@@ -32,6 +32,7 @@ export interface CharacterType {
   affiliation?: string[];
   status?: string;
   relationships?: RelationshipMap;
+  keyhole?: number | null;
 }
 
 export interface CoupleEpisode {

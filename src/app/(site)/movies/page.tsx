@@ -1,6 +1,6 @@
 import type {Metadata} from 'next';
-import MovieBrowser from '../../component/movie/MovieBrowser';
-import {fetchMovies} from '../../api/movieApi';
+import MovieBrowser from '@/component/movie/MovieBrowser';
+import {fetchMovies} from '@/api/movieApi';
 
 export const metadata: Metadata = {
   title: '극장판',
