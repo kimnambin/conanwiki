@@ -1,0 +1,48 @@
+{
+  "age": "25",
+  "aliases": "아라이",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 170",
+    "manga": "만화 에피소드 170"
+  },
+  "gender": "남성",
+  "keyhole": 24,
+  "name": {
+    "english": {
+      "anime": "Tomoaki Araide",
+      "manga": "Tomoaki Araide"
+    },
+    "japanese": {
+      "kanji": "新出 智明",
+      "romanized": "Tomoaki Araide"
+    },
+    "korean": {
+      "name": "황시준 (아라이데 토모아키)"
+    }
+  },
+  "img": "/conanwiki/img/Tomoaki Araide_5_11zon.webp",
+  "occupation": "테이탄 고등학교 농구 코치 <br /> 의사",
+  "affiliation": [
+    "테이탄 고등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "테이탄 고등학교"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Hideyuki Hori",
+      "korean": "김기흥"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%20%ED%86%A0%EB%AA%A8%EC%95%84%ED%82%A4",
+  "englishName": "Tomoaki Araide"
+}

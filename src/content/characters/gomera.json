@@ -1,0 +1,44 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 <br />애니:",
+    "manga": "만화 <br />애니:"
+  },
+  "gender": "미상",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Gomera",
+      "manga": "Gomera"
+    },
+    "japanese": {
+      "kanji": "ゴメラ",
+      "romanized": "Gomera"
+    },
+    "korean": {
+      "name": "고메라"
+    }
+  },
+  "img": "/conanwiki/img/Gomera_29_11zon.webp",
+  "occupation": "??",
+  "affiliation": [],
+  "status": "극중 픽션",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "??",
+      "korean": "??"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EA%B3%A0%EB%A9%94%EB%9D%BC",
+  "englishName": "Gomera"
+}

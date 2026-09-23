@@ -1,0 +1,48 @@
+{
+  "age": "50",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 810",
+    "manga": "만화 에피소드 810"
+  },
+  "gender": "남성",
+  "keyhole": 86,
+  "name": {
+    "english": {
+      "anime": "Hyoue Kuroda",
+      "manga": "Hyoue Kuroda"
+    },
+    "japanese": {
+      "kanji": "黒田 兵衛",
+      "romanized": "Hyoue Kuroda"
+    },
+    "korean": {
+      "name": "현병위 (쿠로다 효우에)"
+    }
+  },
+  "img": "/conanwiki/img/Hyoue Kuroda_38_11zon.webp",
+  "occupation": "경시정",
+  "affiliation": [
+    "경시청"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "경시청"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Yukimasa Kishino",
+      "korean": "한복현<br>한상덕 (시즌 15-22)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%A1%9C%EB%8B%A4%20%ED%9A%A8%EC%9A%B0%EC%97%90",
+  "englishName": "Hyoue Kuroda"
+}

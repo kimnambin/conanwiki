@@ -1,0 +1,54 @@
+{
+  "age": "30",
+  "aliases": "조디 스털링<br>Jodie Starling",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 230",
+    "manga": "만화 에피소드 230"
+  },
+  "gender": "여성",
+  "keyhole": 44,
+  "name": {
+    "english": {
+      "anime": "Jodie Starling",
+      "manga": "Jodie Starling"
+    },
+    "japanese": {
+      "kanji": "ジョディ・スターリング",
+      "romanized": "Jodie Saintemillion"
+    },
+    "korean": {
+      "name": "조디 스털링 (조디 센티밀리온)"
+    }
+  },
+  "img": "/conanwiki/img/Jodie Starling_45_11zon.webp",
+  "occupation": "FBI 요원 <br /> 테이탄 고등학교 영어 교사 (위장)",
+  "affiliation": [
+    "FBI"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "아카이 슈이치 (동료)",
+      "앙드레 캐멀 (동료)"
+    ],
+    "동료": [
+      "FBI",
+      "제임스 블랙 (상관)"
+    ],
+    "적": [
+      "검은 조직"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Naoko Yanagita",
+      "korean": "배정미"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%A1%B0%EB%94%94%20%EC%84%BC%ED%8B%B0%EB%B0%80%EB%A6%AC%EC%98%A8",
+  "englishName": "Jodie Starling"
+}

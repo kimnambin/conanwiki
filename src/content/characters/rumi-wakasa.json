@@ -1,0 +1,49 @@
+{
+  "age": "27",
+  "aliases": "위스카 아람",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 894",
+    "manga": "만화 에피소드 894"
+  },
+  "gender": "여성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Rumi Wakasa",
+      "manga": "Rumi Wakasa"
+    },
+    "japanese": {
+      "kanji": "若狭 留美",
+      "romanized": "Rumi Wakasa"
+    },
+    "korean": {
+      "name": "위스카 아람 (와카사 루미)"
+    }
+  },
+  "img": "/conanwiki/img/Rumi Wakasa.webp",
+  "occupation": "테이탄 초등학교 교사",
+  "affiliation": [
+    "테이탄 초등학교"
+  ],
+  "status": "생존 (럼 의심 인물)",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "소년탐정단 (담당)",
+      "테이탄 초등학교"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Maaya Sakamoto",
+      "korean": "김현지"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%99%80%EC%B9%B4%EC%82%AC%20%EB%A3%A8%EB%AF%B8",
+  "englishName": "Rumi Wakasa"
+}

@@ -1,0 +1,47 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 358",
+    "manga": "만화 에피소드 358"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Manabu Fujimaki",
+      "manga": "Manabu Fujimaki"
+    },
+    "japanese": {
+      "kanji": "藤巻 学",
+      "romanized": "Manabu Fujimaki"
+    },
+    "korean": {
+      "name": "후지마키 마나부"
+    }
+  },
+  "img": "/conanwiki/img/Manabu Fujimaki_66_11zon.webp",
+  "occupation": "경부",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "경시청 수사1과"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Ginga Banjo",
+      "korean": "??"
+    }
+  ],
+  "englishName": "Manabu Fujimaki"
+}

@@ -1,0 +1,55 @@
+{
+  "age": "27",
+  "aliases": "기르<br>미즈나시 레나",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 425",
+    "manga": "만화 에피소드 425"
+  },
+  "gender": "여성",
+  "keyhole": 48,
+  "name": {
+    "english": {
+      "anime": "Hidemi Hondou",
+      "manga": "Hidemi Hondou"
+    },
+    "japanese": {
+      "kanji": "本堂 瑛海",
+      "romanized": "Hidemi Hondou"
+    },
+    "korean": {
+      "name": "문재인 (혼도 히데미)"
+    }
+  },
+  "img": "/conanwiki/img/Hidemi Hondou_33_11zon.webp",
+  "occupation": "CIA 요원",
+  "affiliation": [
+    "CIA",
+    "검은 조직 (위장, 기르)"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "혼도 에이스케 (남동생)",
+      "혼도 에타로 (아버지, CIA 국장, 미등장)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "CIA",
+      "제임스 블랙 (상관)"
+    ],
+    "적": [
+      "검은 조직 (위장 잠입 중)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Kotono Mitsuishi",
+      "korean": "안영미"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%98%BC%EB%8F%84%20%ED%9E%88%EB%8D%B0%EB%AF%B8",
+  "englishName": "Hidemi Hondou"
+}

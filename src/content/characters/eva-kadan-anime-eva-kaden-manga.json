@@ -1,0 +1,53 @@
+{
+  "age": "38",
+  "aliases": "모리 에리 (본명)<br />법정의 여왕",
+  "date_of_birth": "10월 10일",
+  "drama_actor": "Nene Otsuka",
+  "first_appearance": {
+    "anime": "만화 에피소드 32",
+    "manga": "만화 에피소드 32"
+  },
+  "gender": "여성",
+  "keyhole": 11,
+  "name": {
+    "english": {
+      "anime": "Eva Kadan (anime)<br />Eva Kaden (manga)",
+      "manga": "Eva Kadan (anime)<br />Eva Kaden (manga)"
+    },
+    "japanese": {
+      "kanji": "妃 英理",
+      "romanized": "Eri Kisaki"
+    },
+    "korean": {
+      "name": "노애리 (키사키 에리)"
+    }
+  },
+  "img": "/conanwiki/img/Eri Kisaki_17_11zon.webp",
+  "occupation": "키사키 법률 사무소 <br /> 변호사",
+  "affiliation": [
+    "키사키 법률 사무소"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "모리 란 (딸, 미등장)",
+      "모리 코고로 (별거 중 남편, 미등장)"
+    ],
+    "연인": [],
+    "친구": [
+      "쿠도 유키코 (친구)"
+    ],
+    "동료": [
+      "키사키 법률 사무소"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Gara Takashima",
+      "korean": "한채언"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%82%A4%EC%82%AC%ED%82%A4%20%EC%97%90%EB%A6%AC",
+  "englishName": "Eva Kadan (anime)Eva Kaden (manga)"
+}

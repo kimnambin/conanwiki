@@ -1,0 +1,53 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 425",
+    "manga": "만화 에피소드 425"
+  },
+  "gender": "여성",
+  "keyhole": 67,
+  "name": {
+    "english": {
+      "anime": "Chianti",
+      "manga": "Chianti"
+    },
+    "japanese": {
+      "kanji": "キャンティ",
+      "romanized": "Chianti"
+    },
+    "korean": {
+      "name": "키안티"
+    }
+  },
+  "img": "/conanwiki/img/Chianti_11_11zon.webp",
+  "occupation": "검은 조직 암살부 간부",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "코른 (동료)"
+    ],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": [
+      "FBI",
+      "에도가와 코난"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Kikuko Inoue",
+      "korean": "김현심"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%82%A4%EC%95%88%ED%8B%B0(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Chianti"
+}

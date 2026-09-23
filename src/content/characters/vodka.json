@@ -1,0 +1,52 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Vodka",
+      "manga": "Vodka"
+    },
+    "japanese": {
+      "kanji": "ウォッカ",
+      "romanized": "Vodka"
+    },
+    "korean": {
+      "name": "보드카"
+    }
+  },
+  "img": "/conanwiki/img/Vodka_7_11zon.webp",
+  "occupation": "검은 조직 멤버",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "검은 조직",
+      "진 (파트너)"
+    ],
+    "적": [
+      "에도가와 코난",
+      "FBI"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Fumihiko Tachiki",
+      "korean": "이호산"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%B3%B4%EB%93%9C%EC%B9%B4(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Vodka"
+}

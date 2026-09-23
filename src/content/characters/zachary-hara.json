@@ -1,0 +1,49 @@
+{
+  "age": "32",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "애니: 극장판 5",
+    "manga": "애니: 극장판 5"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Zachary Hara",
+      "manga": "Zachary Hara"
+    },
+    "japanese": {
+      "kanji": "原 佳明",
+      "romanized": "Yoshiaki Hara"
+    },
+    "korean": {
+      "name": "하준영 (하라 요시아키)"
+    }
+  },
+  "img": "/conanwiki/img/Yoshiaki Hara_11_11zon.webp",
+  "occupation": "도키와 그룹 전무이사 <br /> 프로그래머 <br /> 검은 조직 멤버 (소프트웨어 부문)",
+  "affiliation": [
+    "검은 조직",
+    "도키와 그룹"
+  ],
+  "status": "사망",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Koichi Hashimoto",
+      "korean": "김기흥"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%95%98%EB%9D%BC%20%EC%9A%94%EC%8B%9C%EC%95%84%ED%82%A4",
+  "englishName": "Zachary Hara"
+}

@@ -1,0 +1,44 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 005",
+    "manga": "만화 에피소드 005"
+  },
+  "gender": "미상",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Masked Yaiba",
+      "manga": "Masked Yaiba"
+    },
+    "japanese": {
+      "kanji": "仮面ヤイバー",
+      "romanized": "Kamen Yaiba"
+    },
+    "korean": {
+      "name": "가면 사나이 (가면 야이바)"
+    }
+  },
+  "img": "/conanwiki/img/Kamen Yaiba_51_11zon.webp",
+  "occupation": "??",
+  "affiliation": [],
+  "status": "극중 픽션",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Wataru Takagi",
+      "korean": "??"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EA%B0%80%EB%A9%B4%20%EC%95%BC%EC%9D%B4%EB%B0%94",
+  "englishName": "Masked Yaiba"
+}

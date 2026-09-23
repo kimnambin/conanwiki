@@ -1,0 +1,45 @@
+{
+  "age": "32",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 챕터 658<br />애니: 에피소드 551",
+    "manga": "만화 챕터 658<br />애니: 에피소드 551"
+  },
+  "gender": "남성",
+  "keyhole": 63,
+  "name": {
+    "english": {
+      "anime": "Genji Kojima",
+      "manga": "Genji Kojima"
+    },
+    "japanese": {
+      "kanji": "小嶋 元次",
+      "romanized": "Genji Kojima"
+    },
+    "korean": {
+      "name": "고원규 (코지마 겐지)"
+    }
+  },
+  "img": "/conanwiki/img/Genji Kojima_23_11zon.webp",
+  "occupation": "바 사장",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "코지마 겐타 (아들)"
+    ],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Akio Nojima",
+      "korean": "시영준"
+    }
+  ],
+  "englishName": "Genji Kojima"
+}

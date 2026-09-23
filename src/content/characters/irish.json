@@ -1,0 +1,50 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "애니: 극장판 13",
+    "manga": "애니: 극장판 13"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Irish",
+      "manga": "Irish"
+    },
+    "japanese": {
+      "kanji": "アイリッシュ",
+      "romanized": "Irish"
+    },
+    "korean": {
+      "name": "아이리시"
+    }
+  },
+  "img": "/conanwiki/img/Irish_41_11zon.webp",
+  "occupation": "검은 조직 정보부 간부",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "사망",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": [
+      "에도가와 코난"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Yuji Mikimoto",
+      "korean": "송준석"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%A6%AC%EC%8B%9C(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Irish"
+}

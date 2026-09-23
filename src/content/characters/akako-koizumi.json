@@ -1,0 +1,50 @@
+{
+  "age": "17",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "매직 카이토 챕터 6<br />애니: OVA 1",
+    "manga": "매직 카이토 챕터 6<br />애니: OVA 1"
+  },
+  "gender": "여성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Akako Koizumi",
+      "manga": "Akako Koizumi"
+    },
+    "japanese": {
+      "kanji": "小泉 紅子",
+      "romanized": "Akako Koizumi"
+    },
+    "korean": {
+      "name": "잔홍은 (코이즈미 아카코)"
+    }
+  },
+  "img": "/conanwiki/img/Akako Koizumi_17_11zon.webp",
+  "occupation": "에코다 고등학교 학생 <br /> 마녀",
+  "affiliation": [
+    "에코다 고등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "쿠로바 카이토 (짝사랑)"
+    ],
+    "친구": [],
+    "동료": [
+      "에코다 고등학교"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Megumi Hayashibara (에피소드 219, OVA)<br />Eri Kitamura (Magic Kaito 1412~)",
+      "korean": "김현심"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BD%94%EC%9D%B4%EC%A6%88%EB%AF%B8%20%EC%95%84%EC%B9%B4%EC%BD%94",
+  "englishName": "Akako Koizumi"
+}

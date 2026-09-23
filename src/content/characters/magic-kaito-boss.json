@@ -1,0 +1,49 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "스페셜 5 (그림자)",
+    "manga": "스페셜 5 (그림자)"
+  },
+  "gender": "미상",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Magic Kaito Boss",
+      "manga": "Magic Kaito Boss"
+    },
+    "japanese": {
+      "kanji": "??",
+      "romanized": "??"
+    },
+    "korean": {
+      "name": "??"
+    }
+  },
+  "img": "/conanwiki/img/Magic Kaito Boss_63_11zon.webp",
+  "occupation": "적대 조직 수장 (매직 카이토)",
+  "affiliation": [
+    "적대 조직 (매직 카이토)"
+  ],
+  "status": "미상",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "적대 조직 (매직 카이토)"
+    ],
+    "적": [
+      "쿠로바 카이토 / 괴도 키드"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "??",
+      "korean": "??"
+    }
+  ],
+  "englishName": "Magic Kaito Boss"
+}

@@ -1,0 +1,62 @@
+{
+  "man": "남도일 (쿠도 신이치)",
+  "man_url": "/conanwiki/img/Shinichi Kudo_95_11zon.webp",
+  "man_job": "고등학생 탐정 / 에도가와 코난으로 변신 중",
+  "women": "유미란 (모리 란)",
+  "women_url": "/conanwiki/img/Ran Mouri_80_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_ShinRan.webp",
+  "women_job": "고등학생 / 공수도 선수",
+  "couple_nickname": "신란",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "어릴 때부터 함께 자란 소꿉친구이자 연인. 신이치가 APTX-4869로 인해 코난으로 변신한 후에도 란을 향한 마음은 변하지 않으며, 란 역시 신이치를 기다리고 있다. 명탐정 코난의 메인 커플.",
+  "episodes": [
+    {
+      "title": "벚꽃반의 추억",
+      "source": "원작 87권 / TVA 853~854화",
+      "description": "유치원생 시절 첫 만남 — 신이치가 란에게 한눈에 반한 에피소드."
+    },
+    {
+      "title": "쿠도 신이치 소년의 모험",
+      "source": "원작 55권 / TVA 472~473화",
+      "description": "초등학생 시절 두 사람의 이야기."
+    },
+    {
+      "title": "쿠도 신이치의 뉴욕 사건",
+      "source": "원작 34~35권 / TVA 286~288화",
+      "description": "란이 신이치를 진심으로 좋아하게 된 결정적 계기가 된 에피소드."
+    },
+    {
+      "title": "제트 코스터 살인 사건",
+      "source": "원작 1권 / TVA 1화",
+      "description": "놀이공원 데이트 중 신이치가 코난으로 변신하게 되는 사건 당일."
+    },
+    {
+      "title": "목숨을 건 부활",
+      "source": "원작 26권 / TVA 192~193화",
+      "description": "신이치가 란에게 고백하려 했으나 결국 실패하는 에피소드."
+    },
+    {
+      "title": "홈즈의 묵시록",
+      "source": "원작 71~72권 / TVA 621화",
+      "description": "런던에서 신이치가 란에게 직접 마음을 고백한 에피소드. 신란의 핵심 명장면."
+    },
+    {
+      "title": "진홍의 수학여행",
+      "source": "원작 94~95권 / TVA 927~928화",
+      "description": "두 사람이 공식적으로 사귀기로 결정한 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "7기",
+      "title": "미궁의 십자로",
+      "note": "신이치가 직접 등장하는 유일한 극장판"
+    },
+    {
+      "number": "12기",
+      "title": "전율의 악보",
+      "note": "중학생 시절 배경"
+    }
+  ]
+}

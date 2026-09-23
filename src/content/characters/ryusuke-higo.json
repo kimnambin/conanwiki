@@ -1,0 +1,48 @@
+{
+  "age": "19",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "애니 에피소드 279",
+    "manga": "애니 에피소드 279"
+  },
+  "gender": "남성",
+  "keyhole": 84,
+  "name": {
+    "english": {
+      "anime": "Ryusuke Higo",
+      "manga": "Ryusuke Higo"
+    },
+    "japanese": {
+      "kanji": "比護 隆佑",
+      "romanized": "Ryusuke Higo"
+    },
+    "korean": {
+      "name": "고주영 (히고 류스케)"
+    }
+  },
+  "img": "/conanwiki/img/Ryusuke Higo_86_11zon.webp",
+  "occupation": "빅 오사카 센터 포워드 <br /> 프로 축구선수",
+  "affiliation": [
+    "빅 오사카"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "빅 오사카"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Takahiro Sakurai",
+      "korean": "최승훈"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%9E%88%EA%B3%A0%20%EB%A5%98%EC%8A%A4%EC%BC%80",
+  "englishName": "Ryusuke Higo"
+}

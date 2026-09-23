@@ -1,0 +1,50 @@
+{
+  "age": "24",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 138",
+    "manga": "만화 에피소드 138"
+  },
+  "gender": "남성",
+  "keyhole": 33,
+  "name": {
+    "english": {
+      "anime": "Detective Chiba",
+      "manga": "Detective Chiba"
+    },
+    "japanese": {
+      "kanji": "千葉 和伸",
+      "romanized": "Kazunobu Chiba"
+    },
+    "korean": {
+      "name": "이명수 (치바 카즈노부)"
+    }
+  },
+  "img": "/conanwiki/img/Kazunobu Chiba_55_11zon.webp",
+  "occupation": "형사",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "코바야시 스미코 (연인)"
+    ],
+    "친구": [],
+    "동료": [
+      "경시청 수사1과"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Isshin Chiba",
+      "korean": "시영준 (2~4기)<br>김영찬 (5기~)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%B9%98%EB%B0%94%20%EC%B9%B4%EC%A6%88%EB%85%B8%EB%B6%80(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Detective Chiba"
+}

@@ -1,0 +1,51 @@
+{
+  "age": "??",
+  "aliases": "지겐 다이스케 (대원 더빙)<br>민강철 (화성 더빙)<br>털보 (MBC 더빙)",
+  "date_of_birth": "??",
+  "drama_actor": "Tetsuji Tamayama",
+  "first_appearance": {
+    "anime": "루팡 3세 VS 명탐정 코난",
+    "manga": "루팡 3세 VS 명탐정 코난"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Daisuke Jigen",
+      "manga": "Daisuke Jigen"
+    },
+    "japanese": {
+      "kanji": "次元 大介",
+      "romanized": "Daisuke Jigen"
+    },
+    "korean": {
+      "name": "알마로스 (지겐 다이스케)"
+    }
+  },
+  "img": "/conanwiki/img/Daisuke Jigen_14_11zon.webp",
+  "occupation": "도둑 <br /> 총잡이",
+  "affiliation": [
+    "루팡 일당"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "루팡 3세 (동료)",
+      "이시카와 고에몽 (동료)"
+    ],
+    "동료": [
+      "루팡 일당"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Kiyoshi Kobayashi<br />Akio Otsuka (PART 6~)",
+      "korean": "강구한"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%A7%80%EA%B2%90%20%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%BC%80",
+  "englishName": "Daisuke Jigen"
+}

@@ -1,0 +1,62 @@
+{
+  "age": "7",
+  "aliases": "은탄환<br>키드 킬러<br>꼬마 탐정<br>새우",
+  "date_of_birth": "5월 4일",
+  "drama_actor": "Nao Fujisaki<br />Minami Takayama (목소리)",
+  "first_appearance": {
+    "anime": "만화 에피소드 10",
+    "manga": "만화 에피소드 10"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Conan Edogawa",
+      "manga": "Conan Edogawa"
+    },
+    "japanese": {
+      "kanji": "江戸川 コナン",
+      "romanized": "Conan Edogawa"
+    },
+    "korean": {
+      "name": "코난 (에도가와 코난)"
+    }
+  },
+  "img": "/conanwiki/img/Conan Edogawa_13_11zon.webp",
+  "occupation": "테이탄 초등학교 학생 <br /> 탐정",
+  "affiliation": [
+    "소년탐정단",
+    "모리 탐정 사무소",
+    "테이탄 초등학교"
+  ],
+  "status": "생존 (쿠도 신이치가 약물로 어린이화)",
+  "relationships": {
+    "가족": [
+      "쿠도 유사쿠 (아버지)",
+      "쿠도 유키코 (어머니)"
+    ],
+    "연인": [
+      "모리 란 (연인, 미등장)"
+    ],
+    "친구": [
+      "핫토리 헤이지",
+      "하이바라 아이",
+      "아가사 히로시 (보호자)"
+    ],
+    "동료": [
+      "소년탐정단",
+      "모리 탐정 사무소"
+    ],
+    "적": [
+      "검은 조직"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Minami Takayama",
+      "korean": "최덕희 (KBS, 2000)<br>김선혜 (투니버스/극장판/애니맥스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%97%90%EB%8F%84%EA%B0%80%EC%99%80%20%EC%BD%94%EB%82%9C",
+  "englishName": "Conan Edogawa"
+}

@@ -1,0 +1,51 @@
+{
+  "age": "17",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 429",
+    "manga": "만화 에피소드 429"
+  },
+  "gender": "남성",
+  "keyhole": 49,
+  "name": {
+    "english": {
+      "anime": "Eisuke Hondou",
+      "manga": "Eisuke Hondou"
+    },
+    "japanese": {
+      "kanji": "本堂 瑛祐",
+      "romanized": "Eisuke Hondou"
+    },
+    "korean": {
+      "name": "문재수 (혼도 에이스케)"
+    }
+  },
+  "img": "/conanwiki/img/Eisuke Hondou_15_11zon.webp",
+  "occupation": "테이탄 고등학교 학생",
+  "affiliation": [
+    "테이탄 고등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "혼도 히데미 (누나)",
+      "혼도 에타로 (아버지, CIA 국장, 미등장)"
+    ],
+    "연인": [],
+    "친구": [
+      "에도가와 코난"
+    ],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Junko Noda",
+      "korean": "김영선"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%98%BC%EB%8F%84%20%EC%97%90%EC%9D%B4%EC%8A%A4%EC%BC%80",
+  "englishName": "Eisuke Hondou"
+}

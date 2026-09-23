@@ -1,0 +1,52 @@
+{
+  "age": "16",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "에피소드 76",
+    "manga": "에피소드 76"
+  },
+  "gender": "여성",
+  "keyhole": 29,
+  "name": {
+    "english": {
+      "anime": "Aoko Nakamori",
+      "manga": "Aoko Nakamori"
+    },
+    "japanese": {
+      "kanji": "中森 青子",
+      "romanized": "Aoko Nakamori"
+    },
+    "korean": {
+      "name": "임청아 (나카모리 아오코)"
+    }
+  },
+  "img": "/conanwiki/img/Aoko Nakamori_3_11zon.webp",
+  "occupation": "에코다 고등학교 학생",
+  "affiliation": [
+    "에코다 고등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "나카모리 긴조 (아버지)"
+    ],
+    "연인": [
+      "쿠로바 카이토 (짝사랑)"
+    ],
+    "친구": [],
+    "동료": [],
+    "적": [
+      "괴도 키드 (정체 모름)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Minami Takayama",
+      "korean": "여민정 (KBS)<br>이소은 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%82%98%EC%B9%B4%EB%AA%A8%EB%A6%AC%20%EC%95%84%EC%98%A4%EC%BD%94",
+  "englishName": "Aoko Nakamori"
+}

@@ -1,0 +1,43 @@
+{
+  "age": "22",
+  "aliases": "잔디의 여왕",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 616",
+    "manga": "만화 에피소드 616"
+  },
+  "gender": "여성",
+  "keyhole": 71,
+  "name": {
+    "english": {
+      "anime": "Minerva Glass",
+      "manga": "Minerva Glass"
+    },
+    "japanese": {
+      "kanji": "ミネルバ・グラス",
+      "romanized": "Minerva Glass"
+    },
+    "korean": {
+      "name": "미네르바 글래스"
+    }
+  },
+  "img": "/conanwiki/img/Minerva Glass_70_11zon.webp",
+  "occupation": "영국 프로 테니스 선수",
+  "affiliation": [],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "??",
+      "korean": "김율"
+    }
+  ],
+  "englishName": "Minerva Glass"
+}

@@ -1,0 +1,56 @@
+{
+  "age": "??",
+  "aliases": "카이토 1412<br />팬텀 시프 키드 1412",
+  "date_of_birth": "6월 21일 (쿠로바 카이토)<br />미상 (쿠로바 토이치)<br/>미상 (지이 코노스케)",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "에피소드 76",
+    "manga": "에피소드 76"
+  },
+  "gender": "남성",
+  "keyhole": 16,
+  "name": {
+    "english": {
+      "anime": "Phantom Thief Kid",
+      "manga": "Phantom Thief Kid"
+    },
+    "japanese": {
+      "kanji": "怪盗キッド",
+      "romanized": "Kaitou Kid"
+    },
+    "korean": {
+      "name": "괴도키드"
+    }
+  },
+  "img": "/conanwiki/img/Kaitou Kid_50_11zon.webp",
+  "occupation": "학생 <br /> 괴도",
+  "affiliation": [
+    "괴도 키드"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "쿠로바 토이치 (아버지, 사망)",
+      "쿠로바 치카게 (어머니)"
+    ],
+    "연인": [
+      "나카모리 아오코 (짝사랑, 미등장)"
+    ],
+    "친구": [
+      "지이 코노스케 (집사)"
+    ],
+    "동료": [],
+    "적": [
+      "하쿠바 사구루 (라이벌)",
+      "에도가와 코난 (라이벌)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Kappei Yamaguchi",
+      "korean": "신용우"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EA%B4%B4%EB%8F%84%20%ED%82%A4%EB%93%9C",
+  "englishName": "Phantom Thief Kid"
+}

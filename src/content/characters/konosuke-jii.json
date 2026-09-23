@@ -1,0 +1,52 @@
+{
+  "age": "61",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "에피소드 1",
+    "manga": "에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Konosuke Jii",
+      "manga": "Konosuke Jii"
+    },
+    "japanese": {
+      "kanji": "寺井 黄之助",
+      "romanized": "Konosuke Jii"
+    },
+    "korean": {
+      "name": "지인호 (지이 코노스케)"
+    }
+  },
+  "img": "/conanwiki/img/Konosuke Jii_61_11zon.webp",
+  "occupation": "쿠로바 가문 집사 <br /> 블루 패럿 오너 <br /> 전 야마모토 코야타의 하인",
+  "affiliation": [
+    "쿠로바 가문",
+    "블루 패럿"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "쿠로바 카이토 (주인)",
+      "쿠로바 토이치 (전 주인, 사망)"
+    ],
+    "동료": [
+      "쿠로바 가문"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Kaneta Kimotsuki<br />Michio Hazama (Magic Kaito 1412)<br />Akio Suyama (어린 시절)",
+      "korean": "손종환<br>손수호 (해바라기의 불꽃, 어린 시절)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%A7%80%EC%9D%B4%20%EC%BD%94%EB%85%B8%EC%8A%A4%EC%BC%80",
+  "englishName": "Konosuke Jii"
+}

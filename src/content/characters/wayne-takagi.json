@@ -1,0 +1,51 @@
+{
+  "age": "27",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 37",
+    "manga": "만화 에피소드 37"
+  },
+  "gender": "남성",
+  "keyhole": 17,
+  "name": {
+    "english": {
+      "anime": "Wayne Takagi",
+      "manga": "Wayne Takagi"
+    },
+    "japanese": {
+      "kanji": "高木 渉",
+      "romanized": "Wataru Takagi"
+    },
+    "korean": {
+      "name": "신형선 (타카기 와타루)"
+    }
+  },
+  "img": "/conanwiki/img/Wataru Takagi_9_11zon.webp",
+  "occupation": "경시청 수사1과 순사부장",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "사토 미와코 (연인)"
+    ],
+    "친구": [],
+    "동료": [
+      "경시청 수사1과",
+      "메구레 쥬조 (상관)"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Wataru Takagi",
+      "korean": "시영준 (KBS)<br>윤동기 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%83%80%EC%B9%B4%EA%B8%B0%20%EC%99%80%ED%83%80%EB%A3%A8(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Wayne Takagi"
+}

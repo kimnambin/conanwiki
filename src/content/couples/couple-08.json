@@ -1,0 +1,42 @@
+{
+  "man": "이명수 (치바 카즈노부)",
+  "man_url": "/conanwiki/img/Kazunobu Chiba_55_11zon.webp",
+  "man_job": "경시청 수사 1과 형사",
+  "women": "정나혜 (미이케 나에코)",
+  "women_url": "/conanwiki/img/Naeko Miike_74_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_ChibaMiike.webp",
+  "women_job": "경시청 교통부 경찰관",
+  "couple_nickname": "치바나에",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "경시청 형사 치바와 교통경찰 나에코의 소꿉친구 커플. 어릴 때 헤어졌다가 경찰에서 재회했다. 나에코는 사토 미와코, 미야모토 유미와 친구 사이.",
+  "episodes": [
+    {
+      "title": "첫사랑의 비디오 레터",
+      "source": "TVA 본편",
+      "description": "13년 전 헤어진 첫사랑 미이케 나에코와 비디오 편지를 통해 재회하는 에피소드."
+    },
+    {
+      "title": "첫사랑의 공동수사",
+      "source": "TVA 본편",
+      "description": "치바와 나에코가 함께 사건 수사에 참여하며 벌어지는 에피소드."
+    },
+    {
+      "title": "표적은 경시청 교통부",
+      "source": "TVA 본편",
+      "description": "여경 연쇄 살인 사건에서 나에코가 납치되고 치바가 구출하며 정체가 밝혀지는 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "24기",
+      "title": "비색의 탄환",
+      "note": "나에코의 극장판 데뷔 (단역)"
+    },
+    {
+      "number": "25기",
+      "title": "할로윈의 신부",
+      "note": "치바가 납치되었다 돌아오자 나에코가 눈물로 안기는 장면으로 비중 있게 등장"
+    }
+  ]
+}

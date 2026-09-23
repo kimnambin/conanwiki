@@ -1,0 +1,59 @@
+{
+  "age": "17",
+  "aliases": "에도가와 코난<br>헤이세이의 셜록 홈즈",
+  "date_of_birth": "5월 4일",
+  "drama_actor": "Shun Oguri (1차)<br>Junpei Mizobata (2차)",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": 1,
+  "name": {
+    "english": {
+      "anime": "Jimmy Kudo",
+      "manga": "Jimmy Kudo"
+    },
+    "japanese": {
+      "kanji": "工藤 新一",
+      "romanized": "Shinichi Kudo"
+    },
+    "korean": {
+      "name": "남도일 (쿠도 신이치)"
+    }
+  },
+  "img": "/conanwiki/img/Shinichi Kudo_95_11zon.webp",
+  "occupation": "테이탄 고등학교 학생 <br /> 탐정",
+  "affiliation": [
+    "테이탄 고등학교"
+  ],
+  "status": "생존 (현재 에도가와 코난으로 변신 중)",
+  "relationships": {
+    "가족": [
+      "쿠도 유사쿠 (아버지)",
+      "쿠도 유키코 (어머니)"
+    ],
+    "연인": [
+      "모리 란 (연인, 미등장)"
+    ],
+    "친구": [
+      "핫토리 헤이지",
+      "하이바라 아이"
+    ],
+    "동료": [
+      "소년탐정단",
+      "모리 탐정 사무소"
+    ],
+    "적": [
+      "검은 조직"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Kappei Yamaguchi<br>Minami Takayama (어린 시절)",
+      "korean": "강수진"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%BF%A0%EB%8F%84%20%EC%8B%A0%EC%9D%B4%EC%B9%98",
+  "englishName": "Jimmy Kudo"
+}

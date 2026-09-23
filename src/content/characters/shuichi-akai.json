@@ -1,0 +1,60 @@
+{
+  "age": "31",
+  "aliases": "라이<br>모로보시 다이<br>오키야 스바루",
+  "date_of_birth": "12월 2일",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 230",
+    "manga": "만화 에피소드 230"
+  },
+  "gender": "남성",
+  "keyhole": 37,
+  "name": {
+    "english": {
+      "anime": "Shuichi Akai",
+      "manga": "Shuichi Akai"
+    },
+    "japanese": {
+      "kanji": "赤井 秀一",
+      "romanized": "Shuichi Akai"
+    },
+    "korean": {
+      "name": "이상윤 (아카이 슈이치)"
+    }
+  },
+  "img": "/conanwiki/img/Shuichi Akai_98_11zon.webp",
+  "occupation": "FBI 요원",
+  "affiliation": [
+    "FBI"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "하네다 슈키치 (남동생)",
+      "세라 마스미 (여동생)",
+      "세라 마사미 (어머니)"
+    ],
+    "연인": [
+      "미야노 아케미 (전 연인, 사망)"
+    ],
+    "친구": [
+      "앙드레 캐멀 (동료)"
+    ],
+    "동료": [
+      "FBI",
+      "제임스 블랙 (상관)"
+    ],
+    "적": [
+      "검은 조직",
+      "진"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Shuichi Ikeda",
+      "korean": "이주창"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EC%B9%B4%EC%9D%B4%20%EC%8A%88%EC%9D%B4%EC%B9%98",
+  "englishName": "Shuichi Akai"
+}

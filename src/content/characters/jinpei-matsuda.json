@@ -1,0 +1,53 @@
+{
+  "age": "30",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 383",
+    "manga": "만화 에피소드 383"
+  },
+  "gender": "남성",
+  "keyhole": 78,
+  "name": {
+    "english": {
+      "anime": "Jinpei Matsuda",
+      "manga": "Jinpei Matsuda"
+    },
+    "japanese": {
+      "kanji": "松田 陣平",
+      "romanized": "Jinpei Matsuda"
+    },
+    "korean": {
+      "name": "송보윤 (마츠다 진페이)"
+    }
+  },
+  "img": "/conanwiki/img/Jinpei Matsuda_43_11zon.webp",
+  "occupation": "전 경시청 수사1과 순사부장 (순직)",
+  "affiliation": [
+    "경시청 수사1과 (전)"
+  ],
+  "status": "사망 (순직)",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "사토 미와코 (일방적 짝사랑)"
+    ],
+    "친구": [
+      "다테 와타루 (동료)",
+      "하기와라 켄지 (동료)"
+    ],
+    "동료": [
+      "경시청 수사1과"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Kenji Nomura",
+      "korean": "권성혁"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%A7%88%EC%B8%A0%EB%8B%A4%20%EC%A7%84%ED%8E%98%EC%9D%B4",
+  "englishName": "Jinpei Matsuda"
+}

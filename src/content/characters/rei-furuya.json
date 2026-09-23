@@ -1,0 +1,56 @@
+{
+  "age": "29",
+  "aliases": "버번<br />아무로 토오루<br />제로",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 667",
+    "manga": "만화 에피소드 667"
+  },
+  "gender": "남성",
+  "keyhole": 76,
+  "name": {
+    "english": {
+      "anime": "Rei Furuya",
+      "manga": "Rei Furuya"
+    },
+    "japanese": {
+      "kanji": "降谷 零",
+      "romanized": "Rei Furuya"
+    },
+    "korean": {
+      "name": "안기준 (아무로 토오루)  강준영 (후루야 레이)"
+    }
+  },
+  "img": "/conanwiki/img/Rei Furuya_81_11zon.webp",
+  "occupation": "탐정 <br /> 카페 포와로 직원 <br /> 경찰청 경비국 경비기획과 요원",
+  "affiliation": [
+    "공안부",
+    "카페 포와로",
+    "검은 조직 (위장, 버번)"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "에노모토 아즈사 (동료)"
+    ],
+    "동료": [
+      "공안부",
+      "카페 포와로"
+    ],
+    "적": [
+      "아카이 슈이치 (복잡한 관계)",
+      "검은 조직 (위장 잠입 중)"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Tohru Furuya",
+      "korean": "박성태<br>김가령 (유년기)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%95%84%EB%AC%B4%EB%A1%9C%20%ED%86%A0%EC%98%A4%EB%A3%A8",
+  "englishName": "Rei Furuya"
+}

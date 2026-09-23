@@ -31,7 +31,7 @@ export default function SearchBar({characters, movies}: SearchBarProps) {
     : [];
 
   const searchCharacter = trimmed
-    ? characters.filter(item => item.name.korean.name.includes(search.trim()))
+    ? characters.filter(item => item.name.korean.name.toLowerCase().includes(trimmed))
     : [];
 
   return (

@@ -1,0 +1,51 @@
+{
+  "age": "100세 이상 (추정)",
+  "aliases": "그 분 <br /> 보스",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 300",
+    "manga": "만화 에피소드 300"
+  },
+  "gender": "미상",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Renya Karasuma",
+      "manga": "Renya Karasuma"
+    },
+    "japanese": {
+      "kanji": "烏丸 連耶",
+      "romanized": "Renya Karasuma"
+    },
+    "korean": {
+      "name": "카라스마 렌야"
+    }
+  },
+  "img": "/conanwiki/img/Ano kata_2_11zon.webp",
+  "occupation": "카라스마 그룹 초대 회장 (은퇴) <br /> 검은 조직 보스",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "미상 (반세기 전 사망설, 생존 여부 불명)",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "검은 조직 전원 (부하)"
+    ],
+    "적": [
+      "에도가와 코난",
+      "아카이 슈이치"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "아직 없음",
+      "korean": "??"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%B9%B4%EB%9D%BC%EC%8A%A4%EB%A7%88%20%EB%A0%8C%EC%95%BC",
+  "englishName": "Renya Karasuma"
+}

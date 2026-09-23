@@ -1,0 +1,36 @@
+name: 에피소드 자동 동기화 (Jikan API)
+
+# 참고: src/data/episodes-raw.json은 아직 사이트 어디에서도 읽지 않는다.
+# 기존 episodes.json은 시즌/화수 기준으로 수작업 정리된 별도 구조라 자동 병합이
+# 간단하지 않아, 화면 연동은 후속 작업으로 남겨두었다. 그때까지는 수동 실행만 허용한다.
+on:
+  workflow_dispatch: # 수동 실행 허용
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Jikan API에서 에피소드 동기화
+        run: node scripts/sync-episodes.mjs
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/episodes-raw.json
+          git diff --staged --quiet || git commit -m "chore: 에피소드 자동 동기화 (Jikan API)"
+
+      - name: Push
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

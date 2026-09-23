@@ -1,0 +1,32 @@
+{
+  "man": "양만호 (야마토 칸스케)",
+  "man_url": "/conanwiki/img/Kansuke Yamato_52_11zon.webp",
+  "man_job": "나가노 현경 수사 1과 경부",
+  "women": "우하라 (우에하라 유이)",
+  "women_url": "/conanwiki/img/Yui Uehara_12_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_YamatoUehara.webp",
+  "women_job": "나가노 현경 수사 1과 경부보",
+  "couple_nickname": "야마우에",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "나가노 현경의 베테랑 형사 야마토 칸스케와 동료 경부보 우에하라 유이의 커플. 야마토는 한쪽 눈을 잃은 상처가 있으며, 두 사람은 초등학교 시절부터 알아온 6살 차이 죽마고우다.",
+  "episodes": [
+    {
+      "title": "풍림화산",
+      "source": "TVA 본편",
+      "description": "야마토와 유이의 첫 등장 에피소드. 유이가 토라다 가에 시집가며 용의자 중 한 명으로 등장."
+    },
+    {
+      "title": "현경의 검은 어둠",
+      "source": "TVA 본편",
+      "description": "유이가 '호적에 가위표가 있는 여자'라 자조하자 야마토가 '자기 얼굴에도 큰 가위표가 있다'고 답하며 얼굴을 붉히는 명장면."
+    }
+  ],
+  "movies": [
+    {
+      "number": "28기",
+      "title": "척안의 잔상",
+      "note": "두 사람의 감정선이 더욱 부각되는 극장판"
+    }
+  ]
+}

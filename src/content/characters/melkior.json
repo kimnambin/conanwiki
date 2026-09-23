@@ -1,0 +1,54 @@
+{
+  "age": "??",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "Kuranosuke Sasaki",
+  "first_appearance": {
+    "anime": "만화 에피소드 1",
+    "manga": "만화 에피소드 1"
+  },
+  "gender": "남성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Melkior",
+      "manga": "Melkior"
+    },
+    "japanese": {
+      "kanji": "ジン",
+      "romanized": "Gin"
+    },
+    "korean": {
+      "name": "진"
+    }
+  },
+  "img": "/conanwiki/img/Gin_25_11zon.webp",
+  "occupation": "검은 조직 멤버",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "보드카 (동료, 미등장)"
+    ],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": [
+      "에도가와 코난",
+      "아카이 슈이치",
+      "FBI"
+    ]
+  },
+  "voice": [
+    {
+      "japanese": "Yukitoshi Hori",
+      "korean": "서윤선"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%A7%84(%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C)",
+  "englishName": "Melkior"
+}

@@ -1,0 +1,55 @@
+{
+  "age": "29",
+  "aliases": "??",
+  "date_of_birth": "5월 14일",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 37",
+    "manga": "만화 에피소드 37"
+  },
+  "gender": "여성",
+  "keyhole": 13,
+  "name": {
+    "english": {
+      "anime": "Yumi Santos",
+      "manga": "Yumi Santos"
+    },
+    "japanese": {
+      "kanji": "佐藤 美和子",
+      "romanized": "Miwako Sato"
+    },
+    "korean": {
+      "name": "오지인 (사토 미와코)"
+    }
+  },
+  "img": "/conanwiki/img/Miwako Sato_73_11zon.webp",
+  "occupation": "경시청 수사1과 경부보",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "사토 마사요시 (아버지, 순직)"
+    ],
+    "연인": [
+      "타카기 와타루 (연인)"
+    ],
+    "친구": [
+      "미야모토 유미 (친구)"
+    ],
+    "동료": [
+      "경시청 수사1과",
+      "메구레 쥬조 (상관)"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Atsuko Yuya",
+      "korean": "문선희 (KBS)<br>문남숙 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%82%AC%ED%86%A0%20%EB%AF%B8%EC%99%80%EC%BD%94",
+  "englishName": "Yumi Santos"
+}

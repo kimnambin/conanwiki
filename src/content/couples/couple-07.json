@@ -1,0 +1,52 @@
+{
+  "man": "우상길 (하네다 슈키치)",
+  "man_url": "/conanwiki/img/Shukichi Haneda_99_11zon.webp",
+  "man_job": "프로 바둑 기사 / 아카이 패밀리 장남",
+  "women": "김유미 (미야모토 유미)",
+  "women_url": "/conanwiki/img/Yumi Miyamoto_14_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_HanedaMiyamoto.webp",
+  "women_job": "경시청 교통부 경찰관",
+  "couple_nickname": "슈키유미",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "프로 바둑 기사 하네다 슈키치와 교통경찰 미야모토 유미의 커플. 슈키치는 아카이 슈이치의 이복남동생으로 아카이 패밀리의 일원이다. 유미는 사토 미와코의 친구.",
+  "episodes": [
+    {
+      "title": "베일에 싸인 등굣길",
+      "source": "원작 49권",
+      "description": "슈키치가 처음 언급되는 에피소드. 유미가 '대학 시절 잔인하게 찬 남자친구' 집 근처에 가야 한다며 언급."
+    },
+    {
+      "title": "현장의 이웃은 전 남친",
+      "source": "원작 80권",
+      "description": "슈키치가 정식으로 등장. 유미와 대학 시절 사귀던 사이임이 밝혀짐."
+    },
+    {
+      "title": "태합, 사랑하는 명인전",
+      "source": "TVA 본편",
+      "description": "비번 날 둘이 만남. 슈키치가 유미를 구출하고 키스 장면이 등장."
+    },
+    {
+      "title": "혼인 신고서의 비밀번호",
+      "source": "TVA 본편",
+      "description": "유미가 슈키치의 직업(바둑 기사)을 알게 되는 에피소드. 혼인신고서 수수께끼가 전개."
+    },
+    {
+      "title": "표적은 경시청 교통부",
+      "source": "TVA 본편",
+      "description": "여경 연쇄 살인 사건에서 유미가 경호되며 실질적 재결합이 시사되는 에피소드."
+    },
+    {
+      "title": "태합 명인의 장기판",
+      "source": "TVA 본편",
+      "description": "둘이 동거 중임이 밝혀지는 에피소드. 유미가 슈키치의 가족관계를 인식."
+    }
+  ],
+  "movies": [
+    {
+      "number": "24기",
+      "title": "비색의 탄환",
+      "note": "슈키유미 극장판 데뷔작. 유미가 (술에 취한 상태에서) 프로포즈를 받음"
+    }
+  ]
+}

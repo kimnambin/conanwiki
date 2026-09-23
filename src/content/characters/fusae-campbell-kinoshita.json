@@ -1,0 +1,48 @@
+{
+  "age": "50-51",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 파일 410 <br />애니: 에피소드 421",
+    "manga": "만화 파일 410 <br />애니: 에피소드 421"
+  },
+  "gender": "여성",
+  "keyhole": 40,
+  "name": {
+    "english": {
+      "anime": "Fusae Campbell Kinoshita",
+      "manga": "Fusae Campbell Kinoshita"
+    },
+    "japanese": {
+      "kanji": "フサエ・キャンベル・木之下",
+      "romanized": "Fusae Campbell"
+    },
+    "korean": {
+      "name": "세라 캠벨 (후사에 캠벨)"
+    }
+  },
+  "img": "/conanwiki/img/Fusae Campbell_21_11zon.webp",
+  "occupation": "패션 디자이너 <br /> 후사에 브랜드 대표",
+  "affiliation": [
+    "후사에 브랜드"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "코가 쇼에이 (첫사랑, 사망, 미등장)"
+    ],
+    "친구": [],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Eiko Masuyama<br>Chieko Honda (아역)",
+      "korean": "정혜원"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%ED%9B%84%EC%82%AC%EC%97%90%20%EC%BA%A0%EB%B2%A8",
+  "englishName": "Fusae Campbell Kinoshita"
+}

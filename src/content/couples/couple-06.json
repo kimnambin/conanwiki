@@ -1,0 +1,27 @@
+{
+  "man": "백동훈 (시라토리 닌자부로)",
+  "man_url": "/conanwiki/img/Ninzaburo Shiratori_77_11zon.webp",
+  "man_job": "경시청 수사 1과 경부",
+  "women": "김은주 (코바야시 스미코)",
+  "women_url": "/conanwiki/img/Sumiko Kobayashi_23_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_ShiratoriKobayashi.webp",
+  "women_job": "초등학교 교사",
+  "couple_nickname": "시라코바",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "경시청 경부 시라토리와 테이탄 초등학교 교사 코바야시의 커플. 시라토리가 어릴 때 첫사랑으로 찾던 여인이 바로 코바야시였다는 사실이 밝혀지며 이어진 운명적인 커플.",
+  "episodes": [
+    {
+      "title": "시라토리 경부, 벚꽃의 추억",
+      "source": "원작 66권",
+      "description": "시라토리와 코바야시의 어린 시절 첫 만남이 밝혀지는 에피소드. 서점에서의 만남과 벚꽃 스트랩 선물 장면이 핵심. 오해 해소 및 고백 장면이 포함."
+    }
+  ],
+  "movies": [
+    {
+      "number": "25기",
+      "title": "할로윈의 신부",
+      "note": "시라토리와 타카기의 우정을 다루는 장면 포함"
+    }
+  ]
+}

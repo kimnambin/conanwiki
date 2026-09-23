@@ -1,0 +1,51 @@
+{
+  "age": "28",
+  "aliases": "??",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 파일 804<br />애니: 에피소드 681",
+    "manga": "만화 파일 804<br />애니: 에피소드 681"
+  },
+  "gender": "남성",
+  "keyhole": 77,
+  "name": {
+    "english": {
+      "anime": "Wataru Date",
+      "manga": "Wataru Date"
+    },
+    "japanese": {
+      "kanji": "伊達 航",
+      "romanized": "Wataru Date"
+    },
+    "korean": {
+      "name": "태형선 (다테 와타루)"
+    }
+  },
+  "img": "/conanwiki/img/Wataru Date_8_11zon.webp",
+  "occupation": "형사",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "사망 (순직)",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [
+      "마츠다 진페이 (동료, 사망)",
+      "하기와라 켄지 (동료, 사망)"
+    ],
+    "동료": [
+      "경시청 수사1과"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Keiji Fujiwara (681-683 에피소드)<br>Hiroki Touchi (AR 프로젝트 이후)",
+      "korean": "김정훈"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EB%8B%A4%ED%85%8C%20%EC%99%80%ED%83%80%EB%A3%A8",
+  "englishName": "Wataru Date"
+}

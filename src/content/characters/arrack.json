@@ -1,0 +1,47 @@
+{
+  "age": "??",
+  "aliases": "아밀린 (アミリーン)",
+  "date_of_birth": "??",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "코난 스페셜: 26권",
+    "manga": "코난 스페셜: 26권"
+  },
+  "gender": "여성",
+  "keyhole": null,
+  "name": {
+    "english": {
+      "anime": "Arrack",
+      "manga": "Arrack"
+    },
+    "japanese": {
+      "kanji": "アラック",
+      "romanized": "Arrack"
+    },
+    "korean": {
+      "name": "아라크 (아라크)"
+    }
+  },
+  "img": "/conanwiki/img/Arrack_4_11zon.webp",
+  "occupation": "가수 (활동명 아밀린) <br /> 검은 조직 멤버",
+  "affiliation": [
+    "검은 조직"
+  ],
+  "status": "사망",
+  "relationships": {
+    "가족": [],
+    "연인": [],
+    "친구": [],
+    "동료": [
+      "검은 조직"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "??",
+      "korean": "??"
+    }
+  ],
+  "englishName": "Arrack"
+}

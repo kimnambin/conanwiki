@@ -1,0 +1,67 @@
+{
+  "man": "하인성 (핫토리 헤이지)",
+  "man_url": "/conanwiki/img/Heiji Hattori_31_11zon.webp",
+  "man_job": "고등학생 탐정 / 서부의 명탐정",
+  "women": "서가영 (토야마 카즈하)",
+  "women_url": "/conanwiki/img/Kazuha Toyama_54_11zon.webp",
+  "couple_url": "/conanwiki/img/Couple_Heka.webp",
+  "women_job": "고등학생 / 합기도 유단자",
+  "couple_nickname": "헤카",
+  "status": "미혼",
+  "relationship_type": "연인",
+  "description": "오사카 출신의 소꿉친구 커플. 헤이지는 카즈하에게 마음이 있으면서도 솔직하게 표현하지 못하는 성격. 카즈하는 헤이지를 항상 걱정하며 든든하게 지지한다.",
+  "episodes": [
+    {
+      "title": "오사카 연쇄 살인 사건",
+      "source": "원작 19권 / TVA 185~188화",
+      "description": "헤이지와 카즈하가 처음 등장하는 에피소드."
+    },
+    {
+      "title": "결혼식 전날 밤의 밀실 사건",
+      "source": "원작 21~22권 / TVA 211~214화",
+      "description": "헤카 커플의 두 번째 주요 에피소드."
+    },
+    {
+      "title": "그리고 인어는 사라져 버렸다",
+      "source": "원작 28권 / TVA 224~226화",
+      "description": "팬들에게 유명한 명작 에피소드."
+    },
+    {
+      "title": "코난과 헤이지, 사랑의 암호",
+      "source": "원작 83권 / TVA 763~764화",
+      "description": "헤이지가 카즈하를 향한 자신의 마음을 자각하는 에피소드."
+    },
+    {
+      "title": "괴뢰의 악마의 저주",
+      "source": "원작 106권",
+      "description": "헤이지가 카즈하에게 첫 고백에 성공한 에피소드."
+    },
+    {
+      "title": "어딘가 서먹한 커플과 플라네타리움 사건",
+      "source": "원작 109권",
+      "description": "공식 교제 이후의 에피소드."
+    }
+  ],
+  "movies": [
+    {
+      "number": "3기",
+      "title": "세기말의 마술사",
+      "note": "헤카 커플 극장판 첫 등장"
+    },
+    {
+      "number": "7기",
+      "title": "미궁의 십자로",
+      "note": "주연으로 첫 등장"
+    },
+    {
+      "number": "21기",
+      "title": "진홍의 연가",
+      "note": "카즈하가 주연"
+    },
+    {
+      "number": "27기",
+      "title": "100만 달러의 펜타그램",
+      "note": "역대 코난 극장판 일본 흥행 1위"
+    }
+  ]
+}

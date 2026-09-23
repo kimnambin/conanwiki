@@ -4,15 +4,9 @@ import Image from 'next/image';
 import {Modal} from 'react-bootstrap';
 import {CoupleModalType} from '../../types/component.model';
 import {getCoupleType} from '../../utils/coupleType';
+import {hasValue} from '../../utils/valueChecks';
 import GemHint from '../common/GemHint';
 import './Ch_detail.css';
-
-const UNKNOWN_MARKERS = ['??', ''];
-
-const hasValue = (value: unknown): boolean => {
-  if (value === null || value === undefined) return false;
-  return !UNKNOWN_MARKERS.includes(String(value));
-};
 
 export default function Ch_coupleDetail({
   open,

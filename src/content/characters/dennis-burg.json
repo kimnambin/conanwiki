@@ -1,0 +1,51 @@
+{
+  "age": "31",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 65",
+    "manga": "만화 에피소드 65"
+  },
+  "gender": "남성",
+  "keyhole": 20,
+  "name": {
+    "english": {
+      "anime": "Dennis Burg",
+      "manga": "Dennis Burg"
+    },
+    "japanese": {
+      "kanji": "白鳥 任三郎",
+      "romanized": "Ninzaburo Shiratori"
+    },
+    "korean": {
+      "name": "백동훈 (시라토리 닌자부로)"
+    }
+  },
+  "img": "/conanwiki/img/Ninzaburo Shiratori_77_11zon.webp",
+  "occupation": "경시청 수사1과 경부",
+  "affiliation": [
+    "경시청 수사1과"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [],
+    "연인": [
+      "코바야시 스미코 (연인)"
+    ],
+    "친구": [],
+    "동료": [
+      "경시청 수사1과",
+      "메구레 쥬조 (상관)"
+    ],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Kaneto Shiozawa (초기)<br>Hideyuki Umezu",
+      "korean": "이종구 (KBS)<br>이호산 (투니버스)"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%8B%9C%EB%9D%BC%ED%86%A0%EB%A6%AC%20%EB%8B%8C%EC%9E%90%EB%B6%80%EB%A1%9C",
+  "englishName": "Dennis Burg"
+}

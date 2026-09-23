@@ -1,0 +1,52 @@
+{
+  "age": "16",
+  "aliases": "??",
+  "date_of_birth": "미상",
+  "drama_actor": "??",
+  "first_appearance": {
+    "anime": "만화 에피소드 702",
+    "manga": "만화 에피소드 702"
+  },
+  "gender": "여성",
+  "keyhole": 83,
+  "name": {
+    "english": {
+      "anime": "Masumi Sera",
+      "manga": "Masumi Sera"
+    },
+    "japanese": {
+      "kanji": "世良 真純",
+      "romanized": "Masumi Sera"
+    },
+    "korean": {
+      "name": "양세라 (세라 마스미)"
+    }
+  },
+  "img": "/conanwiki/img/Masumi Sera_68_11zon.webp",
+  "occupation": "테이탄 고등학교 학생 <br /> 탐정",
+  "affiliation": [
+    "테이탄 고등학교"
+  ],
+  "status": "생존",
+  "relationships": {
+    "가족": [
+      "아카이 슈이치 (형)",
+      "하네다 슈키치 (오빠)",
+      "세라 마사미 (어머니)"
+    ],
+    "연인": [],
+    "친구": [
+      "에도가와 코난 (협력)"
+    ],
+    "동료": [],
+    "적": []
+  },
+  "voice": [
+    {
+      "japanese": "Fumiko Orikasa",
+      "korean": "윤아림"
+    }
+  ],
+  "namuwikiUrl": "https://namu.wiki/w/%EC%84%B8%EB%9D%BC%20%EB%A7%88%EC%8A%A4%EB%AF%B8",
+  "englishName": "Masumi Sera"
+}
