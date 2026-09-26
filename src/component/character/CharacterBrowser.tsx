@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
 import {CharacterType, CoupleType} from '../../types/api.model';
 import {useModal} from '../../hooks/useModal';
@@ -14,9 +15,11 @@ import Ch_couple from './Ch_couple';
 import CharacterHeroCard from './CharacterHeroCard';
 import {CHARACTER_TYPES, getCharacterType} from '../../utils/characterType';
 import ToggleSwitch from '../common/ToggleSwitch';
+import {getInitial, INITIALS, OTHER_INITIAL} from '../../utils/koreanInitial';
 import '../common/HeroCard.css';
 
 const ALL_AFFILIATIONS = '__all__';
+const ALL_INITIALS = '__all__';
 
 type ViewMode = 'character' | 'couple';
 
@@ -35,6 +38,7 @@ export default function CharacterBrowser({
   const [keyword, setKeyword] = useState('');
   const [selectedAffiliation, setSelectedAffiliation] =
     useState(ALL_AFFILIATIONS);
+  const [selectedInitial, setSelectedInitial] = useState(ALL_INITIALS);
   const [view, setView] = useState<ViewMode>('character');
 
   // 소속(affiliation) 원문 값을, 카드 배경/원형 뱃지에 쓰는 타입별로 묶어
@@ -49,6 +53,14 @@ export default function CharacterBrowser({
       });
     });
     return map;
+  }, [characters]);
+
+  // 실제로 캐릭터가 있는 초성만 버튼으로 보여준다. (ㄱ~ㅎ 순서, 한글이 아닌 이름은 '기타'로 맨 뒤)
+  const availableInitials = useMemo(() => {
+    const present = new Set(characters.map(item => getInitial(item.name.korean.name)));
+    const ordered: string[] = INITIALS.filter(initial => present.has(initial));
+    if (present.has(OTHER_INITIAL)) ordered.push(OTHER_INITIAL);
+    return ordered;
   }, [characters]);
 
   const trimmedKeyword = keyword.trim();
@@ -67,6 +79,11 @@ export default function CharacterBrowser({
       item =>
         selectedAffiliation === ALL_AFFILIATIONS ||
         (item.affiliation ?? []).includes(selectedAffiliation),
+    )
+    .filter(
+      item =>
+        selectedInitial === ALL_INITIALS ||
+        getInitial(item.name.korean.name) === selectedInitial,
     );
 
   return (
@@ -128,6 +145,29 @@ export default function CharacterBrowser({
               </InputGroup>
             </Col>
           </Row>
+          <div
+            className="d-flex flex-wrap justify-content-center gap-2 mb-3"
+            role="group"
+            aria-label="이름 초성 필터">
+            <Button
+              size="sm"
+              variant="outline-secondary"
+              active={selectedInitial === ALL_INITIALS}
+              onClick={() => setSelectedInitial(ALL_INITIALS)}>
+              전체
+            </Button>
+            {availableInitials.map(initial => (
+              <Button
+                key={initial}
+                size="sm"
+                variant="outline-secondary"
+                active={selectedInitial === initial}
+                aria-pressed={selectedInitial === initial}
+                onClick={() => setSelectedInitial(initial)}>
+                {initial}
+              </Button>
+            ))}
+          </div>
           <Ch_detail
             open={openDetail}
             close={close}
