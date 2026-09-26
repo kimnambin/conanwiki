@@ -1,5 +1,6 @@
 import type {MetadataRoute} from 'next';
 import {fetchMovies} from '../api/movieApi';
+import specials from '../data/specials.json';
 
 const SITE_URL = 'https://conanwiki.vercel.app';
 
@@ -10,6 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {url: `${SITE_URL}/`, priority: 1},
     {url: `${SITE_URL}/characters`, priority: 0.9},
     {url: `${SITE_URL}/movies`, priority: 0.9},
+    {url: `${SITE_URL}/specials`, priority: 0.9},
     {url: `${SITE_URL}/episodes`, priority: 0.9},
   ];
 
@@ -18,5 +20,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...movieRoutes];
+  const specialRoutes: MetadataRoute.Sitemap = specials.map(special => ({
+    url: `${SITE_URL}/specials/${special.slug}`,
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...movieRoutes, ...specialRoutes];
 }

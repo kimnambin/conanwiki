@@ -11,6 +11,7 @@ export default function App_navbar() {
   const navItems = [
     {title: '캐릭터 소개', link: '/characters'},
     {title: '극장판 소개', link: '/movies'},
+    {title: '콜라보/스페셜 소개', link: '/specials'},
     {title: '에피소드 소개', link: '/episodes'},
   ];
   return (

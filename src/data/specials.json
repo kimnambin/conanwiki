@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "lupin-vs-conan-movie",
+    "title": "루팡 3세 VS 명탐정 코난 THE MOVIE",
+    "originalTitle": "ルパン三世VS名探偵コナン THE MOVIE",
+    "categories": ["콜라보"],
+    "releaseDate": "2013-12-07",
+    "krInfo": "한국 극장 개봉 2014.05.29 (이후 투니버스 방영)",
+    "runtime": 107,
+    "director": "카메가키 하지메",
+    "certification": "12세 이상 관람가",
+    "overview": "루팡 3세와 명탐정 코난이 처음으로 극장판에서 맞붙는 콜라보 작품입니다. 앞서 방영된 TV 스페셜의 인기에 힘입어 규모를 키워 제작됐고, 희귀 보석 '체리 사파이어'를 둘러싼 마피아들의 암투에 루팡 일당과 코난이 함께 휘말립니다.",
+    "poster": "/conanwiki/specials/lupin-vs-conan-movie.webp",
+    "characters": [
+      "Amy Yeager", "Arsène Lupin III", "Conan Edogawa", "Daisuke Jigen", "Dennis Burg",
+      "Detective Chiba", "George Kaminski", "Gingko Nakamori", "Goemon Ishikawa XIII",
+      "Harley Hartwell", "Hershel Agasa", "James Black", "Jimmy Kudo", "Joseph Meguire",
+      "Kaito Kuroba", "Mitch Tsuburaya", "Phantom Thief Kid", "Rachel Moore", "Richard Moore",
+      "Serena Sebastian", "Vi Graythorn", "Wayne Takagi", "Yumi Miyamoto", "Yumi Santos"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%A3%A8%ED%8C%A1%203%EC%84%B8%20VS%20%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C%20THE%20MOVIE"
+  },
+  {
+    "slug": "conan-missing-two-days",
+    "title": "코난 실종사건 - 사상 최악의 이틀",
+    "categories": ["TV 스페셜", "콜라보"],
+    "releaseDate": "2014-12-26",
+    "krInfo": "한국 극장 개봉 2015.02.12",
+    "runtime": 91,
+    "director": "야마모토 야스이치로",
+    "certification": "12세 이상 관람가",
+    "overview": "연재 20주년 기념작으로, 영화 '열쇠 도둑의 방법'과 콜라보한 TV 스페셜입니다. 목욕탕에서 기절한 코난이 정체불명의 두 남자에게 실려 가고 기억까지 잃은 채 깨어나면서, 코난이 사라진 이틀 동안 벌어진 사건들이 이어집니다.",
+    "poster": "/conanwiki/specials/conan-missing-two-days.webp",
+    "characters": [
+      "Amy Yeager", "Conan Edogawa", "George Kaminski", "Hershel Agasa", "Jimmy Kudo",
+      "Mitch Tsuburaya", "Phantom Thief Kid", "Rachel Moore", "Richard Moore",
+      "Vi Graythorn", "Wayne Takagi"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C:%20%EC%BD%94%EB%82%9C%20%EC%8B%A4%EC%A2%85%EC%82%AC%EA%B1%B4%20-%20%EC%82%AC%EC%83%81%20%EC%B5%9C%EC%95%85%EC%9D%98%20%EC%9D%B4%ED%8B%80"
+  },
+  {
+    "slug": "episode-one",
+    "title": "에피소드 원 - 작아진 명탐정",
+    "categories": ["TV 스페셜"],
+    "releaseDate": "2016-12-10",
+    "krInfo": "한국 극장 개봉 2017.02.08, 투니버스 방영 2017.07.24",
+    "runtime": 95,
+    "director": "야마모토 야스이치로",
+    "certification": "12세 이상 관람가",
+    "overview": "애니메이션 20주년 기념작으로, 원작 1권과 애니메이션 1화 '제트 코스터 살인 사건'을 작화부터 새로 그려 리메이크한 TV 스페셜입니다. 놀이공원 데이트 중 검은 조직의 거래를 목격한 신이치가 어린 몸이 되기까지의 이야기를 담았습니다.",
+    "poster": "/conanwiki/specials/episode-one.webp",
+    "characters": [
+      "Amy Yeager", "Conan Edogawa", "George Kaminski", "Hershel Agasa", "Jimmy Kudo",
+      "Mitch Tsuburaya", "Phantom Thief Kid", "Rachel Moore", "Richard Moore",
+      "Vi Graythorn", "Wayne Takagi"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C:%20%EC%97%90%ED%94%BC%EC%86%8C%EB%93%9C%20%EC%9B%90%20-%20%EC%9E%91%EC%95%84%EC%A7%84%20%EB%AA%85%ED%83%90%EC%A0%95"
+  },
+  {
+    "slug": "scarlet-school-trip",
+    "title": "진홍의 수학여행",
+    "categories": ["TV 스페셜"],
+    "releaseDate": "2019-01-05",
+    "krInfo": "한국 극장 개봉(자막판) 2021.01.27, 더빙판은 VOD로 공개",
+    "runtime": 92,
+    "director": "야마모토 야스이치로",
+    "certification": "12세 이상 관람가",
+    "overview": "하이바라가 만든 임시 해독제로 잠시 신이치의 모습으로 돌아온 코난이 란과 함께 교토로 수학여행을 떠납니다. 암호가 담긴 의뢰와 살인 사건, 그리고 신이치와 란의 마음이 교차하는 로맨스가 함께 펼쳐집니다.",
+    "poster": "/conanwiki/specials/scarlet-school-trip.webp",
+    "characters": [
+      "Amy Yeager", "Booker Kudo", "Conan Edogawa", "Eisuke Hondou", "Fumimaro Ayanokoji",
+      "George Kaminski", "Harley Hartwell", "Hershel Agasa", "Jimmy Kudo", "Kazuha Toyama",
+      "Masumi Sera", "Mitch Tsuburaya", "Phantom Thief Kid", "Rachel Moore", "Richard Moore",
+      "Serena Sebastian", "Vi Graythorn", "Vivian Kudo", "Wayne Takagi"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EC%A7%84%ED%99%8D%EC%9D%98%20%EC%88%98%ED%95%99%EC%97%AC%ED%96%89"
+  },
+  {
+    "slug": "truth-17-years-ago",
+    "title": "17년 전의 진상",
+    "categories": ["TV 스페셜"],
+    "releaseDate": "2025-06-29",
+    "krInfo": "한국 극장 개봉(자막판) 2025.09.19, 더빙판 VOD 2025.10.06, 투니버스 방영 2025.12.20",
+    "runtime": 80,
+    "director": "야마모토 야스이치로, 카마나카 노부하루",
+    "certification": "12세 이상 관람가",
+    "overview": "'17년 전과 똑같은 현장' 편의 후속 에피소드로, TV 시리즈 4편(1164~1167화)을 묶어 극장판 형식으로 공개한 작품입니다. 체스 토너먼트 대회장에서 시작된 사건이 17년 전 사건의 진상으로 이어집니다.",
+    "poster": "/conanwiki/specials/truth-17-years-ago.webp",
+    "characters": [
+      "Amy Yeager", "Chianti", "Chris Vineyard", "Conan Edogawa", "Dennis Burg",
+      "George Kaminski", "Hershel Agasa", "Hyoue Kuroda", "Joseph Meguire", "Kanenori Wakita",
+      "Koji Haneda", "Korn", "Liz Faulkner", "Mitch Tsuburaya", "Rachel Moore", "Richard Moore",
+      "Rumi Wakasa", "Shuichi Akai", "Shukichi Haneda", "Vi Graythorn", "Wayne Takagi"
+    ],
+    "namuUrl": "https://namu.wiki/w/17%EB%85%84%20%EC%A0%84%EC%9D%98%20%EC%A7%84%EC%83%81"
+  },
+  {
+    "slug": "episode-30-murder",
+    "title": "30호 살인 사건",
+    "categories": ["TV 스페셜"],
+    "releaseDate": "2026-09-25",
+    "krInfo": "한국 극장 개봉 예정 (2026년 11월)",
+    "runtime": 96,
+    "director": "카마나카 노부하루",
+    "certification": null,
+    "overview": "TV 애니메이션 30주년을 기념한 스페셜 에피소드입니다. 새 1만 엔권 위조지폐가 일본에서 30번째로 발견되며 '30호 사건'으로 불리게 되고, 경시청 수사 1과와 공안부가 함께 수사에 나서는 가운데 코난과 소년탐정단도 지폐인쇄국 견학 중 사건에 얽힙니다.",
+    "poster": "/conanwiki/specials/episode-30-murder.webp",
+    "characters": [
+      "Amy Yeager", "Andre Camel", "Azusa Enomoto", "Chihaya Hagiwara", "Conan Edogawa",
+      "Dennis Burg", "Detective Chiba", "Fumimaro Ayanokoji", "George Kaminski",
+      "Harley Hartwell", "Hershel Agasa", "Hyoue Kuroda", "Jimmy Kudo", "Joseph Meguire",
+      "Kazuha Toyama", "Mitch Tsuburaya", "Rachel Moore", "Rei Furuya", "Richard Moore",
+      "Serena Sebastian", "Shuichi Akai", "Vi Graythorn", "Wayne Takagi", "Yumi Santos"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C:%2030%ED%98%B8%20%EC%82%B4%EC%9D%B8%20%EC%82%AC%EA%B1%B4"
+  },
+  {
+    "slug": "scarlet-alibi",
+    "title": "비색의 부재증명",
+    "categories": ["총집편"],
+    "releaseDate": "2021-02-11",
+    "krInfo": "한국 특별 시사회 2021.04.13 후 VOD 공개",
+    "runtime": 94,
+    "director": "이시하라 슌스케",
+    "certification": "12세 이상 관람가",
+    "overview": "극장판 24기 '비색의 탄환' 개봉을 기념해 상영된 총집편으로, 아카이 일가의 이야기를 중심으로 엮었습니다. 아카이 슈이치를 둘러싼 세라 마스미, 하네다 슈키치, 메리의 관계와 아무로 토오루의 추궁이 다뤄집니다.",
+    "poster": "/conanwiki/specials/scarlet-alibi.webp",
+    "characters": [
+      "Amy Yeager", "Andre Camel", "Chianti", "Chris Vineyard", "Conan Edogawa",
+      "George Kaminski", "Jimmy Kudo", "Joseph Meguire", "Korn", "Masumi Sera",
+      "Mitch Tsuburaya", "Rachel Moore", "Richard Moore", "Serena Sebastian", "Shuichi Akai",
+      "Shukichi Haneda", "Vi Graythorn", "Wayne Takagi", "Yumi Miyamoto", "Yumi Santos"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C:%20%EB%B9%84%EC%83%89%EC%9D%98%20%EB%B6%80%EC%9E%AC%EC%A6%9D%EB%AA%85"
+  },
+  {
+    "slug": "love-story-eve",
+    "title": "본청 형사의 사랑이야기 ~결혼전야~",
+    "categories": ["총집편", "TV 스페셜"],
+    "releaseDate": "2022-04-15",
+    "krInfo": "한국 극장 시사회 2022.07.06 후 VOD 공개(2022.07.07)",
+    "runtime": 98,
+    "director": "이시하라 슌스케",
+    "certification": null,
+    "overview": "'본청 형사의 사랑 이야기' 시리즈를 총집편으로 엮은 TV 스페셜로, 극장판 '할로윈의 신부' 개봉일에 맞춰 방영됐습니다. 사토 형사와 타카기 형사를 중심으로 본청 형사들의 사랑 이야기를 모아 보여줍니다.",
+    "poster": "/conanwiki/specials/love-story-eve.webp",
+    "characters": ["Yumi Santos", "Wayne Takagi"],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C:%20%EB%B3%B8%EC%B2%AD%20%ED%98%95%EC%82%AC%EC%9D%98%20%EC%82%AC%EB%9E%91%EC%9D%B4%EC%95%BC%EA%B8%B0%20~%EA%B2%B0%ED%98%BC%EC%A0%84%EC%95%BC~"
+  },
+  {
+    "slug": "haibara-black-iron-train",
+    "title": "하이바라 아이 이야기 ~흑철의 미스터리 트레인~",
+    "categories": ["총집편"],
+    "releaseDate": "2023-01-06",
+    "krInfo": "한국 자막판은 '하이바라 아이 이야기', 더빙판은 '홍장미 이야기 ~흑철의 미스터리 트레인~'이라는 제목으로 공개",
+    "runtime": 89,
+    "director": "이시하라 슌스케",
+    "certification": "12세 이상 관람가",
+    "overview": "극장판 26기 '흑철의 어영' 개봉을 기념한 총집편으로, '칠흑의 미스터리 트레인' 편을 중심으로 하이바라 아이의 이야기를 엮었습니다. 추리 게임이 벌어지는 열차에서 밀실 살인이 일어나고, 그녀를 쫓는 검은 조직이 열차에 나타납니다.",
+    "poster": "/conanwiki/specials/haibara-black-iron-train.webp",
+    "characters": [
+      "Amy Yeager", "Chris Vineyard", "Conan Edogawa", "George Kaminski", "Hershel Agasa",
+      "Jimmy Kudo", "Masumi Sera", "Mitch Tsuburaya", "Rachel Moore", "Rei Furuya",
+      "Richard Moore", "Serena Sebastian", "Shuichi Akai", "Vi Graythorn", "Wayne Takagi",
+      "Melkior"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C:%20%ED%95%98%EC%9D%B4%EB%B0%94%EB%9D%BC%20%EC%95%84%EC%9D%B4%20%EC%9D%B4%EC%95%BC%EA%B8%B0%20~%ED%9D%91%EC%B2%A0%EC%9D%98%20%EB%AF%B8%EC%8A%A4%ED%84%B0%EB%A6%AC%20%ED%8A%B8%EB%A0%88%EC%9D%B8~"
+  },
+  {
+    "slug": "conan-vs-kid",
+    "title": "명탐정 코난 VS 괴도 키드",
+    "categories": ["총집편"],
+    "releaseDate": "2024-01-05",
+    "krInfo": null,
+    "runtime": 81,
+    "director": "이시하라 슌스케",
+    "certification": "12세 이상 관람가",
+    "overview": "극장판 27기 '100만 달러의 펜타그램' 개봉을 기념한 총집편으로, 코난의 최대 라이벌인 괴도 키드의 이야기를 모았습니다. 쿠로바 카이토가 아버지의 죽음의 진상을 쫓아 2대 괴도 키드가 된 시작부터 코난과의 대결까지를 다룹니다.",
+    "poster": "/conanwiki/specials/conan-vs-kid.webp",
+    "characters": [
+      "Akako Koizumi", "Aoko Nakamori", "Booker Kudo", "Conan Edogawa", "Gingko Nakamori",
+      "Hershel Agasa", "Jimmy Kudo", "Joseph Meguire", "Kaito Kuroba", "Konosuke Jii",
+      "Phantom Thief Kid", "Rachel Moore", "Richard Moore", "Serena Sebastian",
+      "Toichi Kuroba", "Vivian Kudo"
+    ],
+    "namuUrl": "https://namu.wiki/w/%EB%AA%85%ED%83%90%EC%A0%95%20%EC%BD%94%EB%82%9C%20VS%20%EA%B4%B4%EB%8F%84%20%ED%82%A4%EB%93%9C"
+  }
+]

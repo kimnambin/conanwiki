@@ -118,3 +118,21 @@ export interface MovieDetailInfo {
   videos: {key: string; name: string}[];
 }
 
+export type SpecialCategory = '콜라보' | 'TV 스페셜' | '총집편';
+
+// 콜라보/TV 스페셜/총집편 목록의 한 항목 (src/data/specials.json).
+export interface SpecialType {
+  slug: string;
+  title: string;
+  originalTitle?: string;
+  categories: SpecialCategory[];
+  releaseDate: string;
+  krInfo: string | null;
+  runtime: number;
+  director: string;
+  certification: string | null;
+  overview: string;
+  poster: string;
+  characters: string[];
+  namuUrl: string;
+}
