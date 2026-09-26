@@ -9,7 +9,11 @@ import {getMovieSeasonMap} from '../../utils/movieOrder';
 import {getAvailableGenres} from '../../utils/movieGenre';
 import '../common/HeroCard.css';
 
-type MovieSort = 'release_date' | 'vote_average' | 'popularity';
+type MovieSort =
+  | 'release_date'
+  | 'release_date_desc'
+  | 'vote_average'
+  | 'popularity';
 
 const ALL_GENRES = '__all__';
 
@@ -17,7 +21,7 @@ interface MovieBrowserProps {
   movies: MovieType[];
 }
 
-// 극장판 목록의 정렬 토글(개봉순/평점순/인기순)과 장르 필터를 담당하는
+// 극장판 목록의 정렬 토글(개봉순/최신순/평점순/인기순)과 장르 필터를 담당하는
 // 클라이언트 컴포넌트. 목록 데이터 자체는 서버 컴포넌트(movies/page.tsx)가
 // TMDB에서 미리 읽어 내려준다.
 export default function MovieBrowser({movies}: MovieBrowserProps) {
@@ -40,6 +44,11 @@ export default function MovieBrowser({movies}: MovieBrowserProps) {
         new Date(a.release_date).getTime() -
         new Date(b.release_date).getTime()
       );
+    } else if (sortMovie === 'release_date_desc') {
+      return (
+        new Date(b.release_date).getTime() -
+        new Date(a.release_date).getTime()
+      );
     } else if (sortMovie === 'vote_average') {
       return b.vote_average - a.vote_average;
     } else if (sortMovie === 'popularity') {
@@ -56,6 +65,7 @@ export default function MovieBrowser({movies}: MovieBrowserProps) {
         onChange={setSortMovie}
         options={[
           {value: 'release_date', label: '개봉순'},
+          {value: 'release_date_desc', label: '최신순'},
           {value: 'vote_average', label: '평점순'},
           {value: 'popularity', label: '인기순'},
         ]}
@@ -92,7 +102,10 @@ export default function MovieBrowser({movies}: MovieBrowserProps) {
               movie={movie}
               season={seasonMap.get(movie.id)}
               rank={
-                sortMovie !== 'release_date' && idx < 5 ? idx + 1 : undefined
+                (sortMovie === 'vote_average' || sortMovie === 'popularity') &&
+                idx < 5
+                  ? idx + 1
+                  : undefined
               }
             />
           </Col>
