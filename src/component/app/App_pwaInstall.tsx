@@ -67,6 +67,10 @@ function isStandalone() {
   );
 }
 
+function isMobileDevice() {
+  return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
 export default function App_pwaInstall() {
   const [installEvent, setInstallEvent] =
     useState<BeforeInstallPromptEvent | null>(null);
@@ -77,7 +81,8 @@ export default function App_pwaInstall() {
       navigator.serviceWorker.register('/sw.js').catch(() => {});
     }
 
-    if (isStandalone()) return;
+    // 설치 버튼/안내는 모바일 기기에서만 노출
+    if (!isMobileDevice() || isStandalone()) return;
 
     const onBeforeInstallPrompt = (e: Event) => {
       e.preventDefault();

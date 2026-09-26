@@ -93,7 +93,7 @@ public/
 ├── icons/                    # PWA 아이콘
 ├── sw.js                     # 서비스워커
 scripts/
-└── generate-pwa-icons.mjs   # 브랜드 로고 → PWA 아이콘 세트 생성 스크립트
+└── generate-pwa-icons.mjs   # 파비콘 이미지 → PWA 아이콘 세트 생성 스크립트
 ```
 
 ---
