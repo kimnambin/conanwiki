@@ -1,7 +1,7 @@
 # ConanWiki KPI 평가
 
 - 평가일: 2026-11-05
-- 평가 기준: 별도로 정해진 KPI 문서가 없어, 이 프로젝트(정적 콘텐츠 중심의 팬 위키, Next.js App Router + Keystatic CMS)에 맞는 일반적인 기준으로 평가함 — 보안 / 성능 / 접근성 / 코드 품질·테스트 / SEO·콘텐츠
+- 평가 기준: 별도로 정해진 KPI 문서가 없어, 이 프로젝트(정적 콘텐츠 중심의 팬 위키, Next.js App Router + Keystatic CMS)에 맞는 일반적인 기준으로 평가함 — 보안 / 성능 / 접근성 / 코드 품질·테스트 / SEO·콘텐츠 / UI·UX
 - 평가 방법: 코드 직접 열람 + 설정 파일 확인. 실제 배포 환경(Vercel) 접속이나 `npm run lint` / `npm run test:coverage` 실행 결과는 이 환경에서 확인하지 못했으므로, 코드·설정 근거가 있는 항목만 기재함.
 
 ## 요약
@@ -13,6 +13,7 @@
 | 접근성 | 개선 필요 | `jsx-a11y` 린트 미적용, 클릭 가능한 `<div>`에 키보드 접근 불가, 콘텐츠성 이미지에 빈 `alt` |
 | 코드 품질·테스트 | 양호~보통 | Vitest 3-트랙(unit/component/storybook) + 커버리지 + CI 연동은 탄탄. ESLint 설정이 Vite 시절 잔재로 Next.js 전환이 덜 됨 |
 | SEO·콘텐츠 | 양호 | `metadataBase`/OG/title 템플릿/`sitemap.ts`/`robots.ts` 모두 구성됨. 루트 `layout.tsx`는 메타데이터 없음(의도된 분리 구조로 보임) |
+| UI·UX | 양호~보통 | 반응형 그리드(Bootstrap)·viewport 설정·오프라인 안내 페이지는 양호. 라우트 단위 `error.tsx`/`not-found.tsx`/`loading.tsx` 부재, 다크 모드 미지원, 컴포넌트 대비 Storybook 커버리지 낮음(26개 중 3개) |
 
 ---
 
@@ -74,8 +75,20 @@
 
 ---
 
+## 6. UI·UX
+
+**양호한 점**
+- `viewport`가 `(site)/layout.tsx`에 명시적으로 설정되어 있고, `App_loading.tsx`를 포함해 다수 컴포넌트가 `react-bootstrap`의 `Container`/`Row`/`Col` 그리드와 CSS `@media` 쿼리(`App_search.css`, `App.module.css`, `Mo_detail.css`, `Ch_detail.css`)를 함께 사용해 반응형 레이아웃을 구성함 — 모바일/데스크톱 대응이 레이아웃 차원에서 고려되어 있음.
+- PWA 오프라인 페이지(`src/app/(site)/offline/page.tsx`)가 단순 에러 메시지가 아니라 "이전에 방문한 페이지는 계속 볼 수 있어요" 같은 안내 문구와 함께 친절하게 구성되어 있어, 네트워크 단절 상황의 사용자 경험을 신경 쓴 흔적이 보임.
+- 서비스워커/매니페스트 기반 PWA 설치 경험(아이콘, 테마 색상, standalone 디스플레이)이 일관되게 구성되어 있음(SEO·콘텐츠 섹션 참고).
+
+**개선 필요**
+- `src/app` 하위에 Next.js 라우트 단위 `error.tsx`, `not-found.tsx`, `loading.tsx` 파일이 전혀 없음(확인됨). 즉, 데이터 fetch 실패나 존재하지 않는 경로 접근 시 Next.js 기본 에러 화면이 그대로 노출되고, 페이지 전환 중 자동 로딩 UI도 제공되지 않음 — `App_loading.tsx`는 클라이언트 컴포넌트 내부에서 수동으로 쓰이는 스피너로, Next.js의 파일 기반 로딩 컨벤션을 대체하지는 않음.
+- 다크 모드 지원이 없음(`prefers-color-scheme` 등 관련 코드 전무). 필수는 아니지만, 최근 콘텐츠형 웹사이트에서는 일반적으로 기대되는 기능이라 사용자 경험 관점에서 아쉬운 부분.
+- `src/component` 내 실제 컴포넌트 26개 중 Storybook 스토리가 작성된 것은 3개(`GemHint`, `ToggleSwitch`, `CharacterHeroCard`)뿐임. Storybook·Chromatic·addon-a11y까지 도입된 인프라에 비해 실제 활용(디자인 일관성 검증, 시각적 회귀 테스트, 접근성 점검) 범위가 좁아, 투자한 인프라 대비 효용이 낮은 상태.
+
 ## 종합 의견
 
 전반적으로 보안·성능·SEO는 실무적으로 준수한 수준이며, 특히 TMDB 키 서버 분리, PWA/캐시 전략, 동적 사이트맵은 눈에 띄게 잘 되어 있음. 테스트 인프라(Vitest 3-트랙 + CI)도 이 규모의 프로젝트치고 상당히 탄탄함.
 
-가장 우선적으로 손볼 영역은 **접근성**(jsx-a11y 린트 부재, 클릭 가능한 div의 키보드 미지원, 빈 alt)과 **ESLint 설정의 Next.js 마이그레이션 잔재**임. 두 가지는 서로 연결되어 있어, `eslint-config-next` 도입 한 번으로 상당 부분 동시에 개선될 수 있음. 보안 헤더(CSP 등) 부재와 Chromatic 토큰 하드코딩은 우선순위가 낮은 경미한 항목으로 분류함.
+가장 우선적으로 손볼 영역은 **접근성**(jsx-a11y 린트 부재, 클릭 가능한 div의 키보드 미지원, 빈 alt)과 **ESLint 설정의 Next.js 마이그레이션 잔재**임. 두 가지는 서로 연결되어 있어, `eslint-config-next` 도입 한 번으로 상당 부분 동시에 개선될 수 있음. 그다음으로는 **라우트 단위 error/not-found/loading 파일 부재**가 사용자가 실제로 마주칠 수 있는 에러·전환 경험에 직결되므로 접근성 다음 우선순위로 볼 만함. 보안 헤더(CSP 등) 부재, Chromatic 토큰 하드코딩, 다크 모드 미지원, 낮은 Storybook 활용도는 우선순위가 낮은 경미한 항목으로 분류함.
