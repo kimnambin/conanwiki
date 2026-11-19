@@ -1,6 +1,6 @@
 import type {Metadata} from 'next';
 import MovieBrowser from '@/component/movie/MovieBrowser';
-import {fetchMovies} from '@/api/movieApi';
+import {fetchMoviesSafe} from '@/api/movieApi';
 
 export const metadata: Metadata = {
   title: '극장판',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default async function MoviesPage() {
-  const movies = await fetchMovies();
+  const movies = await fetchMoviesSafe();
 
   return <MovieBrowser movies={movies} />;
 }

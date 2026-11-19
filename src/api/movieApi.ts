@@ -18,8 +18,21 @@ export const fetchMovies = async (): Promise<MovieType[]> => {
       next: {revalidate: 3600},
     },
   );
+  if (!res.ok) {
+    throw new Error(`TMDB collection 조회 실패: ${res.status}`);
+  }
   const data = await res.json();
   return data.parts;
+};
+
+// 전체 목록이 필요한 화면(홈, 극장판 목록, 빌드 타임 정적 경로 생성)에서
+// 쓰는 안전한 버전. TMDB 장애가 빌드/페이지 전체를 막지 않도록 실패 시
+// 예외를 던지지 않고 빈 배열로 대체한다. 실패 사실은 서버 로그로 남긴다.
+export const fetchMoviesSafe = async (): Promise<MovieType[]> => {
+  return fetchMovies().catch(error => {
+    console.error('fetchMovies 실패, 빈 목록으로 대체:', error);
+    return [];
+  });
 };
 
 interface TmdbMovieDetailResponse {
@@ -67,6 +80,9 @@ export const fetchMovieDetail = async (
       next: {revalidate: 3600},
     },
   );
+  if (!res.ok) {
+    throw new Error(`TMDB 영화 상세 조회 실패: ${res.status} (id=${id})`);
+  }
   const data: TmdbMovieDetailResponse = await res.json();
 
   const director =
