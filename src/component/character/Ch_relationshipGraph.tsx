@@ -48,6 +48,7 @@ function NodeAvatar({
         } as React.CSSProperties
       }
       title={tooltip}
+      aria-label={tooltip}
       disabled={!clickable}
       onClick={() => node.matched && onSelect(node.matched)}>
       {node.matched ? (
