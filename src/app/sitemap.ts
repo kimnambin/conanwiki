@@ -1,11 +1,13 @@
 import type {MetadataRoute} from 'next';
-import {fetchMovies} from '../api/movieApi';
+import {fetchMoviesSafe} from '../api/movieApi';
 import specials from '../data/specials.json';
 
 const SITE_URL = 'https://conanwiki.vercel.app';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const movies = await fetchMovies();
+  // sitemap.xml 자체가 빌드/배포를 막으면 안 되므로, TMDB 장애 시에는
+  // 극장판 상세 URL만 빠진 채로 사이트맵을 계속 생성한다.
+  const movies = await fetchMoviesSafe();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {url: `${SITE_URL}/`, priority: 1},

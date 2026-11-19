@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import Mo_detail from '@/component/movie/Mo_detail';
-import {fetchMovies, fetchMovieDetail} from '@/api/movieApi';
+import {fetchMovies, fetchMoviesSafe, fetchMovieDetail} from '@/api/movieApi';
 import {fetchCharacters} from '@/api/keystaticApi';
 import {getMovieSeasonMap} from '@/utils/movieOrder';
 import {matchLocalCharacters} from '@/utils/movieCast';
@@ -13,8 +13,10 @@ interface MovieDetailPageProps {
 }
 
 // 빌드 타임에 전체 극장판 페이지를 미리 정적 생성한다 (SEO + 성능).
+// TMDB 장애로 빌드 자체가 막히지 않도록, 조회 실패 시 사전 생성 없이
+// 빌드를 계속 진행한다(해당 페이지는 요청 시점에 렌더링됨).
 export async function generateStaticParams() {
-  const movies = await fetchMovies();
+  const movies = await fetchMoviesSafe();
   return movies.map(movie => ({id: String(movie.id)}));
 }
 
