@@ -85,7 +85,16 @@ export default function Ch_couple({coupleList}: Ch_coupleProps) {
               <div
                 className="couple-card"
                 style={cardVars}
-                onClick={() => open(v)}>
+                role="button"
+                tabIndex={0}
+                aria-label={`${v.man} & ${v.women}`}
+                onClick={() => open(v)}
+                onKeyDown={e => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    open(v);
+                  }
+                }}>
                 <div className="couple-card__portraits">
                   <div className="couple-card__portrait">
                     <Image

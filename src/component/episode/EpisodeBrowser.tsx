@@ -91,9 +91,7 @@ export default function EpisodeBrowser({
       <h2 className="text-center">
         에피소드 모음 ({lang === 'dub' ? '더빙판' : '자막판'})
       </h2>
-      <p className="text-center">
-        블로거 &quot;멍멍식&quot;님의 포스팅을 참고했어요
-      </p>
+      <p className="text-center">&quot;원작&quot; 에피소드만 다룹니다!!</p>
       <div className="text-center">
         <ToggleSwitch
           value={lang}
@@ -138,7 +136,16 @@ export default function EpisodeBrowser({
             <div
               className="episode-card"
               style={themeVars}
-              onClick={() => clickEpi(v)}>
+              role="button"
+              tabIndex={0}
+              aria-label={`${v.intro} ${v.quarter}`}
+              onClick={() => clickEpi(v)}
+              onKeyDown={e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  clickEpi(v);
+                }
+              }}>
               <span className="episode-card__badge" title="포함된 에피소드 수">
                 📺{v.series.length}
               </span>
@@ -184,14 +191,28 @@ export default function EpisodeBrowser({
               <div
                 className="episode-card"
                 style={characterThemeVars}
-                onClick={() => clickCharacter(v)}>
+                role="button"
+                tabIndex={0}
+                aria-label={v.quarter}
+                onClick={() => clickCharacter(v)}
+                onKeyDown={e => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    clickCharacter(v);
+                  }
+                }}>
                 <span
                   className="episode-card__badge"
                   title="포함된 에피소드/극장판 수">
                   🎬{itemCount}
                 </span>
                 <div className="episode-card__img">
-                  <img src={v.img} alt="" />
+                  <Image
+                    src={v.img}
+                    alt={v.quarter}
+                    fill
+                    sizes="(max-width: 576px) 50vw, (max-width: 768px) 33vw, (max-width: 992px) 25vw, 16vw"
+                  />
                 </div>
                 <div className="episode-card__shade" />
                 <div className="episode-card__name-plate">
